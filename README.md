@@ -4,6 +4,11 @@ ahahahahahHAHAHAHAHAHAHAHAHAH
 anyway 
 
 # scrlibrary-scraper
+do ts first if ur wanting to scrape first since my json and txt files r here u can del them by:
+
+cd scrlibrary-scraper
+RESET=1 python3 start-daemon.py
+then once it starts those files shud naturally be created and fill up
 
 Prefix scrape of the Pro library. Twelve workers walk `a`–`z` against `/api/words/game`, save progress, and merge into `last.txt`.
 
