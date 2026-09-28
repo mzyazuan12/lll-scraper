@@ -4,7 +4,7 @@ ahahahahahHAHAHAHAHAHAHAHAHAH
 anyway 
 
 # scrlibrary-scraper
-do ts first if ur wanting to scrape first since my json and txt files r here u can del them by:
+do ts first if ur wanting to scrape first since my logs, json and txt files r here u can del them by:
 
 cd scrlibrary-scraper
 
