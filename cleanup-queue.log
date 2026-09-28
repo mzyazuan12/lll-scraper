@@ -1,0 +1,76 @@
+[cleanup:queue] Queue cleanup bot (DRY_RUN=false) | states=0..11 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w99:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19199 (try 1)
+[w99:cleanup:pro] tor: Aug 04 02:43:58.162 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19199
+Aug 04 02:43:58.162 [warn] Fixing permissions on directory /tmp/lll-tor
+[w99:cleanup:pro] tor: Aug 04 02:43:58.000 [notice] Bootstrapped 0% (starting): Starting
+[w99:cleanup:pro] tor: Aug 04 02:43:59.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w99:cleanup:pro] tor: Aug 04 02:43:59.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w99:cleanup:pro] tor: Aug 04 02:43:59.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w99:cleanup:pro] tor: Aug 04 02:43:59.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:43:59.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w99:cleanup:pro] tor: Aug 04 02:44:00.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w99:cleanup:pro] tor: Aug 04 02:44:01.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w99:cleanup:pro] tor: Aug 04 02:44:02.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w99:cleanup:pro] tor: Aug 04 02:44:02.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:44:02.000 [notice] I learned some more directory 
+[w99:cleanup:pro] tor: Aug 04 02:44:03.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w99:cleanup:pro] tor: Aug 04 02:44:08.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w99:cleanup:pro] tor: Aug 04 02:44:09.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w99:cleanup:pro] tor: Aug 04 02:44:09.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w99:cleanup:pro] tor: Aug 04 02:44:10.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w99:cleanup:pro] tor: Aug 04 02:44:10.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:44:10.000 [notice] Bootstrapped 9
+[w99:cleanup:pro] tor: Aug 04 02:44:10.000 [notice] Bootstrapped 100% (done): Done
+[w99:cleanup:pro] Tor ready on 19199 exit=109.70.100.15
+[cleanup:queue] Browser mode=tor via tor#1 socks5://127.0.0.1:19199
+[w99:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup
+[w99:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19199
+[w99:cleanup:pro] Opening https://lastletterlibrary.com
+[w99:cleanup:pro] Library mode=pro
+[w99:cleanup:pro] Site Turnstile remint timed out
+[w99:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:queue] lll-audit-state-0.json w0: queue=1185 completed=244 words=6619 parents=29
+[cleanup:queue] Searching parent "aba" (28 queued descendants)
+[w99:cleanup:pro] Managed Turnstile token (len=816)
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=aba
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=aba (413ms direct)
+[cleanup:queue] "aba" full page (100) ends "abashes" next='s' — skip 20 groups, removed 20/1185 queue items, +0 words
+[cleanup:queue] Searching parent "abe" (28 queued descendants)
+[w99:cleanup:pro] Pacing 15s before "abe" (gap=15200ms)
+[w99:cleanup:pro] Managed Turnstile token (len=816)
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=abe
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=abe (419ms direct)
+[cleanup:queue] "abe" full page (100) ends "abeyancies" next='y' — skip 26 groups, removed 26/1165 queue items, +0 words
+[cleanup:queue] Searching parent "abo" (28 queued descendants)
+[w99:cleanup:pro] Pacing 15s before "abo" (gap=15200ms)
+[w99:cleanup:pro] Managed Turnstile token (len=816)
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=abo
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=abo (386ms direct)
+[cleanup:queue] "abo" full page (100) ends "aborted" next='r' — skip 19 groups, removed 19/1139 queue items, +0 words
+[cleanup:queue] Searching parent "abr" (28 queued descendants)
+[w99:cleanup:pro] Pacing 15s before "abr" (gap=15200ms)
+[w99:cleanup:pro] Managed Turnstile token (len=816)
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=abr
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=abr (368ms direct)
+[cleanup:queue] "abr" full page (100) ends "abrocitinib" next='o' — skip 16 groups, removed 16/1120 queue items, +0 words
+[cleanup:queue] Searching parent "abs" (28 queued descendants)
+[w99:cleanup:pro] Pacing 15s before "abs" (gap=15200ms)
+[w99:cleanup:pro] Managed Turnstile token (len=816)
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=abs
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=abs (308ms direct)
+[cleanup:queue] "abs" full page (100) ends "absist" next='i' — skip 10 groups, removed 10/1104 queue items, +0 words
+[cleanup:queue] Searching parent "aca" (28 queued descendants)
+[w99:cleanup:pro] Pacing 15s before "aca" (gap=15200ms)
+[w99:cleanup:pro] Managed Turnstile token (len=816)
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=aca
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=aca (325ms direct)
+[cleanup:queue] "aca" full page (100) ends "acanthites" next='n' — skip 15 groups, removed 15/1094 queue items, +0 words
+[cleanup:queue] Searching parent "acc" (28 queued descendants)
+[w99:cleanup:pro] Pacing 15s before "acc" (gap=15200ms)
+[w99:cleanup:pro] Managed Turnstile token (len=816)
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=acc
+[w99:cleanup:pro] [api] 200 mode=pro startsWith=acc (311ms direct)
+[cleanup:queue] "acc" full page (100) ends "acception" next='e' — skip 6 groups, removed 6/1079 queue items, +0 words
+[cleanup:queue] Searching parent "ace" (28 queued descendants)
+[w99:cleanup:pro] Pacing 15s before "ace" (gap=15200ms)
+[w99:cleanup:pro] Managed Turnstile token (len=816)

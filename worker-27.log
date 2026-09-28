@@ -1,0 +1,730 @@
+
+--- boost-12 daemon start 2026-08-06T05:08:26Z queue=33 ---
+[w27:cd:pro] IP mode=tor
+[w27:cd:pro] Starting persistent Tor socks=127.0.0.1:19077 control=127.0.0.1:29077
+[w27:cd:pro] tor: Aug 06 00:08:27.538 [warn] Fixing permissions on directory /tmp/lll-tor-w27
+[w27:cd:pro] tor: Aug 06 00:08:27.000 [notice] Bootstrapped 0% (starting): Starting
+[w27:cd:pro] tor: Aug 06 00:08:28.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w27:cd:pro] tor: Aug 06 00:08:28.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w27:cd:pro] tor: Aug 06 00:08:29.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w27:cd:pro] tor: Aug 06 00:08:29.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 06 00:08:29.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w27:cd:pro] tor: Aug 06 00:08:30.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w27:cd:pro] tor: Aug 06 00:08:30.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w27:cd:pro] tor: Aug 06 00:08:31.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w27:cd:pro] tor: Aug 06 00:08:31.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 06 00:08:31.000 [notice] I learned some more directory 
+[w27:cd:pro] tor: Aug 06 00:08:32.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w27:cd:pro] tor: Aug 06 00:08:37.000 [notice] Bootstrapped 56% (loading_descriptors): Loading relay descriptors
+[w27:cd:pro] tor: Aug 06 00:08:37.000 [notice] Bootstrapped 62% (loading_descriptors): Loading relay descriptors
+[w27:cd:pro] tor: Aug 06 00:09:17.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w27:cd:pro] tor: Aug 06 00:09:18.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w27:cd:pro] tor: Aug 06 00:09:19.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 06 00:09:19.000 [notice] Bootstrapped 9
+[w27:cd:pro] tor: Aug 06 00:09:19.000 [notice] Bootstrapped 100% (done): Done
+[w27:cd:pro] Tor ready on 19077 exit=185.220.101.20
+[w27:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w27-r0
+[w27:cd:pro] Proxy tor#1 socks5://127.0.0.1:19077
+[w27:cd:pro] Opening https://lastletterlibrary.com
+[w27:cd:pro] Library mode=pro
+[w27:cd:pro] Managed Turnstile token (len=816, 7428ms, remount)
+[w27:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w27:cd:pro] Loaded 7357 prefixes, 57553 words; queue=33
+[w27:cd:pro] Searching "derma" | queue=32 | words=57553
+[w27:cd:pro] [api] 200 mode=pro startsWith=derma
+[w27:cd:pro] [api] 200 mode=pro startsWith=derma (611ms direct)
+[w27:cd:pro] "derma" → 100 records, 100 words (incl. exact "derma")
+[w27:cd:pro] Pacing 15s before "derma" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 7561ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=derma
+[w27:cd:pro] [api] 200 mode=pro startsWith=derma sort=alphabetical:desc (575ms direct)
+[w27:cd:pro] "derma" full page ends at "dermatophobia" (next='t'); skip 21 covered groups → 7 children reverse Z→A ends at "dermatitides" (lo='t' hi='t'); skip 0 middle + 2 new words
+[w27:cd:pro] Saved 57,556 worker words
+[w27:cd:pro] Searching "dermv" | queue=38 | words=57556
+[w27:cd:pro] Pacing 15s before "dermv" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4292ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermv
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermv (537ms direct)
+[w27:cd:pro] "dermv" → 0 records, 0 words
+[w27:cd:pro] "dermv" branch complete
+[w27:cd:pro] Saved 57,556 worker words
+[w27:cd:pro] Searching "dermx" | queue=37 | words=57556
+[w27:cd:pro] Pacing 15s before "dermx" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3749ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermx
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermx (657ms direct)
+[w27:cd:pro] "dermx" → 0 records, 0 words
+[w27:cd:pro] "dermx" branch complete
+[w27:cd:pro] Saved 57,556 worker words
+[w27:cd:pro] Searching "dermz" | queue=36 | words=57556
+[w27:cd:pro] Pacing 9s before "dermz" (gap=15500ms)
+[w27:cd:pro] heartbeat words=57556 queue=36 rotation=0 idle=7s
+[w27:cd:pro] Managed Turnstile token (len=816, 12102ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermz
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermz (444ms direct)
+[w27:cd:pro] "dermz" → 0 records, 0 words
+[w27:cd:pro] "dermz" branch complete
+[w27:cd:pro] Saved 57,556 worker words
+[w27:cd:pro] Searching "descs" | queue=35 | words=57556
+[w27:cd:pro] Pacing 12s before "descs" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 8009ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=descs
+[w27:cd:pro] [api] 200 mode=pro startsWith=descs (481ms direct)
+[w27:cd:pro] "descs" → 0 records, 0 words
+[w27:cd:pro] "descs" branch complete
+[w27:cd:pro] Saved 57,556 worker words
+[w27:cd:pro] Searching "descu" | queue=34 | words=57556
+[w27:cd:pro] Pacing 14s before "descu" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 12718ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=descu
+[w27:cd:pro] [api] 200 mode=pro startsWith=descu (527ms direct)
+[w27:cd:pro] "descu" → 1 records, 1 words
+[w27:cd:pro] "descu" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "descw" | queue=33 | words=57557
+[w27:cd:pro] Pacing 11s before "descw" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 7605ms, remount)
+[w27:cd:pro] [api] 429 mode=pro startsWith=descw
+[w27:cd:pro] [api] 429 mode=pro startsWith=descw (380ms direct)
+[w27:cd:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w27:cd:pro] Rate limited — inline wait 2000ms then retry "descw"
+[w27:cd:pro] Managed Turnstile token (len=816, 5305ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=descw
+[w27:cd:pro] [api] 200 mode=pro startsWith=descw (425ms direct)
+[w27:cd:pro] "descw" → 0 records, 0 words
+[w27:cd:pro] "descw" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "descy" | queue=32 | words=57557
+[w27:cd:pro] Pacing 15s before "descy" (gap=15500ms)
+[w27:cd:pro] heartbeat words=57557 queue=32 rotation=0 idle=3s
+[w27:cd:pro] Managed Turnstile miss (16006ms)
+[w27:cd:pro] Failed "descy" attempt 1: No Turnstile token for direct search
+[w27:cd:pro] Saved 57,557 worker words; shared last.txt now 480,217
+[w27:cd:pro] Turnstile miss — soft reload before rotate
+[w27:cd:pro] heartbeat words=57557 queue=33 rotation=0 idle=64s
+[w27:cd:pro] Site Turnstile remint timed out (13734ms)
+[w27:cd:pro] Soft reload mint failed — rotating immediately
+[w27:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w27:cd:pro] Tor ready on 19077 exit=185.220.101.158
+[w27:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19077
+[w27:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w27-r1
+[w27:cd:pro] Proxy tor#2 socks5://127.0.0.1:19077
+[w27:cd:pro] Opening https://lastletterlibrary.com
+[w27:cd:pro] heartbeat words=57557 queue=33 rotation=1 idle=124s
+[w27:cd:pro] Library mode=pro
+[w27:cd:pro] Site Turnstile remint timed out (22912ms)
+[w27:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w27:cd:pro] Cleaned 1 old rotated profile(s)
+[w27:cd:pro] Searching "descy" | queue=32 | words=57557
+[w27:cd:pro] Managed Turnstile miss (15314ms)
+[w27:cd:pro] Failed "descy" attempt 1: No Turnstile token for direct search
+[w27:cd:pro] heartbeat words=57557 queue=33 rotation=1 idle=187s
+[w27:cd:pro] No successful search for 180s — respawning worker
+[w27:cd:pro] Graceful shutdown on watchdog
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Worker done. prefixes=7385 words=57557
+[w27:cd:pro] Tor exited code=null
+
+--- boost-12 daemon start 2026-08-06T05:15:59Z queue=33 ---
+[w27:cd:pro] IP mode=tor
+[w27:cd:pro] Cleaned 1 old rotated profile(s)
+[w27:cd:pro] Starting persistent Tor socks=127.0.0.1:19077 control=127.0.0.1:29077
+[w27:cd:pro] tor: Aug 06 00:16:07.000 [notice] Bootstrapped 0% (starting): Starting
+[w27:cd:pro] tor: Aug 06 00:16:10.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w27:cd:pro] tor: Aug 06 00:16:10.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w27:cd:pro] tor: Aug 06 00:16:10.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w27:cd:pro] tor: Aug 06 00:16:11.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 06 00:16:11.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w27:cd:pro] tor: Aug 06 00:16:11.000 [notice] Bootstrapped 100% (done): Done
+[w27:cd:pro] Tor ready on 19077 exit=185.220.101.131
+[w27:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w27-r0
+[w27:cd:pro] Proxy tor#1 socks5://127.0.0.1:19077
+[w27:cd:pro] Opening https://lastletterlibrary.com
+[w27:cd:pro] Library mode=pro
+[w27:cd:pro] Managed Turnstile token (len=816, 4123ms, remount)
+[w27:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w27:cd:pro] Loaded 7385 prefixes, 57557 words; queue=33
+[w27:cd:pro] Searching "descy" | queue=32 | words=57557
+[w27:cd:pro] [api] 200 mode=pro startsWith=descy
+[w27:cd:pro] [api] 200 mode=pro startsWith=descy (454ms direct)
+[w27:cd:pro] "descy" → 0 records, 0 words
+[w27:cd:pro] "descy" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "desiz" | queue=31 | words=57557
+[w27:cd:pro] Pacing 13s before "desiz" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 7820ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=desiz
+[w27:cd:pro] [api] 200 mode=pro startsWith=desiz (562ms direct)
+[w27:cd:pro] "desiz" → 1 records, 1 words
+[w27:cd:pro] "desiz" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "deviu" | queue=30 | words=57557
+[w27:cd:pro] Pacing 14s before "deviu" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 8949ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=deviu
+[w27:cd:pro] [api] 200 mode=pro startsWith=deviu (422ms direct)
+[w27:cd:pro] "deviu" → 0 records, 0 words
+[w27:cd:pro] "deviu" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "deviw" | queue=29 | words=57557
+[w27:cd:pro] Pacing 15s before "deviw" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 10316ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=deviw
+[w27:cd:pro] [api] 200 mode=pro startsWith=deviw (398ms direct)
+[w27:cd:pro] "deviw" → 0 records, 0 words
+[w27:cd:pro] "deviw" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "deviy" | queue=28 | words=57557
+[w27:cd:pro] Pacing 15s before "deviy" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 7435ms, remount)
+[w27:cd:pro] heartbeat words=57557 queue=28 rotation=0 idle=12s
+[w27:cd:pro] [api] 200 mode=pro startsWith=deviy
+[w27:cd:pro] [api] 200 mode=pro startsWith=deviy (462ms direct)
+[w27:cd:pro] "deviy" → 0 records, 0 words
+[w27:cd:pro] "deviy" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "devow" | queue=27 | words=57557
+[w27:cd:pro] Pacing 15s before "devow" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4474ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=devow
+[w27:cd:pro] [api] 200 mode=pro startsWith=devow (435ms direct)
+[w27:cd:pro] "devow" → 1 records, 1 words (incl. exact "devow")
+[w27:cd:pro] "devow" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "devoy" | queue=26 | words=57557
+[w27:cd:pro] Pacing 15s before "devoy" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 5103ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=devoy
+[w27:cd:pro] [api] 200 mode=pro startsWith=devoy (494ms direct)
+[w27:cd:pro] "devoy" → 0 records, 0 words
+[w27:cd:pro] "devoy" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "dimet" | queue=25 | words=57557
+[w27:cd:pro] Pacing 13s before "dimet" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 14649ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dimet
+[w27:cd:pro] [api] 200 mode=pro startsWith=dimet (409ms direct)
+[w27:cd:pro] "dimet" → 78 records, 78 words
+[w27:cd:pro] "dimet" branch complete
+[w27:cd:pro] heartbeat words=57557 queue=25 rotation=0 idle=24s
+[w27:cd:pro] Managed Turnstile token (len=816, 12913ms, remount)
+[w27:cd:pro] Saved 57,557 worker words; shared last.txt now 480,797
+[w27:cd:pro] Searching "dimev" | queue=24 | words=57557
+[w27:cd:pro] Pacing 2s before "dimev" (gap=15500ms)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dimev
+[w27:cd:pro] [api] 200 mode=pro startsWith=dimev (420ms direct)
+[w27:cd:pro] "dimev" → 0 records, 0 words
+[w27:cd:pro] "dimev" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "dimex" | queue=23 | words=57557
+[w27:cd:pro] Pacing 15s before "dimex" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4342ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dimex
+[w27:cd:pro] [api] 200 mode=pro startsWith=dimex (413ms direct)
+[w27:cd:pro] "dimex" → 0 records, 0 words
+[w27:cd:pro] "dimex" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "dimez" | queue=22 | words=57557
+[w27:cd:pro] Pacing 15s before "dimez" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 7009ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dimez
+[w27:cd:pro] [api] 200 mode=pro startsWith=dimez (481ms direct)
+[w27:cd:pro] "dimez" → 0 records, 0 words
+[w27:cd:pro] "dimez" branch complete
+[w27:cd:pro] Saved 57,557 worker words
+[w27:cd:pro] Searching "disci" | queue=21 | words=57557
+[w27:cd:pro] Pacing 15s before "disci" (gap=15500ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 6514ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disci
+[w27:cd:pro] [api] 200 mode=pro startsWith=disci (407ms direct)
+[w27:cd:pro] "disci" → 54 records, 54 words (incl. exact "disci")
+[w27:cd:pro] "disci" branch complete
+[w27:cd:pro] Saved 57,611 worker words
+[w27:cd:pro] Searching "disck" | queue=20 | words=57611
+[w27:cd:pro] Pacing 15s before "disck" (gap=15500ms)
+[w27:cd:pro] heartbeat words=57611 queue=20 rotation=0 idle=7s
+[w27:cd:pro] Managed Turnstile miss (15354ms)
+[w27:cd:pro] Failed "disck" attempt 1: No Turnstile token for direct search
+[w27:cd:pro] Saved 57,611 worker words
+[w27:cd:pro] Turnstile miss — soft reload before rotate
+[w27:cd:pro] Site Turnstile remint timed out (10464ms)
+[w27:cd:pro] Soft reload mint failed — rotating immediately
+[w27:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w27:cd:pro] Tor ready on 19077 exit=178.20.55.182
+[w27:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19077
+[w27:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w27-r1
+[w27:cd:pro] Proxy tor#2 socks5://127.0.0.1:19077
+[w27:cd:pro] Opening https://lastletterlibrary.com
+[w27:cd:pro] Library mode=pro
+[w27:cd:pro] Managed Turnstile token (len=816, 3329ms, remount)
+[w27:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w27:cd:pro] Cleaned 1 old rotated profile(s)
+[w27:cd:pro] Searching "disck" | queue=20 | words=57611
+[w27:cd:pro] [api] 429 mode=pro startsWith=disck
+[w27:cd:pro] [api] 429 mode=pro startsWith=disck (372ms direct)
+[w27:cd:pro] Learned server gap ≈ 15780ms (wait hint 15000ms)
+[w27:cd:pro] Rate limited — inline wait 15000ms then retry "disck"
+[w27:cd:pro] Managed Turnstile token (len=816, 4150ms, remount)
+[w27:cd:pro] heartbeat words=57611 queue=20 rotation=1 idle=67s
+[w27:cd:pro] [api] 429 mode=pro startsWith=disck
+[w27:cd:pro] [api] 429 mode=pro startsWith=disck (1192ms direct)
+[w27:cd:pro] Learned server gap ≈ 15780ms (wait hint 14000ms)
+[w27:cd:pro] Failed "disck" attempt 1: API 429 for "disck": wait 13s — {"message":"Too many requests. Please wait 13 seconds."}
+[w27:cd:pro] Saved 57,611 worker words
+[w27:cd:pro] Rate limited — waiting 14000 ms before retry
+[w27:cd:pro] Managed Turnstile token (len=816, 3584ms, remount)
+[w27:cd:pro] Searching "disck" | queue=20 | words=57611
+[w27:cd:pro] [api] 429 mode=pro startsWith=disck
+[w27:cd:pro] [api] 429 mode=pro startsWith=disck (334ms direct)
+[w27:cd:pro] Learned server gap ≈ 15780ms (wait hint 15000ms)
+[w27:cd:pro] Rate limited — inline wait 15000ms then retry "disck"
+[w27:cd:pro] Managed Turnstile token (len=816, 4089ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disck
+[w27:cd:pro] [api] 200 mode=pro startsWith=disck (378ms direct)
+[w27:cd:pro] "disck" → 0 records, 0 words
+[w27:cd:pro] "disck" branch complete
+[w27:cd:pro] Saved 57,611 worker words
+[w27:cd:pro] Searching "discm" | queue=19 | words=57611
+[w27:cd:pro] Pacing 16s before "discm" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3040ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discm
+[w27:cd:pro] [api] 200 mode=pro startsWith=discm (368ms direct)
+[w27:cd:pro] "discm" → 0 records, 0 words
+[w27:cd:pro] "discm" branch complete
+[w27:cd:pro] Saved 57,611 worker words; shared last.txt now 481,084
+[w27:cd:pro] Searching "disco" | queue=18 | words=57611
+[w27:cd:pro] Pacing 15s before "disco" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3150ms, remount)
+[w27:cd:pro] heartbeat words=57611 queue=18 rotation=1 idle=5s
+[w27:cd:pro] [api] 200 mode=pro startsWith=disco
+[w27:cd:pro] [api] 200 mode=pro startsWith=disco (405ms direct)
+[w27:cd:pro] "disco" → 100 records, 100 words (incl. exact "disco")
+[w27:cd:pro] Pacing 16s before "disco" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3686ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disco
+[w27:cd:pro] [api] 200 mode=pro startsWith=disco sort=alphabetical:desc (497ms direct)
+[w27:cd:pro] "disco" full page ends at "discomfortingly" (next='m'); skip 17 covered groups → 11 children reverse Z→A ends at "discordances" (lo='r' hi='v'); skip 3 middle + 100 new words
+[w27:cd:pro] Saved 57,811 worker words
+[w27:cd:pro] Searching "discq" | queue=28 | words=57811
+[w27:cd:pro] Pacing 16s before "discq" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 5525ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discq
+[w27:cd:pro] [api] 200 mode=pro startsWith=discq (377ms direct)
+[w27:cd:pro] "discq" → 0 records, 0 words
+[w27:cd:pro] "discq" branch complete
+[w27:cd:pro] Saved 57,811 worker words
+[w27:cd:pro] Searching "discu" | queue=27 | words=57811
+[w27:cd:pro] Pacing 16s before "discu" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 10392ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discu
+[w27:cd:pro] [api] 200 mode=pro startsWith=discu (381ms direct)
+[w27:cd:pro] "discu" → 62 records, 62 words
+[w27:cd:pro] "discu" branch complete
+[w27:cd:pro] Saved 57,811 worker words
+[w27:cd:pro] Searching "discw" | queue=26 | words=57811
+[w27:cd:pro] Pacing 15s before "discw" (gap=15780ms)
+[w27:cd:pro] heartbeat words=57811 queue=26 rotation=1 idle=3s
+[w27:cd:pro] Managed Turnstile token (len=816, 5627ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discw
+[w27:cd:pro] [api] 200 mode=pro startsWith=discw (368ms direct)
+[w27:cd:pro] "discw" → 0 records, 0 words
+[w27:cd:pro] "discw" branch complete
+[w27:cd:pro] Saved 57,811 worker words
+[w27:cd:pro] Searching "discy" | queue=25 | words=57811
+[w27:cd:pro] Pacing 16s before "discy" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3928ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discy
+[w27:cd:pro] [api] 200 mode=pro startsWith=discy (430ms direct)
+[w27:cd:pro] "discy" → 0 records, 0 words
+[w27:cd:pro] "discy" branch complete
+[w27:cd:pro] Saved 57,811 worker words
+[w27:cd:pro] Searching "disin" | queue=24 | words=57811
+[w27:cd:pro] Pacing 16s before "disin" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 7237ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disin
+[w27:cd:pro] [api] 200 mode=pro startsWith=disin (353ms direct)
+[w27:cd:pro] "disin" → 100 records, 100 words
+[w27:cd:pro] Pacing 16s before "disin" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3576ms, remount)
+[w27:cd:pro] heartbeat words=57847 queue=24 rotation=1 idle=31s
+[w27:cd:pro] [api] 200 mode=pro startsWith=disin
+[w27:cd:pro] [api] 200 mode=pro startsWith=disin sort=alphabetical:desc (432ms direct)
+[w27:cd:pro] "disin" full page ends at "disintegrated" (next='t'); skip 23 covered groups → 5 children reverse Z→A ends at "disinheritances" (lo='h' hi='v'); skip 13 middle + 0 new words
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "disip" | queue=28 | words=57847
+[w27:cd:pro] Pacing 16s before "disip" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 9823ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disip
+[w27:cd:pro] [api] 200 mode=pro startsWith=disip (366ms direct)
+[w27:cd:pro] "disip" → 0 records, 0 words
+[w27:cd:pro] "disip" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "disir" | queue=27 | words=57847
+[w27:cd:pro] Pacing 16s before "disir" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 6765ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disir
+[w27:cd:pro] [api] 200 mode=pro startsWith=disir (435ms direct)
+[w27:cd:pro] "disir" → 0 records, 0 words
+[w27:cd:pro] "disir" branch complete
+[w27:cd:pro] Saved 57,847 worker words; shared last.txt now 481,416
+[w27:cd:pro] Searching "disit" | queue=26 | words=57847
+[w27:cd:pro] Pacing 15s before "disit" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4971ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disit
+[w27:cd:pro] [api] 200 mode=pro startsWith=disit (362ms direct)
+[w27:cd:pro] "disit" → 0 records, 0 words
+[w27:cd:pro] "disit" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "disiv" | queue=25 | words=57847
+[w27:cd:pro] Pacing 16s before "disiv" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 10372ms, remount)
+[w27:cd:pro] heartbeat words=57847 queue=25 rotation=1 idle=12s
+[w27:cd:pro] [api] 200 mode=pro startsWith=disiv
+[w27:cd:pro] [api] 200 mode=pro startsWith=disiv (391ms direct)
+[w27:cd:pro] "disiv" → 0 records, 0 words
+[w27:cd:pro] "disiv" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "disix" | queue=24 | words=57847
+[w27:cd:pro] Pacing 15s before "disix" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4102ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disix
+[w27:cd:pro] [api] 200 mode=pro startsWith=disix (380ms direct)
+[w27:cd:pro] "disix" → 0 records, 0 words
+[w27:cd:pro] "disix" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "disiz" | queue=23 | words=57847
+[w27:cd:pro] Pacing 16s before "disiz" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4818ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disiz
+[w27:cd:pro] [api] 200 mode=pro startsWith=disiz (474ms direct)
+[w27:cd:pro] "disiz" → 0 records, 0 words
+[w27:cd:pro] "disiz" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "dermat" | queue=22 | words=57847
+[w27:cd:pro] Pacing 16s before "dermat" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3245ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermat
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermat (402ms direct)
+[w27:cd:pro] "dermat" → 100 records, 100 words
+[w27:cd:pro] Pacing 16s before "dermat" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4700ms, remount)
+[w27:cd:pro] heartbeat words=57847 queue=22 rotation=1 idle=25s
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermat
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermat sort=alphabetical:desc (475ms direct)
+[w27:cd:pro] "dermat" full page ends at "dermatotherapy" (next='o'); skip 19 covered groups → 9 children reverse Z→A ends at "dermatitides" (lo='i' hi='r'); skip 8 middle + 0 new words
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "dermau" | queue=30 | words=57847
+[w27:cd:pro] Pacing 16s before "dermau" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3694ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermau
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermau (419ms direct)
+[w27:cd:pro] "dermau" → 0 records, 0 words
+[w27:cd:pro] "dermau" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "dermav" | queue=29 | words=57847
+[w27:cd:pro] Pacing 16s before "dermav" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 5540ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermav
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermav (417ms direct)
+[w27:cd:pro] "dermav" → 0 records, 0 words
+[w27:cd:pro] "dermav" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "dermaw" | queue=28 | words=57847
+[w27:cd:pro] Pacing 16s before "dermaw" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile miss (15047ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 5572ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermaw
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermaw (423ms direct)
+[w27:cd:pro] "dermaw" → 0 records, 0 words
+[w27:cd:pro] "dermaw" branch complete
+[w27:cd:pro] heartbeat words=57847 queue=28 rotation=1 idle=22s
+[w27:cd:pro] Saved 57,847 worker words; shared last.txt now 481,562
+[w27:cd:pro] Searching "dermax" | queue=27 | words=57847
+[w27:cd:pro] Pacing 15s before "dermax" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3589ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermax
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermax (450ms direct)
+[w27:cd:pro] "dermax" → 0 records, 0 words
+[w27:cd:pro] "dermax" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "dermay" | queue=26 | words=57847
+[w27:cd:pro] Pacing 16s before "dermay" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3798ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermay
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermay (480ms direct)
+[w27:cd:pro] "dermay" → 0 records, 0 words
+[w27:cd:pro] "dermay" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "dermaz" | queue=25 | words=57847
+[w27:cd:pro] Pacing 16s before "dermaz" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3440ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermaz
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermaz (411ms direct)
+[w27:cd:pro] "dermaz" → 0 records, 0 words
+[w27:cd:pro] "dermaz" branch complete
+[w27:cd:pro] Saved 57,847 worker words
+[w27:cd:pro] Searching "discom" | queue=24 | words=57847
+[w27:cd:pro] Pacing 16s before "discom" (gap=15780ms)
+[w27:cd:pro] heartbeat words=57847 queue=24 rotation=1 idle=13s
+[w27:cd:pro] Managed Turnstile miss (15022ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 5625ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discom
+[w27:cd:pro] [api] 200 mode=pro startsWith=discom (1232ms direct)
+[w27:cd:pro] "discom" → 76 records, 76 words
+[w27:cd:pro] "discom" branch complete
+[w27:cd:pro] Saved 57,894 worker words
+[w27:cd:pro] Searching "discon" | queue=23 | words=57894
+[w27:cd:pro] Pacing 15s before "discon" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3334ms, remount)
+[w27:cd:pro] [api] 429 mode=pro startsWith=discon
+[w27:cd:pro] [api] 429 mode=pro startsWith=discon (307ms direct)
+[w27:cd:pro] Learned server gap ≈ 15780ms (wait hint 2000ms)
+[w27:cd:pro] Rate limited — inline wait 2000ms then retry "discon"
+[w27:cd:pro] Managed Turnstile token (len=816, 3326ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discon
+[w27:cd:pro] [api] 200 mode=pro startsWith=discon (351ms direct)
+[w27:cd:pro] "discon" → 100 records, 100 words
+[w27:cd:pro] Pacing 16s before "discon" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3021ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discon
+[w27:cd:pro] [api] 200 mode=pro startsWith=discon sort=alphabetical:desc (389ms direct)
+[w27:cd:pro] "discon" full page ends at "disconvenience" (next='v'); skip 23 covered groups → 5 children reverse Z→A ends at "disconcert" (lo='c' hi='v'); skip 18 middle + 2 new words
+[w27:cd:pro] Saved 57,996 worker words
+[w27:cd:pro] Searching "discoo" | queue=27 | words=57996
+[w27:cd:pro] Pacing 16s before "discoo" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3336ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discoo
+[w27:cd:pro] [api] 200 mode=pro startsWith=discoo (420ms direct)
+[w27:cd:pro] "discoo" → 0 records, 0 words
+[w27:cd:pro] "discoo" branch complete
+[w27:cd:pro] Saved 57,996 worker words
+[w27:cd:pro] Searching "discop" | queue=26 | words=57996
+[w27:cd:pro] Pacing 16s before "discop" (gap=15780ms)
+[w27:cd:pro] heartbeat words=57996 queue=26 rotation=1 idle=1s
+[w27:cd:pro] Managed Turnstile token (len=816, 3387ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discop
+[w27:cd:pro] [api] 200 mode=pro startsWith=discop (357ms direct)
+[w27:cd:pro] "discop" → 13 records, 13 words
+[w27:cd:pro] "discop" branch complete
+[w27:cd:pro] Saved 58,009 worker words
+[w27:cd:pro] Searching "discoq" | queue=25 | words=58009
+[w27:cd:pro] Pacing 16s before "discoq" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3495ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discoq
+[w27:cd:pro] [api] 200 mode=pro startsWith=discoq (361ms direct)
+[w27:cd:pro] "discoq" → 0 records, 0 words
+[w27:cd:pro] "discoq" branch complete
+[w27:cd:pro] Saved 58,009 worker words; shared last.txt now 481,797
+[w27:cd:pro] Searching "discor" | queue=24 | words=58009
+[w27:cd:pro] Pacing 15s before "discor" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3193ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discor
+[w27:cd:pro] [api] 200 mode=pro startsWith=discor (358ms direct)
+[w27:cd:pro] "discor" → 26 records, 26 words
+[w27:cd:pro] "discor" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "discov" | queue=23 | words=58012
+[w27:cd:pro] Pacing 16s before "discov" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4196ms, remount)
+[w27:cd:pro] heartbeat words=58012 queue=23 rotation=1 idle=13s
+[w27:cd:pro] [api] 200 mode=pro startsWith=discov
+[w27:cd:pro] [api] 200 mode=pro startsWith=discov (333ms direct)
+[w27:cd:pro] "discov" → 15 records, 15 words
+[w27:cd:pro] "discov" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "discow" | queue=22 | words=58012
+[w27:cd:pro] Pacing 16s before "discow" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3587ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discow
+[w27:cd:pro] [api] 200 mode=pro startsWith=discow (354ms direct)
+[w27:cd:pro] "discow" → 0 records, 0 words
+[w27:cd:pro] "discow" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "discox" | queue=21 | words=58012
+[w27:cd:pro] Pacing 16s before "discox" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3284ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discox
+[w27:cd:pro] [api] 200 mode=pro startsWith=discox (346ms direct)
+[w27:cd:pro] "discox" → 0 records, 0 words
+[w27:cd:pro] "discox" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "discoy" | queue=20 | words=58012
+[w27:cd:pro] Pacing 16s before "discoy" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3996ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discoy
+[w27:cd:pro] [api] 200 mode=pro startsWith=discoy (351ms direct)
+[w27:cd:pro] "discoy" → 0 records, 0 words
+[w27:cd:pro] "discoy" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "discoz" | queue=19 | words=58012
+[w27:cd:pro] Pacing 16s before "discoz" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3388ms, remount)
+[w27:cd:pro] heartbeat words=58012 queue=19 rotation=1 idle=10s
+[w27:cd:pro] [api] 200 mode=pro startsWith=discoz
+[w27:cd:pro] [api] 200 mode=pro startsWith=discoz (349ms direct)
+[w27:cd:pro] "discoz" → 0 records, 0 words
+[w27:cd:pro] "discoz" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "disinv" | queue=18 | words=58012
+[w27:cd:pro] Pacing 16s before "disinv" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4610ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disinv
+[w27:cd:pro] [api] 200 mode=pro startsWith=disinv (410ms direct)
+[w27:cd:pro] "disinv" → 26 records, 26 words
+[w27:cd:pro] "disinv" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "disinw" | queue=17 | words=58012
+[w27:cd:pro] Pacing 16s before "disinw" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3698ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disinw
+[w27:cd:pro] [api] 200 mode=pro startsWith=disinw (399ms direct)
+[w27:cd:pro] "disinw" → 0 records, 0 words
+[w27:cd:pro] "disinw" branch complete
+[w27:cd:pro] Saved 58,012 worker words; shared last.txt now 481,894
+[w27:cd:pro] Searching "disinx" | queue=16 | words=58012
+[w27:cd:pro] Pacing 15s before "disinx" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4258ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disinx
+[w27:cd:pro] [api] 200 mode=pro startsWith=disinx (393ms direct)
+[w27:cd:pro] "disinx" → 0 records, 0 words
+[w27:cd:pro] "disinx" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "disiny" | queue=15 | words=58012
+[w27:cd:pro] Pacing 16s before "disiny" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3696ms, remount)
+[w27:cd:pro] heartbeat words=58012 queue=15 rotation=1 idle=7s
+[w27:cd:pro] [api] 200 mode=pro startsWith=disiny
+[w27:cd:pro] [api] 200 mode=pro startsWith=disiny (364ms direct)
+[w27:cd:pro] "disiny" → 0 records, 0 words
+[w27:cd:pro] "disiny" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "disinz" | queue=14 | words=58012
+[w27:cd:pro] Pacing 16s before "disinz" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3795ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disinz
+[w27:cd:pro] [api] 200 mode=pro startsWith=disinz (353ms direct)
+[w27:cd:pro] "disinz" → 0 records, 0 words
+[w27:cd:pro] "disinz" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "dermatr" | queue=13 | words=58012
+[w27:cd:pro] Pacing 16s before "dermatr" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3040ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatr
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatr (343ms direct)
+[w27:cd:pro] "dermatr" → 3 records, 3 words
+[w27:cd:pro] "dermatr" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "dermats" | queue=12 | words=58012
+[w27:cd:pro] Pacing 16s before "dermats" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3805ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermats
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermats (351ms direct)
+[w27:cd:pro] "dermats" → 0 records, 0 words
+[w27:cd:pro] "dermats" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "dermatt" | queue=11 | words=58012
+[w27:cd:pro] Pacing 16s before "dermatt" (gap=15780ms)
+[w27:cd:pro] heartbeat words=58012 queue=11 rotation=1 idle=4s
+[w27:cd:pro] Managed Turnstile token (len=816, 4268ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatt
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatt (355ms direct)
+[w27:cd:pro] "dermatt" → 0 records, 0 words
+[w27:cd:pro] "dermatt" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "dermatu" | queue=10 | words=58012
+[w27:cd:pro] Pacing 16s before "dermatu" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3543ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatu
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatu (354ms direct)
+[w27:cd:pro] "dermatu" → 0 records, 0 words
+[w27:cd:pro] "dermatu" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "dermatv" | queue=9 | words=58012
+[w27:cd:pro] Pacing 16s before "dermatv" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4161ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatv
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatv (351ms direct)
+[w27:cd:pro] "dermatv" → 0 records, 0 words
+[w27:cd:pro] "dermatv" branch complete
+[w27:cd:pro] Saved 58,012 worker words; shared last.txt now 481,904
+[w27:cd:pro] Searching "dermatw" | queue=8 | words=58012
+[w27:cd:pro] Pacing 15s before "dermatw" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4229ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatw
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatw (329ms direct)
+[w27:cd:pro] "dermatw" → 0 records, 0 words
+[w27:cd:pro] "dermatw" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "dermatx" | queue=7 | words=58012
+[w27:cd:pro] Pacing 16s before "dermatx" (gap=15780ms)
+[w27:cd:pro] heartbeat words=58012 queue=7 rotation=1 idle=1s
+[w27:cd:pro] Managed Turnstile token (len=816, 3790ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatx
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatx (356ms direct)
+[w27:cd:pro] "dermatx" → 0 records, 0 words
+[w27:cd:pro] "dermatx" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "dermaty" | queue=6 | words=58012
+[w27:cd:pro] Pacing 16s before "dermaty" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3189ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermaty
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermaty (347ms direct)
+[w27:cd:pro] "dermaty" → 0 records, 0 words
+[w27:cd:pro] "dermaty" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "dermatz" | queue=5 | words=58012
+[w27:cd:pro] Pacing 16s before "dermatz" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3860ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatz
+[w27:cd:pro] [api] 200 mode=pro startsWith=dermatz (357ms direct)
+[w27:cd:pro] "dermatz" → 0 records, 0 words
+[w27:cd:pro] "dermatz" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "disconv" | queue=4 | words=58012
+[w27:cd:pro] Pacing 16s before "disconv" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4324ms, remount)
+[w27:cd:pro] heartbeat words=58012 queue=4 rotation=1 idle=14s
+[w27:cd:pro] [api] 200 mode=pro startsWith=disconv
+[w27:cd:pro] [api] 200 mode=pro startsWith=disconv (355ms direct)
+[w27:cd:pro] "disconv" → 3 records, 3 words
+[w27:cd:pro] "disconv" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "disconw" | queue=3 | words=58012
+[w27:cd:pro] Pacing 16s before "disconw" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3958ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disconw
+[w27:cd:pro] [api] 200 mode=pro startsWith=disconw (369ms direct)
+[w27:cd:pro] "disconw" → 0 records, 0 words
+[w27:cd:pro] "disconw" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "disconx" | queue=2 | words=58012
+[w27:cd:pro] Pacing 16s before "disconx" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4154ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=disconx
+[w27:cd:pro] [api] 200 mode=pro startsWith=disconx (389ms direct)
+[w27:cd:pro] "disconx" → 0 records, 0 words
+[w27:cd:pro] "disconx" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Searching "discony" | queue=1 | words=58012
+[w27:cd:pro] Pacing 16s before "discony" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 3651ms, remount)
+[w27:cd:pro] [api] 200 mode=pro startsWith=discony
+[w27:cd:pro] [api] 200 mode=pro startsWith=discony (362ms direct)
+[w27:cd:pro] "discony" → 0 records, 0 words
+[w27:cd:pro] "discony" branch complete
+[w27:cd:pro] Saved 58,012 worker words; shared last.txt now 481,904
+[w27:cd:pro] Searching "disconz" | queue=0 | words=58012
+[w27:cd:pro] Pacing 15s before "disconz" (gap=15780ms)
+[w27:cd:pro] Managed Turnstile token (len=816, 4272ms, remount)
+[w27:cd:pro] heartbeat words=58012 queue=0 rotation=1 idle=10s
+[w27:cd:pro] [api] 200 mode=pro startsWith=disconz
+[w27:cd:pro] [api] 200 mode=pro startsWith=disconz (345ms direct)
+[w27:cd:pro] "disconz" → 0 records, 0 words
+[w27:cd:pro] "disconz" branch complete
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Saved 58,012 worker words
+[w27:cd:pro] Worker done. prefixes=7530 words=58012
+[w27:cd:pro] Managed Turnstile miss (69ms)
+[w27:cd:pro] Tor exited code=0

@@ -1,0 +1,194 @@
+[cleanup-rev:w7] Reverse queue cleanup bot (DRY_RUN=false) | states=7..7 | sort=alphabetical:desc (Z→A) | parents=5-letter, prune queue items >=6 chars from high end | completed[] is never modified
+[w7:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19457 (try 1)
+[w7:cleanuprev:pro] tor: Aug 05 08:23:49.625 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19457
+Aug 05 08:23:49.625 [warn] Fixing permissions on directory /tmp/lll-tor
+[w7:cleanuprev:pro] tor: Aug 05 08:23:49.000 [notice] Bootstrapped 0% (starting): Starting
+[w7:cleanuprev:pro] tor: Aug 05 08:23:50.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w7:cleanuprev:pro] tor: Aug 05 08:23:50.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w7:cleanuprev:pro] tor: Aug 05 08:23:53.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w7:cleanuprev:pro] tor: Aug 05 08:23:53.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:23:53.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w7:cleanuprev:pro] tor: Aug 05 08:23:53.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w7:cleanuprev:pro] tor: Aug 05 08:23:54.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w7:cleanuprev:pro] tor: Aug 05 08:23:56.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w7:cleanuprev:pro] tor: Aug 05 08:23:56.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:23:56.000 [notice] I learned some more directory 
+[w7:cleanuprev:pro] tor: Aug 05 08:23:57.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:24:06.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:24:06.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:24:20.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:24:21.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w7:cleanuprev:pro] tor: Aug 05 08:24:22.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:24:22.000 [notice] Bootstrapped 9
+[w7:cleanuprev:pro] tor: Aug 05 08:24:22.000 [notice] Bootstrapped 100% (done): Done
+[w7:cleanuprev:pro] Tor ready on 19457 exit=85.137.57.19
+[cleanup-rev:w7] Browser mode=tor via tor#1 socks5://127.0.0.1:19457
+[w7:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w7-r0
+[w7:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19457
+[w7:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w7:cleanuprev:pro] Library mode=pro
+[w7:cleanuprev:pro] Site Turnstile remint timed out (19323ms)
+[w7:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w7] lll-audit-state-7.json w7: queue=68 completed=2511 words=15947 parents=10 (reverse Z→A)
+[cleanup-rev:w7] Reverse-searching parent "organ" (1 queued descendants, chars=o)
+[w7:cleanuprev:pro] Managed Turnstile miss (12044ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (10263ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w7:cleanuprev:pro] Site Turnstile remint timed out (14436ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w7] Turnstile miss on "organ" — reload (attempt 1)
+[w7:cleanuprev:pro] Managed Turnstile miss (10238ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w7:cleanuprev:pro] Turnstile token present (len=837)
+[w7:cleanuprev:pro] Site Turnstile token (11960ms)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=organ
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=organ sort=alphabetical:desc (552ms direct)
+[cleanup-rev:w7] "organ" reverse full page (100) start="organzines" first='z' end="organogeneses" next='o' — remove 10 covered groups, keep 'z+o', removed 0/68 queue items, leave chars=o, +0 words
+[cleanup-rev:w7] Reverse-searching parent "ornit" (5 queued descendants, chars=h)
+[w7:cleanuprev:pro] Pacing 15s before "ornit" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (12046ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (10189ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w7:cleanuprev:pro] Turnstile token present (len=837)
+[w7:cleanuprev:pro] Site Turnstile token (11998ms)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=ornit
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=ornit sort=alphabetical:desc (480ms direct)
+[cleanup-rev:w7] "ornit" reverse full page (100) start="ornithvrous" first='h' end="ornithichnite" next='h' — remove 0 covered groups, keep 'h', removed 0/68 queue items, leave chars=h, +0 words
+[cleanup-rev:w7] Reverse-searching parent "overc" (3 queued descendants, chars=o)
+[w7:cleanuprev:pro] Pacing 16s before "overc" (gap=15500ms)
+[w7:cleanuprev:pro] [api] 403 mode=pro startsWith=overc
+[w7:cleanuprev:pro] [api] 403 mode=pro startsWith=overc sort=alphabetical:desc (627ms direct)
+[cleanup-rev:w7] FAILED "overc" try 1/8: API 403 for "overc": Anti-bot verification failed. Please refresh the page.
+[cleanup-rev:w7] Rotating IP (#1) after retry "overc" after failure
+[w7:cleanuprev:pro] Managed Turnstile miss (641ms)
+[w7:cleanuprev:pro] Tor exited code=0
+[w7:cleanuprev:pro] Starting Tor gen=2 socks=127.0.0.1:19457 (try 1)
+[w7:cleanuprev:pro] tor: Aug 05 08:27:04.212 [warn] Fixing permissions on directory /tmp/lll-tor-w7
+[w7:cleanuprev:pro] tor: Aug 05 08:27:04.000 [notice] Bootstrapped 0% (starting): Starting
+[w7:cleanuprev:pro] tor: Aug 05 08:27:05.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w7:cleanuprev:pro] tor: Aug 05 08:27:05.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w7:cleanuprev:pro] tor: Aug 05 08:28:14.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w7:cleanuprev:pro] tor: Aug 05 08:28:14.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:28:14.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w7:cleanuprev:pro] tor: Aug 05 08:28:14.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w7:cleanuprev:pro] tor: Aug 05 08:28:14.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w7:cleanuprev:pro] tor: Aug 05 08:28:16.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w7:cleanuprev:pro] tor: Aug 05 08:28:16.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:28:16.000 [notice] I learned some more directory 
+[w7:cleanuprev:pro] tor: Aug 05 08:28:17.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:28:56.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:28:57.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:28:57.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:28:58.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w7:cleanuprev:pro] tor: Aug 05 08:28:58.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:28:58.000 [notice] Bootstrapped 9
+[w7:cleanuprev:pro] tor: Aug 05 08:28:59.000 [notice] Bootstrapped 100% (done): Done
+[w7:cleanuprev:pro] Tor ready on 19457 exit=89.147.108.90
+[cleanup-rev:w7] Browser mode=tor via tor#2 socks5://127.0.0.1:19457 rotation=1
+[w7:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w7-r1
+[w7:cleanuprev:pro] Proxy tor#2 socks5://127.0.0.1:19457
+[w7:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w7:cleanuprev:pro] Library mode=pro
+[w7:cleanuprev:pro] Site Turnstile remint timed out (19242ms)
+[w7:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w7:cleanuprev:pro] Managed Turnstile miss (12053ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (10212ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w7:cleanuprev:pro] Site Turnstile remint timed out (14479ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w7] Turnstile miss on "overc" — reload (attempt 1)
+[w7:cleanuprev:pro] Managed Turnstile miss (10175ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w7:cleanuprev:pro] Turnstile token present (len=816)
+[w7:cleanuprev:pro] Site Turnstile token (11736ms)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overc
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overc sort=alphabetical:desc (695ms direct)
+[cleanup-rev:w7] "overc" reverse full page (100) start="overcuttings" first='u' end="overcorruptly" next='o' — remove 5 covered groups, keep 'u+o', removed 0/68 queue items, leave chars=o, +0 words
+[cleanup-rev:w7] Reverse-searching parent "overd" (7 queued descendants, chars=e)
+[w7:cleanuprev:pro] Pacing 15s before "overd" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (12003ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (10205ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w7:cleanuprev:pro] Site Turnstile remint timed out (14496ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w7] Turnstile miss on "overd" — reload (attempt 1)
+[w7:cleanuprev:pro] Managed Turnstile miss (12016ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (10254ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w7:cleanuprev:pro] Site Turnstile remint timed out (14432ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w7] Rotating IP (#2) after Turnstile stuck on "overd"
+[w7:cleanuprev:pro] Tor exited code=0
+[w7:cleanuprev:pro] Starting Tor gen=3 socks=127.0.0.1:19457 (try 1)
+[w7:cleanuprev:pro] tor: Aug 05 08:32:09.085 [warn] Fixing permissions on directory /tmp/lll-tor-w7
+[w7:cleanuprev:pro] tor: Aug 05 08:32:09.000 [notice] Bootstrapped 0% (starting): Starting
+[w7:cleanuprev:pro] tor: Aug 05 08:32:10.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w7:cleanuprev:pro] tor: Aug 05 08:32:10.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w7:cleanuprev:pro] tor: Aug 05 08:33:18.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w7:cleanuprev:pro] tor: Aug 05 08:33:19.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:33:19.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w7:cleanuprev:pro] tor: Aug 05 08:33:19.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w7:cleanuprev:pro] tor: Aug 05 08:33:19.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w7:cleanuprev:pro] tor: Aug 05 08:33:21.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w7:cleanuprev:pro] tor: Aug 05 08:33:21.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:33:21.000 [notice] I learned some more directory 
+[w7:cleanuprev:pro] tor: Aug 05 08:33:22.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:33:29.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:33:30.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:33:30.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 08:33:30.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w7:cleanuprev:pro] tor: Aug 05 08:33:31.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:33:31.000 [notice] Bootstrapped 9
+[w7:cleanuprev:pro] tor: Aug 05 08:33:32.000 [notice] Bootstrapped 100% (done): Done
+[w7:cleanuprev:pro] Tor ready on 19457 exit=192.42.116.63
+[cleanup-rev:w7] Browser mode=tor via tor#3 socks5://127.0.0.1:19457 rotation=2
+[w7:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w7-r2
+[w7:cleanuprev:pro] Proxy tor#3 socks5://127.0.0.1:19457
+[w7:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w7:cleanuprev:pro] Library mode=pro
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 6587ms, remount)
+[w7:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overd
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overd sort=alphabetical:desc (845ms direct)
+[cleanup-rev:w7] "overd" reverse full page (100) start="overdying" first='y' end="overdogmatical" next='o' — remove 9 covered groups, keep 'y+o', removed 0/68 queue items, leave chars=e, +0 words
+[cleanup-rev:w7] Reverse-searching parent "overi" (5 queued descendants, chars=n)
+[w7:cleanuprev:pro] Pacing 15s before "overi" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 4141ms, reset)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overi
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overi sort=alphabetical:desc (469ms direct)
+[cleanup-rev:w7] "overi" reverse full page (100) start="overitching" first='t' end="overinflated" next='n' — remove 5 covered groups, keep 't+n', removed 0/68 queue items, leave chars=n, +0 words
+[cleanup-rev:w7] Reverse-searching parent "overp" (6 queued descendants, chars=r)
+[w7:cleanuprev:pro] Pacing 16s before "overp" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 3774ms, reset)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overp
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overp sort=alphabetical:desc (520ms direct)
+[cleanup-rev:w7] "overp" reverse full page (100) start="overput" first='u' end="overprogramed" next='r' — remove 2 covered groups, keep 'u+r', removed 0/68 queue items, leave chars=r, +0 words
+[cleanup-rev:w7] Reverse-searching parent "overr" (5 queued descendants, chars=ez)
+[w7:cleanuprev:pro] Pacing 15s before "overr" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 3988ms, reset)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overr
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overr sort=alphabetical:desc (461ms direct)
+[cleanup-rev:w7] "overr" reverse full page (100) start="overrust" first='u' end="overrepresentatively" next='e' — remove 15 covered groups, keep 'u+e', removed 0/68 queue items, leave chars=ez, +0 words
+[cleanup-rev:w7] Reverse-searching parent "overs" (22 queued descendants, chars=efghijklmnopqrstuvwxyz)
+[w7:cleanuprev:pro] Pacing 16s before "overs" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 4134ms, reset)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overs
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overs sort=alphabetical:desc (513ms direct)
+[cleanup-rev:w7] "overs" reverse full page (100) start="oversystematizing" first='y' end="overstudiousness" next='t' — remove 4 covered groups, keep 'y+t', removed 4/68 queue items, leave chars=efghijklmnopqrstyz, +100 words
+[cleanup-rev:w7] Reverse-searching parent "overt" (10 queued descendants, chars=hijklmnoyz)
+[w7:cleanuprev:pro] Pacing 15s before "overt" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 4239ms, reset)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overt
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overt sort=alphabetical:desc (511ms direct)
+[cleanup-rev:w7] "overt" reverse full page (100) start="overtyping" first='y' end="overtoil" next='o' — remove 9 covered groups, keep 'y+o', removed 0/64 queue items, leave chars=hijklmnoyz, +0 words
+[cleanup-rev:w7] Reverse-searching parent "overw" (4 queued descendants, chars=wxyz)
+[w7:cleanuprev:pro] Pacing 15s before "overw" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 4189ms, reset)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overw
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=overw sort=alphabetical:desc (600ms direct)
+[cleanup-rev:w7] "overw" reverse full page (100) start="overwwrought" first='w' end="overwend" next='e' — remove 17 covered groups, keep 'w+e', removed 0/64 queue items, leave chars=wxyz, +0 words
+[cleanup-rev:w7] lll-audit-state-7.json done — parents=10 searches=10 removed=4
+[cleanup-rev:w7] State 7 reverse cleanup finished
+[cleanup-rev:w7] All states processed. searches=10 queue_removed=4
+[w7:cleanuprev:pro] Managed Turnstile miss (616ms)
+[w7:cleanuprev:pro] Tor exited code=0

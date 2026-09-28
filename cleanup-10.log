@@ -1,0 +1,222 @@
+[cleanup:w10] Queue cleanup bot (DRY_RUN=false) | states=10..10 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w10:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19260 (try 1)
+[w10:cleanup:pro] tor: Aug 04 02:47:18.213 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19260
+Aug 04 02:47:18.213 [warn] Fixing permissions on directory /tmp/lll-tor
+[w10:cleanup:pro] tor: Aug 04 02:47:18.000 [notice] Bootstrapped 0% (starting): Starting
+[w10:cleanup:pro] tor: Aug 04 02:47:19.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w10:cleanup:pro] tor: Aug 04 02:47:19.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w10:cleanup:pro] tor: Aug 04 02:47:25.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w10:cleanup:pro] tor: Aug 04 02:47:25.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:47:25.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w10:cleanup:pro] tor: Aug 04 02:47:26.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w10:cleanup:pro] tor: Aug 04 02:47:26.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w10:cleanup:pro] tor: Aug 04 02:47:27.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w10:cleanup:pro] tor: Aug 04 02:47:27.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:47:27.000 [notice] I learned some more directory 
+[w10:cleanup:pro] tor: Aug 04 02:47:28.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w10:cleanup:pro] tor: Aug 04 02:47:33.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w10:cleanup:pro] tor: Aug 04 02:47:33.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w10:cleanup:pro] tor: Aug 04 02:47:33.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w10:cleanup:pro] tor: Aug 04 02:47:33.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w10:cleanup:pro] tor: Aug 04 02:47:34.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:47:34.000 [notice] Bootstrapped 9
+[w10:cleanup:pro] tor: Aug 04 02:47:35.000 [notice] Bootstrapped 100% (done): Done
+[w10:cleanup:pro] Tor ready on 19260 exit=193.189.100.201
+[cleanup:w10] Browser mode=tor via tor#1 socks5://127.0.0.1:19260
+[w10:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w10
+[w10:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19260
+[w10:cleanup:pro] Opening https://lastletterlibrary.com
+[w10:cleanup:pro] Library mode=pro
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w10] lll-audit-state-10.json w10: queue=804 completed=261 words=5196 parents=29
+[cleanup:w10] Searching parent "ult" (26 queued descendants)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ult
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ult (343ms direct)
+[cleanup:w10] "ult" full page (100) ends "ultracrepidate" next='r' — skip 19 groups, removed 0/804 queue items, +0 words
+[cleanup:w10] Searching parent "umb" (22 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "umb" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=umb
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=umb (402ms direct)
+[cleanup:w10] "umb" full page (100) ends "umbraid" next='r' — skip 19 groups, removed 13/804 queue items, +0 words
+[cleanup:w10] Searching parent "una" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "una" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=una
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=una (357ms direct)
+[cleanup:w10] "una" full page (100) ends "unaccent" next='c' — skip 4 groups, removed 4/791 queue items, +0 words
+[cleanup:w10] Searching parent "unb" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unb" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unb
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unb (445ms direct)
+[cleanup:w10] "unb" full page (100) ends "unbarrel" next='a' — skip 2 groups, removed 2/787 queue items, +0 words
+[cleanup:w10] Searching parent "unc" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unc" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unc
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unc (410ms direct)
+[cleanup:w10] "unc" full page (100) ends "uncanonises" next='a' — skip 2 groups, removed 2/785 queue items, +0 words
+[cleanup:w10] Searching parent "und" (28 queued descendants)
+[w10:cleanup:pro] Pacing 14s before "und" (gap=15200ms)
+[w10:cleanup:pro] Turnstile mint miss (1/2)
+[w10:cleanup:pro] Site Turnstile remint timed out
+[w10:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w10] Turnstile miss on "und" — reload (attempt 1)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=und
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=und (402ms direct)
+[cleanup:w10] "und" full page (100) ends "undecayable" next='e' — skip 6 groups, removed 6/783 queue items, +0 words
+[cleanup:w10] Searching parent "une" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "une" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=une
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=une (376ms direct)
+[cleanup:w10] "une" full page (100) ends "uneffective" next='f' — skip 7 groups, removed 7/777 queue items, +0 words
+[cleanup:w10] Searching parent "unf" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unf" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unf
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unf (365ms direct)
+[cleanup:w10] "unf" full page (100) ends "unfancier" next='a' — skip 2 groups, removed 2/770 queue items, +0 words
+[cleanup:w10] Searching parent "ung" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "ung" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ung
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ung (418ms direct)
+[cleanup:w10] "ung" full page (100) ends "ungenerable" next='e' — skip 6 groups, removed 6/768 queue items, +0 words
+[cleanup:w10] Searching parent "unh" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unh" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unh
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unh (430ms direct)
+[cleanup:w10] "unh" full page (100) ends "unharbored" next='a' — skip 2 groups, removed 2/762 queue items, +0 words
+[cleanup:w10] Searching parent "uni" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "uni" (gap=15200ms)
+[w10:cleanup:pro] Turnstile mint miss (1/2)
+[w10:cleanup:pro] Site Turnstile remint timed out
+[w10:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w10] Turnstile miss on "uni" — reload (attempt 1)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=uni
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=uni (612ms direct)
+[cleanup:w10] "uni" full page (100) ends "unidealistic" next='d' — skip 5 groups, removed 5/760 queue items, +0 words
+[cleanup:w10] Searching parent "unj" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unj" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unj
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unj (330ms direct)
+[cleanup:w10] "unj" full page (100) ends "unjustifiedly" next='u' — skip 22 groups, removed 22/755 queue items, +0 words
+[cleanup:w10] Searching parent "unk" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unk" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unk
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unk (338ms direct)
+[cleanup:w10] "unk" full page (100) ends "unknotted" next='n' — skip 15 groups, removed 15/733 queue items, +0 words
+[cleanup:w10] Searching parent "unl" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unl" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unl
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unl (327ms direct)
+[cleanup:w10] "unl" full page (100) ends "unlawfully" next='a' — skip 2 groups, removed 2/718 queue items, +0 words
+[cleanup:w10] Searching parent "unm" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unm" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unm
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unm (344ms direct)
+[cleanup:w10] "unm" full page (100) ends "unmanifestative" next='a' — skip 2 groups, removed 2/716 queue items, +0 words
+[cleanup:w10] Searching parent "unn" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unn" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unn
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unn (330ms direct)
+[cleanup:w10] "unn" full page (100) ends "unnectarial" next='e' — skip 6 groups, removed 6/714 queue items, +0 words
+[cleanup:w10] Searching parent "uno" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "uno" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=uno
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=uno (335ms direct)
+[cleanup:w10] "uno" full page (100) ends "unoccupiable" next='c' — skip 4 groups, removed 4/708 queue items, +0 words
+[cleanup:w10] Searching parent "unp" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unp" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unp
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unp (524ms direct)
+[cleanup:w10] "unp" full page (100) ends "unparadised" next='a' — skip 2 groups, removed 2/704 queue items, +0 words
+[cleanup:w10] Searching parent "unq" (28 queued descendants)
+[w10:cleanup:pro] Pacing 14s before "unq" (gap=15200ms)
+[w10:cleanup:pro] Turnstile mint miss (1/2)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unq
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unq (475ms direct)
+[cleanup:w10] "unq" full page (100) ends "unquixotical" next='u' — skip 22 groups, removed 22/702 queue items, +0 words
+[cleanup:w10] Searching parent "unr" (28 queued descendants)
+[w10:cleanup:pro] Pacing 14s before "unr" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unr
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unr (350ms direct)
+[cleanup:w10] "unr" full page (100) ends "unrazored" next='a' — skip 2 groups, removed 2/680 queue items, +0 words
+[cleanup:w10] Searching parent "uns" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "uns" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=uns
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=uns (345ms direct)
+[cleanup:w10] "uns" full page (100) ends "unsaltatory" next='a' — skip 2 groups, removed 2/678 queue items, +0 words
+[cleanup:w10] Searching parent "unt" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unt" (gap=15200ms)
+[w10:cleanup:pro] Turnstile mint miss (1/2)
+[w10:cleanup:pro] Site Turnstile remint timed out
+[w10:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w10] Turnstile miss on "unt" — reload (attempt 1)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unt
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unt (413ms direct)
+[cleanup:w10] "unt" full page (100) ends "untarnishedness" next='a' — skip 2 groups, removed 2/676 queue items, +0 words
+[cleanup:w10] Searching parent "unu" (28 queued descendants)
+[w10:cleanup:pro] Pacing 14s before "unu" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unu
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unu (351ms direct)
+[cleanup:w10] "unu" full page (100) ends "unutterableness" next='t' — skip 21 groups, removed 21/674 queue items, +0 words
+[cleanup:w10] Searching parent "unv" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unv" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unv
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unv (520ms direct)
+[cleanup:w10] "unv" full page (100) ends "unvended" next='e' — skip 6 groups, removed 6/653 queue items, +0 words
+[cleanup:w10] Searching parent "unw" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "unw" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unw
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=unw (1212ms direct)
+[cleanup:w10] "unw" full page (100) ends "unwastingly" next='a' — skip 2 groups, removed 2/647 queue items, +0 words
+[cleanup:w10] Searching parent "ups" (28 queued descendants)
+[w10:cleanup:pro] Pacing 11s before "ups" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ups
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ups (477ms direct)
+[cleanup:w10] "ups" full page (100) ends "upspeaking" next='p' — skip 17 groups, removed 17/645 queue items, +0 words
+[cleanup:w10] Searching parent "ura" (28 queued descendants)
+[w10:cleanup:pro] Pacing 14s before "ura" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ura
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ura (350ms direct)
+[cleanup:w10] "ura" full page (100) ends "uranology" next='n' — skip 15 groups, removed 15/628 queue items, +0 words
+[cleanup:w10] Searching parent "ure" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "ure" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ure
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=ure (396ms direct)
+[cleanup:w10] "ure" full page (100) ends "ureterolith" next='t' — skip 21 groups, removed 21/613 queue items, +0 words
+[cleanup:w10] Searching parent "uro" (28 queued descendants)
+[w10:cleanup:pro] Pacing 15s before "uro" (gap=15200ms)
+[w10:cleanup:pro] Managed Turnstile token (len=816)
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=uro
+[w10:cleanup:pro] [api] 200 mode=pro startsWith=uro (353ms direct)
+[cleanup:w10] "uro" full page (100) ends "uromere" next='m' — skip 14 groups, removed 14/592 queue items, +0 words
+[cleanup:w10] lll-audit-state-10.json done — parents=29 searches=29 removed=226
+[cleanup:w10] State 10 cleanup finished (supervisor merges last.txt)
+[cleanup:w10] All states processed. searches=29 queue_removed=226
+[w10:cleanup:pro] Tor exited code=0

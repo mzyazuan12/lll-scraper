@@ -1,0 +1,186 @@
+{
+  "at": "2026-08-06T03:53:51.638Z",
+  "totalWorkers": 12,
+  "groups": [
+    {
+      "letters": "cd",
+      "parentId": 1,
+      "owners": [
+        1,
+        21,
+        22
+      ],
+      "before": 295,
+      "workers": {
+        "1": {
+          "role": "parent",
+          "count": 99,
+          "sample": [
+            "dui",
+            "duo",
+            "dyn",
+            "dyv",
+            "dacz"
+          ]
+        },
+        "21": {
+          "role": "helper",
+          "count": 98,
+          "sample": [
+            "duk",
+            "duq",
+            "dyp",
+            "dyx",
+            "dait"
+          ]
+        },
+        "22": {
+          "role": "helper",
+          "count": 98,
+          "sample": [
+            "dum",
+            "dus",
+            "dyr",
+            "dyz",
+            "daiv"
+          ]
+        }
+      }
+    },
+    {
+      "letters": "cd",
+      "parentId": 12,
+      "owners": [
+        12,
+        13,
+        14
+      ],
+      "before": 294,
+      "workers": {
+        "12": {
+          "role": "parent",
+          "count": 98,
+          "sample": [
+            "duj",
+            "dup",
+            "dyo",
+            "dyw",
+            "dais"
+          ]
+        },
+        "13": {
+          "role": "helper",
+          "count": 98,
+          "sample": [
+            "dul",
+            "dur",
+            "dyq",
+            "dyy",
+            "daiu"
+          ]
+        },
+        "14": {
+          "role": "helper",
+          "count": 98,
+          "sample": [
+            "dun",
+            "duz",
+            "dys",
+            "dacy",
+            "daiw"
+          ]
+        }
+      }
+    },
+    {
+      "letters": "st",
+      "parentId": 18,
+      "owners": [
+        18,
+        23,
+        24
+      ],
+      "before": 76,
+      "workers": {
+        "18": {
+          "role": "parent",
+          "count": 26,
+          "sample": [
+            "trez",
+            "trif",
+            "tril",
+            "trir",
+            "trix"
+          ]
+        },
+        "23": {
+          "role": "helper",
+          "count": 25,
+          "sample": [
+            "trib",
+            "trih",
+            "trin",
+            "trit",
+            "triz"
+          ]
+        },
+        "24": {
+          "role": "helper",
+          "count": 25,
+          "sample": [
+            "trid",
+            "trij",
+            "trip",
+            "triv",
+            "trod"
+          ]
+        }
+      }
+    },
+    {
+      "letters": "st",
+      "parentId": 20,
+      "owners": [
+        20,
+        19,
+        25
+      ],
+      "before": 76,
+      "workers": {
+        "19": {
+          "role": "helper",
+          "count": 25,
+          "sample": [
+            "tric",
+            "trii",
+            "trio",
+            "triu",
+            "troc"
+          ]
+        },
+        "20": {
+          "role": "parent",
+          "count": 26,
+          "sample": [
+            "tria",
+            "trig",
+            "trim",
+            "tris",
+            "triy"
+          ]
+        },
+        "25": {
+          "role": "helper",
+          "count": 25,
+          "sample": [
+            "trie",
+            "trik",
+            "triq",
+            "triw",
+            "troe"
+          ]
+        }
+      }
+    }
+  ]
+}

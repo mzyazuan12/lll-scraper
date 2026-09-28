@@ -1,0 +1,247 @@
+[cleanup:w2] Queue cleanup bot (DRY_RUN=false) | states=2..2 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w2:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19252 (try 1)
+[w2:cleanup:pro] tor: Aug 04 02:46:45.958 [warn] Fixing permissions on directory /tmp/lll-tor-w2
+[w2:cleanup:pro] tor: Aug 04 02:46:46.000 [notice] Bootstrapped 0% (starting): Starting
+[w2:cleanup:pro] tor: Aug 04 02:46:47.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w2:cleanup:pro] tor: Aug 04 02:46:47.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w2:cleanup:pro] tor: Aug 04 02:46:47.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w2:cleanup:pro] tor: Aug 04 02:46:48.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:46:48.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w2:cleanup:pro] tor: Aug 04 02:46:48.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w2:cleanup:pro] tor: Aug 04 02:46:48.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w2:cleanup:pro] tor: Aug 04 02:46:50.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w2:cleanup:pro] tor: Aug 04 02:46:51.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:46:51.000 [notice] I learned some more directory 
+[w2:cleanup:pro] tor: Aug 04 02:46:51.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w2:cleanup:pro] tor: Aug 04 02:46:56.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w2:cleanup:pro] tor: Aug 04 02:46:56.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w2:cleanup:pro] tor: Aug 04 02:46:57.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w2:cleanup:pro] tor: Aug 04 02:46:57.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w2:cleanup:pro] tor: Aug 04 02:46:57.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:46:57.000 [notice] Bootstrapped 9
+[w2:cleanup:pro] tor: Aug 04 02:46:57.000 [notice] Bootstrapped 100% (done): Done
+[w2:cleanup:pro] Tor ready on 19252 exit=185.220.101.19
+[cleanup:w2] Browser mode=tor via tor#1 socks5://127.0.0.1:19252
+[w2:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w2
+[w2:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19252
+[w2:cleanup:pro] Opening https://lastletterlibrary.com
+[w2:cleanup:pro] Library mode=pro
+[w2:cleanup:pro] Managed Turnstile token (len=816)
+[w2:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w2] lll-audit-state-2.json w2: queue=541 completed=244 words=4011 parents=7
+[cleanup:w2] Searching parent "ear" (28 queued descendants)
+[w2:cleanup:pro] Managed Turnstile token (len=816)
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ear
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ear (905ms direct)
+[cleanup:w2] "ear" full page (100) ends "earner" next='n' — skip 15 groups, removed 15/541 queue items, +0 words
+[cleanup:w2] Searching parent "ech" (28 queued descendants)
+[w2:cleanup:pro] Pacing 15s before "ech" (gap=15200ms)
+[w2:cleanup:pro] Managed Turnstile token (len=816)
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ech
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ech (384ms direct)
+[cleanup:w2] "ech" full page (100) ends "echinus" next='i' — skip 10 groups, removed 10/526 queue items, +0 words
+[cleanup:w2] Searching parent "eco" (28 queued descendants)
+[w2:cleanup:pro] Pacing 15s before "eco" (gap=15200ms)
+[w2:cleanup:pro] Managed Turnstile token (len=816)
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=eco
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=eco (429ms direct)
+[cleanup:w2] "eco" full page (100) ends "economisation" next='n' — skip 15 groups, removed 15/516 queue items, +0 words
+[cleanup:w2] Searching parent "ect" (28 queued descendants)
+[w2:cleanup:pro] Pacing 15s before "ect" (gap=15200ms)
+[w2:cleanup:pro] Managed Turnstile token (len=816)
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ect
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ect (409ms direct)
+[cleanup:w2] "ect" full page (100) ends "ectoparasitica" next='o' — skip 16 groups, removed 16/501 queue items, +0 words
+[cleanup:w2] Searching parent "eff" (28 queued descendants)
+[w2:cleanup:pro] Pacing 15s before "eff" (gap=15200ms)
+[w2:cleanup:pro] Managed Turnstile token (len=816)
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=eff
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=eff (718ms direct)
+[cleanup:w2] "eff" full page (100) ends "effet" next='e' — skip 6 groups, removed 6/485 queue items, +0 words
+[cleanup:w2] Searching parent "ela" (28 queued descendants)
+[w2:cleanup:pro] Pacing 15s before "ela" (gap=15200ms)
+[w2:cleanup:pro] Managed Turnstile token (len=816)
+[w2:cleanup:pro] [api] 429 mode=pro startsWith=ela
+[w2:cleanup:pro] [api] 429 mode=pro startsWith=ela (366ms direct)
+[w2:cleanup:pro] Learned server gap ≈ 15200ms (wait hint 2000ms)
+[cleanup:w2] 429 on "ela" — wait 2000ms (attempt 1)
+[w2:cleanup:pro] Managed Turnstile token (len=816)
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ela
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ela (424ms direct)
+[cleanup:w2] "ela" full page (100) ends "elargement" next='r' — skip 19 groups, removed 19/479 queue items, +0 words
+[cleanup:w2] Searching parent "ele" (28 queued descendants)
+[w2:cleanup:pro] Pacing 15s before "ele" (gap=15200ms)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ele" — reload (attempt 1)
+[w2:cleanup:pro] Managed Turnstile token (len=816)
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ele
+[w2:cleanup:pro] [api] 200 mode=pro startsWith=ele (433ms direct)
+[cleanup:w2] "ele" full page (100) ends "electrised" next='c' — skip 4 groups, removed 4/460 queue items, +0 words
+[cleanup:w2] lll-audit-state-2.json done — parents=7 searches=7 removed=85
+[cleanup:w2] State 2 cleanup finished (supervisor merges last.txt)
+[cleanup:w2] All states processed. searches=7 queue_removed=85
+[w2:cleanup:pro] unhandledRejection mouse.move: Target page, context or browser has been closed
+    at interactWithTurnstile (/Users/mac/Downloads/LastLetter-main/lll-security-audit/audit.mjs:894:24)
+    at async mintViaManagedWidget (/Users/mac/Downloads/LastLetter-main/lll-security-audit/audit.mjs:1270:3)
+    at async file:///Users/mac/Downloads/LastLetter-main/lll-security-audit/audit.mjs:1442:21 {
+  log: []
+}
+
+--- respawn 2026-08-04T07:50:28.554Z ---
+[cleanup:w2] Queue cleanup bot (DRY_RUN=false) | states=2..2 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w2:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19252 (try 1)
+[w2:cleanup:pro] tor: Aug 04 02:50:29.014 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19252
+Aug 04 02:50:29.014 [warn] Fixing permissions on directory /tmp/lll-tor
+[w2:cleanup:pro] tor: Aug 04 02:50:29.000 [notice] Bootstrapped 0% (starting): Starting
+[w2:cleanup:pro] tor: Aug 04 02:50:30.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w2:cleanup:pro] tor: Aug 04 02:50:30.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w2:cleanup:pro] tor: Aug 04 02:50:30.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w2:cleanup:pro] tor: Aug 04 02:50:30.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:50:30.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w2:cleanup:pro] tor: Aug 04 02:50:30.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w2:cleanup:pro] tor: Aug 04 02:50:31.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w2:cleanup:pro] tor: Aug 04 02:50:32.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w2:cleanup:pro] tor: Aug 04 02:50:32.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:50:32.000 [notice] I learned some more directory 
+[w2:cleanup:pro] tor: Aug 04 02:50:33.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w2:cleanup:pro] tor: Aug 04 02:50:56.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w2:cleanup:pro] tor: Aug 04 02:50:57.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w2:cleanup:pro] tor: Aug 04 02:50:57.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w2:cleanup:pro] tor: Aug 04 02:50:58.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w2:cleanup:pro] tor: Aug 04 02:50:58.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:50:58.000 [notice] Bootstrapped 9
+[w2:cleanup:pro] tor: Aug 04 02:50:58.000 [notice] Bootstrapped 100% (done): Done
+[w2:cleanup:pro] Tor ready on 19252 exit=192.42.116.117
+[cleanup:w2] Browser mode=tor via tor#1 socks5://127.0.0.1:19252
+[w2:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w2
+[w2:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19252
+[w2:cleanup:pro] Opening https://lastletterlibrary.com
+[w2:cleanup:pro] Library mode=pro
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w2] lll-audit-state-2.json w2: queue=456 completed=244 words=4011 parents=7
+[cleanup:w2] Searching parent "ear" (13 queued descendants)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ear" — reload (attempt 1)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ear" — reload (attempt 2)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ear" — reload (attempt 3)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] FAILED "ear": No Turnstile token for direct search
+[cleanup:w2] Searching parent "ech" (18 queued descendants)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ech" — reload (attempt 1)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ech" — reload (attempt 2)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ech" — reload (attempt 3)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] FAILED "ech": No Turnstile token for direct search
+[cleanup:w2] Searching parent "eco" (13 queued descendants)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "eco" — reload (attempt 1)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "eco" — reload (attempt 2)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "eco" — reload (attempt 3)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] FAILED "eco": No Turnstile token for direct search
+[cleanup:w2] Searching parent "ect" (12 queued descendants)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ect" — reload (attempt 1)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ect" — reload (attempt 2)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ect" — reload (attempt 3)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] FAILED "ect": No Turnstile token for direct search
+[cleanup:w2] Searching parent "eff" (22 queued descendants)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "eff" — reload (attempt 1)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "eff" — reload (attempt 2)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "eff" — reload (attempt 3)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] FAILED "eff": No Turnstile token for direct search
+[cleanup:w2] Searching parent "ela" (9 queued descendants)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ela" — reload (attempt 1)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ela" — reload (attempt 2)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ela" — reload (attempt 3)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] FAILED "ela": No Turnstile token for direct search
+[cleanup:w2] Searching parent "ele" (24 queued descendants)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ele" — reload (attempt 1)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ele" — reload (attempt 2)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] Turnstile miss on "ele" — reload (attempt 3)
+[w2:cleanup:pro] Turnstile mint miss (1/2)
+[w2:cleanup:pro] Site Turnstile remint timed out
+[w2:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w2] FAILED "ele": No Turnstile token for direct search
+[cleanup:w2] lll-audit-state-2.json done — parents=7 searches=0 removed=0
+[cleanup:w2] State 2 cleanup finished (supervisor merges last.txt)
+[cleanup:w2] All states processed. searches=0 queue_removed=0
+[w2:cleanup:pro] Tor exited code=0

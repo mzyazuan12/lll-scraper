@@ -1,0 +1,288 @@
+[cleanup-rev:w10] Reverse queue cleanup bot (DRY_RUN=false) | states=10..10 | sort=alphabetical:desc (Z→A) | parents=5-letter, prune queue items >=6 chars from high end | completed[] is never modified
+[w10:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19460 (try 1)
+[w10:cleanuprev:pro] tor: Aug 05 08:24:00.134 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19460
+Aug 05 08:24:00.134 [warn] Fixing permissions on directory /tmp/lll-tor
+[w10:cleanuprev:pro] tor: Aug 05 08:24:00.000 [notice] Bootstrapped 0% (starting): Starting
+[w10:cleanuprev:pro] tor: Aug 05 08:24:01.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:24:01.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:24:07.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:24:08.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:24:08.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w10:cleanuprev:pro] tor: Aug 05 08:24:08.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w10:cleanuprev:pro] tor: Aug 05 08:24:08.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w10:cleanuprev:pro] tor: Aug 05 08:24:10.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w10:cleanuprev:pro] tor: Aug 05 08:24:10.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:24:10.000 [notice] I learned some more directory 
+[w10:cleanuprev:pro] tor: Aug 05 08:24:12.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:24:24.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:28:03.000 [warn] Bad element "$DA536A64DD4F0A3645623F8" while parsing a node family.
+[w10:cleanuprev:pro] tor: Aug 05 08:28:03.000 [warn] Bad element "$A12237F7A6D4EED38F0FAB9" while parsing a node family.
+[w10:cleanuprev:pro] tor: Aug 05 08:28:03.000 [warn] Bad element "$D914B73BAA8" while parsing a node family.
+[w10:cleanuprev:pro] tor: Aug 05 08:28:03.000 [warn] Bogus ed25519 key in microdesc
+[w10:cleanuprev:pro] tor: Aug 05 08:28:03.000 [warn] Bad element "$B0C0CAAE60B8F" while parsing a node family.
+[w10:cleanuprev:pro] tor: Aug 05 08:28:03.000 [warn] Bad element "$B043C" while parsing a node family.
+[w10:cleanuprev:pro] Tor exit IP probe failed — accepting circuit
+[w10:cleanuprev:pro] Tor ready on 19460
+[cleanup-rev:w10] Browser mode=tor via tor#1 socks5://127.0.0.1:19460
+[w10:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w10-r0
+[w10:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19460
+[w10:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w10:cleanuprev:pro] tor: Aug 05 08:28:08.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:28:09.000 [notice] Bootstrapped 66% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:28:10.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w10:cleanuprev:pro] tor: Aug 05 08:28:10.000 [notice] Bootstrapped 80% (ap_conn): Connecting to a relay to build circuits
+[w10:cleanuprev:pro] tor: Aug 05 08:28:10.000 [notice] Bootstrapped 85% (ap_conn_done): Connected to a relay to build circuits
+[w10:cleanuprev:pro] tor: Aug 05 08:28:10.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:28:10.000 [notice] Bootstrapped 9
+[w10:cleanuprev:pro] tor: Aug 05 08:28:11.000 [notice] Bootstrapped 100% (done): Done
+[w10:cleanuprev:pro] Library mode=pro
+[w10:cleanuprev:pro] Site Turnstile remint timed out (19334ms)
+[w10:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w10] lll-audit-state-10.json w10: queue=327 completed=2703 words=21567 parents=14 (reverse Z→A)
+[cleanup-rev:w10] Reverse-searching parent "ultra" (16 queued descendants, chars=efghijklmnopqrsz)
+[w10:cleanuprev:pro] Managed Turnstile miss (12058ms)
+[w10:cleanuprev:pro] Managed Turnstile miss (10227ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w10:cleanuprev:pro] Site Turnstile remint timed out (14447ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w10] Turnstile miss on "ultra" — reload (attempt 1)
+[w10:cleanuprev:pro] Managed Turnstile miss (10241ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w10:cleanuprev:pro] Site Turnstile remint timed out (14510ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w10] Rotating IP (#1) after Turnstile stuck on "ultra"
+[w10:cleanuprev:pro] Tor exited code=0
+[w10:cleanuprev:pro] Starting Tor gen=2 socks=127.0.0.1:19460 (try 1)
+[w10:cleanuprev:pro] tor: Aug 05 08:29:50.708 [warn] Fixing permissions on directory /tmp/lll-tor-w10
+[w10:cleanuprev:pro] tor: Aug 05 08:29:50.000 [notice] Bootstrapped 0% (starting): Starting
+[w10:cleanuprev:pro] tor: Aug 05 08:29:51.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:29:51.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:29:55.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:29:55.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:29:55.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w10:cleanuprev:pro] tor: Aug 05 08:29:56.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w10:cleanuprev:pro] tor: Aug 05 08:29:56.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w10:cleanuprev:pro] tor: Aug 05 08:29:58.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w10:cleanuprev:pro] tor: Aug 05 08:29:58.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:29:58.000 [notice] I learned some more directory 
+[w10:cleanuprev:pro] tor: Aug 05 08:29:59.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:30:08.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:30:13.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:30:14.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:30:14.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w10:cleanuprev:pro] tor: Aug 05 08:30:14.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:30:14.000 [notice] Bootstrapped 9
+[w10:cleanuprev:pro] tor: Aug 05 08:30:15.000 [notice] Bootstrapped 100% (done): Done
+[w10:cleanuprev:pro] Tor ready on 19460 exit=185.220.100.240
+[cleanup-rev:w10] Browser mode=tor via tor#2 socks5://127.0.0.1:19460 rotation=1
+[w10:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w10-r1
+[w10:cleanuprev:pro] Proxy tor#2 socks5://127.0.0.1:19460
+[w10:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w10:cleanuprev:pro] Library mode=pro
+[w10:cleanuprev:pro] Turnstile token present (len=837)
+[w10:cleanuprev:pro] Site Turnstile token (16542ms)
+[w10:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=ultra
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=ultra sort=alphabetical:desc (747ms direct)
+[cleanup-rev:w10] "ultra" reverse full page (100) start="ultrazodiacal" first='z' end="ultras" next='s' — remove 6 covered groups, keep 'z+s', removed 0/327 queue items, leave chars=efghijklmnopqrsz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "unapp" (9 queued descendants, chars=rstuvwxyz)
+[w10:cleanuprev:pro] Pacing 15s before "unapp" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile miss (12054ms)
+[w10:cleanuprev:pro] Managed Turnstile miss (10213ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w10:cleanuprev:pro] Site Turnstile remint timed out (14504ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w10] Turnstile miss on "unapp" — reload (attempt 1)
+[w10:cleanuprev:pro] Managed Turnstile miss (12018ms)
+[w10:cleanuprev:pro] Managed Turnstile miss (10274ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w10:cleanuprev:pro] Site Turnstile remint timed out (14480ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w10] Rotating IP (#2) after Turnstile stuck on "unapp"
+[w10:cleanuprev:pro] Tor exited code=0
+[w10:cleanuprev:pro] Starting Tor gen=3 socks=127.0.0.1:19460 (try 1)
+[w10:cleanuprev:pro] tor: Aug 05 08:32:08.585 [notice] Opening Socks listener on 127.0.0.1:19460
+Aug 05 08:32:08.585 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19460
+
+[w10:cleanuprev:pro] tor: Aug 05 08:32:08.000 [notice] Bootstrapped 0% (starting): Starting
+[w10:cleanuprev:pro] tor: Aug 05 08:32:09.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:32:09.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:33:18.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:33:18.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:33:18.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w10:cleanuprev:pro] tor: Aug 05 08:33:18.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w10:cleanuprev:pro] tor: Aug 05 08:33:18.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w10:cleanuprev:pro] tor: Aug 05 08:33:20.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w10:cleanuprev:pro] tor: Aug 05 08:33:20.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:33:20.000 [notice] I learned some more directory 
+[w10:cleanuprev:pro] tor: Aug 05 08:33:22.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:33:28.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:33:30.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:33:30.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:33:30.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w10:cleanuprev:pro] tor: Aug 05 08:33:30.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:33:30.000 [notice] Bootstrapped 9
+[w10:cleanuprev:pro] tor: Aug 05 08:33:31.000 [notice] Bootstrapped 100% (done): Done
+[w10:cleanuprev:pro] Tor ready on 19460 exit=192.42.116.107
+[cleanup-rev:w10] Browser mode=tor via tor#3 socks5://127.0.0.1:19460 rotation=2
+[w10:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w10-r2
+[w10:cleanuprev:pro] Proxy tor#3 socks5://127.0.0.1:19460
+[w10:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w10:cleanuprev:pro] Library mode=pro
+[w10:cleanuprev:pro] Site Turnstile remint timed out (19848ms)
+[w10:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w10:cleanuprev:pro] Managed Turnstile miss (12042ms)
+[w10:cleanuprev:pro] Managed Turnstile miss (10205ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w10:cleanuprev:pro] Site Turnstile remint timed out (14468ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w10] Turnstile miss on "unapp" — reload (attempt 3)
+[w10:cleanuprev:pro] Managed Turnstile miss (10228ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w10:cleanuprev:pro] Site Turnstile remint timed out (14543ms)
+[w10:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w10] Rotating IP (#3) after Turnstile stuck on "unapp"
+[w10:cleanuprev:pro] Tor exited code=0
+[w10:cleanuprev:pro] Starting Tor gen=4 socks=127.0.0.1:19460 (try 1)
+[w10:cleanuprev:pro] tor: Aug 05 08:35:27.477 [warn] Fixing permissions on directory /tmp/lll-tor-w10
+[w10:cleanuprev:pro] tor: Aug 05 08:35:27.000 [notice] Bootstrapped 0% (starting): Starting
+[w10:cleanuprev:pro] tor: Aug 05 08:35:28.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:35:28.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:35:35.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:35:35.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:35:35.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w10:cleanuprev:pro] tor: Aug 05 08:35:35.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w10:cleanuprev:pro] tor: Aug 05 08:35:35.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w10:cleanuprev:pro] tor: Aug 05 08:35:37.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w10:cleanuprev:pro] tor: Aug 05 08:35:37.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:35:37.000 [notice] I learned some more directory 
+[w10:cleanuprev:pro] tor: Aug 05 08:35:38.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:35:47.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:35:48.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:35:48.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:35:48.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w10:cleanuprev:pro] tor: Aug 05 08:35:49.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:35:49.000 [notice] Bootstrapped 9
+[w10:cleanuprev:pro] tor: Aug 05 08:35:50.000 [notice] Bootstrapped 100% (done): Done
+[w10:cleanuprev:pro] Tor ready on 19460 exit=192.42.116.45
+[cleanup-rev:w10] Browser mode=tor via tor#4 socks5://127.0.0.1:19460 rotation=3
+[w10:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w10-r3
+[w10:cleanuprev:pro] Proxy tor#4 socks5://127.0.0.1:19460
+[w10:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w10:cleanuprev:pro] Library mode=pro
+[w10:cleanuprev:pro] Turnstile mint hard timeout after 20000ms
+[w10:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w10] FAILED "unapp" try 1/8: No Turnstile token for direct search
+[cleanup-rev:w10] Rotating IP (#4) after retry "unapp" after failure
+[w10:cleanuprev:pro] Tor exited code=0
+[w10:cleanuprev:pro] Starting Tor gen=5 socks=127.0.0.1:19460 (try 1)
+[w10:cleanuprev:pro] tor: Aug 05 08:36:21.648 [warn] Fixing permissions on directory /tmp/lll-tor-w10
+[w10:cleanuprev:pro] tor: Aug 05 08:36:21.000 [notice] Bootstrapped 0% (starting): Starting
+Aug 05 08:36:21.000 [notice] Starting with guard context "default"
+[w10:cleanuprev:pro] tor: Aug 05 08:36:22.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:36:22.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:36:23.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w10:cleanuprev:pro] tor: Aug 05 08:36:23.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:36:23.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w10:cleanuprev:pro] tor: Aug 05 08:36:23.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w10:cleanuprev:pro] tor: Aug 05 08:36:24.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w10:cleanuprev:pro] Site Turnstile remint timed out (23148ms)
+[w10:cleanuprev:pro] tor: Aug 05 08:36:25.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w10:cleanuprev:pro] tor: Aug 05 08:36:26.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:36:26.000 [notice] I learned some more directory 
+[w10:cleanuprev:pro] tor: Aug 05 08:36:26.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:36:33.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:36:35.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:36:35.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w10:cleanuprev:pro] tor: Aug 05 08:36:35.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w10:cleanuprev:pro] tor: Aug 05 08:36:35.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:36:35.000 [notice] Bootstrapped 9
+[w10:cleanuprev:pro] tor: Aug 05 08:36:36.000 [notice] Bootstrapped 100% (done): Done
+[w10:cleanuprev:pro] Tor ready on 19460 exit=192.42.116.18
+[cleanup-rev:w10] Browser mode=tor via tor#5 socks5://127.0.0.1:19460 rotation=4
+[w10:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w10-r4
+[w10:cleanuprev:pro] Proxy tor#5 socks5://127.0.0.1:19460
+[w10:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w10:cleanuprev:pro] Library mode=pro
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 8006ms, remount)
+[w10:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unapp
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unapp sort=alphabetical:desc (568ms direct)
+[cleanup-rev:w10] "unapp" reverse full page (100) start="unapproximately" first='r' end="unappealableness" next='e' — remove 12 covered groups, keep 'r+e', removed 0/327 queue items, leave chars=rstuvwxyz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "uncha" (4 queued descendants, chars=wxyz)
+[w10:cleanuprev:pro] Pacing 15s before "uncha" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 5160ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=uncha
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=uncha sort=alphabetical:desc (466ms direct)
+[cleanup-rev:w10] "uncha" reverse full page (100) start="unchawed" first='w' end="unchallengable" next='l' — remove 10 covered groups, keep 'w+l', removed 0/327 queue items, leave chars=wxyz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "uncom" (10 queued descendants, chars=prstuvwxyz)
+[w10:cleanuprev:pro] Pacing 16s before "uncom" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 5413ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=uncom
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=uncom sort=alphabetical:desc (461ms direct)
+[cleanup-rev:w10] "uncom" reverse full page (100) start="uncomraded" first='r' end="uncompatible" next='p' — remove 1 covered groups, keep 'r+p', removed 0/327 queue items, leave chars=prstuvwxyz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "uncon" (22 queued descendants, chars=defghijklmnopqrstvwxyz)
+[w10:cleanuprev:pro] Pacing 16s before "uncon" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile miss (12036ms)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=uncon
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=uncon sort=alphabetical:desc (553ms direct)
+[cleanup-rev:w10] "uncon" reverse full page (100) start="unconvulsiveness" first='v' end="uncontradictive" next='t' — remove 1 covered groups, keep 'v+t', removed 0/327 queue items, leave chars=defghijklmnopqrstvwxyz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "undec" (2 queued descendants, chars=yz)
+[w10:cleanuprev:pro] Pacing 15s before "undec" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 5511ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=undec
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=undec sort=alphabetical:desc (462ms direct)
+[cleanup-rev:w10] "undec" reverse full page (100) start="undecylic" first='y' end="undecanoic" next='a' — remove 23 covered groups, keep 'y+a', removed 0/327 queue items, leave chars=yz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "under" (25 queued descendants, chars=bcdefghijklmnopqrstuvwxyz)
+[w10:cleanuprev:pro] Pacing 16s before "under" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 5366ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=under
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=under sort=alphabetical:desc (498ms direct)
+[cleanup-rev:w10] "under" reverse full page (100) start="underzealousness" first='z' end="underventilated" next='v' — remove 3 covered groups, keep 'z+v', removed 3/327 queue items, leave chars=bcdefghijklmnopqrstuvz, +100 words
+[cleanup-rev:w10] Reverse-searching parent "undis" (19 queued descendants, chars=hijklmnopqrstuvwxyz)
+[w10:cleanuprev:pro] Pacing 15s before "undis" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 5362ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=undis
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=undis sort=alphabetical:desc (490ms direct)
+[cleanup-rev:w10] "undis" reverse full page (100) start="undisturbingly" first='t' end="undispersing" next='p' — remove 3 covered groups, keep 't+p', removed 3/324 queue items, leave chars=hijklmnoptuvwxyz, +50 words
+[cleanup-rev:w10] Reverse-searching parent "unexp" (6 queued descendants, chars=uvwxyz)
+[w10:cleanuprev:pro] Pacing 16s before "unexp" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 5106ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unexp
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unexp sort=alphabetical:desc (516ms direct)
+[cleanup-rev:w10] "unexp" reverse full page (100) start="unexpurgatedness" first='u' end="unexpectably" next='e' — remove 15 covered groups, keep 'u+e', removed 0/321 queue items, leave chars=uvwxyz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "unfor" (4 queued descendants, chars=wxyz)
+[w10:cleanuprev:pro] Pacing 15s before "unfor" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 4899ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unfor
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unfor sort=alphabetical:desc (643ms direct)
+[cleanup-rev:w10] "unfor" reverse full page (100) start="unforwardly" first='w' end="unforeseeable" next='e' — remove 17 covered groups, keep 'w+e', removed 0/321 queue items, leave chars=wxyz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "unimp" (6 queued descendants, chars=uvwxyz)
+[w10:cleanuprev:pro] Pacing 15s before "unimp" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 5305ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unimp
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unimp sort=alphabetical:desc (639ms direct)
+[cleanup-rev:w10] "unimp" reverse full page (100) start="unimputed" first='u' end="unimpartible" next='a' — remove 19 covered groups, keep 'u+a', removed 0/321 queue items, leave chars=uvwxyz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "unint" (5 queued descendants, chars=ewxyz)
+[w10:cleanuprev:pro] Pacing 15s before "unint" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 4652ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unint
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unint sort=alphabetical:desc (519ms direct)
+[cleanup-rev:w10] "unint" reverse full page (100) start="unintwined" first='w' end="uninterlinked" next='e' — remove 17 covered groups, keep 'w+e', removed 0/321 queue items, leave chars=ewxyz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "unpar" (7 queued descendants, chars=tuvwxyz)
+[w10:cleanuprev:pro] Pacing 15s before "unpar" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 4342ms, remount)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unpar
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unpar sort=alphabetical:desc (599ms direct)
+[cleanup-rev:w10] "unpar" reverse full page (100) start="unparty" first='t' end="unparadoxal" next='a' — remove 18 covered groups, keep 't+a', removed 0/321 queue items, leave chars=tuvwxyz, +0 words
+[cleanup-rev:w10] Reverse-searching parent "unper" (5 queued descendants, chars=vwxyz)
+[w10:cleanuprev:pro] Pacing 15s before "unper" (gap=15500ms)
+[w10:cleanuprev:pro] Managed Turnstile token (len=816, 5568ms, reset)
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unper
+[w10:cleanuprev:pro] [api] 200 mode=pro startsWith=unper sort=alphabetical:desc (520ms direct)
+[cleanup-rev:w10] "unper" reverse full page (100) start="unperviousness" first='v' end="unpermanency" next='m' — remove 8 covered groups, keep 'v+m', removed 0/321 queue items, leave chars=vwxyz, +0 words
+[cleanup-rev:w10] lll-audit-state-10.json done — parents=14 searches=14 removed=6
+[cleanup-rev:w10] State 10 reverse cleanup finished
+[cleanup-rev:w10] All states processed. searches=14 queue_removed=6
+[w10:cleanuprev:pro] Managed Turnstile miss (534ms)
+[w10:cleanuprev:pro] Tor exited code=0

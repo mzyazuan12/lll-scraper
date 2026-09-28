@@ -1,0 +1,476 @@
+[cleanup:w11] Queue cleanup bot (DRY_RUN=false) | states=11..11 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w11:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19261 (try 1)
+[w11:cleanup:pro] tor: Aug 04 02:47:22.254 [warn] Fixing permissions on directory /tmp/lll-tor-w11
+[w11:cleanup:pro] tor: Aug 04 02:47:22.000 [notice] Bootstrapped 0% (starting): Starting
+[w11:cleanup:pro] tor: Aug 04 02:47:23.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w11:cleanup:pro] tor: Aug 04 02:47:23.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w11:cleanup:pro] tor: Aug 04 02:48:31.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w11:cleanup:pro] tor: Aug 04 02:48:31.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w11:cleanup:pro] tor: Aug 04 02:48:31.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w11:cleanup:pro] tor: Aug 04 02:48:32.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w11:cleanup:pro] tor: Aug 04 02:48:32.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w11:cleanup:pro] tor: Aug 04 02:48:33.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w11:cleanup:pro] tor: Aug 04 02:48:33.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:48:33.000 [notice] I learned some more directory 
+[w11:cleanup:pro] tor: Aug 04 02:48:33.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 02:48:36.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 02:48:40.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 02:48:40.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 02:48:41.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w11:cleanup:pro] tor: Aug 04 02:48:41.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:48:41.000 [notice] Bootstrapped 9
+[w11:cleanup:pro] tor: Aug 04 02:48:42.000 [notice] Bootstrapped 100% (done): Done
+[w11:cleanup:pro] Tor ready on 19261 exit=188.116.36.143
+[cleanup:w11] Browser mode=tor via tor#1 socks5://127.0.0.1:19261
+[w11:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w11
+[w11:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19261
+[w11:cleanup:pro] Opening https://lastletterlibrary.com
+[w11:cleanup:pro] Library mode=pro
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w11] lll-audit-state-11.json w11: queue=699 completed=226 words=4907 parents=25
+[cleanup:w11] Searching parent "wag" (27 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wag" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wag" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wag" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] FAILED "wag": No Turnstile token for direct search
+[cleanup:w11] Searching parent "wai" (28 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wai" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wai" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wai" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] FAILED "wai": No Turnstile token for direct search
+[cleanup:w11] Searching parent "wal" (28 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wal" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wal" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wal" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] FAILED "wal": No Turnstile token for direct search
+[cleanup:w11] Searching parent "wan" (28 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wan" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wan" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wan" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] FAILED "wan": No Turnstile token for direct search
+[cleanup:w11] Searching parent "war" (28 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "war" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "war" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "war" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] FAILED "war": No Turnstile token for direct search
+[cleanup:w11] Searching parent "was" (28 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "was" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "was" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "was" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] FAILED "was": No Turnstile token for direct search
+[cleanup:w11] Searching parent "wat" (28 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wat" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wat" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wat" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] FAILED "wat": No Turnstile token for direct search
+[cleanup:w11] Searching parent "wea" (28 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wea" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wea" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wea" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] FAILED "wea": No Turnstile token for direct search
+[cleanup:w11] Searching parent "web" (28 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "web" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "web" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "web" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] FAILED "web": No Turnstile token for direct search
+[cleanup:w11] Searching parent "wee" (28 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wee" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wee" — reload (attempt 2)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wee" — reload (attempt 3)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+
+--- restart with Tor-rotate on Turnstile miss ---
+[cleanup:w11] Queue cleanup bot (DRY_RUN=false) | states=11..11 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w11:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19261 (try 1)
+[w11:cleanup:pro] tor: Aug 04 03:35:12.934 [warn] Fixing permissions on directory /tmp/lll-tor-w11
+[w11:cleanup:pro] tor: Aug 04 03:35:13.000 [notice] Bootstrapped 0% (starting): Starting
+[w11:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w11:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w11:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w11:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 03:35:14.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w11:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w11:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w11:cleanup:pro] tor: Aug 04 03:35:16.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w11:cleanup:pro] tor: Aug 04 03:35:16.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:35:16.000 [notice] I learned some more directory 
+[w11:cleanup:pro] tor: Aug 04 03:35:17.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+
+--- respawn 2026-08-04T08:35:18.390Z ---
+[cleanup:w11] Queue cleanup bot (DRY_RUN=false) | states=11..11 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w11:cleanup:pro] Tor exited code=null
+[w11:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19261 (try 1)
+[w11:cleanup:pro] tor: Aug 04 03:35:18.703 [warn] Fixing permissions on directory /tmp/lll-tor-w11
+[w11:cleanup:pro] tor: Aug 04 03:35:18.000 [notice] Bootstrapped 0% (starting): Starting
+[w11:cleanup:pro] tor: Aug 04 03:35:19.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w11:cleanup:pro] tor: Aug 04 03:35:19.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w11:cleanup:pro] tor: Aug 04 03:35:20.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w11:cleanup:pro] tor: Aug 04 03:35:20.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w11:cleanup:pro] tor: Aug 04 03:35:20.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w11:cleanup:pro] tor: Aug 04 03:35:20.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w11:cleanup:pro] tor: Aug 04 03:35:20.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w11:cleanup:pro] tor: Aug 04 03:35:21.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w11:cleanup:pro] tor: Aug 04 03:35:22.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:35:22.000 [notice] I learned some more directory 
+[w11:cleanup:pro] tor: Aug 04 03:35:22.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 03:35:28.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 03:35:28.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 03:35:28.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 03:35:28.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w11:cleanup:pro] tor: Aug 04 03:35:28.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 03:35:28.000 [notice] Bootstrapped 9
+[w11:cleanup:pro] tor: Aug 04 03:35:29.000 [notice] Bootstrapped 100% (done): Done
+[w11:cleanup:pro] Tor ready on 19261 exit=185.220.101.12
+[cleanup:w11] Browser mode=tor via tor#1 socks5://127.0.0.1:19261
+[w11:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w11-r0
+[w11:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19261
+[w11:cleanup:pro] Opening https://lastletterlibrary.com
+[w11:cleanup:pro] Library mode=pro
+[w11:cleanup:pro] Tor ready on 19261 exit=185.220.101.12
+[cleanup:w11] Browser mode=tor via tor#1 socks5://127.0.0.1:19261
+[w11:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w11-r0
+[w11:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19261
+[cleanup:w11] browserType.launchPersistentContext: Opening in existing browser session. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE 127.0.0.1" --proxy-server=socks5://127.0.0.1:19261 --proxy-bypass-list=<-loopback> --disable-blink-features=AutomationControlled --user-data-dir=/tmp/lll-pw-cleanup-w11-r0 --remote-debugging-pipe about:blank
+  - <launched> pid=54947
+  - [pid=54947][out] Opening in existing browser session.
+  - [pid=54947] <gracefully close start>
+  - [pid=54947] <kill>
+  - [pid=54947] <will force kill>
+  - [pid=54947] exception while trying to kill process: Error: kill EPERM
+  - [pid=54947] <process did exit: exitCode=0, signal=null>
+  - [pid=54947] starting temporary directories cleanup
+  - [pid=54947] finished temporary directories cleanup
+  - [pid=54947] <gracefully close end>
+
+    at async launchSession (/Users/mac/Downloads/LastLetter-main/lll-security-audit/audit.mjs:1738:19)
+    at async openFresh (/Users/mac/Downloads/LastLetter-main/lll-security-audit/cleanup-queue.mjs:232:21)
+    at async openBrowserSession (/Users/mac/Downloads/LastLetter-main/lll-security-audit/cleanup-queue.mjs:238:10)
+    at async main (/Users/mac/Downloads/LastLetter-main/lll-security-audit/cleanup-queue.mjs:394:15) {
+  log: [
+    '  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE 127.0.0.1" --proxy-server=socks5://127.0.0.1:19261 --proxy-bypass-list=<-loopback> --disable-blink-features=AutomationControlled --user-data-dir=/tmp/lll-pw-cleanup-w11-r0 --remote-debugging-pipe about:blank',
+    '  - <launched> pid=54947',
+    '  - [pid=54947][out] Opening in existing browser session.',
+    '  - [pid=54947] <gracefully close start>',
+    '  - [pid=54947] <kill>',
+    '  - [pid=54947] <will force kill>',
+    '  - [pid=54947] exception while trying to kill process: Error: kill EPERM',
+    '  - [pid=54947] <process did exit: exitCode=0, signal=null>',
+    '  - [pid=54947] starting temporary directories cleanup',
+    '  - [pid=54947] finished temporary directories cleanup',
+    '  - [pid=54947] <gracefully close end>'
+  ]
+}
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w11] lll-audit-state-11.json w11: queue=699 completed=226 words=4907 parents=25
+[cleanup:w11] Searching parent "wag" (27 queued descendants)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Turnstile miss on "wag" — reload (attempt 1)
+[w11:cleanup:pro] Turnstile mint miss (1/2)
+[w11:cleanup:pro] Site Turnstile remint timed out
+[w11:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w11] Rotating IP (#1) after Turnstile stuck on "wag"
+[w11:cleanup:pro] Tor exited code=0
+[w11:cleanup:pro] Starting Tor gen=2 socks=127.0.0.1:19261 (try 1)
+[w11:cleanup:pro] tor: Aug 04 03:38:27.454 [warn] Fixing permissions on directory /tmp/lll-tor-w11
+[w11:cleanup:pro] tor: Aug 04 03:38:27.000 [notice] Bootstrapped 0% (starting): Starting
+[w11:cleanup:pro] tor: Aug 04 03:38:28.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w11:cleanup:pro] tor: Aug 04 03:38:28.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w11:cleanup:pro] tor: Aug 04 03:39:37.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w11:cleanup:pro] tor: Aug 04 03:39:37.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 03:39:37.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w11:cleanup:pro] tor: Aug 04 03:39:37.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w11:cleanup:pro] tor: Aug 04 03:39:37.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w11:cleanup:pro] tor: Aug 04 03:39:38.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w11:cleanup:pro] tor: Aug 04 03:39:38.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:39:38.000 [notice] I learned some more directory 
+[w11:cleanup:pro] tor: Aug 04 03:39:39.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 03:39:42.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 03:39:43.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 03:39:43.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w11:cleanup:pro] tor: Aug 04 03:39:43.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w11:cleanup:pro] tor: Aug 04 03:39:43.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 03:39:43.000 [notice] Bootstrapped 9
+[w11:cleanup:pro] tor: Aug 04 03:39:44.000 [notice] Bootstrapped 100% (done): Done
+[w11:cleanup:pro] Tor ready on 19261 exit=192.42.116.58
+[cleanup:w11] Browser mode=tor via tor#2 socks5://127.0.0.1:19261 rotation=1
+[w11:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w11-r1
+[w11:cleanup:pro] Proxy tor#2 socks5://127.0.0.1:19261
+[w11:cleanup:pro] Opening https://lastletterlibrary.com
+[w11:cleanup:pro] Library mode=pro
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wag
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wag (465ms direct)
+[cleanup:w11] "wag" full page (100) ends "wagnerize" next='n' — skip 15 groups, removed 14/699 queue items, +0 words
+[cleanup:w11] Searching parent "wai" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wai" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wai
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wai (335ms direct)
+[cleanup:w11] "wai" full page (100) ends "waistings" next='s' — skip 20 groups, removed 20/685 queue items, +0 words
+[cleanup:w11] Searching parent "wal" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wal" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wal
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wal (360ms direct)
+[cleanup:w11] "wal" full page (100) ends "wallaby" next='l' — skip 13 groups, removed 13/665 queue items, +0 words
+[cleanup:w11] Searching parent "wan" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wan" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wan
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wan (346ms direct)
+[cleanup:w11] "wan" full page (100) ends "wanly" next='l' — skip 13 groups, removed 13/652 queue items, +0 words
+[cleanup:w11] Searching parent "war" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "war" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=war
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=war (334ms direct)
+[cleanup:w11] "war" full page (100) ends "wardrop" next='d' — skip 5 groups, removed 5/639 queue items, +0 words
+[cleanup:w11] Searching parent "was" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "was" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=was
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=was (414ms direct)
+[cleanup:w11] "was" full page (100) ends "washpots" next='h' — skip 9 groups, removed 9/634 queue items, +0 words
+[cleanup:w11] Searching parent "wat" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wat" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wat
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wat (325ms direct)
+[cleanup:w11] "wat" full page (100) ends "water-plantains" next='e' — skip 6 groups, removed 6/625 queue items, +0 words
+[cleanup:w11] Searching parent "wea" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wea" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wea
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wea (297ms direct)
+[cleanup:w11] "wea" full page (100) ends "weaponize" next='p' — skip 17 groups, removed 17/619 queue items, +0 words
+[cleanup:w11] Searching parent "web" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "web" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=web
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=web (311ms direct)
+[cleanup:w11] "web" full page (100) ends "webworms" next='w' — skip 24 groups, removed 24/602 queue items, +0 words
+[cleanup:w11] Searching parent "wee" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wee" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wee
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wee (299ms direct)
+[cleanup:w11] "wee" full page (100) ends "weepier" next='p' — skip 17 groups, removed 17/578 queue items, +0 words
+[cleanup:w11] Searching parent "wei" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wei" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wei
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wei (335ms direct)
+[cleanup:w11] "wei" full page (100) ends "weirdness" next='r' — skip 19 groups, removed 19/561 queue items, +0 words
+[cleanup:w11] Searching parent "wel" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wel" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wel
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wel (357ms direct)
+[cleanup:w11] "wel" full page (100) ends "well-ribbed-up" next='l' — skip 13 groups, removed 13/542 queue items, +0 words
+[cleanup:w11] Searching parent "wha" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wha" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wha
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wha (323ms direct)
+[cleanup:w11] "wha" full page (100) ends "whap" next='p' — skip 17 groups, removed 17/529 queue items, +0 words
+[cleanup:w11] Searching parent "whe" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "whe" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=whe
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=whe (397ms direct)
+[cleanup:w11] "whe" full page (100) ends "wheelrace" next='e' — skip 6 groups, removed 6/512 queue items, +0 words
+[cleanup:w11] Searching parent "whi" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "whi" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=whi
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=whi (450ms direct)
+[cleanup:w11] "whi" full page (100) ends "whillying" next='l' — skip 13 groups, removed 13/506 queue items, +0 words
+[cleanup:w11] Searching parent "who" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "who" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=who
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=who (314ms direct)
+[cleanup:w11] "who" full page (100) ends "whoopees" next='o' — skip 16 groups, removed 16/493 queue items, +0 words
+[cleanup:w11] Searching parent "wil" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wil" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wil
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wil (361ms direct)
+[cleanup:w11] "wil" full page (100) ends "will" next='l' — skip 13 groups, removed 13/477 queue items, +0 words
+[cleanup:w11] Searching parent "win" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "win" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=win
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=win (363ms direct)
+[cleanup:w11] "win" full page (100) ends "windflaw" next='d' — skip 5 groups, removed 5/464 queue items, +0 words
+[cleanup:w11] Searching parent "wis" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wis" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wis
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wis (337ms direct)
+[cleanup:w11] "wis" full page (100) ends "wiskinkie" next='k' — skip 12 groups, removed 12/459 queue items, +0 words
+[cleanup:w11] Searching parent "wit" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wit" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wit
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wit (346ms direct)
+[cleanup:w11] "wit" full page (100) ends "withed" next='h' — skip 9 groups, removed 9/447 queue items, +0 words
+[cleanup:w11] Searching parent "wom" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wom" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wom
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wom (321ms direct)
+[cleanup:w11] "wom" full page (100) ends "womplit" next='p' — skip 17 groups, removed 17/438 queue items, +0 words
+[cleanup:w11] Searching parent "woo" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "woo" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=woo
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=woo (388ms direct)
+[cleanup:w11] "woo" full page (100) ends "woodhaunters" next='d' — skip 5 groups, removed 5/421 queue items, +0 words
+[cleanup:w11] Searching parent "wor" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wor" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wor
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wor (352ms direct)
+[cleanup:w11] "wor" full page (100) ends "work-and-twist" next='k' — skip 12 groups, removed 12/416 queue items, +0 words
+[cleanup:w11] Searching parent "wra" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wra" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wra
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wra (500ms direct)
+[cleanup:w11] "wra" full page (100) ends "wrawler" next='w' — skip 24 groups, removed 24/404 queue items, +0 words
+[cleanup:w11] Searching parent "wri" (28 queued descendants)
+[w11:cleanup:pro] Pacing 15s before "wri" (gap=15200ms)
+[w11:cleanup:pro] Managed Turnstile token (len=816)
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wri
+[w11:cleanup:pro] [api] 200 mode=pro startsWith=wri (508ms direct)
+[cleanup:w11] "wri" full page (100) ends "writedown" next='t' — skip 21 groups, removed 21/380 queue items, +0 words
+[cleanup:w11] lll-audit-state-11.json done — parents=25 searches=25 removed=340
+[cleanup:w11] State 11 cleanup finished (supervisor merges last.txt)
+[cleanup:w11] All states processed. searches=25 queue_removed=340
+[w11:cleanup:pro] Tor exited code=0

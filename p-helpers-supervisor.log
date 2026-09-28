@@ -1,0 +1,21 @@
+Starting 4 p-queue helpers for W7 (PROXY_MODE=list)
+Helper w4 pid=53308 letters=ij queue=131 → worker-4.log
+Helper w5 pid=53796 letters=kl queue=131 → worker-5.log
+Helper w8 pid=54314 letters=qr queue=130 → worker-8.log
+Helper w11 pid=54817 letters=wxyz queue=130 → worker-11.log
+P-helpers health: 4 active, 0 drained, assisting W7
+P-helpers health: 4 active, 0 drained, assisting W7
+P-helpers health: 4 active, 0 drained, assisting W7
+P-helpers health: 4 active, 0 drained, assisting W7
+P-helpers health: 4 active, 0 drained, assisting W7
+P-helpers health: 4 active, 0 drained, assisting W7
+P-helpers health: 4 active, 0 drained, assisting W7
+
+=== restart 2026-08-05T21:09:50Z ===
+Starting 4 p-queue helpers for W7 (PROXY_MODE=list)
+Helper w4 pid=65541 letters=ij queue=126 → worker-4.log
+Helper w5 pid=66120 letters=kl queue=130 → worker-5.log
+Helper w8 pid=66725 letters=qr queue=130 → worker-8.log
+Helper w11 pid=67440 letters=wxyz queue=124 → worker-11.log
+P-helpers health: 4 active, 0 drained, assisting W7
+P-helpers health: 4 active, 0 drained, assisting W7

@@ -1,0 +1,597 @@
+[cleanup-rev:w6] Reverse queue cleanup bot (DRY_RUN=false) | states=6..6 | sort=alphabetical:desc (Z→A) | parents=5-letter, prune queue items >=6 chars from high end | completed[] is never modified
+[w6:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:23:46.078 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:23:46.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:23:47.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:23:47.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:23:49.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:23:49.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:23:49.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:23:50.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:23:52.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:23:54.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:23:54.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:23:54.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:23:56.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:25:11.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:25:13.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:25:13.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:25:13.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:25:13.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:25:13.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:25:14.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=192.42.116.104
+[cleanup-rev:w6] Browser mode=tor via tor#1 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r0
+[w6:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Managed Turnstile token (len=816, 11253ms, remount)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w6] lll-audit-state-6.json w6: queue=216 completed=2303 words=24416 parents=8 (reverse Z→A)
+[cleanup-rev:w6] Reverse-searching parent "macro" (14 queued descendants, chars=defghijklmnopz)
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=macro
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=macro sort=alphabetical:desc (602ms direct)
+[cleanup-rev:w6] "macro" reverse full page (100) start="macrozoospore" first='z' end="macropodia" next='p' — remove 9 covered groups, keep 'z+p', removed 0/216 queue items, leave chars=defghijklmnopz, +0 words
+[cleanup-rev:w6] Reverse-searching parent "magne" (7 queued descendants, chars=tuvwxyz)
+[w6:cleanuprev:pro] Pacing 15s before "magne" (gap=15500ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (12042ms)
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=magne
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=magne sort=alphabetical:desc (855ms direct)
+[cleanup-rev:w6] "magne" reverse full page (100) start="magnets" first='t' end="magnetizer" next='t' — remove 0 covered groups, keep 't', removed 0/216 queue items, leave chars=tuvwxyz, +0 words
+[cleanup-rev:w6] Reverse-searching parent "megal" (6 queued descendants, chars=uvwxyz)
+[w6:cleanuprev:pro] Pacing 15s before "megal" (gap=15500ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (12043ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10190ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14498ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Turnstile miss on "megal" — reload (attempt 1)
+[w6:cleanuprev:pro] Managed Turnstile miss (12004ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10233ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14483ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Rotating IP (#1) after Turnstile stuck on "megal"
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=2 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:27:25.090 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19456
+Aug 05 08:27:25.090 [warn] Fixing permissions on directory /tmp/lll-tor
+[w6:cleanuprev:pro] tor: Aug 05 08:27:25.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:27:26.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:27:26.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:27:27.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:27:27.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:27:27.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:27:27.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:27:27.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:27:28.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:27:29.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:27:29.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:27:30.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:27:37.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:27:40.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:27:41.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:27:41.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:27:42.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:27:42.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:27:43.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=185.220.101.191
+[cleanup-rev:w6] Browser mode=tor via tor#2 socks5://127.0.0.1:19456 rotation=1
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r1
+[w6:cleanuprev:pro] Proxy tor#2 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Site Turnstile remint timed out (19267ms)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] Managed Turnstile miss (12049ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10226ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14524ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Turnstile miss on "megal" — reload (attempt 3)
+[w6:cleanuprev:pro] Managed Turnstile miss (10222ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14482ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Rotating IP (#2) after Turnstile stuck on "megal"
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=3 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:29:24.836 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:29:24.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:29:26.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:29:26.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:29:26.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:29:27.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:29:27.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:29:28.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:29:28.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:29:29.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:29:30.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:29:30.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:29:30.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:29:39.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:29:39.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:29:39.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:29:40.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:29:41.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:29:41.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:29:41.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=94.16.115.121
+[cleanup-rev:w6] Browser mode=tor via tor#3 socks5://127.0.0.1:19456 rotation=2
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r2
+[w6:cleanuprev:pro] Proxy tor#3 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Turnstile token present (len=816)
+[w6:cleanuprev:pro] Site Turnstile token (16472ms)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w6] FAILED "megal" try 1/8: No Turnstile token for direct search
+[cleanup-rev:w6] Rotating IP (#3) after retry "megal" after failure
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=4 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:30:07.518 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:30:07.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:30:08.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:30:08.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:30:10.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:30:10.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:30:10.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:30:10.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:30:15.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:30:17.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:30:17.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:30:17.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:30:18.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:30:22.000 [notice] Bootstrapped 56% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:30:24.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:30:25.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:30:25.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:30:25.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:30:25.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:30:26.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=192.42.116.15
+[cleanup-rev:w6] Browser mode=tor via tor#4 socks5://127.0.0.1:19456 rotation=3
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r3
+[w6:cleanuprev:pro] Proxy tor#4 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Site Turnstile remint timed out (19210ms)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] Managed Turnstile miss (12033ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10193ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14501ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Turnstile miss on "megal" — reload (attempt 1)
+[w6:cleanuprev:pro] Managed Turnstile miss (10228ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14483ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Rotating IP (#4) after Turnstile stuck on "megal"
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=5 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:32:07.293 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19456
+Aug 05 08:32:07.293 [warn] Fixing permissions on directory /tmp/lll-tor
+[w6:cleanuprev:pro] tor: Aug 05 08:32:07.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:32:08.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:32:08.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:32:09.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:32:09.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:32:09.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:32:09.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:32:15.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:32:17.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:32:17.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:32:17.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:32:18.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:32:26.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:32:26.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:32:26.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:32:26.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:32:27.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:32:27.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:32:28.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=45.66.35.24
+[cleanup-rev:w6] Browser mode=tor via tor#5 socks5://127.0.0.1:19456 rotation=4
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r4
+[w6:cleanuprev:pro] Proxy tor#5 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Turnstile mint hard timeout after 20000ms
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (20632ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (12004ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10256ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14440ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Turnstile miss on "megal" — reload (attempt 3)
+[w6:cleanuprev:pro] Managed Turnstile miss (10211ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14413ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Rotating IP (#5) after Turnstile stuck on "megal"
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=6 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:34:09.363 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:34:09.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:34:10.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:34:10.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:34:16.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:34:16.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:34:16.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:34:16.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:34:16.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:34:17.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:34:17.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:34:17.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:34:18.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:34:26.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:34:30.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:34:31.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:34:31.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:34:32.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:34:32.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:34:33.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=192.42.116.43
+[cleanup-rev:w6] Browser mode=tor via tor#6 socks5://127.0.0.1:19456 rotation=5
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r5
+[w6:cleanuprev:pro] Proxy tor#6 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Site Turnstile remint timed out (19285ms)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w6] FAILED "megal" try 2/8: No Turnstile token for direct search
+[cleanup-rev:w6] Rotating IP (#6) after retry "megal" after failure
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=7 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:35:04.747 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:35:04.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:35:05.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:35:05.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:35:06.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:35:07.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:35:07.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:35:07.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:35:07.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:35:09.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:35:09.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:35:09.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:35:10.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:35:18.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:35:20.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:35:20.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:35:20.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:35:20.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:35:20.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:35:21.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=185.220.101.0
+[cleanup-rev:w6] Browser mode=tor via tor#7 socks5://127.0.0.1:19456 rotation=6
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r6
+[w6:cleanuprev:pro] Proxy tor#7 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Site Turnstile remint timed out (19265ms)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] Managed Turnstile miss (12047ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10241ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14405ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Turnstile miss on "megal" — reload (attempt 1)
+[w6:cleanuprev:pro] Managed Turnstile miss (10225ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Turnstile token present (len=816)
+[w6:cleanuprev:pro] Site Turnstile token (11417ms)
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=megal
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=megal sort=alphabetical:desc (988ms direct)
+[cleanup-rev:w6] "megal" reverse full page (100) start="megaluridae" first='u' end="megalesthete" next='e' — remove 15 covered groups, keep 'u+e', removed 0/216 queue items, leave chars=uvwxyz, +0 words
+[cleanup-rev:w6] Reverse-searching parent "melan" (6 queued descendants, chars=uvwxyz)
+[w6:cleanuprev:pro] Pacing 15s before "melan" (gap=15500ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (12042ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10235ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14580ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Turnstile miss on "melan" — reload (attempt 1)
+[w6:cleanuprev:pro] Managed Turnstile miss (12008ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10193ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14468ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Rotating IP (#7) after Turnstile stuck on "melan"
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=8 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:38:26.199 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19456
+Aug 05 08:38:26.199 [warn] Fixing permissions on directory /tmp/lll-tor
+[w6:cleanuprev:pro] tor: Aug 05 08:38:26.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:38:27.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:38:27.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:38:30.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:38:31.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:38:31.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:38:31.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:38:31.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:38:33.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:38:33.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:38:33.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:38:34.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:38:42.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:38:42.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:38:43.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:38:43.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:38:43.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:38:43.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:38:44.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=192.42.116.20
+[cleanup-rev:w6] Browser mode=tor via tor#8 socks5://127.0.0.1:19456 rotation=7
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r7
+[w6:cleanuprev:pro] Proxy tor#8 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] Managed Turnstile miss (12867ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10238ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14498ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Turnstile miss on "melan" — reload (attempt 3)
+[w6:cleanuprev:pro] Managed Turnstile miss (10250ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14444ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Rotating IP (#8) after Turnstile stuck on "melan"
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=9 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:40:12.239 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19456
+Aug 05 08:40:12.240 [warn] Fixing permissions on directory /tmp/lll-tor
+[w6:cleanuprev:pro] tor: Aug 05 08:40:12.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:40:13.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:40:13.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:40:14.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:40:14.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:40:14.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:40:14.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:40:22.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:40:22.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:40:23.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:40:23.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:40:24.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:40:31.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:40:31.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:40:31.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:40:31.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:40:32.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:40:32.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:40:33.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=31.25.11.143
+[cleanup-rev:w6] Browser mode=tor via tor#9 socks5://127.0.0.1:19456 rotation=8
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r8
+[w6:cleanuprev:pro] Proxy tor#9 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Managed Turnstile token (len=816, 5165ms, remount)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w6] FAILED "melan" try 1/8: No Turnstile token for direct search
+[cleanup-rev:w6] Rotating IP (#9) after retry "melan" after failure
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=10 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:40:47.718 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:40:47.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:40:48.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:40:48.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:41:57.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:41:57.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:41:57.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:41:57.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:41:58.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:41:59.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:42:00.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:42:00.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:42:00.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:42:04.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:43:10.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:43:10.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:43:13.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:43:14.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:43:14.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:43:14.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=179.60.149.108
+[cleanup-rev:w6] Browser mode=tor via tor#10 socks5://127.0.0.1:19456 rotation=9
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r9
+[w6:cleanuprev:pro] Proxy tor#10 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Managed Turnstile token (len=816, 4750ms, remount)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=melan
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=melan sort=alphabetical:desc (638ms direct)
+[cleanup-rev:w6] "melan" reverse full page (100) start="melanuric" first='u' end="melanist" next='i' — remove 11 covered groups, keep 'u+i', removed 0/216 queue items, leave chars=uvwxyz, +0 words
+[cleanup-rev:w6] Reverse-searching parent "metal" (5 queued descendants, chars=lwxyz)
+[w6:cleanuprev:pro] Pacing 15s before "metal" (gap=15500ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (12028ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10252ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Managed Turnstile token (len=816, 4027ms, remount)
+[w6:cleanuprev:pro] Turnstile token present (len=816)
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=metal
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=metal sort=alphabetical:desc (407ms direct)
+[cleanup-rev:w6] "metal" reverse full page (100) start="metalworks" first='w' end="metalliding" next='l' — remove 10 covered groups, keep 'w+l', removed 0/216 queue items, leave chars=lwxyz, +0 words
+[cleanup-rev:w6] Reverse-searching parent "metap" (7 queued descendants, chars=tuvwxyz)
+[w6:cleanuprev:pro] Pacing 16s before "metap" (gap=15500ms)
+[w6:cleanuprev:pro] [api] 403 mode=pro startsWith=metap
+[w6:cleanuprev:pro] [api] 403 mode=pro startsWith=metap sort=alphabetical:desc (785ms direct)
+[cleanup-rev:w6] FAILED "metap" try 1/8: API 403 for "metap": Anti-bot verification failed. Please refresh the page.
+[cleanup-rev:w6] Rotating IP (#10) after retry "metap" after failure
+[w6:cleanuprev:pro] Managed Turnstile miss (794ms)
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=11 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:44:25.420 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:44:25.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:44:26.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:44:26.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:44:29.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:44:33.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:44:33.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:44:33.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:44:33.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:44:35.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:44:35.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:44:35.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:44:36.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:44:44.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:44:46.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:44:46.000 [notice] Bootstrapped 66% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:44:47.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:44:47.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:44:47.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:44:48.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=185.220.101.2
+[cleanup-rev:w6] Browser mode=tor via tor#11 socks5://127.0.0.1:19456 rotation=10
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r10
+[w6:cleanuprev:pro] Proxy tor#11 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Site Turnstile remint timed out (19565ms)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] Managed Turnstile miss (12036ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10256ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Turnstile token present (len=816)
+[w6:cleanuprev:pro] Site Turnstile token (11677ms)
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=metap
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=metap sort=alphabetical:desc (560ms direct)
+[cleanup-rev:w6] "metap" reverse full page (100) start="metapterygoid" first='t' end="metaphoricalness" next='h' — remove 11 covered groups, keep 't+h', removed 0/216 queue items, leave chars=tuvwxyz, +0 words
+[cleanup-rev:w6] Reverse-searching parent "methy" (9 queued descendants, chars=lstuvwxyz)
+[w6:cleanuprev:pro] Pacing 15s before "methy" (gap=15500ms)
+[w6:cleanuprev:pro] [api] 403 mode=pro startsWith=methy
+[w6:cleanuprev:pro] [api] 403 mode=pro startsWith=methy sort=alphabetical:desc (1098ms direct)
+[cleanup-rev:w6] FAILED "methy" try 1/8: API 403 for "methy": Anti-bot verification failed. Please refresh the page.
+[cleanup-rev:w6] Rotating IP (#11) after retry "methy" after failure
+[w6:cleanuprev:pro] Managed Turnstile miss (1108ms)
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=12 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:46:08.358 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:46:08.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:46:09.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:46:09.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:46:15.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:46:15.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:46:15.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:46:15.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:46:16.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:46:18.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:46:18.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:46:18.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:46:18.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:46:27.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:46:27.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:46:27.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:46:27.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:46:27.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:46:27.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:46:28.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=192.42.116.18
+[cleanup-rev:w6] Browser mode=tor via tor#12 socks5://127.0.0.1:19456 rotation=11
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r11
+[w6:cleanuprev:pro] Proxy tor#12 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Site Turnstile remint timed out (19259ms)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] Managed Turnstile miss (12007ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10246ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14498ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Turnstile miss on "methy" — reload (attempt 1)
+[w6:cleanuprev:pro] Managed Turnstile miss (10270ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Site Turnstile remint timed out (14519ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w6] Rotating IP (#12) after Turnstile stuck on "methy"
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=13 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:48:13.049 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:48:13.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:48:14.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:48:14.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:48:14.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:48:15.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:48:15.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:48:15.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:48:15.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:48:17.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:48:18.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:48:18.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:48:19.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:48:26.000 [notice] Bootstrapped 56% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:48:27.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:48:27.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:48:27.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:48:28.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:48:28.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:48:29.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=185.220.101.27
+[cleanup-rev:w6] Browser mode=tor via tor#13 socks5://127.0.0.1:19456 rotation=12
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r12
+[w6:cleanuprev:pro] Proxy tor#13 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Site Turnstile remint timed out (19263ms)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] Managed Turnstile miss (12038ms)
+[w6:cleanuprev:pro] Managed Turnstile miss (10211ms)
+[w6:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w6:cleanuprev:pro] Turnstile token present (len=837)
+[w6:cleanuprev:pro] Site Turnstile token (11445ms)
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=methy
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=methy sort=alphabetical:desc (485ms direct)
+[cleanup-rev:w6] "methy" reverse full page (100) start="methystic" first='s' end="methylating" next='l' — remove 6 covered groups, keep 's+l', removed 0/216 queue items, leave chars=lstuvwxyz, +0 words
+[cleanup-rev:w6] Reverse-searching parent "metro" (3 queued descendants, chars=xyz)
+[w6:cleanuprev:pro] Pacing 16s before "metro" (gap=15500ms)
+[w6:cleanuprev:pro] [api] 403 mode=pro startsWith=metro
+[w6:cleanuprev:pro] [api] 403 mode=pro startsWith=metro sort=alphabetical:desc (808ms direct)
+[cleanup-rev:w6] FAILED "metro" try 1/8: API 403 for "metro": Anti-bot verification failed. Please refresh the page.
+[cleanup-rev:w6] Rotating IP (#13) after retry "metro" after failure
+[w6:cleanuprev:pro] Managed Turnstile miss (819ms)
+[w6:cleanuprev:pro] Tor exited code=0
+[w6:cleanuprev:pro] Starting Tor gen=14 socks=127.0.0.1:19456 (try 1)
+[w6:cleanuprev:pro] tor: Aug 05 08:49:45.150 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanuprev:pro] tor: Aug 05 08:49:45.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanuprev:pro] tor: Aug 05 08:49:46.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:49:46.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:49:47.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanuprev:pro] tor: Aug 05 08:49:47.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:49:47.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanuprev:pro] tor: Aug 05 08:49:47.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:49:47.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanuprev:pro] tor: Aug 05 08:49:49.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanuprev:pro] tor: Aug 05 08:49:49.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:49:49.000 [notice] I learned some more directory 
+[w6:cleanuprev:pro] tor: Aug 05 08:49:50.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:49:57.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:49:57.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:49:58.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanuprev:pro] tor: Aug 05 08:49:58.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanuprev:pro] tor: Aug 05 08:49:58.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:49:58.000 [notice] Bootstrapped 9
+[w6:cleanuprev:pro] tor: Aug 05 08:49:59.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanuprev:pro] Tor ready on 19456 exit=23.95.117.249
+[cleanup-rev:w6] Browser mode=tor via tor#14 socks5://127.0.0.1:19456 rotation=13
+[w6:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w6-r13
+[w6:cleanuprev:pro] Proxy tor#14 socks5://127.0.0.1:19456
+[w6:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w6:cleanuprev:pro] Library mode=pro
+[w6:cleanuprev:pro] Turnstile token present (len=816)
+[w6:cleanuprev:pro] Site Turnstile token (16785ms)
+[w6:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=metro
+[w6:cleanuprev:pro] [api] 200 mode=pro startsWith=metro sort=alphabetical:desc (697ms direct)
+[cleanup-rev:w6] "metro" reverse full page (100) start="metroxylon" first='x' end="metrocracy" next='c' — remove 20 covered groups, keep 'x+c', removed 0/216 queue items, leave chars=xyz, +0 words
+[cleanup-rev:w6] lll-audit-state-6.json done — parents=8 searches=8 removed=0
+[cleanup-rev:w6] State 6 reverse cleanup finished
+[cleanup-rev:w6] All states processed. searches=8 queue_removed=0
+[w6:cleanuprev:pro] Managed Turnstile miss (743ms)
+[w6:cleanuprev:pro] Tor exited code=0

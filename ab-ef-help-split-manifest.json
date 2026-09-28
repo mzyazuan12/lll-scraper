@@ -1,0 +1,93 @@
+{
+  "at": "2026-08-06T01:39:34.745Z",
+  "plans": {
+    "0": {
+      "0": {
+        "role": "parent",
+        "assist": "ab",
+        "count": 128,
+        "sample": [
+          "bess",
+          "besy",
+          "betg",
+          "betk",
+          "beto"
+        ]
+      },
+      "12": {
+        "role": "helper",
+        "assist": "ab",
+        "count": 128,
+        "sample": [
+          "best",
+          "besz",
+          "beth",
+          "betl",
+          "betp"
+        ]
+      },
+      "13": {
+        "role": "helper",
+        "assist": "ab",
+        "count": 127,
+        "sample": [
+          "besw",
+          "bete",
+          "beti",
+          "betm",
+          "betq"
+        ]
+      },
+      "14": {
+        "role": "helper",
+        "assist": "ab",
+        "count": 127,
+        "sample": [
+          "besx",
+          "betf",
+          "betj",
+          "betn",
+          "betr"
+        ]
+      }
+    },
+    "2": {
+      "2": {
+        "role": "parent",
+        "assist": "ef",
+        "count": 87,
+        "sample": [
+          "flem",
+          "flep",
+          "fles",
+          "flez",
+          "flip"
+        ]
+      },
+      "15": {
+        "role": "helper",
+        "assist": "ef",
+        "count": 86,
+        "sample": [
+          "flen",
+          "fleq",
+          "flet",
+          "flin",
+          "flix"
+        ]
+      },
+      "16": {
+        "role": "helper",
+        "assist": "ef",
+        "count": 86,
+        "sample": [
+          "fleo",
+          "fler",
+          "fley",
+          "flio",
+          "fliy"
+        ]
+      }
+    }
+  }
+}

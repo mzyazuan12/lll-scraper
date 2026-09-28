@@ -1,0 +1,46 @@
+[cleanup:w8] Queue cleanup bot (DRY_RUN=false) | states=8..8 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w8:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19258 (try 1)
+[w8:cleanup:pro] tor: Aug 04 02:47:10.127 [warn] Fixing permissions on directory /tmp/lll-tor-w8
+[w8:cleanup:pro] tor: Aug 04 02:47:10.000 [notice] Bootstrapped 0% (starting): Starting
+[w8:cleanup:pro] tor: Aug 04 02:47:11.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w8:cleanup:pro] tor: Aug 04 02:47:11.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w8:cleanup:pro] tor: Aug 04 02:47:12.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w8:cleanup:pro] tor: Aug 04 02:47:13.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w8:cleanup:pro] tor: Aug 04 02:47:13.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w8:cleanup:pro] tor: Aug 04 02:47:13.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w8:cleanup:pro] tor: Aug 04 02:47:13.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w8:cleanup:pro] tor: Aug 04 02:47:15.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w8:cleanup:pro] tor: Aug 04 02:47:15.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:47:15.000 [notice] I learned some more directory 
+[w8:cleanup:pro] tor: Aug 04 02:47:16.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w8:cleanup:pro] tor: Aug 04 02:47:26.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w8:cleanup:pro] tor: Aug 04 02:47:27.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w8:cleanup:pro] tor: Aug 04 02:47:27.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w8:cleanup:pro] tor: Aug 04 02:47:27.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w8:cleanup:pro] tor: Aug 04 02:47:27.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:47:27.000 [notice] Bootstrapped 9
+[w8:cleanup:pro] tor: Aug 04 02:47:28.000 [notice] Bootstrapped 100% (done): Done
+[w8:cleanup:pro] Tor ready on 19258 exit=194.32.107.172
+[cleanup:w8] Browser mode=tor via tor#1 socks5://127.0.0.1:19258
+[w8:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w8
+[w8:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19258
+[w8:cleanup:pro] Opening https://lastletterlibrary.com
+[w8:cleanup:pro] Library mode=pro
+[w8:cleanup:pro] Managed Turnstile token (len=816)
+[w8:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w8] lll-audit-state-8.json w8: queue=110 completed=255 words=1996 parents=2
+[cleanup:w8] Searching parent "qua" (83 queued descendants)
+[w8:cleanup:pro] Managed Turnstile token (len=816)
+[w8:cleanup:pro] [api] 200 mode=pro startsWith=qua
+[w8:cleanup:pro] [api] 200 mode=pro startsWith=qua (337ms direct)
+[cleanup:w8] "qua" full page (100) ends "quadratosquamosal" next='d' — skip 5 groups, removed 0/110 queue items, +0 words
+[cleanup:w8] Searching parent "qui" (27 queued descendants)
+[w8:cleanup:pro] Pacing 15s before "qui" (gap=15200ms)
+[w8:cleanup:pro] Managed Turnstile token (len=816)
+[w8:cleanup:pro] [api] 200 mode=pro startsWith=qui
+[w8:cleanup:pro] [api] 200 mode=pro startsWith=qui (855ms direct)
+[cleanup:w8] "qui" full page (100) ends "quiddist" next='d' — skip 5 groups, removed 0/110 queue items, +0 words
+[cleanup:w8] lll-audit-state-8.json done — parents=2 searches=2 removed=0
+[cleanup:w8] State 8 cleanup finished (supervisor merges last.txt)
+[cleanup:w8] All states processed. searches=2 queue_removed=0
+[w8:cleanup:pro] Tor exited code=0

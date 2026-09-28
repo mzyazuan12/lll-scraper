@@ -1,0 +1,288 @@
+[cleanup:w5] Queue cleanup bot (DRY_RUN=false) | states=5..5 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w5:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19255 (try 1)
+[w5:cleanup:pro] tor: Aug 04 02:46:57.996 [warn] Fixing permissions on directory /tmp/lll-tor-w5
+[w5:cleanup:pro] tor: Aug 04 02:46:58.000 [notice] Bootstrapped 0% (starting): Starting
+[w5:cleanup:pro] tor: Aug 04 02:46:59.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w5:cleanup:pro] tor: Aug 04 02:46:59.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w5:cleanup:pro] tor: Aug 04 02:47:05.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w5:cleanup:pro] tor: Aug 04 02:47:05.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:47:05.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w5:cleanup:pro] tor: Aug 04 02:47:05.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w5:cleanup:pro] tor: Aug 04 02:47:05.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w5:cleanup:pro] tor: Aug 04 02:47:06.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w5:cleanup:pro] tor: Aug 04 02:47:06.000 [notice] The current consensus has no exit nodes. Tor can only build internal paths, such as paths to onion services.
+Aug 04 02:47:06.000 [n
+[w5:cleanup:pro] tor: Aug 04 02:47:07.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w5:cleanup:pro] tor: Aug 04 02:47:11.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w5:cleanup:pro] tor: Aug 04 02:47:11.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w5:cleanup:pro] tor: Aug 04 02:47:12.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w5:cleanup:pro] tor: Aug 04 02:47:12.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w5:cleanup:pro] tor: Aug 04 02:47:12.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:47:12.000 [notice] Bootstrapped 9
+[w5:cleanup:pro] tor: Aug 04 02:47:13.000 [notice] Bootstrapped 100% (done): Done
+[w5:cleanup:pro] Tor ready on 19255 exit=192.42.116.51
+[cleanup:w5] Browser mode=tor via tor#1 socks5://127.0.0.1:19255
+[w5:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w5
+[w5:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19255
+[w5:cleanup:pro] Opening https://lastletterlibrary.com
+[w5:cleanup:pro] Library mode=pro
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w5] lll-audit-state-5.json w5: queue=480 completed=249 words=4858 parents=15
+[cleanup:w5] Searching parent "kal" (28 queued descendants)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kal" — reload (attempt 1)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kal" — reload (attempt 2)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kal" — reload (attempt 3)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] FAILED "kal": No Turnstile token for direct search
+[cleanup:w5] Searching parent "kam" (28 queued descendants)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kam" — reload (attempt 1)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kam" — reload (attempt 2)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kam" — reload (attempt 3)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] FAILED "kam": No Turnstile token for direct search
+[cleanup:w5] Searching parent "kan" (28 queued descendants)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kan" — reload (attempt 1)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kan" — reload (attempt 2)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kan" — reload (attempt 3)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] FAILED "kan": No Turnstile token for direct search
+[cleanup:w5] Searching parent "kar" (28 queued descendants)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kar" — reload (attempt 1)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kar" — reload (attempt 2)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kar" — reload (attempt 3)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] FAILED "kar": No Turnstile token for direct search
+[cleanup:w5] Searching parent "kat" (28 queued descendants)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kat" — reload (attempt 1)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kat" — reload (attempt 2)
+[w5:cleanup:pro] Turnstile mint miss (1/2)
+[w5:cleanup:pro] Site Turnstile remint timed out
+[w5:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w5] Turnstile miss on "kat" — reload (attempt 3)
+[w5:cleanup:pro] Custom Search panel missing (attempt 1); retrying
+[w5:cleanup:pro] Custom Search panel missing (attempt 2); retrying
+[w5:cleanup:pro] Custom Search panel missing (attempt 3); retrying
+[cleanup:w5] FAILED "kat": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "kee" (28 queued descendants)
+[cleanup:w5] FAILED "kee": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "ken" (28 queued descendants)
+[cleanup:w5] FAILED "ken": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "ker" (28 queued descendants)
+[cleanup:w5] FAILED "ker": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "ket" (28 queued descendants)
+[cleanup:w5] FAILED "ket": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "kha" (28 queued descendants)
+[cleanup:w5] FAILED "kha": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "kil" (28 queued descendants)
+[cleanup:w5] FAILED "kil": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "kin" (28 queued descendants)
+[cleanup:w5] FAILED "kin": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "kit" (28 queued descendants)
+[cleanup:w5] FAILED "kit": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "kni" (28 queued descendants)
+[cleanup:w5] FAILED "kni": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] Searching parent "kno" (28 queued descendants)
+[cleanup:w5] FAILED "kno": Could not enable Pro mode: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('button.library-mode-option').filter({ hasT
+[cleanup:w5] lll-audit-state-5.json done — parents=15 searches=0 removed=0
+[cleanup:w5] State 5 cleanup finished (supervisor merges last.txt)
+[cleanup:w5] All states processed. searches=0 queue_removed=0
+[w5:cleanup:pro] Tor exited code=0
+
+--- restart with Tor-rotate on Turnstile miss ---
+[cleanup:w5] Queue cleanup bot (DRY_RUN=false) | states=5..5 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w5:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19255 (try 1)
+[w5:cleanup:pro] tor: Aug 04 03:35:12.976 [warn] Fixing permissions on directory /tmp/lll-tor-w5
+[w5:cleanup:pro] tor: Aug 04 03:35:13.000 [notice] Bootstrapped 0% (starting): Starting
+[w5:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w5:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w5:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w5:cleanup:pro] tor: Aug 04 03:35:14.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 03:35:14.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w5:cleanup:pro] tor: Aug 04 03:35:15.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w5:cleanup:pro] tor: Aug 04 03:35:15.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w5:cleanup:pro] tor: Aug 04 03:35:16.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w5:cleanup:pro] tor: Aug 04 03:35:16.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:35:16.000 [notice] I learned some more directory 
+[w5:cleanup:pro] tor: Aug 04 03:35:16.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w5:cleanup:pro] tor: Aug 04 03:35:20.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w5:cleanup:pro] tor: Aug 04 03:35:21.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w5:cleanup:pro] tor: Aug 04 03:35:21.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w5:cleanup:pro] tor: Aug 04 03:35:21.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w5:cleanup:pro] tor: Aug 04 03:35:22.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 03:35:22.000 [notice] Bootstrapped 9
+[w5:cleanup:pro] tor: Aug 04 03:35:22.000 [notice] Bootstrapped 100% (done): Done
+[w5:cleanup:pro] Tor ready on 19255 exit=178.20.55.182
+[cleanup:w5] Browser mode=tor via tor#1 socks5://127.0.0.1:19255
+[w5:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w5-r0
+[w5:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19255
+[w5:cleanup:pro] Opening https://lastletterlibrary.com
+[w5:cleanup:pro] Library mode=pro
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w5] lll-audit-state-5.json w5: queue=480 completed=249 words=4858 parents=15
+[cleanup:w5] Searching parent "kal" (28 queued descendants)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kal
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kal (522ms direct)
+[cleanup:w5] "kal" full page (100) ends "kalium" next='i' — skip 10 groups, removed 10/480 queue items, +0 words
+[cleanup:w5] Searching parent "kam" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kam" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kam
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kam (409ms direct)
+[cleanup:w5] "kam" full page (100) ends "kampfgruppen" next='p' — skip 17 groups, removed 17/470 queue items, +0 words
+[cleanup:w5] Searching parent "kan" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kan" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kan
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kan (430ms direct)
+[cleanup:w5] "kan" full page (100) ends "kansas" next='s' — skip 20 groups, removed 20/453 queue items, +0 words
+[cleanup:w5] Searching parent "kar" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kar" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kar
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kar (478ms direct)
+[cleanup:w5] "kar" full page (100) ends "karmadharaya" next='m' — skip 14 groups, removed 14/433 queue items, +0 words
+[cleanup:w5] Searching parent "kat" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kat" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kat
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kat (474ms direct)
+[cleanup:w5] "kat" full page (100) ends "kathleen" next='h' — skip 9 groups, removed 9/419 queue items, +0 words
+[cleanup:w5] Searching parent "kee" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kee" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kee
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kee (459ms direct)
+[cleanup:w5] "kee" full page (100) ends "keesters" next='s' — skip 20 groups, removed 20/410 queue items, +0 words
+[cleanup:w5] Searching parent "ken" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "ken" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=ken
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=ken (479ms direct)
+[cleanup:w5] "ken" full page (100) ends "kentias" next='t' — skip 21 groups, removed 21/390 queue items, +0 words
+[cleanup:w5] Searching parent "ker" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "ker" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=ker
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=ker (432ms direct)
+[cleanup:w5] "ker" full page (100) ends "keratosropy" next='a' — skip 2 groups, removed 2/369 queue items, +0 words
+[cleanup:w5] Searching parent "ket" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "ket" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=ket
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=ket (391ms direct)
+[cleanup:w5] "ket" full page (100) ends "kettledrums" next='t' — skip 21 groups, removed 21/367 queue items, +0 words
+[cleanup:w5] Searching parent "kha" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kha" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kha
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kha (386ms direct)
+[cleanup:w5] "kha" full page (100) ends "khatib" next='t' — skip 21 groups, removed 21/346 queue items, +0 words
+[cleanup:w5] Searching parent "kil" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kil" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kil
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kil (1890ms direct)
+[cleanup:w5] "kil" full page (100) ends "kilns" next='n' — skip 15 groups, removed 15/325 queue items, +0 words
+[cleanup:w5] Searching parent "kin" (28 queued descendants)
+[w5:cleanup:pro] Pacing 14s before "kin" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kin
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kin (390ms direct)
+[cleanup:w5] "kin" full page (100) ends "kinematographs" next='e' — skip 6 groups, removed 6/310 queue items, +0 words
+[cleanup:w5] Searching parent "kit" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kit" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kit
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kit (328ms direct)
+[cleanup:w5] "kit" full page (100) ends "kittatinny" next='t' — skip 21 groups, removed 21/304 queue items, +0 words
+[cleanup:w5] Searching parent "kni" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kni" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kni
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kni (338ms direct)
+[cleanup:w5] "kni" full page (100) ends "knittle" next='t' — skip 21 groups, removed 21/283 queue items, +0 words
+[cleanup:w5] Searching parent "kno" (28 queued descendants)
+[w5:cleanup:pro] Pacing 15s before "kno" (gap=15200ms)
+[w5:cleanup:pro] Managed Turnstile token (len=816)
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kno
+[w5:cleanup:pro] [api] 200 mode=pro startsWith=kno (451ms direct)
+[cleanup:w5] "kno" full page (100) ends "knotheads" next='t' — skip 21 groups, removed 21/262 queue items, +0 words
+[cleanup:w5] lll-audit-state-5.json done — parents=15 searches=15 removed=239
+[cleanup:w5] State 5 cleanup finished (supervisor merges last.txt)
+[cleanup:w5] All states processed. searches=15 queue_removed=239
+[w5:cleanup:pro] Tor exited code=0

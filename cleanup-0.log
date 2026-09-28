@@ -1,0 +1,446 @@
+[cleanup:w0] Queue cleanup bot (DRY_RUN=false) | states=0..0 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w0:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19250 (try 1)
+[w0:cleanup:pro] tor: Aug 04 02:46:37.989 [warn] Fixing permissions on directory /tmp/lll-tor-w0
+[w0:cleanup:pro] tor: Aug 04 02:46:38.000 [notice] Bootstrapped 0% (starting): Starting
+[w0:cleanup:pro] tor: Aug 04 02:46:39.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w0:cleanup:pro] tor: Aug 04 02:46:39.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w0:cleanup:pro] tor: Aug 04 02:46:45.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w0:cleanup:pro] tor: Aug 04 02:46:45.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w0:cleanup:pro] tor: Aug 04 02:46:45.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w0:cleanup:pro] tor: Aug 04 02:46:45.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w0:cleanup:pro] tor: Aug 04 02:46:45.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w0:cleanup:pro] tor: Aug 04 02:46:45.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w0:cleanup:pro] tor: Aug 04 02:46:46.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:46:46.000 [notice] I learned some more directory 
+[w0:cleanup:pro] tor: Aug 04 02:46:46.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w0:cleanup:pro] tor: Aug 04 02:46:49.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w0:cleanup:pro] tor: Aug 04 02:46:52.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w0:cleanup:pro] tor: Aug 04 02:46:52.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w0:cleanup:pro] tor: Aug 04 02:46:52.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w0:cleanup:pro] tor: Aug 04 02:46:53.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:46:53.000 [notice] Bootstrapped 9
+[w0:cleanup:pro] tor: Aug 04 02:46:53.000 [notice] Bootstrapped 100% (done): Done
+[w0:cleanup:pro] Tor ready on 19250 exit=45.84.107.55
+[cleanup:w0] Browser mode=tor via tor#1 socks5://127.0.0.1:19250
+[w0:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w0
+[w0:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19250
+[w0:cleanup:pro] Opening https://lastletterlibrary.com
+[w0:cleanup:pro] Library mode=pro
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w0] lll-audit-state-0.json w0: queue=1073 completed=244 words=6619 parents=29
+[cleanup:w0] Searching parent "aba" (8 queued descendants)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aba
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aba (432ms direct)
+[cleanup:w0] "aba" full page (100) ends "abashes" next='s' — skip 20 groups, removed 0/1073 queue items, +0 words
+[cleanup:w0] Searching parent "abe" (2 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "abe" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abe
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abe (419ms direct)
+[cleanup:w0] "abe" full page (100) ends "abeyancies" next='y' — skip 26 groups, removed 0/1073 queue items, +0 words
+[cleanup:w0] Searching parent "abo" (9 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "abo" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abo
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abo (488ms direct)
+[cleanup:w0] "abo" full page (100) ends "aborted" next='r' — skip 19 groups, removed 0/1073 queue items, +0 words
+[cleanup:w0] Searching parent "abr" (12 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "abr" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abr
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abr (423ms direct)
+[cleanup:w0] "abr" full page (100) ends "abrocitinib" next='o' — skip 16 groups, removed 0/1073 queue items, +0 words
+[cleanup:w0] Searching parent "abs" (18 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "abs" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abs
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abs (460ms direct)
+[cleanup:w0] "abs" full page (100) ends "absist" next='i' — skip 10 groups, removed 0/1073 queue items, +0 words
+[cleanup:w0] Searching parent "aca" (13 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aca" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aca
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aca (463ms direct)
+[cleanup:w0] "aca" full page (100) ends "acanthites" next='n' — skip 15 groups, removed 0/1073 queue items, +0 words
+[cleanup:w0] Searching parent "acc" (22 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "acc" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=acc
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=acc (690ms direct)
+[cleanup:w0] "acc" full page (100) ends "acception" next='e' — skip 6 groups, removed 0/1073 queue items, +0 words
+[cleanup:w0] Searching parent "ace" (28 queued descendants)
+[w0:cleanup:pro] Pacing 14s before "ace" (gap=15200ms)
+[w0:cleanup:pro] Turnstile mint miss (1/2)
+[w0:cleanup:pro] Site Turnstile remint timed out
+[w0:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w0] Turnstile miss on "ace" — reload (attempt 1)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ace
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ace (569ms direct)
+[cleanup:w0] "ace" full page (100) ends "acespec" next='s' — skip 20 groups, removed 20/1073 queue items, +0 words
+[cleanup:w0] Searching parent "ach" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "ach" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ach
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ach (431ms direct)
+[cleanup:w0] "ach" full page (100) ends "achira" next='i' — skip 10 groups, removed 10/1053 queue items, +0 words
+[cleanup:w0] Searching parent "aci" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aci" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aci
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aci (788ms direct)
+[cleanup:w0] "aci" full page (100) ends "acidy" next='d' — skip 5 groups, removed 5/1043 queue items, +0 words
+[cleanup:w0] Searching parent "aco" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aco" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aco
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aco (412ms direct)
+[cleanup:w0] "aco" full page (100) ends "acousticon" next='u' — skip 22 groups, removed 22/1038 queue items, +0 words
+[cleanup:w0] Searching parent "acr" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "acr" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=acr
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=acr (459ms direct)
+[cleanup:w0] "acr" full page (100) ends "acrobatism" next='o' — skip 16 groups, removed 16/1016 queue items, +0 words
+[cleanup:w0] Searching parent "act" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "act" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=act
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=act (448ms direct)
+[cleanup:w0] "act" full page (100) ends "actinomycotic" next='i' — skip 10 groups, removed 10/1000 queue items, +0 words
+[cleanup:w0] Searching parent "ada" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "ada" (gap=15200ms)
+[w0:cleanup:pro] Turnstile mint miss (1/2)
+[w0:cleanup:pro] Site Turnstile remint timed out
+[w0:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w0] Turnstile miss on "ada" — reload (attempt 1)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ada
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ada (496ms direct)
+[cleanup:w0] "ada" full page (100) ends "adaptogenic" next='p' — skip 17 groups, removed 17/990 queue items, +0 words
+[cleanup:w0] Searching parent "add" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "add" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=add
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=add (483ms direct)
+[cleanup:w0] "add" full page (100) ends "addoomed" next='o' — skip 16 groups, removed 16/973 queue items, +0 words
+[cleanup:w0] Searching parent "ade" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "ade" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ade
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ade (477ms direct)
+[cleanup:w0] "ade" full page (100) ends "adenomyoepithelioma" next='n' — skip 15 groups, removed 15/957 queue items, +0 words
+[cleanup:w0] Searching parent "adi" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adi" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adi
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adi (399ms direct)
+[cleanup:w0] "adi" full page (100) ends "adipsy" next='p' — skip 17 groups, removed 17/942 queue items, +0 words
+[cleanup:w0] Searching parent "adj" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adj" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adj
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adj (409ms direct)
+[cleanup:w0] "adj" full page (100) ends "adjustor" next='u' — skip 22 groups, removed 22/925 queue items, +0 words
+[cleanup:w0] Searching parent "adm" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adm" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adm
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adm (483ms direct)
+[cleanup:w0] "adm" full page (100) ends "admits" next='i' — skip 10 groups, removed 10/903 queue items, +0 words
+[cleanup:w0] Searching parent "ado" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "ado" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ado
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ado (523ms direct)
+[cleanup:w0] "ado" full page (100) ends "adorno" next='r' — skip 19 groups, removed 19/893 queue items, +0 words
+[cleanup:w0] Searching parent "adu" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adu" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adu
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adu (428ms direct)
+[cleanup:w0] "adu" full page (100) ends "adusting" next='s' — skip 20 groups, removed 20/874 queue items, +0 words
+[cleanup:w0] Searching parent "adv" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adv" (gap=15200ms)
+[w0:cleanup:pro] Turnstile mint miss (1/2)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adv
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adv (480ms direct)
+[cleanup:w0] "adv" full page (100) ends "adversaria" next='e' — skip 6 groups, removed 6/854 queue items, +0 words
+[cleanup:w0] Searching parent "aer" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aer" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aer
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aer (492ms direct)
+[cleanup:w0] "aer" full page (100) ends "aerobombs" next='o' — skip 16 groups, removed 16/848 queue items, +0 words
+[cleanup:w0] Searching parent "aff" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aff" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aff
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aff (400ms direct)
+[cleanup:w0] "aff" full page (100) ends "affiliation" next='i' — skip 10 groups, removed 10/832 queue items, +0 words
+[cleanup:w0] Searching parent "aft" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aft" (gap=15200ms)
+[w0:cleanup:pro] Turnstile mint miss (1/2)
+[w0:cleanup:pro] Site Turnstile remint timed out
+[w0:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w0] Turnstile miss on "aft" — reload (attempt 1)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aft
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aft (650ms direct)
+[cleanup:w0] "aft" full page (100) ends "afterload" next='e' — skip 6 groups, removed 6/822 queue items, +0 words
+[cleanup:w0] Searching parent "aga" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aga" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aga
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aga (452ms direct)
+[cleanup:w0] "aga" full page (100) ends "agarose" next='r' — skip 19 groups, removed 19/816 queue items, +0 words
+[cleanup:w0] Searching parent "agg" (28 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "agg" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=agg
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=agg (598ms direct)
+[cleanup:w0] "agg" full page (100) ends "aggregate" next='r' — skip 19 groups, removed 19/797 queue items, +0 words
+[cleanup:w0] Searching parent "agr" (28 queued descendants)
+[w0:cleanup:pro] Pacing 13s before "agr" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=agr
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=agr (566ms direct)
+[cleanup:w0] "agr" full page (100) ends "agriological" next='i' — skip 10 groups, removed 10/778 queue items, +0 words
+[cleanup:w0] Searching parent "air" (21 queued descendants)
+[w0:cleanup:pro] Pacing 14s before "air" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=air
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=air (635ms direct)
+[cleanup:w0] "air" full page (100) ends "airfares" next='f' — skip 7 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] lll-audit-state-0.json done — parents=29 searches=29 removed=305
+[cleanup:w0] State 0 cleanup finished (supervisor merges last.txt)
+[cleanup:w0] All states processed. searches=29 queue_removed=305
+[w0:cleanup:pro] unhandledRejection mouse.move: Target page, context or browser has been closed
+    at interactWithTurnstile (/Users/mac/Downloads/LastLetter-main/lll-security-audit/audit.mjs:894:24)
+    at async mintViaManagedWidget (/Users/mac/Downloads/LastLetter-main/lll-security-audit/audit.mjs:1270:3)
+    at async file:///Users/mac/Downloads/LastLetter-main/lll-security-audit/audit.mjs:1442:21 {
+  log: []
+}
+
+--- respawn 2026-08-04T07:59:10.299Z ---
+[cleanup:w0] Queue cleanup bot (DRY_RUN=false) | states=0..0 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w0:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19250 (try 1)
+[w0:cleanup:pro] tor: Aug 04 02:59:12.307 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19250
+Aug 04 02:59:12.307 [warn] Fixing permissions on directory /tmp/lll-tor
+[w0:cleanup:pro] tor: Aug 04 02:59:12.000 [notice] Bootstrapped 0% (starting): Starting
+[w0:cleanup:pro] tor: Aug 04 02:59:13.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w0:cleanup:pro] tor: Aug 04 02:59:13.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w0:cleanup:pro] tor: Aug 04 03:00:22.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w0:cleanup:pro] tor: Aug 04 03:00:22.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 03:00:22.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w0:cleanup:pro] tor: Aug 04 03:00:22.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w0:cleanup:pro] tor: Aug 04 03:00:22.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w0:cleanup:pro] tor: Aug 04 03:00:22.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w0:cleanup:pro] tor: Aug 04 03:00:22.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:00:22.000 [notice] I learned some more directory 
+[w0:cleanup:pro] tor: Aug 04 03:00:23.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w0:cleanup:pro] tor: Aug 04 03:00:28.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w0:cleanup:pro] tor: Aug 04 03:00:28.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w0:cleanup:pro] tor: Aug 04 03:00:29.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w0:cleanup:pro] tor: Aug 04 03:00:29.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w0:cleanup:pro] tor: Aug 04 03:00:29.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 03:00:29.000 [notice] Bootstrapped 9
+[w0:cleanup:pro] tor: Aug 04 03:00:30.000 [notice] Bootstrapped 100% (done): Done
+[w0:cleanup:pro] Tor ready on 19250 exit=45.84.107.74
+[cleanup:w0] Browser mode=tor via tor#1 socks5://127.0.0.1:19250
+[w0:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w0
+[w0:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19250
+[w0:cleanup:pro] Opening https://lastletterlibrary.com
+[w0:cleanup:pro] Library mode=pro
+[w0:cleanup:pro] Site Turnstile remint timed out
+[w0:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w0] lll-audit-state-0.json w0: queue=768 completed=244 words=6619 parents=29
+[cleanup:w0] Searching parent "aba" (8 queued descendants)
+[w0:cleanup:pro] Turnstile mint miss (1/2)
+[w0:cleanup:pro] Site Turnstile remint timed out
+[w0:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w0] Turnstile miss on "aba" — reload (attempt 1)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aba
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aba (616ms direct)
+[cleanup:w0] "aba" full page (100) ends "abashes" next='s' — skip 20 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "abe" (2 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "abe" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 429 mode=pro startsWith=abe
+[w0:cleanup:pro] [api] 429 mode=pro startsWith=abe (275ms direct)
+[w0:cleanup:pro] Learned server gap ≈ 15200ms (wait hint 2000ms)
+[cleanup:w0] 429 on "abe" — wait 2000ms (attempt 1)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abe
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abe (323ms direct)
+[cleanup:w0] "abe" full page (100) ends "abeyancies" next='y' — skip 26 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "abo" (9 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "abo" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abo
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abo (325ms direct)
+[cleanup:w0] "abo" full page (100) ends "aborted" next='r' — skip 19 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "abr" (12 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "abr" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abr
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abr (363ms direct)
+[cleanup:w0] "abr" full page (100) ends "abrocitinib" next='o' — skip 16 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "abs" (18 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "abs" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abs
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=abs (326ms direct)
+[cleanup:w0] "abs" full page (100) ends "absist" next='i' — skip 10 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "aca" (13 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aca" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aca
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aca (336ms direct)
+[cleanup:w0] "aca" full page (100) ends "acanthites" next='n' — skip 15 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "acc" (22 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "acc" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=acc
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=acc (356ms direct)
+[cleanup:w0] "acc" full page (100) ends "acception" next='e' — skip 6 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "ace" (8 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "ace" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ace
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ace (319ms direct)
+[cleanup:w0] "ace" full page (100) ends "acespec" next='s' — skip 20 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "ach" (18 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "ach" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ach
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ach (341ms direct)
+[cleanup:w0] "ach" full page (100) ends "achira" next='i' — skip 10 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "aci" (23 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aci" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aci
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aci (323ms direct)
+[cleanup:w0] "aci" full page (100) ends "acidy" next='d' — skip 5 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "aco" (6 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aco" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aco
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aco (330ms direct)
+[cleanup:w0] "aco" full page (100) ends "acousticon" next='u' — skip 22 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "acr" (12 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "acr" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=acr
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=acr (332ms direct)
+[cleanup:w0] "acr" full page (100) ends "acrobatism" next='o' — skip 16 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "act" (18 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "act" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=act
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=act (321ms direct)
+[cleanup:w0] "act" full page (100) ends "actinomycotic" next='i' — skip 10 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "ada" (11 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "ada" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ada
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ada (316ms direct)
+[cleanup:w0] "ada" full page (100) ends "adaptogenic" next='p' — skip 17 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "add" (12 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "add" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=add
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=add (334ms direct)
+[cleanup:w0] "add" full page (100) ends "addoomed" next='o' — skip 16 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "ade" (13 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "ade" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ade
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ade (306ms direct)
+[cleanup:w0] "ade" full page (100) ends "adenomyoepithelioma" next='n' — skip 15 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "adi" (11 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adi" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adi
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adi (310ms direct)
+[cleanup:w0] "adi" full page (100) ends "adipsy" next='p' — skip 17 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "adj" (6 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adj" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adj
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adj (304ms direct)
+[cleanup:w0] "adj" full page (100) ends "adjustor" next='u' — skip 22 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "adm" (18 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adm" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adm
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adm (317ms direct)
+[cleanup:w0] "adm" full page (100) ends "admits" next='i' — skip 10 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "ado" (9 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "ado" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ado
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=ado (340ms direct)
+[cleanup:w0] "ado" full page (100) ends "adorno" next='r' — skip 19 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "adu" (8 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adu" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adu
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adu (308ms direct)
+[cleanup:w0] "adu" full page (100) ends "adusting" next='s' — skip 20 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "adv" (22 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "adv" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adv
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=adv (310ms direct)
+[cleanup:w0] "adv" full page (100) ends "adversaria" next='e' — skip 6 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "aer" (12 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aer" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aer
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aer (327ms direct)
+[cleanup:w0] "aer" full page (100) ends "aerobombs" next='o' — skip 16 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "aff" (18 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aff" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aff
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aff (334ms direct)
+[cleanup:w0] "aff" full page (100) ends "affiliation" next='i' — skip 10 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "aft" (22 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aft" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aft
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aft (351ms direct)
+[cleanup:w0] "aft" full page (100) ends "afterload" next='e' — skip 6 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "aga" (9 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "aga" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aga
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=aga (338ms direct)
+[cleanup:w0] "aga" full page (100) ends "agarose" next='r' — skip 19 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "agg" (9 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "agg" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=agg
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=agg (329ms direct)
+[cleanup:w0] "agg" full page (100) ends "aggregate" next='r' — skip 19 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "agr" (18 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "agr" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=agr
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=agr (347ms direct)
+[cleanup:w0] "agr" full page (100) ends "agriological" next='i' — skip 10 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] Searching parent "air" (21 queued descendants)
+[w0:cleanup:pro] Pacing 15s before "air" (gap=15200ms)
+[w0:cleanup:pro] Managed Turnstile token (len=816)
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=air
+[w0:cleanup:pro] [api] 200 mode=pro startsWith=air (428ms direct)
+[cleanup:w0] "air" full page (100) ends "airfares" next='f' — skip 7 groups, removed 0/768 queue items, +0 words
+[cleanup:w0] lll-audit-state-0.json done — parents=29 searches=29 removed=0
+[cleanup:w0] State 0 cleanup finished (supervisor merges last.txt)
+[cleanup:w0] All states processed. searches=29 queue_removed=0
+[w0:cleanup:pro] Tor exited code=0

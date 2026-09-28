@@ -1,0 +1,676 @@
+[cleanup:w6] Queue cleanup bot (DRY_RUN=false) | states=6..6 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w6:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19256 (try 1)
+[w6:cleanup:pro] tor: Aug 04 02:47:02.184 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19256
+Aug 04 02:47:02.184 [warn] Fixing permissions on directory /tmp/lll-tor
+[w6:cleanup:pro] tor: Aug 04 02:47:02.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanup:pro] tor: Aug 04 02:47:03.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanup:pro] tor: Aug 04 02:47:03.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanup:pro] tor: Aug 04 02:47:09.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanup:pro] tor: Aug 04 02:47:09.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:47:09.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanup:pro] tor: Aug 04 02:47:09.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanup:pro] tor: Aug 04 02:47:10.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanup:pro] tor: Aug 04 02:47:10.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanup:pro] tor: Aug 04 02:47:10.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:47:10.000 [notice] I learned some more directory 
+[w6:cleanup:pro] tor: Aug 04 02:47:11.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 02:47:15.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 02:47:15.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 02:47:15.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 02:47:16.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanup:pro] tor: Aug 04 02:47:16.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:47:16.000 [notice] Bootstrapped 9
+[w6:cleanup:pro] tor: Aug 04 02:47:17.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanup:pro] Tor ready on 19256 exit=185.220.101.21
+[cleanup:w6] Browser mode=tor via tor#1 socks5://127.0.0.1:19256
+[w6:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w6
+[w6:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19256
+[w6:cleanup:pro] Opening https://lastletterlibrary.com
+[w6:cleanup:pro] Library mode=pro
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w6] lll-audit-state-6.json w6: queue=1394 completed=259 words=8204 parents=51
+[cleanup:w6] Searching parent "mac" (30 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mac" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mac" — reload (attempt 2)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mac" — reload (attempt 3)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] FAILED "mac": No Turnstile token for direct search
+[cleanup:w6] Searching parent "mad" (28 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mad" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mad" — reload (attempt 2)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mad" — reload (attempt 3)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] FAILED "mad": No Turnstile token for direct search
+[cleanup:w6] Searching parent "mag" (28 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mag" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mag" — reload (attempt 2)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mag" — reload (attempt 3)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] FAILED "mag": No Turnstile token for direct search
+[cleanup:w6] Searching parent "mah" (28 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mah" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mah" — reload (attempt 2)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mah" — reload (attempt 3)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] FAILED "mah": No Turnstile token for direct search
+[cleanup:w6] Searching parent "mai" (28 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mai" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mai" — reload (attempt 2)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mai" — reload (attempt 3)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] FAILED "mai": No Turnstile token for direct search
+[cleanup:w6] Searching parent "mal" (28 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mal" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mal" — reload (attempt 2)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mal" — reload (attempt 3)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] FAILED "mal": No Turnstile token for direct search
+[cleanup:w6] Searching parent "mam" (28 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mam" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mam" — reload (attempt 2)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mam" — reload (attempt 3)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] FAILED "mam": No Turnstile token for direct search
+[cleanup:w6] Searching parent "man" (28 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "man" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "man" — reload (attempt 2)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "man" — reload (attempt 3)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] FAILED "man": No Turnstile token for direct search
+[cleanup:w6] Searching parent "mar" (28 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mar" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mar" — reload (attempt 2)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mar" — reload (attempt 3)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] FAILED "mar": No Turnstile token for direct search
+[cleanup:w6] Searching parent "mas" (28 queued descendants)
+[cleanup:w6] FAILED "mas": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mat" (28 queued descendants)
+[cleanup:w6] FAILED "mat": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mau" (28 queued descendants)
+[cleanup:w6] FAILED "mau": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "maz" (28 queued descendants)
+[cleanup:w6] FAILED "maz": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mea" (28 queued descendants)
+[cleanup:w6] FAILED "mea": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mec" (28 queued descendants)
+[cleanup:w6] FAILED "mec": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "med" (28 queued descendants)
+[cleanup:w6] FAILED "med": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "meg" (28 queued descendants)
+[cleanup:w6] FAILED "meg": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mel" (28 queued descendants)
+[cleanup:w6] FAILED "mel": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mem" (28 queued descendants)
+[cleanup:w6] FAILED "mem": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "men" (28 queued descendants)
+[cleanup:w6] FAILED "men": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mer" (28 queued descendants)
+[cleanup:w6] FAILED "mer": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mes" (28 queued descendants)
+[cleanup:w6] FAILED "mes": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "met" (28 queued descendants)
+[cleanup:w6] FAILED "met": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mic" (28 queued descendants)
+[cleanup:w6] FAILED "mic": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mid" (28 queued descendants)
+[cleanup:w6] FAILED "mid": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mil" (28 queued descendants)
+[cleanup:w6] FAILED "mil": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mim" (28 queued descendants)
+[cleanup:w6] FAILED "mim": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "min" (28 queued descendants)
+[cleanup:w6] FAILED "min": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mir" (28 queued descendants)
+[cleanup:w6] FAILED "mir": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mis" (28 queued descendants)
+[cleanup:w6] FAILED "mis": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mit" (28 queued descendants)
+[cleanup:w6] FAILED "mit": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mod" (28 queued descendants)
+[cleanup:w6] FAILED "mod": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mol" (28 queued descendants)
+[cleanup:w6] FAILED "mol": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mon" (28 queued descendants)
+[cleanup:w6] FAILED "mon": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "moo" (28 queued descendants)
+[cleanup:w6] FAILED "moo": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mor" (28 queued descendants)
+[cleanup:w6] FAILED "mor": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mos" (28 queued descendants)
+[cleanup:w6] FAILED "mos": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mot" (28 queued descendants)
+[cleanup:w6] FAILED "mot": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mou" (28 queued descendants)
+[cleanup:w6] FAILED "mou": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "muc" (28 queued descendants)
+[cleanup:w6] FAILED "muc": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mud" (28 queued descendants)
+[cleanup:w6] FAILED "mud": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mul" (28 queued descendants)
+[cleanup:w6] FAILED "mul": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mun" (28 queued descendants)
+[cleanup:w6] FAILED "mun": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mur" (28 queued descendants)
+[cleanup:w6] FAILED "mur": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mus" (28 queued descendants)
+[cleanup:w6] FAILED "mus": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mut" (28 queued descendants)
+[cleanup:w6] FAILED "mut": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "myc" (28 queued descendants)
+[cleanup:w6] FAILED "myc": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "mye" (28 queued descendants)
+[cleanup:w6] FAILED "mye": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "myo" (15 queued descendants)
+[cleanup:w6] FAILED "myo": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "myr" (14 queued descendants)
+[cleanup:w6] FAILED "myr": locator.count: Target page, context or browser has been closed
+[cleanup:w6] Searching parent "myt" (19 queued descendants)
+[cleanup:w6] FAILED "myt": locator.count: Target page, context or browser has been closed
+[cleanup:w6] lll-audit-state-6.json done — parents=51 searches=0 removed=0
+[cleanup:w6] State 6 cleanup finished (supervisor merges last.txt)
+[cleanup:w6] All states processed. searches=0 queue_removed=0
+[w6:cleanup:pro] Tor exited code=0
+[cleanup:w6] Queue cleanup bot (DRY_RUN=false) | states=6..6 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w6:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19256 (try 1)
+[w6:cleanup:pro] tor: Aug 04 03:28:49.103 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanup:pro] tor: Aug 04 03:28:49.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanup:pro] tor: Aug 04 03:28:50.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanup:pro] tor: Aug 04 03:28:50.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanup:pro] tor: Aug 04 03:28:50.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanup:pro] tor: Aug 04 03:28:53.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 03:28:53.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanup:pro] tor: Aug 04 03:28:54.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanup:pro] tor: Aug 04 03:28:54.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanup:pro] tor: Aug 04 03:28:55.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanup:pro] tor: Aug 04 03:28:55.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+[w6:cleanup:pro] tor: Aug 04 03:28:56.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+
+--- manual restart with rotate fix ---
+[cleanup:w6] Queue cleanup bot (DRY_RUN=false) | states=6..6 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w6:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19256 (try 1)
+[w6:cleanup:pro] tor: Aug 04 03:31:00.445 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanup:pro] tor: Aug 04 03:31:00.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanup:pro] tor: Aug 04 03:31:01.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanup:pro] tor: Aug 04 03:31:01.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanup:pro] tor: Aug 04 03:31:01.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanup:pro] tor: Aug 04 03:31:02.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 03:31:02.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanup:pro] tor: Aug 04 03:31:02.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanup:pro] tor: Aug 04 03:31:02.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanup:pro] tor: Aug 04 03:31:03.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanup:pro] tor: Aug 04 03:31:03.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:31:03.000 [notice] I learned some more directory 
+[w6:cleanup:pro] tor: Aug 04 03:31:04.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 03:31:07.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 03:31:07.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 03:31:08.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 03:31:08.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanup:pro] tor: Aug 04 03:31:08.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 03:31:08.000 [notice] Bootstrapped 9
+[w6:cleanup:pro] tor: Aug 04 03:31:09.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanup:pro] Tor ready on 19256 exit=107.189.31.187
+[cleanup:w6] Browser mode=tor via tor#1 socks5://127.0.0.1:19256
+[w6:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w6-r0
+[w6:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19256
+[w6:cleanup:pro] Opening https://lastletterlibrary.com
+[w6:cleanup:pro] Library mode=pro
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w6] lll-audit-state-6.json w6: queue=1394 completed=259 words=8204 parents=51
+[cleanup:w6] Searching parent "mac" (30 queued descendants)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Turnstile miss on "mac" — reload (attempt 1)
+[w6:cleanup:pro] Turnstile mint miss (1/2)
+[w6:cleanup:pro] Site Turnstile remint timed out
+[w6:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w6] Rotating IP (#1) after Turnstile stuck on "mac"
+[w6:cleanup:pro] Tor exited code=0
+[w6:cleanup:pro] Starting Tor gen=2 socks=127.0.0.1:19256 (try 1)
+[w6:cleanup:pro] tor: Aug 04 03:34:06.292 [warn] Fixing permissions on directory /tmp/lll-tor-w6
+[w6:cleanup:pro] tor: Aug 04 03:34:06.000 [notice] Bootstrapped 0% (starting): Starting
+[w6:cleanup:pro] tor: Aug 04 03:34:07.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w6:cleanup:pro] tor: Aug 04 03:34:07.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w6:cleanup:pro] tor: Aug 04 03:34:07.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w6:cleanup:pro] tor: Aug 04 03:34:07.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 03:34:07.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w6:cleanup:pro] tor: Aug 04 03:34:08.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w6:cleanup:pro] tor: Aug 04 03:34:08.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w6:cleanup:pro] tor: Aug 04 03:34:09.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w6:cleanup:pro] tor: Aug 04 03:34:09.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:34:09.000 [notice] I learned some more directory 
+[w6:cleanup:pro] tor: Aug 04 03:34:10.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 03:34:15.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 03:34:15.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 03:34:15.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w6:cleanup:pro] tor: Aug 04 03:34:16.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w6:cleanup:pro] tor: Aug 04 03:34:16.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 03:34:16.000 [notice] Bootstrapped 9
+[w6:cleanup:pro] tor: Aug 04 03:34:17.000 [notice] Bootstrapped 100% (done): Done
+[w6:cleanup:pro] Tor ready on 19256 exit=192.42.116.143
+[cleanup:w6] Browser mode=tor via tor#2 socks5://127.0.0.1:19256 rotation=1
+[w6:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w6-r1
+[w6:cleanup:pro] Proxy tor#2 socks5://127.0.0.1:19256
+[w6:cleanup:pro] Opening https://lastletterlibrary.com
+[w6:cleanup:pro] Library mode=pro
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mac
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mac (496ms direct)
+[cleanup:w6] "mac" full page (100) ends "maccaronis" next='c' — skip 4 groups, removed 2/1394 queue items, +0 words
+[cleanup:w6] Searching parent "mad" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mad" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mad
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mad (324ms direct)
+[cleanup:w6] "mad" full page (100) ends "madmen" next='m' — skip 14 groups, removed 14/1392 queue items, +0 words
+[cleanup:w6] Searching parent "mag" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mag" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mag
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mag (345ms direct)
+[cleanup:w6] "mag" full page (100) ends "magirist" next='i' — skip 10 groups, removed 10/1378 queue items, +0 words
+[cleanup:w6] Searching parent "mah" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mah" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mah
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mah (353ms direct)
+[cleanup:w6] "mah" full page (100) ends "mahrams" next='r' — skip 19 groups, removed 19/1368 queue items, +0 words
+[cleanup:w6] Searching parent "mai" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mai" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mai
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mai (343ms direct)
+[cleanup:w6] "mai" full page (100) ends "mailgrams" next='l' — skip 13 groups, removed 13/1349 queue items, +0 words
+[cleanup:w6] Searching parent "mal" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mal" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mal
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mal (336ms direct)
+[cleanup:w6] "mal" full page (100) ends "malaga" next='a' — skip 2 groups, removed 2/1336 queue items, +0 words
+[cleanup:w6] Searching parent "mam" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mam" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mam
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mam (338ms direct)
+[cleanup:w6] "mam" full page (100) ends "mammering" next='m' — skip 14 groups, removed 14/1334 queue items, +0 words
+[cleanup:w6] Searching parent "man" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "man" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=man
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=man (392ms direct)
+[cleanup:w6] "man" full page (100) ends "manband" next='b' — skip 3 groups, removed 3/1320 queue items, +0 words
+[cleanup:w6] Searching parent "mar" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mar" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mar
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mar (365ms direct)
+[cleanup:w6] "mar" full page (100) ends "marbelized" next='b' — skip 3 groups, removed 3/1317 queue items, +0 words
+[cleanup:w6] Searching parent "mas" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mas" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mas
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mas (350ms direct)
+[cleanup:w6] "mas" full page (100) ends "mashiachs" next='h' — skip 9 groups, removed 9/1314 queue items, +0 words
+[cleanup:w6] Searching parent "mat" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mat" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mat
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mat (342ms direct)
+[cleanup:w6] "mat" full page (100) ends "matchwood" next='c' — skip 4 groups, removed 4/1305 queue items, +0 words
+[cleanup:w6] Searching parent "mau" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mau" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mau
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mau (372ms direct)
+[cleanup:w6] "mau" full page (100) ends "mausoleums" next='s' — skip 20 groups, removed 20/1301 queue items, +0 words
+[cleanup:w6] Searching parent "maz" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "maz" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=maz
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=maz (362ms direct)
+[cleanup:w6] "maz" full page (100) ends "mazzinist" next='z' — skip 27 groups, removed 27/1281 queue items, +0 words
+[cleanup:w6] Searching parent "mea" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mea" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mea
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mea (580ms direct)
+[cleanup:w6] "mea" full page (100) ends "meandrine" next='n' — skip 15 groups, removed 15/1254 queue items, +0 words
+[cleanup:w6] Searching parent "mec" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mec" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 429 mode=pro startsWith=mec
+[w6:cleanup:pro] [api] 429 mode=pro startsWith=mec (540ms direct)
+[w6:cleanup:pro] Learned server gap ≈ 15200ms (wait hint 2000ms)
+[cleanup:w6] 429 on "mec" — wait 2000ms (attempt 1)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mec
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mec (537ms direct)
+[cleanup:w6] "mec" full page (100) ends "mechitzah" next='h' — skip 9 groups, removed 9/1239 queue items, +0 words
+[cleanup:w6] Searching parent "med" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "med" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=med
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=med (442ms direct)
+[cleanup:w6] "med" full page (100) ends "mediastinotomy" next='i' — skip 10 groups, removed 10/1230 queue items, +0 words
+[cleanup:w6] Searching parent "meg" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "meg" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=meg
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=meg (343ms direct)
+[cleanup:w6] "meg" full page (100) ends "megajoules" next='a' — skip 2 groups, removed 2/1220 queue items, +0 words
+[cleanup:w6] Searching parent "mel" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mel" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mel
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mel (357ms direct)
+[cleanup:w6] "mel" full page (100) ends "melanists" next='a' — skip 2 groups, removed 2/1218 queue items, +0 words
+[cleanup:w6] Searching parent "mem" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mem" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mem
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mem (342ms direct)
+[cleanup:w6] "mem" full page (100) ends "memorialists" next='o' — skip 16 groups, removed 16/1216 queue items, +0 words
+[cleanup:w6] Searching parent "men" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "men" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=men
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=men (431ms direct)
+[cleanup:w6] "men" full page (100) ends "mened" next='e' — skip 6 groups, removed 6/1200 queue items, +0 words
+[cleanup:w6] Searching parent "mer" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mer" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mer
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mer (344ms direct)
+[cleanup:w6] "mer" full page (100) ends "merchandrise" next='c' — skip 4 groups, removed 4/1194 queue items, +0 words
+[cleanup:w6] Searching parent "mes" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mes" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mes
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mes (352ms direct)
+[cleanup:w6] "mes" full page (100) ends "mesenteron" next='e' — skip 6 groups, removed 6/1190 queue items, +0 words
+[cleanup:w6] Searching parent "met" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "met" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=met
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=met (401ms direct)
+[cleanup:w6] "met" full page (100) ends "metacentric" next='a' — skip 2 groups, removed 2/1184 queue items, +0 words
+[cleanup:w6] Searching parent "mic" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mic" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mic
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mic (374ms direct)
+[cleanup:w6] "mic" full page (100) ends "micranatomy" next='r' — skip 19 groups, removed 19/1182 queue items, +0 words
+[cleanup:w6] Searching parent "mid" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mid" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mid
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mid (351ms direct)
+[cleanup:w6] "mid" full page (100) ends "middlewoman" next='d' — skip 5 groups, removed 5/1163 queue items, +0 words
+[cleanup:w6] Searching parent "mil" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mil" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mil
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mil (407ms direct)
+[cleanup:w6] "mil" full page (100) ends "milioline" next='i' — skip 10 groups, removed 10/1158 queue items, +0 words
+[cleanup:w6] Searching parent "mim" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mim" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mim
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mim (347ms direct)
+[cleanup:w6] "mim" full page (100) ends "mimpei" next='p' — skip 17 groups, removed 17/1148 queue items, +0 words
+[cleanup:w6] Searching parent "min" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "min" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=min
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=min (388ms direct)
+[cleanup:w6] "min" full page (100) ends "minding" next='d' — skip 5 groups, removed 5/1131 queue items, +0 words
+[cleanup:w6] Searching parent "mir" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mir" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mir
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mir (348ms direct)
+[cleanup:w6] "mir" full page (100) ends "miritis" next='i' — skip 10 groups, removed 10/1126 queue items, +0 words
+[cleanup:w6] Searching parent "mis" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mis" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mis
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mis (492ms direct)
+[cleanup:w6] "mis" full page (100) ends "misally" next='a' — skip 2 groups, removed 2/1116 queue items, +0 words
+[cleanup:w6] Searching parent "mit" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mit" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mit
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mit (861ms direct)
+[cleanup:w6] "mit" full page (100) ends "mitogenic" next='o' — skip 16 groups, removed 16/1114 queue items, +0 words
+[cleanup:w6] Searching parent "mod" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mod" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 429 mode=pro startsWith=mod
+[w6:cleanup:pro] [api] 429 mode=pro startsWith=mod (302ms direct)
+[w6:cleanup:pro] Learned server gap ≈ 15200ms (wait hint 2000ms)
+[cleanup:w6] 429 on "mod" — wait 2000ms (attempt 1)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mod
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mod (328ms direct)
+[cleanup:w6] "mod" full page (100) ends "modernisers" next='e' — skip 6 groups, removed 6/1098 queue items, +0 words
+[cleanup:w6] Searching parent "mol" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mol" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mol
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mol (347ms direct)
+[cleanup:w6] "mol" full page (100) ends "molests" next='e' — skip 6 groups, removed 6/1092 queue items, +0 words
+[cleanup:w6] Searching parent "mon" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mon" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mon
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mon (341ms direct)
+[cleanup:w6] "mon" full page (100) ends "monarchizes" next='a' — skip 2 groups, removed 2/1086 queue items, +0 words
+[cleanup:w6] Searching parent "moo" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "moo" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=moo
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=moo (337ms direct)
+[cleanup:w6] "moo" full page (100) ends "mooned" next='n' — skip 15 groups, removed 15/1084 queue items, +0 words
+[cleanup:w6] Searching parent "mor" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mor" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mor
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mor (357ms direct)
+[cleanup:w6] "mor" full page (100) ends "morbility" next='b' — skip 3 groups, removed 3/1069 queue items, +0 words
+[cleanup:w6] Searching parent "mos" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mos" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mos
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mos (335ms direct)
+[cleanup:w6] "mos" full page (100) ends "mosques" next='q' — skip 18 groups, removed 18/1066 queue items, +0 words
+[cleanup:w6] Searching parent "mot" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mot" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mot
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mot (394ms direct)
+[cleanup:w6] "mot" full page (100) ends "mothproof" next='h' — skip 9 groups, removed 9/1048 queue items, +0 words
+[cleanup:w6] Searching parent "mou" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mou" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mou
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mou (383ms direct)
+[cleanup:w6] "mou" full page (100) ends "mound-builder" next='n' — skip 15 groups, removed 15/1039 queue items, +0 words
+[cleanup:w6] Searching parent "muc" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "muc" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=muc
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=muc (346ms direct)
+[cleanup:w6] "muc" full page (100) ends "mucks" next='k' — skip 12 groups, removed 12/1024 queue items, +0 words
+[cleanup:w6] Searching parent "mud" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mud" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mud
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mud (371ms direct)
+[cleanup:w6] "mud" full page (100) ends "mudir" next='i' — skip 10 groups, removed 10/1012 queue items, +0 words
+[cleanup:w6] Searching parent "mul" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mul" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mul
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mul (387ms direct)
+[cleanup:w6] "mul" full page (100) ends "mullers" next='l' — skip 13 groups, removed 13/1002 queue items, +0 words
+[cleanup:w6] Searching parent "mun" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mun" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mun
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mun (465ms direct)
+[cleanup:w6] "mun" full page (100) ends "municipalism" next='i' — skip 10 groups, removed 10/989 queue items, +0 words
+[cleanup:w6] Searching parent "mur" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mur" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mur
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mur (347ms direct)
+[cleanup:w6] "mur" full page (100) ends "muring" next='i' — skip 10 groups, removed 10/979 queue items, +0 words
+[cleanup:w6] Searching parent "mus" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mus" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mus
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mus (351ms direct)
+[cleanup:w6] "mus" full page (100) ends "muscovitize" next='c' — skip 4 groups, removed 4/969 queue items, +0 words
+[cleanup:w6] Searching parent "mut" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mut" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mut
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mut (369ms direct)
+[cleanup:w6] "mut" full page (100) ends "mutilative" next='i' — skip 10 groups, removed 10/965 queue items, +0 words
+[cleanup:w6] Searching parent "myc" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "myc" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=myc
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=myc (397ms direct)
+[cleanup:w6] "myc" full page (100) ends "mycoplasmoses" next='o' — skip 16 groups, removed 16/955 queue items, +0 words
+[cleanup:w6] Searching parent "mye" (28 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "mye" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mye
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=mye (377ms direct)
+[cleanup:w6] "mye" full page (100) ends "myelophthisis" next='l' — skip 13 groups, removed 13/939 queue items, +0 words
+[cleanup:w6] Searching parent "myo" (15 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "myo" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=myo
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=myo (416ms direct)
+[cleanup:w6] "myo" full page (100) ends "myological" next='l' — skip 13 groups, removed 0/926 queue items, +0 words
+[cleanup:w6] Searching parent "myr" (14 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "myr" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=myr
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=myr (381ms direct)
+[cleanup:w6] "myr" full page (100) ends "myrmecological" next='m' — skip 14 groups, removed 0/926 queue items, +0 words
+[cleanup:w6] Searching parent "myt" (19 queued descendants)
+[w6:cleanup:pro] Pacing 15s before "myt" (gap=15200ms)
+[w6:cleanup:pro] Managed Turnstile token (len=816)
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=myt
+[w6:cleanup:pro] [api] 200 mode=pro startsWith=myt (374ms direct)
+[cleanup:w6] "myt" full page (100) ends "mythomane" next='h' — skip 9 groups, removed 0/926 queue items, +0 words
+[cleanup:w6] lll-audit-state-6.json done — parents=51 searches=51 removed=468
+[cleanup:w6] State 6 cleanup finished (supervisor merges last.txt)
+[cleanup:w6] All states processed. searches=51 queue_removed=468
+[w6:cleanup:pro] Tor exited code=0

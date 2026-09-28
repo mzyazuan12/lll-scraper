@@ -1,0 +1,78 @@
+[cleanup-rev:w7] Reverse queue cleanup bot (DRY_RUN=false) | states=7..7 | sort=alphabetical:desc (Z→A) | parents=4-letter, prune queue items >=5 chars from high end | completed[] is never modified
+[w7:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19457 (try 1)
+[w7:cleanuprev:pro] tor: Aug 05 01:11:02.774 [warn] Fixing permissions on directory /tmp/lll-tor-w7
+[w7:cleanuprev:pro] tor: Aug 05 01:11:02.000 [notice] Bootstrapped 0% (starting): Starting
+[w7:cleanuprev:pro] tor: Aug 05 01:11:03.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w7:cleanuprev:pro] tor: Aug 05 01:11:03.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w7:cleanuprev:pro] tor: Aug 05 01:11:04.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w7:cleanuprev:pro] tor: Aug 05 01:11:04.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 01:11:04.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w7:cleanuprev:pro] tor: Aug 05 01:11:05.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w7:cleanuprev:pro] tor: Aug 05 01:11:05.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w7:cleanuprev:pro] tor: Aug 05 01:11:07.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w7:cleanuprev:pro] tor: Aug 05 01:11:08.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 01:11:08.000 [notice] I learned some more directory 
+[w7:cleanuprev:pro] tor: Aug 05 01:11:09.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 01:11:16.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 01:11:17.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 01:11:17.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w7:cleanuprev:pro] tor: Aug 05 01:11:17.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w7:cleanuprev:pro] tor: Aug 05 01:11:18.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 01:11:18.000 [notice] Bootstrapped 9
+[w7:cleanuprev:pro] tor: Aug 05 01:11:18.000 [notice] Bootstrapped 100% (done): Done
+[w7:cleanuprev:pro] Tor ready on 19457 exit=185.220.100.254
+[cleanup-rev:w7] Browser mode=tor via tor#1 socks5://127.0.0.1:19457
+[w7:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p4-w7-r0
+[w7:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19457
+[w7:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w7:cleanuprev:pro] Library mode=pro
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 5848ms, remount)
+[w7:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w7] lll-audit-state-7.json w7: queue=103 completed=1192 words=9353 parents=7 (reverse Z→A)
+[cleanup-rev:w7] Reverse-searching parent "octa" (5 queued descendants, chars=vwxyz)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=octa
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=octa sort=alphabetical:desc (694ms direct)
+[cleanup-rev:w7] "octa" reverse full page (100) start="octavos" first='v' end="octaemeron" next='e' — remove 16 covered groups, keep 'v+e', removed 0/103 queue items, leave chars=vwxyz, +0 words
+[cleanup-rev:w7] Reverse-searching parent "octo" (2 queued descendants, chars=yz)
+[w7:cleanuprev:pro] Pacing 15s before "octo" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 4406ms, reset)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=octo
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=octo sort=alphabetical:desc (810ms direct)
+[cleanup-rev:w7] "octo" reverse full page (100) start="octoyl" first='y' end="octodecimo" next='d' — remove 20 covered groups, keep 'y+d', removed 0/103 queue items, leave chars=yz, +0 words
+[cleanup-rev:w7] Reverse-searching parent "odon" (7 queued descendants, chars=tuvwxyz)
+[w7:cleanuprev:pro] Pacing 15s before "odon" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 3716ms, reset)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=odon
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=odon sort=alphabetical:desc (891ms direct)
+[cleanup-rev:w7] "odon" reverse full page (100) start="odontotrypy" first='t' end="odontexesis" next='t' — remove 0 covered groups, keep 't', removed 0/103 queue items, leave chars=tuvwxyz, +0 words
+[cleanup-rev:w7] Reverse-searching parent "olig" (7 queued descendants, chars=ouvwxyz)
+[w7:cleanuprev:pro] Pacing 15s before "olig" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 8395ms, reset)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=olig
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=olig sort=alphabetical:desc (693ms direct)
+[cleanup-rev:w7] "olig" reverse full page (100) start="oliguric" first='u' end="oligodendroglioma" next='o' — remove 5 covered groups, keep 'u+o', removed 0/103 queue items, leave chars=ouvwxyz, +0 words
+[cleanup-rev:w7] Reverse-searching parent "omni" (9 queued descendants, chars=rstuvwxyz)
+[w7:cleanuprev:pro] Pacing 15s before "omni" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (14045ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (14108ms)
+[w7:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w7:cleanuprev:pro] Managed Turnstile token (len=816, 9830ms, remount)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=omni
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=omni sort=alphabetical:desc (442ms direct)
+[cleanup-rev:w7] "omni" reverse full page (100) start="omnivory" first='v' end="omnigraph" next='g' — remove 14 covered groups, keep 'v+g', removed 4/103 queue items, leave chars=vwxyz, +0 words
+[cleanup-rev:w7] Reverse-searching parent "oper" (12 queued descendants, chars=opqrstuvwxyz)
+[w7:cleanuprev:pro] Pacing 15s before "oper" (gap=15500ms)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=oper
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=oper sort=alphabetical:desc (520ms direct)
+[cleanup-rev:w7] "oper" reverse full page (100) start="operosity" first='o' end="operability" next='a' — remove 13 covered groups, keep 'o+a', removed 0/99 queue items, leave chars=opqrstuvwxyz, +0 words
+[cleanup-rev:w7] Reverse-searching parent "oste" (10 queued descendants, chars=orstuvwxyz)
+[w7:cleanuprev:pro] Pacing 15s before "oste" (gap=15500ms)
+[w7:cleanuprev:pro] Managed Turnstile miss (12184ms)
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=oste
+[w7:cleanuprev:pro] [api] 200 mode=pro startsWith=oste sort=alphabetical:desc (816ms direct)
+[cleanup-rev:w7] "oste" reverse full page (100) start="ostertagia" first='r' end="osteologically" next='o' — remove 2 covered groups, keep 'r+o', removed 0/99 queue items, leave chars=orstuvwxyz, +0 words
+[cleanup-rev:w7] lll-audit-state-7.json done — parents=7 searches=7 removed=4
+[cleanup-rev:w7] State 7 reverse cleanup finished
+[cleanup-rev:w7] All states processed. searches=7 queue_removed=4
+[w7:cleanuprev:pro] Managed Turnstile miss (1365ms)
+[w7:cleanuprev:pro] Tor exited code=0

@@ -1,0 +1,116 @@
+[cleanup-rev:w8] Reverse queue cleanup bot (DRY_RUN=false) | states=8..8 | sort=alphabetical:desc (Z→A) | parents=5-letter, prune queue items >=6 chars from high end | completed[] is never modified
+[w8:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19458 (try 1)
+[w8:cleanuprev:pro] tor: Aug 05 08:23:53.122 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19458
+Aug 05 08:23:53.122 [warn] Fixing permissions on directory /tmp/lll-tor
+[w8:cleanuprev:pro] tor: Aug 05 08:23:53.000 [notice] Bootstrapped 0% (starting): Starting
+[w8:cleanuprev:pro] tor: Aug 05 08:23:54.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w8:cleanuprev:pro] tor: Aug 05 08:23:54.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w8:cleanuprev:pro] tor: Aug 05 08:23:54.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w8:cleanuprev:pro] tor: Aug 05 08:25:05.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:25:05.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w8:cleanuprev:pro] tor: Aug 05 08:25:05.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w8:cleanuprev:pro] tor: Aug 05 08:25:06.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w8:cleanuprev:pro] tor: Aug 05 08:25:08.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w8:cleanuprev:pro] tor: Aug 05 08:25:08.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:25:08.000 [notice] I learned some more directory 
+[w8:cleanuprev:pro] tor: Aug 05 08:25:09.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$613EA6E6D114F6151" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$0E4F190C4A6F7DDF7F8C9A7842B85B4" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$A12237F7A6D4EED38F0FAB9C6E5B9" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$902E3A0669FCA5583561FD6B76FA" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$A783199953F8BBC25" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$A110533F8222F81BE0" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$CE8" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] parse error: Malformed object: missing object end line
+Aug 05 08:27:33.000 [warn] Unparseable microdescriptor found in download or ge
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$556C9A64ED5489352B402ABB784B70CA" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$9A5616F3247" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$F237BFB60" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] parse error: Malformed object: missing object end line
+Aug 05 08:27:33.000 [warn] Unparseable microdescriptor found in download or ge
+[w8:cleanuprev:pro] tor: Aug 05 08:27:33.000 [warn] Bad element "$B0653EFD7E7BFB5ACAD9F68F3546D9B4D93" while parsing a node family.
+[w8:cleanuprev:pro] tor: Aug 05 08:27:38.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w8:cleanuprev:pro] tor: Aug 05 08:27:39.000 [notice] Bootstrapped 60% (loading_descriptors): Loading relay descriptors
+[w8:cleanuprev:pro] tor: Aug 05 08:27:39.000 [notice] Bootstrapped 66% (loading_descriptors): Loading relay descriptors
+[w8:cleanuprev:pro] tor: Aug 05 08:27:39.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w8:cleanuprev:pro] tor: Aug 05 08:27:40.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:27:40.000 [notice] Bootstrapped 9
+[w8:cleanuprev:pro] tor: Aug 05 08:27:41.000 [notice] Bootstrapped 100% (done): Done
+[w8:cleanuprev:pro] Tor ready on 19458 exit=171.25.193.37
+[cleanup-rev:w8] Browser mode=tor via tor#1 socks5://127.0.0.1:19458
+[w8:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w8-r0
+[w8:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19458
+[w8:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w8:cleanuprev:pro] Library mode=pro
+[w8:cleanuprev:pro] Turnstile token present (len=837)
+[w8:cleanuprev:pro] Site Turnstile token (16751ms)
+[w8:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w8] lll-audit-state-8.json w8: queue=224 completed=3125 words=23999 parents=4 (reverse Z→A)
+[cleanup-rev:w8] Reverse-searching parent "radio" (20 queued descendants, chars=ghijklmnopqrstuvwxyz)
+[w8:cleanuprev:pro] [api] 200 mode=pro startsWith=radio
+[w8:cleanuprev:pro] [api] 200 mode=pro startsWith=radio sort=alphabetical:desc (1233ms direct)
+[cleanup-rev:w8] "radio" reverse full page (100) start="radiovision" first='v' end="radiophotos" next='p' — remove 5 covered groups, keep 'v+p', removed 5/224 queue items, leave chars=ghijklmnopvwxyz, +16 words
+[cleanup-rev:w8] Reverse-searching parent "recom" (11 queued descendants, chars=pqrstuvwxyz)
+[w8:cleanuprev:pro] Pacing 15s before "recom" (gap=15500ms)
+[w8:cleanuprev:pro] Managed Turnstile miss (12034ms)
+[w8:cleanuprev:pro] Managed Turnstile miss (10196ms)
+[w8:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w8:cleanuprev:pro] Site Turnstile remint timed out (14444ms)
+[w8:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w8] Turnstile miss on "recom" — reload (attempt 1)
+[w8:cleanuprev:pro] Managed Turnstile miss (12004ms)
+[w8:cleanuprev:pro] Managed Turnstile miss (10231ms)
+[w8:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w8:cleanuprev:pro] Site Turnstile remint timed out (14450ms)
+[w8:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w8] Rotating IP (#1) after Turnstile stuck on "recom"
+[w8:cleanuprev:pro] Tor exited code=0
+[w8:cleanuprev:pro] Starting Tor gen=2 socks=127.0.0.1:19458 (try 1)
+[w8:cleanuprev:pro] tor: Aug 05 08:29:33.728 [warn] Fixing permissions on directory /tmp/lll-tor-w8
+[w8:cleanuprev:pro] tor: Aug 05 08:29:33.000 [notice] Bootstrapped 0% (starting): Starting
+[w8:cleanuprev:pro] tor: Aug 05 08:29:34.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w8:cleanuprev:pro] tor: Aug 05 08:29:34.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w8:cleanuprev:pro] tor: Aug 05 08:29:37.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w8:cleanuprev:pro] tor: Aug 05 08:29:37.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:29:37.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w8:cleanuprev:pro] tor: Aug 05 08:29:37.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w8:cleanuprev:pro] tor: Aug 05 08:29:38.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w8:cleanuprev:pro] tor: Aug 05 08:29:40.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w8:cleanuprev:pro] tor: Aug 05 08:29:40.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:29:40.000 [notice] I learned some more directory 
+[w8:cleanuprev:pro] tor: Aug 05 08:29:42.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w8:cleanuprev:pro] tor: Aug 05 08:31:17.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w8:cleanuprev:pro] tor: Aug 05 08:31:19.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w8:cleanuprev:pro] tor: Aug 05 08:31:19.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w8:cleanuprev:pro] tor: Aug 05 08:31:20.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w8:cleanuprev:pro] tor: Aug 05 08:31:21.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:31:21.000 [notice] Bootstrapped 9
+[w8:cleanuprev:pro] tor: Aug 05 08:31:22.000 [notice] Bootstrapped 100% (done): Done
+[w8:cleanuprev:pro] Tor ready on 19458 exit=109.70.100.1
+[cleanup-rev:w8] Browser mode=tor via tor#2 socks5://127.0.0.1:19458 rotation=1
+[w8:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w8-r1
+[w8:cleanuprev:pro] Proxy tor#2 socks5://127.0.0.1:19458
+[w8:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w8:cleanuprev:pro] Library mode=pro
+[w8:cleanuprev:pro] Managed Turnstile token (len=816, 8839ms, remount)
+[w8:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w8:cleanuprev:pro] [api] 200 mode=pro startsWith=recom
+[w8:cleanuprev:pro] [api] 200 mode=pro startsWith=recom sort=alphabetical:desc (1625ms direct)
+[cleanup-rev:w8] "recom" reverse full page (100) start="recomputing" first='p' end="recommend" next='m' — remove 2 covered groups, keep 'p+m', removed 0/219 queue items, leave chars=pqrstuvwxyz, +0 words
+[cleanup-rev:w8] Reverse-searching parent "recon" (19 queued descendants, chars=fghijklmnopqrsvwxyz)
+[w8:cleanuprev:pro] Pacing 14s before "recon" (gap=15500ms)
+[w8:cleanuprev:pro] Managed Turnstile token (len=816, 8419ms, reset)
+[w8:cleanuprev:pro] [api] 200 mode=pro startsWith=recon
+[w8:cleanuprev:pro] [api] 200 mode=pro startsWith=recon sort=alphabetical:desc (1498ms direct)
+[cleanup-rev:w8] "recon" reverse full page (100) start="reconvoke" first='v' end="reconstructively" next='s' — remove 2 covered groups, keep 'v+s', removed 0/219 queue items, leave chars=fghijklmnopqrsvwxyz, +0 words
+[cleanup-rev:w8] Reverse-searching parent "redis" (7 queued descendants, chars=tuvwxyz)
+[w8:cleanuprev:pro] Pacing 14s before "redis" (gap=15500ms)
+[w8:cleanuprev:pro] Managed Turnstile token (len=816, 9141ms, reset)
+[w8:cleanuprev:pro] [api] 200 mode=pro startsWith=redis
+[w8:cleanuprev:pro] [api] 200 mode=pro startsWith=redis sort=alphabetical:desc (1455ms direct)
+[cleanup-rev:w8] "redis" reverse full page (100) start="redisturb" first='t' end="redischarged" next='c' — remove 16 covered groups, keep 't+c', removed 0/219 queue items, leave chars=tuvwxyz, +0 words
+[cleanup-rev:w8] lll-audit-state-8.json done — parents=4 searches=4 removed=5
+[cleanup-rev:w8] State 8 reverse cleanup finished
+[cleanup-rev:w8] All states processed. searches=4 queue_removed=5
+[w8:cleanuprev:pro] Managed Turnstile miss (1472ms)
+[w8:cleanuprev:pro] Tor exited code=0

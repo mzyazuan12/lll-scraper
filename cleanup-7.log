@@ -1,0 +1,74 @@
+[cleanup:w7] Queue cleanup bot (DRY_RUN=false) | states=7..7 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w7:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19257 (try 1)
+[w7:cleanup:pro] tor: Aug 04 02:47:06.310 [notice] Tor 0.4.8.12 running on Darwin with Libevent 2.1.12-stable, OpenSSL 3.6.3, Zlib 1.2.12, Liblzma N/A, Libzstd N/A and Unknown N/A as
+[w7:cleanup:pro] tor: Aug 04 02:47:06.000 [notice] Bootstrapped 0% (starting): Starting
+[w7:cleanup:pro] tor: Aug 04 02:47:07.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w7:cleanup:pro] tor: Aug 04 02:47:07.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w7:cleanup:pro] tor: Aug 04 02:47:09.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w7:cleanup:pro] tor: Aug 04 02:47:10.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:47:10.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w7:cleanup:pro] tor: Aug 04 02:47:10.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w7:cleanup:pro] tor: Aug 04 02:47:10.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w7:cleanup:pro] tor: Aug 04 02:47:11.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w7:cleanup:pro] tor: Aug 04 02:47:11.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:47:11.000 [notice] I learned some more directory 
+[w7:cleanup:pro] tor: Aug 04 02:47:12.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w7:cleanup:pro] tor: Aug 04 02:47:21.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w7:cleanup:pro] tor: Aug 04 02:47:25.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w7:cleanup:pro] tor: Aug 04 02:47:27.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w7:cleanup:pro] tor: Aug 04 02:47:27.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w7:cleanup:pro] tor: Aug 04 02:47:27.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:47:27.000 [notice] Bootstrapped 9
+[w7:cleanup:pro] tor: Aug 04 02:47:28.000 [notice] Bootstrapped 100% (done): Done
+[w7:cleanup:pro] Tor ready on 19257 exit=23.129.64.163
+[cleanup:w7] Browser mode=tor via tor#1 socks5://127.0.0.1:19257
+[w7:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w7
+[w7:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19257
+[w7:cleanup:pro] Opening https://lastletterlibrary.com
+[w7:cleanup:pro] Library mode=pro
+[w7:cleanup:pro] Managed Turnstile token (len=816)
+[w7:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w7] lll-audit-state-7.json w7: queue=510 completed=219 words=3401 parents=6
+[cleanup:w7] Searching parent "obl" (28 queued descendants)
+[w7:cleanup:pro] Managed Turnstile token (len=816)
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=obl
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=obl (746ms direct)
+[cleanup:w7] "obl" full page (100) ends "obliviality" next='i' — skip 10 groups, removed 10/510 queue items, +0 words
+[cleanup:w7] Searching parent "obs" (28 queued descendants)
+[w7:cleanup:pro] Pacing 15s before "obs" (gap=15200ms)
+[w7:cleanup:pro] Managed Turnstile token (len=816)
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=obs
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=obs (520ms direct)
+[cleanup:w7] "obs" full page (100) ends "observe" next='e' — skip 6 groups, removed 6/500 queue items, +0 words
+[cleanup:w7] Searching parent "occ" (28 queued descendants)
+[w7:cleanup:pro] Pacing 15s before "occ" (gap=15200ms)
+[w7:cleanup:pro] Managed Turnstile token (len=816)
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=occ
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=occ (532ms direct)
+[cleanup:w7] "occ" full page (100) ends "occlusion" next='l' — skip 13 groups, removed 13/494 queue items, +0 words
+[cleanup:w7] Searching parent "oct" (28 queued descendants)
+[w7:cleanup:pro] Pacing 15s before "oct" (gap=15200ms)
+[w7:cleanup:pro] Managed Turnstile token (len=816)
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=oct
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=oct (642ms direct)
+[cleanup:w7] "oct" full page (100) ends "octaroon" next='a' — skip 2 groups, removed 2/481 queue items, +0 words
+[cleanup:w7] Searching parent "odo" (28 queued descendants)
+[w7:cleanup:pro] Pacing 15s before "odo" (gap=15200ms)
+[w7:cleanup:pro] Managed Turnstile token (len=816)
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=odo
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=odo (572ms direct)
+[cleanup:w7] "odo" full page (100) ends "odontophoral" next='n' — skip 15 groups, removed 15/479 queue items, +0 words
+[cleanup:w7] Searching parent "off" (28 queued descendants)
+[w7:cleanup:pro] Pacing 13s before "off" (gap=15200ms)
+[w7:cleanup:pro] Turnstile mint miss (1/2)
+[w7:cleanup:pro] Site Turnstile remint timed out
+[w7:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w7] Turnstile miss on "off" — reload (attempt 1)
+[w7:cleanup:pro] Managed Turnstile token (len=816)
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=off
+[w7:cleanup:pro] [api] 200 mode=pro startsWith=off (634ms direct)
+[cleanup:w7] "off" full page (100) ends "offeror" next='e' — skip 6 groups, removed 6/464 queue items, +0 words
+[cleanup:w7] lll-audit-state-7.json done — parents=6 searches=6 removed=52
+[cleanup:w7] State 7 cleanup finished (supervisor merges last.txt)
+[cleanup:w7] All states processed. searches=6 queue_removed=52
+[w7:cleanup:pro] Tor exited code=0

@@ -1,0 +1,65 @@
+[cleanup-rev:w2] Reverse queue cleanup bot (DRY_RUN=false) | states=2..2 | sort=alphabetical:desc (Z→A) | parents=5-letter, prune queue items >=6 chars from high end | completed[] is never modified
+[w2:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19452 (try 1)
+[w2:cleanuprev:pro] tor: Aug 05 08:23:32.014 [warn] Fixing permissions on directory /tmp/lll-tor-w2
+[w2:cleanuprev:pro] tor: Aug 05 08:23:32.000 [notice] Bootstrapped 0% (starting): Starting
+[w2:cleanuprev:pro] tor: Aug 05 08:23:33.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w2:cleanuprev:pro] tor: Aug 05 08:23:33.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w2:cleanuprev:pro] tor: Aug 05 08:23:39.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w2:cleanuprev:pro] tor: Aug 05 08:23:39.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:23:39.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w2:cleanuprev:pro] tor: Aug 05 08:23:40.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w2:cleanuprev:pro] tor: Aug 05 08:23:40.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w2:cleanuprev:pro] tor: Aug 05 08:23:42.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w2:cleanuprev:pro] tor: Aug 05 08:23:42.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:23:42.000 [notice] I learned some more directory 
+[w2:cleanuprev:pro] tor: Aug 05 08:23:43.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 08:23:51.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 08:23:53.000 [notice] Bootstrapped 60% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 08:23:53.000 [notice] Bootstrapped 66% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 08:23:53.000 [notice] Bootstrapped 73% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 08:23:53.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w2:cleanuprev:pro] tor: Aug 05 08:23:54.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:23:54.000 [notice] Bootstrapped 9
+[w2:cleanuprev:pro] tor: Aug 05 08:23:55.000 [notice] Bootstrapped 100% (done): Done
+[w2:cleanuprev:pro] Tor ready on 19452 exit=45.148.10.111
+[cleanup-rev:w2] Browser mode=tor via tor#1 socks5://127.0.0.1:19452
+[w2:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w2-r0
+[w2:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19452
+[w2:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w2:cleanuprev:pro] Library mode=pro
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 9556ms, remount)
+[w2:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w2] lll-audit-state-2.json w2: queue=42 completed=2218 words=18390 parents=5 (reverse Z→A)
+[cleanup-rev:w2] Reverse-searching parent "elect" (9 queued descendants, chars=ryz)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=elect
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=elect sort=alphabetical:desc (942ms direct)
+[cleanup-rev:w2] "elect" reverse full page (100) start="electuary" first='u' end="electrospinnability" next='r' — remove 2 covered groups, keep 'u+r', removed 0/42 queue items, leave chars=ryz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "enter" (8 queued descendants, chars=otuvwxyz)
+[w2:cleanuprev:pro] Pacing 15s before "enter" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 5724ms, reset)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=enter
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=enter sort=alphabetical:desc (699ms direct)
+[cleanup-rev:w2] "enter" reverse full page (100) start="entertook" first='t' end="enterologic" next='o' — remove 4 covered groups, keep 't+o', removed 0/42 queue items, leave chars=otuvwxyz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "eryth" (9 queued descendants, chars=rstuvwxyz)
+[w2:cleanuprev:pro] Pacing 15s before "eryth" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 5662ms, reset)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=eryth
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=eryth sort=alphabetical:desc (677ms direct)
+[cleanup-rev:w2] "eryth" reverse full page (100) start="erythrulose" first='r' end="erythroblastosis" next='r' — remove 0 covered groups, keep 'r', removed 0/42 queue items, leave chars=rstuvwxyz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "ethno" (1 queued descendants, chars=z)
+[w2:cleanuprev:pro] Pacing 15s before "ethno" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 7858ms, reset)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=ethno
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=ethno sort=alphabetical:desc (801ms direct)
+[cleanup-rev:w2] "ethno" reverse full page (100) start="ethnozoology" first='z' end="ethno-nationalist" next='-' — remove 0 covered groups, keep 'z+-', removed 0/42 queue items, leave chars=z, +0 words
+[cleanup-rev:w2] Reverse-searching parent "extra" (15 queued descendants, chars=fghijklmnopqrsz)
+[w2:cleanuprev:pro] Pacing 15s before "extra" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 5372ms, reset)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=extra
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=extra sort=alphabetical:desc (840ms direct)
+[cleanup-rev:w2] "extra" reverse full page (100) start="extrazodiacal" first='z' end="extrascholastic" next='s' — remove 6 covered groups, keep 'z+s', removed 0/42 queue items, leave chars=fghijklmnopqrsz, +0 words
+[cleanup-rev:w2] lll-audit-state-2.json done — parents=5 searches=5 removed=0
+[cleanup-rev:w2] State 2 reverse cleanup finished
+[cleanup-rev:w2] All states processed. searches=5 queue_removed=0
+[w2:cleanuprev:pro] Managed Turnstile miss (857ms)
+[w2:cleanuprev:pro] Tor exited code=0

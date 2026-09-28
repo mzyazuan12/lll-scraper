@@ -1,0 +1,255 @@
+
+--- boost-12 daemon start 2026-08-06T05:07:46Z queue=17 ---
+[w30:cd:pro] IP mode=tor
+[w30:cd:pro] Starting persistent Tor socks=127.0.0.1:19080 control=127.0.0.1:29080
+[w30:cd:pro] tor: Aug 06 00:07:47.075 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19080
+Aug 06 00:07:47.075 [notice] Opening Control listener on 127.0.0.1:2908
+[w30:cd:pro] tor: Aug 06 00:07:47.000 [notice] Bootstrapped 0% (starting): Starting
+[w30:cd:pro] tor: Aug 06 00:07:48.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w30:cd:pro] tor: Aug 06 00:07:48.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w30:cd:pro] tor: Aug 06 00:07:48.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w30:cd:pro] tor: Aug 06 00:07:49.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 06 00:07:49.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w30:cd:pro] tor: Aug 06 00:07:49.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w30:cd:pro] tor: Aug 06 00:07:49.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w30:cd:pro] tor: Aug 06 00:07:51.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w30:cd:pro] tor: Aug 06 00:07:51.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 06 00:07:51.000 [notice] I learned some more directory 
+[w30:cd:pro] tor: Aug 06 00:07:52.000 [warn] Tried connecting to router at 46.231.240.77:9001 ID=<none> RSA_ID=BEF36E0B4AC34FA111FD620A128676448B841437, but RSA + ed25519 identit
+[w30:cd:pro] tor: Aug 06 00:07:52.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w30:cd:pro] tor: Aug 06 00:07:58.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w30:cd:pro] tor: Aug 06 00:07:58.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w30:cd:pro] tor: Aug 06 00:07:58.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w30:cd:pro] tor: Aug 06 00:07:59.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w30:cd:pro] tor: Aug 06 00:07:59.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 06 00:07:59.000 [notice] Bootstrapped 9
+[w30:cd:pro] tor: Aug 06 00:08:00.000 [notice] Bootstrapped 100% (done): Done
+[w30:cd:pro] Tor ready on 19080 exit=192.42.116.68
+[w30:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w30-r0
+[w30:cd:pro] Proxy tor#1 socks5://127.0.0.1:19080
+[w30:cd:pro] Opening https://lastletterlibrary.com
+[w30:cd:pro] Library mode=pro
+[w30:cd:pro] Managed Turnstile token (len=816, 3784ms, remount)
+[w30:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w30:cd:pro] Loaded 7390 prefixes, 56944 words; queue=17
+[w30:cd:pro] Searching "disph" | queue=16 | words=56944
+[w30:cd:pro] [api] 200 mode=pro startsWith=disph
+[w30:cd:pro] [api] 200 mode=pro startsWith=disph (760ms direct)
+[w30:cd:pro] "disph" → 1 records, 1 words
+[w30:cd:pro] "disph" branch complete
+[w30:cd:pro] Saved 56,945 worker words
+[w30:cd:pro] Searching "dispj" | queue=15 | words=56945
+[w30:cd:pro] Pacing 15s before "dispj" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 3637ms, remount)
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispj
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispj (406ms direct)
+[w30:cd:pro] "dispj" → 0 records, 0 words
+[w30:cd:pro] "dispj" branch complete
+[w30:cd:pro] Saved 56,945 worker words
+[w30:cd:pro] Searching "displ" | queue=14 | words=56945
+[w30:cd:pro] Pacing 16s before "displ" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 9711ms, remount)
+[w30:cd:pro] [api] 200 mode=pro startsWith=displ
+[w30:cd:pro] [api] 200 mode=pro startsWith=displ (383ms direct)
+[w30:cd:pro] "displ" → 72 records, 72 words
+[w30:cd:pro] "displ" branch complete
+[w30:cd:pro] Saved 57,017 worker words
+[w30:cd:pro] Searching "dispn" | queue=13 | words=57017
+[w30:cd:pro] Pacing 16s before "dispn" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 5529ms, remount)
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispn
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispn (398ms direct)
+[w30:cd:pro] "dispn" → 0 records, 0 words
+[w30:cd:pro] "dispn" branch complete
+[w30:cd:pro] Saved 57,017 worker words
+[w30:cd:pro] Searching "dispp" | queue=12 | words=57017
+[w30:cd:pro] Pacing 16s before "dispp" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 3646ms, remount)
+[w30:cd:pro] heartbeat words=57017 queue=12 rotation=0 idle=13s
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispp
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispp (417ms direct)
+[w30:cd:pro] "dispp" → 0 records, 0 words
+[w30:cd:pro] "dispp" branch complete
+[w30:cd:pro] Saved 57,017 worker words
+[w30:cd:pro] Searching "dispr" | queue=11 | words=57017
+[w30:cd:pro] Pacing 15s before "dispr" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 3520ms, remount)
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispr
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispr (518ms direct)
+[w30:cd:pro] "dispr" → 97 records, 97 words
+[w30:cd:pro] "dispr" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "dispv" | queue=10 | words=57060
+[w30:cd:pro] Pacing 14s before "dispv" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile miss (17022ms)
+[w30:cd:pro] Failed "dispv" attempt 1: No Turnstile token for direct search
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Turnstile miss — soft reload before rotate
+[w30:cd:pro] Site Turnstile remint timed out (11937ms)
+[w30:cd:pro] Soft reload mint failed — rotating immediately
+[w30:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w30:cd:pro] heartbeat words=57060 queue=11 rotation=1 idle=40s
+[w30:cd:pro] Tor ready on 19080 exit=45.84.107.54
+[w30:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19080
+[w30:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w30-r1
+[w30:cd:pro] Proxy tor#2 socks5://127.0.0.1:19080
+[w30:cd:pro] Opening https://lastletterlibrary.com
+[w30:cd:pro] Library mode=pro
+[w30:cd:pro] Managed Turnstile token (len=816, 8724ms, remount)
+[w30:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w30:cd:pro] Cleaned 1 old rotated profile(s)
+[w30:cd:pro] Searching "dispv" | queue=10 | words=57060
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispv
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispv (460ms direct)
+[w30:cd:pro] "dispv" → 0 records, 0 words
+[w30:cd:pro] "dispv" branch complete
+[w30:cd:pro] Managed Turnstile token (len=816, 11412ms, remount)
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "dispx" | queue=9 | words=57060
+[w30:cd:pro] Pacing 1s before "dispx" (gap=15500ms)
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispx
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispx (568ms direct)
+[w30:cd:pro] "dispx" → 0 records, 0 words
+[w30:cd:pro] "dispx" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "dispz" | queue=8 | words=57060
+[w30:cd:pro] Pacing 15s before "dispz" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 8834ms, remount)
+[w30:cd:pro] heartbeat words=57060 queue=8 rotation=1 idle=9s
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispz
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispz (493ms direct)
+[w30:cd:pro] "dispz" → 0 records, 0 words
+[w30:cd:pro] "dispz" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "doubt" | queue=7 | words=57060
+[w30:cd:pro] Pacing 13s before "doubt" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 10177ms, remount)
+[w30:cd:pro] [api] 200 mode=pro startsWith=doubt
+[w30:cd:pro] [api] 200 mode=pro startsWith=doubt (579ms direct)
+[w30:cd:pro] "doubt" → 26 records, 26 words (incl. exact "doubt")
+[w30:cd:pro] "doubt" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "doubv" | queue=6 | words=57060
+[w30:cd:pro] Pacing 15s before "doubv" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 5315ms, remount)
+[w30:cd:pro] [api] 200 mode=pro startsWith=doubv
+[w30:cd:pro] [api] 200 mode=pro startsWith=doubv (491ms direct)
+[w30:cd:pro] "doubv" → 0 records, 0 words
+[w30:cd:pro] "doubv" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "doubx" | queue=5 | words=57060
+[w30:cd:pro] Pacing 14s before "doubx" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile miss (17490ms)
+[w30:cd:pro] Failed "doubx" attempt 1: No Turnstile token for direct search
+[w30:cd:pro] heartbeat words=57060 queue=6 rotation=1 idle=22s
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Turnstile miss — soft reload before rotate
+[w30:cd:pro] Turnstile mint hard timeout after 15000ms
+[w30:cd:pro] Soft reload mint failed — rotating immediately
+[w30:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w30:cd:pro] Site Turnstile remint timed out (18975ms)
+[w30:cd:pro] Tor ready on 19080 exit=192.42.116.45
+[w30:cd:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19080
+[w30:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w30-r2
+[w30:cd:pro] Proxy tor#3 socks5://127.0.0.1:19080
+[w30:cd:pro] Opening https://lastletterlibrary.com
+[w30:cd:pro] Library mode=pro
+[w30:cd:pro] heartbeat words=57060 queue=6 rotation=2 idle=82s
+[w30:cd:pro] Turnstile token present (len=816)
+[w30:cd:pro] Site Turnstile token (20364ms)
+[w30:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w30:cd:pro] Cleaned 1 old rotated profile(s)
+[w30:cd:pro] Searching "doubx" | queue=5 | words=57060
+[w30:cd:pro] [api] 200 mode=pro startsWith=doubx
+[w30:cd:pro] [api] 200 mode=pro startsWith=doubx (565ms direct)
+[w30:cd:pro] "doubx" → 0 records, 0 words
+[w30:cd:pro] "doubx" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "doubz" | queue=4 | words=57060
+[w30:cd:pro] Pacing 15s before "doubz" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile miss (15807ms)
+[w30:cd:pro] Failed "doubz" attempt 1: No Turnstile token for direct search
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Turnstile miss — soft reload before rotate
+[w30:cd:pro] Turnstile mint hard timeout after 15000ms
+[w30:cd:pro] Soft reload mint failed — rotating immediately
+[w30:cd:pro] Site Turnstile remint timed out (20275ms)
+[w30:cd:pro] heartbeat words=57060 queue=5 rotation=3 idle=49s
+[w30:cd:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w30:cd:pro] Tor ready on 19080 exit=171.25.193.131
+[w30:cd:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19080
+[w30:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w30-r3
+[w30:cd:pro] Proxy tor#4 socks5://127.0.0.1:19080
+[w30:cd:pro] Opening https://lastletterlibrary.com
+[w30:cd:pro] Library mode=pro
+[w30:cd:pro] heartbeat words=57060 queue=5 rotation=3 idle=109s
+[w30:cd:pro] Turnstile token present (len=816)
+[w30:cd:pro] Site Turnstile token (25981ms)
+[w30:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w30:cd:pro] Cleaned 1 old rotated profile(s)
+[w30:cd:pro] Searching "doubz" | queue=4 | words=57060
+[w30:cd:pro] [api] 200 mode=pro startsWith=doubz
+[w30:cd:pro] [api] 200 mode=pro startsWith=doubz (559ms direct)
+[w30:cd:pro] "doubz" → 0 records, 0 words
+[w30:cd:pro] "doubz" branch complete
+[w30:cd:pro] Saved 57,060 worker words; shared last.txt now 480,486
+[w30:cd:pro] Searching "dispet" | queue=3 | words=57060
+[w30:cd:pro] Pacing 7s before "dispet" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 11188ms, remount)
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispet
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispet (482ms direct)
+[w30:cd:pro] "dispet" → 1 records, 1 words
+[w30:cd:pro] "dispet" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "dispev" | queue=2 | words=57060
+[w30:cd:pro] Pacing 15s before "dispev" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile miss (15452ms)
+[w30:cd:pro] Failed "dispev" attempt 1: No Turnstile token for direct search
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Turnstile miss — soft reload before rotate
+[w30:cd:pro] Turnstile mint hard timeout after 15000ms
+[w30:cd:pro] Site Turnstile remint timed out (17530ms)
+[w30:cd:pro] Soft reload mint failed — rotating immediately
+[w30:cd:pro] heartbeat words=57060 queue=3 rotation=4 idle=41s
+[w30:cd:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w30:cd:pro] Tor ready on 19080 exit=185.220.101.15
+[w30:cd:pro] Rotating IP (#4, try 1) after No Turnstile token for direct search → tor#5 socks5://127.0.0.1:19080
+[w30:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w30-r4
+[w30:cd:pro] Proxy tor#5 socks5://127.0.0.1:19080
+[w30:cd:pro] Opening https://lastletterlibrary.com
+[w30:cd:pro] Library mode=pro
+[w30:cd:pro] Managed Turnstile token (len=816, 10031ms, remount)
+[w30:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w30:cd:pro] Cleaned 1 old rotated profile(s)
+[w30:cd:pro] Searching "dispev" | queue=2 | words=57060
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispev
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispev (543ms direct)
+[w30:cd:pro] "dispev" → 0 records, 0 words
+[w30:cd:pro] "dispev" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "dispex" | queue=1 | words=57060
+[w30:cd:pro] Pacing 11s before "dispex" (gap=15500ms)
+[w30:cd:pro] Managed Turnstile token (len=816, 11147ms, remount)
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispex
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispex (844ms direct)
+[w30:cd:pro] "dispex" → 0 records, 0 words
+[w30:cd:pro] "dispex" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Searching "dispez" | queue=0 | words=57060
+[w30:cd:pro] Pacing 10s before "dispez" (gap=15500ms)
+[w30:cd:pro] heartbeat words=57060 queue=0 rotation=4 idle=5s
+[w30:cd:pro] Managed Turnstile token (len=816, 10332ms, remount)
+[w30:cd:pro] [api] 429 mode=pro startsWith=dispez
+[w30:cd:pro] [api] 429 mode=pro startsWith=dispez (445ms direct)
+[w30:cd:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w30:cd:pro] Rate limited — inline wait 2000ms then retry "dispez"
+[w30:cd:pro] Managed Turnstile token (len=816, 7284ms, remount)
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispez
+[w30:cd:pro] [api] 200 mode=pro startsWith=dispez (421ms direct)
+[w30:cd:pro] "dispez" → 0 records, 0 words
+[w30:cd:pro] "dispez" branch complete
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Saved 57,060 worker words
+[w30:cd:pro] Worker done. prefixes=7407 words=57060
+[w30:cd:pro] Managed Turnstile miss (351ms)
+[w30:cd:pro] Tor exited code=0

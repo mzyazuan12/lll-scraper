@@ -1,0 +1,62 @@
+{
+  "at": "2026-08-06T02:06:42.501Z",
+  "parent": 9,
+  "letters": "st",
+  "workers": {
+    "9": {
+      "role": "parent",
+      "count": 26,
+      "sample": [
+        "tp",
+        "tu",
+        "tz",
+        "taf",
+        "tak"
+      ]
+    },
+    "17": {
+      "role": "helper",
+      "count": 26,
+      "sample": [
+        "tq",
+        "tv",
+        "tab",
+        "tag",
+        "tal"
+      ]
+    },
+    "18": {
+      "role": "helper",
+      "count": 26,
+      "sample": [
+        "tr",
+        "tw",
+        "tac",
+        "tah",
+        "tam"
+      ]
+    },
+    "19": {
+      "role": "helper",
+      "count": 26,
+      "sample": [
+        "ts",
+        "tx",
+        "tad",
+        "tai",
+        "tan"
+      ]
+    },
+    "20": {
+      "role": "helper",
+      "count": 25,
+      "sample": [
+        "tt",
+        "ty",
+        "tae",
+        "taj",
+        "tao"
+      ]
+    }
+  }
+}

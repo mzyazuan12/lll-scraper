@@ -1,0 +1,42 @@
+Starting 12 parallel REVERSE (Z→A) queue cleaners
+DRY_RUN=0
+parents=5-letter, prune queue items >=6 chars
+stagger=3500ms
+Logs: cleanup-rev-p5-0.log … cleanup-rev-p5-11.log
+Stop: pkill -f 'node cleanup-queue-reverse.mjs'; pkill -f 'node run-cleanup-reverse-12.mjs'
+Cleanup-rev w0 pid=83376 → cleanup-rev-p5-0.log
+Cleanup-rev w1 pid=83395 → cleanup-rev-p5-1.log
+Cleanup-rev w2 pid=83419 → cleanup-rev-p5-2.log
+Cleanup-rev w3 pid=83439 → cleanup-rev-p5-3.log
+Cleanup-rev w4 pid=83458 → cleanup-rev-p5-4.log
+Cleanup-rev w5 pid=83477 → cleanup-rev-p5-5.log
+Cleanup-rev w6 pid=83497 → cleanup-rev-p5-6.log
+Cleanup-rev w7 pid=83552 → cleanup-rev-p5-7.log
+Cleanup-rev w8 pid=83571 → cleanup-rev-p5-8.log
+Cleanup-rev w9 pid=83593 → cleanup-rev-p5-9.log
+Cleanup-rev w10 pid=83707 → cleanup-rev-p5-10.log
+Cleanup-rev w11 pid=83727 → cleanup-rev-p5-11.log
+Cleanup-rev w0 exited code=0
+Cleanup-rev w5 exited code=0
+Cleanup-rev w9 exited code=0
+Cleanup-rev w11 exited code=0
+Merged last.txt → 278,208 words
+Cleanup-rev w1 exited code=0
+Cleanup-rev w3 exited code=0
+Cleanup-rev w2 exited code=0
+Cleanup-rev w4 exited code=0
+Merged last.txt → 278,208 words
+Merged last.txt → 278,224 words
+Merged last.txt → 278,224 words
+Cleanup-rev w8 exited code=0
+Merged last.txt → 278,224 words
+Merged last.txt → 278,324 words
+Cleanup-rev w7 exited code=0
+Merged last.txt → 278,324 words
+Merged last.txt → 278,474 words
+Cleanup-rev w10 exited code=0
+Merged last.txt → 278,474 words
+Merged last.txt → 278,474 words
+Merged last.txt → 278,474 words
+Merged last.txt → 278,474 words
+Merged last.txt → 278,474 words

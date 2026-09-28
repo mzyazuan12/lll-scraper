@@ -1,0 +1,482 @@
+
+--- boost-12 daemon start 2026-08-06T05:08:18Z queue=31 ---
+[w28:cd:pro] IP mode=tor
+[w28:cd:pro] Starting persistent Tor socks=127.0.0.1:19078 control=127.0.0.1:29078
+[w28:cd:pro] tor: Aug 06 00:08:19.139 [warn] Fixing permissions on directory /tmp/lll-tor-w28
+[w28:cd:pro] tor: Aug 06 00:08:19.000 [notice] Bootstrapped 0% (starting): Starting
+[w28:cd:pro] tor: Aug 06 00:08:20.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w28:cd:pro] tor: Aug 06 00:08:20.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w28:cd:pro] tor: Aug 06 00:08:24.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w28:cd:pro] tor: Aug 06 00:08:24.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w28:cd:pro] tor: Aug 06 00:08:24.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w28:cd:pro] tor: Aug 06 00:08:24.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w28:cd:pro] tor: Aug 06 00:08:27.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w28:cd:pro] tor: Aug 06 00:08:29.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w28:cd:pro] tor: Aug 06 00:08:29.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 06 00:08:29.000 [notice] I learned some more directory 
+[w28:cd:pro] tor: Aug 06 00:08:30.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w28:cd:pro] tor: Aug 06 00:08:40.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w28:cd:pro] tor: Aug 06 00:08:40.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w28:cd:pro] tor: Aug 06 00:08:41.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w28:cd:pro] tor: Aug 06 00:08:41.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w28:cd:pro] tor: Aug 06 00:08:41.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 06 00:08:41.000 [notice] Bootstrapped 9
+[w28:cd:pro] tor: Aug 06 00:08:42.000 [notice] Bootstrapped 100% (done): Done
+[w28:cd:pro] Tor ready on 19078 exit=94.230.208.148
+[w28:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w28-r0
+[w28:cd:pro] Proxy tor#1 socks5://127.0.0.1:19078
+[w28:cd:pro] Opening https://lastletterlibrary.com
+[w28:cd:pro] Library mode=pro
+[w28:cd:pro] Managed Turnstile token (len=816, 5378ms, remount)
+[w28:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w28:cd:pro] Loaded 7390 prefixes, 57363 words; queue=31
+[w28:cd:pro] Searching "deses" | queue=30 | words=57363
+[w28:cd:pro] [api] 200 mode=pro startsWith=deses
+[w28:cd:pro] [api] 200 mode=pro startsWith=deses (740ms direct)
+[w28:cd:pro] "deses" → 1 records, 1 words
+[w28:cd:pro] "deses" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "deseu" | queue=29 | words=57364
+[w28:cd:pro] Pacing 15s before "deseu" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 4318ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=deseu
+[w28:cd:pro] [api] 200 mode=pro startsWith=deseu (474ms direct)
+[w28:cd:pro] "deseu" → 0 records, 0 words
+[w28:cd:pro] "deseu" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "desew" | queue=28 | words=57364
+[w28:cd:pro] Pacing 15s before "desew" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 4619ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=desew
+[w28:cd:pro] [api] 200 mode=pro startsWith=desew (586ms direct)
+[w28:cd:pro] "desew" → 0 records, 0 words
+[w28:cd:pro] "desew" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "desey" | queue=27 | words=57364
+[w28:cd:pro] Pacing 15s before "desey" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 10539ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=desey
+[w28:cd:pro] [api] 200 mode=pro startsWith=desey (558ms direct)
+[w28:cd:pro] "desey" → 0 records, 0 words
+[w28:cd:pro] "desey" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "deter" | queue=26 | words=57364
+[w28:cd:pro] Pacing 15s before "deter" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 8846ms, remount)
+[w28:cd:pro] heartbeat words=57364 queue=26 rotation=0 idle=12s
+[w28:cd:pro] [api] 200 mode=pro startsWith=deter
+[w28:cd:pro] [api] 200 mode=pro startsWith=deter (528ms direct)
+[w28:cd:pro] "deter" → 95 records, 95 words (incl. exact "deter")
+[w28:cd:pro] "deter" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "detet" | queue=25 | words=57364
+[w28:cd:pro] Pacing 15s before "detet" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 6805ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=detet
+[w28:cd:pro] [api] 200 mode=pro startsWith=detet (498ms direct)
+[w28:cd:pro] "detet" → 0 records, 0 words
+[w28:cd:pro] "detet" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "detev" | queue=24 | words=57364
+[w28:cd:pro] Pacing 15s before "detev" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 4683ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=detev
+[w28:cd:pro] [api] 200 mode=pro startsWith=detev (497ms direct)
+[w28:cd:pro] "detev" → 0 records, 0 words
+[w28:cd:pro] "detev" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "detex" | queue=23 | words=57364
+[w28:cd:pro] Pacing 15s before "detex" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 12304ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=detex
+[w28:cd:pro] [api] 200 mode=pro startsWith=detex (528ms direct)
+[w28:cd:pro] "detex" → 0 records, 0 words
+[w28:cd:pro] "detex" branch complete
+[w28:cd:pro] heartbeat words=57364 queue=23 rotation=0 idle=25s
+[w28:cd:pro] Managed Turnstile token (len=816, 11458ms, remount)
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "detez" | queue=22 | words=57364
+[w28:cd:pro] Pacing 1s before "detez" (gap=15500ms)
+[w28:cd:pro] [api] 429 mode=pro startsWith=detez
+[w28:cd:pro] [api] 429 mode=pro startsWith=detez (599ms direct)
+[w28:cd:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w28:cd:pro] Rate limited — inline wait 2000ms then retry "detez"
+[w28:cd:pro] Managed Turnstile miss (15241ms)
+[w28:cd:pro] Failed "detez" attempt 1: No Turnstile token for direct search
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Turnstile miss — soft reload before rotate
+[w28:cd:pro] Turnstile token present (len=816)
+[w28:cd:pro] Site Turnstile token (10240ms)
+[w28:cd:pro] Searching "detez" | queue=22 | words=57364
+[w28:cd:pro] [api] 200 mode=pro startsWith=detez
+[w28:cd:pro] [api] 200 mode=pro startsWith=detez (535ms direct)
+[w28:cd:pro] "detez" → 0 records, 0 words
+[w28:cd:pro] "detez" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "diapp" | queue=21 | words=57364
+[w28:cd:pro] Pacing 15s before "diapp" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 5686ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapp
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapp (656ms direct)
+[w28:cd:pro] "diapp" → 0 records, 0 words
+[w28:cd:pro] "diapp" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "diapr" | queue=20 | words=57364
+[w28:cd:pro] Pacing 13s before "diapr" (gap=15500ms)
+[w28:cd:pro] heartbeat words=57364 queue=20 rotation=0 idle=6s
+[w28:cd:pro] Managed Turnstile miss (16757ms)
+[w28:cd:pro] Failed "diapr" attempt 1: No Turnstile token for direct search
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Turnstile miss — soft reload before rotate
+[w28:cd:pro] Turnstile mint hard timeout after 15000ms
+[w28:cd:pro] Soft reload mint failed — rotating immediately
+[w28:cd:pro] heartbeat words=57364 queue=21 rotation=1 idle=67s
+[w28:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w28:cd:pro] Tor ready on 19078 exit=171.25.193.80
+[w28:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19078
+[w28:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w28-r1
+[w28:cd:pro] Proxy tor#2 socks5://127.0.0.1:19078
+[w28:cd:pro] Opening https://lastletterlibrary.com
+[w28:cd:pro] page.goto failed attempt 1: page.goto: net::ERR_CONNECTION_CLOSED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterl
+[w28:cd:pro] page.goto failed attempt 2: page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastl
+[w28:cd:pro] Library mode=pro
+[w28:cd:pro] heartbeat words=57364 queue=21 rotation=1 idle=127s
+[w28:cd:pro] Managed Turnstile token (len=816, 18485ms, remount)
+[w28:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w28:cd:pro] Cleaned 1 old rotated profile(s)
+[w28:cd:pro] Searching "diapr" | queue=20 | words=57364
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapr
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapr (879ms direct)
+[w28:cd:pro] "diapr" → 0 records, 0 words
+[w28:cd:pro] "diapr" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "diapt" | queue=19 | words=57364
+[w28:cd:pro] Pacing 13s before "diapt" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 11390ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapt
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapt (15947ms direct)
+[w28:cd:pro] "diapt" → 0 records, 0 words
+[w28:cd:pro] "diapt" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "diapv" | queue=18 | words=57364
+[w28:cd:pro] Managed Turnstile token (len=816, 8665ms, remount)
+[w28:cd:pro] [api] 429 mode=pro startsWith=diapv
+[w28:cd:pro] [api] 429 mode=pro startsWith=diapv (723ms direct)
+[w28:cd:pro] Learned server gap ≈ 15500ms (wait hint 7000ms)
+[w28:cd:pro] Rate limited — inline wait 7000ms then retry "diapv"
+[w28:cd:pro] heartbeat words=57364 queue=18 rotation=1 idle=20s
+[w28:cd:pro] Managed Turnstile token (len=816, 10792ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapv
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapv (631ms direct)
+[w28:cd:pro] "diapv" → 0 records, 0 words
+[w28:cd:pro] "diapv" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "diapx" | queue=17 | words=57364
+[w28:cd:pro] Pacing 15s before "diapx" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 14356ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapx
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapx (849ms direct)
+[w28:cd:pro] "diapx" → 0 records, 0 words
+[w28:cd:pro] "diapx" branch complete
+[w28:cd:pro] Managed Turnstile token (len=816, 7853ms, remount)
+[w28:cd:pro] Saved 57,364 worker words; shared last.txt now 480,486
+[w28:cd:pro] Searching "diapz" | queue=16 | words=57364
+[w28:cd:pro] Pacing 3s before "diapz" (gap=15500ms)
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapz
+[w28:cd:pro] [api] 200 mode=pro startsWith=diapz (670ms direct)
+[w28:cd:pro] "diapz" → 0 records, 0 words
+[w28:cd:pro] "diapz" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "dichu" | queue=15 | words=57364
+[w28:cd:pro] Pacing 14s before "dichu" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile miss (15549ms)
+[w28:cd:pro] Failed "dichu" attempt 1: No Turnstile token for direct search
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Turnstile miss — soft reload before rotate
+[w28:cd:pro] heartbeat words=57364 queue=16 rotation=1 idle=28s
+[w28:cd:pro] Turnstile mint hard timeout after 15000ms
+[w28:cd:pro] Site Turnstile remint timed out (16091ms)
+[w28:cd:pro] Soft reload mint failed — rotating immediately
+[w28:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w28:cd:pro] Tor ready on 19078 exit=109.70.100.1
+[w28:cd:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19078
+[w28:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w28-r2
+[w28:cd:pro] Proxy tor#3 socks5://127.0.0.1:19078
+[w28:cd:pro] Opening https://lastletterlibrary.com
+[w28:cd:pro] heartbeat words=57364 queue=16 rotation=2 idle=88s
+[w28:cd:pro] Library mode=pro
+[w28:cd:pro] Managed Turnstile token (len=816, 7983ms, remount)
+[w28:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w28:cd:pro] Cleaned 1 old rotated profile(s)
+[w28:cd:pro] Searching "dichu" | queue=15 | words=57364
+[w28:cd:pro] [api] 200 mode=pro startsWith=dichu
+[w28:cd:pro] [api] 200 mode=pro startsWith=dichu (1000ms direct)
+[w28:cd:pro] "dichu" → 0 records, 0 words
+[w28:cd:pro] "dichu" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "dichw" | queue=14 | words=57364
+[w28:cd:pro] Pacing 14s before "dichw" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 8176ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=dichw
+[w28:cd:pro] [api] 200 mode=pro startsWith=dichw (578ms direct)
+[w28:cd:pro] "dichw" → 0 records, 0 words
+[w28:cd:pro] "dichw" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "dichy" | queue=13 | words=57364
+[w28:cd:pro] Pacing 14s before "dichy" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 6723ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=dichy
+[w28:cd:pro] [api] 200 mode=pro startsWith=dichy (690ms direct)
+[w28:cd:pro] "dichy" → 0 records, 0 words
+[w28:cd:pro] "dichy" branch complete
+[w28:cd:pro] Saved 57,364 worker words
+[w28:cd:pro] Searching "disem" | queue=12 | words=57364
+[w28:cd:pro] Pacing 15s before "disem" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 5601ms, remount)
+[w28:cd:pro] heartbeat words=57364 queue=12 rotation=2 idle=14s
+[w28:cd:pro] [api] 200 mode=pro startsWith=disem
+[w28:cd:pro] [api] 200 mode=pro startsWith=disem (587ms direct)
+[w28:cd:pro] "disem" → 90 records, 90 words
+[w28:cd:pro] "disem" branch complete
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Searching "disex" | queue=11 | words=57380
+[w28:cd:pro] Pacing 12s before "disex" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 12518ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=disex
+[w28:cd:pro] [api] 200 mode=pro startsWith=disex (807ms direct)
+[w28:cd:pro] "disex" → 2 records, 2 words
+[w28:cd:pro] "disex" branch complete
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Searching "disez" | queue=10 | words=57380
+[w28:cd:pro] Pacing 11s before "disez" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 10641ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=disez
+[w28:cd:pro] [api] 200 mode=pro startsWith=disez (598ms direct)
+[w28:cd:pro] "disez" → 0 records, 0 words
+[w28:cd:pro] "disez" branch complete
+[w28:cd:pro] Saved 57,380 worker words; shared last.txt now 480,853
+[w28:cd:pro] Searching "divit" | queue=9 | words=57380
+[w28:cd:pro] Pacing 14s before "divit" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 5884ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=divit
+[w28:cd:pro] [api] 200 mode=pro startsWith=divit (1082ms direct)
+[w28:cd:pro] "divit" → 0 records, 0 words
+[w28:cd:pro] "divit" branch complete
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Searching "diviv" | queue=8 | words=57380
+[w28:cd:pro] Pacing 13s before "diviv" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 7806ms, remount)
+[w28:cd:pro] heartbeat words=57380 queue=8 rotation=2 idle=9s
+[w28:cd:pro] [api] 200 mode=pro startsWith=diviv
+[w28:cd:pro] [api] 200 mode=pro startsWith=diviv (689ms direct)
+[w28:cd:pro] "diviv" → 0 records, 0 words
+[w28:cd:pro] "diviv" branch complete
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Searching "divix" | queue=7 | words=57380
+[w28:cd:pro] Pacing 15s before "divix" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 7399ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=divix
+[w28:cd:pro] [api] 200 mode=pro startsWith=divix (796ms direct)
+[w28:cd:pro] "divix" → 0 records, 0 words
+[w28:cd:pro] "divix" branch complete
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Searching "diviz" | queue=6 | words=57380
+[w28:cd:pro] Pacing 13s before "diviz" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile miss (16541ms)
+[w28:cd:pro] Failed "diviz" attempt 1: No Turnstile token for direct search
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Turnstile miss — soft reload before rotate
+[w28:cd:pro] Site Turnstile remint timed out (10509ms)
+[w28:cd:pro] Soft reload mint failed — rotating immediately
+[w28:cd:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w28:cd:pro] heartbeat words=57380 queue=7 rotation=3 idle=38s
+[w28:cd:pro] Tor ready on 19078 exit=185.220.101.172
+[w28:cd:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19078
+[w28:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w28-r3
+[w28:cd:pro] Proxy tor#4 socks5://127.0.0.1:19078
+[w28:cd:pro] Opening https://lastletterlibrary.com
+[w28:cd:pro] Library mode=pro
+[w28:cd:pro] Turnstile token present (len=837)
+[w28:cd:pro] Site Turnstile token (19861ms)
+[w28:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w28:cd:pro] Cleaned 1 old rotated profile(s)
+[w28:cd:pro] Searching "diviz" | queue=6 | words=57380
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (458ms direct)
+[w28:cd:pro] Learned server gap ≈ 15500ms (wait hint 5000ms)
+[w28:cd:pro] Rate limited — inline wait 5000ms then retry "diviz"
+[w28:cd:pro] Managed Turnstile token (len=816, 5718ms, remount)
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (513ms direct)
+[w28:cd:pro] Learned server gap ≈ 15500ms (wait hint 14000ms)
+[w28:cd:pro] Failed "diviz" attempt 1: API 429 for "diviz": wait 13s — {"message":"Too many requests. Please wait 13 seconds."}
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Rate limited — waiting 14000 ms before retry
+[w28:cd:pro] Managed Turnstile token (len=816, 6561ms, remount)
+[w28:cd:pro] heartbeat words=57380 queue=7 rotation=3 idle=98s
+[w28:cd:pro] Searching "diviz" | queue=6 | words=57380
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (771ms direct)
+[w28:cd:pro] Learned server gap ≈ 17179ms (wait hint 16000ms)
+[w28:cd:pro] Rate limited — inline wait 16000ms then retry "diviz"
+[w28:cd:pro] Managed Turnstile token (len=816, 5563ms, remount)
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (597ms direct)
+[w28:cd:pro] Learned server gap ≈ 17179ms (wait hint 15000ms)
+[w28:cd:pro] Failed "diviz" attempt 1: API 429 for "diviz": wait 14s — {"message":"Too many requests. Please wait 14 seconds."}
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Rate limited — waiting 15000 ms before retry
+[w28:cd:pro] Managed Turnstile token (len=816, 6218ms, remount)
+[w28:cd:pro] Searching "diviz" | queue=6 | words=57380
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (572ms direct)
+[w28:cd:pro] Learned server gap ≈ 17179ms (wait hint 15000ms)
+[w28:cd:pro] Rate limited — inline wait 15000ms then retry "diviz"
+[w28:cd:pro] Managed Turnstile token (len=816, 14411ms, remount)
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (466ms direct)
+[w28:cd:pro] Learned server gap ≈ 17179ms (wait hint 16000ms)
+[w28:cd:pro] Failed "diviz" attempt 1: API 429 for "diviz": wait 15s — {"message":"Too many requests. Please wait 15 seconds."}
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Rate limited — waiting 16000 ms before retry
+[w28:cd:pro] Managed Turnstile token (len=816, 7005ms, remount)
+[w28:cd:pro] heartbeat words=57380 queue=7 rotation=3 idle=158s
+[w28:cd:pro] Searching "diviz" | queue=6 | words=57380
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (530ms direct)
+[w28:cd:pro] Learned server gap ≈ 17179ms (wait hint 15000ms)
+[w28:cd:pro] Rate limited — inline wait 15000ms then retry "diviz"
+[w28:cd:pro] Managed Turnstile token (len=816, 8684ms, remount)
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (556ms direct)
+[w28:cd:pro] Learned server gap ≈ 17179ms (wait hint 15000ms)
+[w28:cd:pro] Failed "diviz" attempt 1: API 429 for "diviz": wait 14s — {"message":"Too many requests. Please wait 14 seconds."}
+[w28:cd:pro] Saved 57,380 worker words; shared last.txt now 481,378
+[w28:cd:pro] Rate limited — waiting 15000 ms before retry
+[w28:cd:pro] Managed Turnstile token (len=816, 7568ms, remount)
+[w28:cd:pro] Searching "diviz" | queue=6 | words=57380
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (524ms direct)
+[w28:cd:pro] Learned server gap ≈ 17179ms (wait hint 9000ms)
+[w28:cd:pro] Rate limited — inline wait 9000ms then retry "diviz"
+[w28:cd:pro] Managed Turnstile token (len=816, 5770ms, remount)
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 429 mode=pro startsWith=diviz (450ms direct)
+[w28:cd:pro] Learned server gap ≈ 17179ms (wait hint 15000ms)
+[w28:cd:pro] Failed "diviz" attempt 1: API 429 for "diviz": wait 14s — {"message":"Too many requests. Please wait 14 seconds."}
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Rate limited — waiting 15000 ms before retry
+[w28:cd:pro] heartbeat words=57380 queue=7 rotation=3 idle=218s
+[w28:cd:pro] No successful search for 180s — respawning worker
+[w28:cd:pro] Graceful shutdown on watchdog
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Managed Turnstile miss (3652ms)
+[w28:cd:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T05:23:27Z queue=7 ---
+[w28:cd:pro] IP mode=tor
+[w28:cd:pro] Cleaned 1 old rotated profile(s)
+[w28:cd:pro] Starting persistent Tor socks=127.0.0.1:19078 control=127.0.0.1:29078
+[w28:cd:pro] tor: Aug 06 00:23:28.000 [notice] Bootstrapped 0% (starting): Starting
+[w28:cd:pro] tor: Aug 06 00:23:31.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w28:cd:pro] tor: Aug 06 00:23:32.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w28:cd:pro] tor: Aug 06 00:23:32.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w28:cd:pro] tor: Aug 06 00:23:32.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 06 00:23:32.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w28:cd:pro] tor: Aug 06 00:23:32.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w28:cd:pro] tor: Aug 06 00:23:33.000 [notice] Bootstrapped 100% (done): Done
+[w28:cd:pro] Tor ready on 19078 exit=185.220.101.24
+[w28:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w28-r0
+[w28:cd:pro] Proxy tor#1 socks5://127.0.0.1:19078
+[w28:cd:pro] Opening https://lastletterlibrary.com
+[w28:cd:pro] Library mode=pro
+[w28:cd:pro] Turnstile token present (len=837)
+[w28:cd:pro] Site Turnstile token (19882ms)
+[w28:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w28:cd:pro] Loaded 7414 prefixes, 57380 words; queue=7
+[w28:cd:pro] Searching "diviz" | queue=6 | words=57380
+[w28:cd:pro] [api] 200 mode=pro startsWith=diviz
+[w28:cd:pro] [api] 200 mode=pro startsWith=diviz (657ms direct)
+[w28:cd:pro] "diviz" → 0 records, 0 words
+[w28:cd:pro] "diviz" branch complete
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Searching "downj" | queue=5 | words=57380
+[w28:cd:pro] Pacing 15s before "downj" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile miss (15081ms)
+[w28:cd:pro] Failed "downj" attempt 1: No Turnstile token for direct search
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Turnstile miss — soft reload before rotate
+[w28:cd:pro] Site Turnstile remint timed out (9578ms)
+[w28:cd:pro] Soft reload mint failed — rotating immediately
+[w28:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w28:cd:pro] Tor ready on 19078 exit=45.84.107.172
+[w28:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19078
+[w28:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w28-r1
+[w28:cd:pro] Proxy tor#2 socks5://127.0.0.1:19078
+[w28:cd:pro] Opening https://lastletterlibrary.com
+[w28:cd:pro] Library mode=pro
+[w28:cd:pro] Managed Turnstile token (len=816, 4641ms, remount)
+[w28:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w28:cd:pro] Cleaned 1 old rotated profile(s)
+[w28:cd:pro] Searching "downj" | queue=5 | words=57380
+[w28:cd:pro] [api] 200 mode=pro startsWith=downj
+[w28:cd:pro] [api] 200 mode=pro startsWith=downj (399ms direct)
+[w28:cd:pro] "downj" → 0 records, 0 words
+[w28:cd:pro] "downj" branch complete
+[w28:cd:pro] Saved 57,380 worker words
+[w28:cd:pro] Searching "downl" | queue=4 | words=57380
+[w28:cd:pro] Pacing 16s before "downl" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 3998ms, remount)
+[w28:cd:pro] heartbeat words=57380 queue=4 rotation=1 idle=13s
+[w28:cd:pro] [api] 200 mode=pro startsWith=downl
+[w28:cd:pro] [api] 200 mode=pro startsWith=downl (477ms direct)
+[w28:cd:pro] "downl" → 27 records, 27 words
+[w28:cd:pro] "downl" branch complete
+[w28:cd:pro] Saved 57,407 worker words
+[w28:cd:pro] Searching "downn" | queue=3 | words=57407
+[w28:cd:pro] Pacing 15s before "downn" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 4259ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=downn
+[w28:cd:pro] [api] 200 mode=pro startsWith=downn (479ms direct)
+[w28:cd:pro] "downn" → 1 records, 1 words
+[w28:cd:pro] "downn" branch complete
+[w28:cd:pro] Saved 57,408 worker words
+[w28:cd:pro] Searching "downp" | queue=2 | words=57408
+[w28:cd:pro] Pacing 15s before "downp" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 4420ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=downp
+[w28:cd:pro] [api] 200 mode=pro startsWith=downp (439ms direct)
+[w28:cd:pro] "downp" → 11 records, 11 words
+[w28:cd:pro] "downp" branch complete
+[w28:cd:pro] Saved 57,419 worker words
+[w28:cd:pro] Searching "downr" | queue=1 | words=57419
+[w28:cd:pro] Pacing 15s before "downr" (gap=15500ms)
+[w28:cd:pro] Managed Turnstile token (len=816, 4913ms, remount)
+[w28:cd:pro] [api] 200 mode=pro startsWith=downr
+[w28:cd:pro] [api] 200 mode=pro startsWith=downr (452ms direct)
+[w28:cd:pro] "downr" → 22 records, 22 words
+[w28:cd:pro] "downr" branch complete
+[w28:cd:pro] Saved 57,441 worker words
+[w28:cd:pro] Searching "downz" | queue=0 | words=57441
+[w28:cd:pro] Pacing 16s before "downz" (gap=15500ms)
+[w28:cd:pro] heartbeat words=57441 queue=0 rotation=1 idle=11s
+[w28:cd:pro] Managed Turnstile miss (15054ms)
+[w28:cd:pro] Failed "downz" attempt 1: No Turnstile token for direct search
+[w28:cd:pro] Saved 57,441 worker words; shared last.txt now 481,562
+[w28:cd:pro] Turnstile miss — soft reload before rotate
+[w28:cd:pro] Turnstile token present (len=816)
+[w28:cd:pro] Site Turnstile token (5923ms)
+[w28:cd:pro] Searching "downz" | queue=0 | words=57441
+[w28:cd:pro] [api] 200 mode=pro startsWith=downz
+[w28:cd:pro] [api] 200 mode=pro startsWith=downz (502ms direct)
+[w28:cd:pro] "downz" → 4 records, 4 words
+[w28:cd:pro] "downz" branch complete
+[w28:cd:pro] Saved 57,441 worker words
+[w28:cd:pro] Saved 57,441 worker words
+[w28:cd:pro] Worker done. prefixes=7421 words=57441
+[w28:cd:pro] Managed Turnstile miss (160ms)
+[w28:cd:pro] Tor exited code=0

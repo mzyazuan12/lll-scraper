@@ -1,0 +1,299 @@
+
+--- boost-12 start 2026-08-06T03:54:27.343Z letters=st ---
+[w25:st:pro] IP mode=tor
+[w25:st:pro] Starting persistent Tor socks=127.0.0.1:19075 control=127.0.0.1:29075
+[w25:st:pro] tor: Aug 05 22:54:28.174 [warn] Fixing permissions on directory /tmp/lll-tor-w25
+[w25:st:pro] tor: Aug 05 22:54:28.000 [notice] Bootstrapped 0% (starting): Starting
+[w25:st:pro] tor: Aug 05 22:54:29.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w25:st:pro] tor: Aug 05 22:54:29.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w25:st:pro] tor: Aug 05 22:54:32.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w25:st:pro] tor: Aug 05 22:54:33.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 22:54:33.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w25:st:pro] tor: Aug 05 22:54:33.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w25:st:pro] tor: Aug 05 22:54:33.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w25:st:pro] tor: Aug 05 22:54:35.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w25:st:pro] tor: Aug 05 22:54:36.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 22:54:36.000 [notice] I learned some more directory 
+[w25:st:pro] tor: Aug 05 22:54:36.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w25:st:pro] tor: Aug 05 22:54:45.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w25:st:pro] tor: Aug 05 22:54:45.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w25:st:pro] tor: Aug 05 22:54:45.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w25:st:pro] tor: Aug 05 22:54:46.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w25:st:pro] tor: Aug 05 22:54:46.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 22:54:46.000 [notice] Bootstrapped 9
+[w25:st:pro] tor: Aug 05 22:54:47.000 [notice] Bootstrapped 100% (done): Done
+[w25:st:pro] Tor ready on 19075 exit=185.220.101.18
+[w25:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w25-r0
+[w25:st:pro] Proxy tor#1 socks5://127.0.0.1:19075
+[w25:st:pro] Opening https://lastletterlibrary.com
+[w25:st:pro] page.goto failed attempt 1: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w25:st:pro] Library mode=pro
+[w25:st:pro] Managed Turnstile token (len=816, 3430ms, remount)
+[w25:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w25:st:pro] Loaded 9550 prefixes, 73859 words; queue=25
+[w25:st:pro] Searching "trie" | queue=24 | words=73859
+[w25:st:pro] [api] 200 mode=pro startsWith=trie
+[w25:st:pro] [api] 200 mode=pro startsWith=trie (577ms direct)
+[w25:st:pro] "trie" → 54 records, 54 words (incl. exact "trie")
+[w25:st:pro] "trie" branch complete
+[w25:st:pro] Saved 73,913 worker words
+[w25:st:pro] Searching "trik" | queue=23 | words=73913
+[w25:st:pro] Pacing 15s before "trik" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 3153ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=trik
+[w25:st:pro] [api] 200 mode=pro startsWith=trik (612ms direct)
+[w25:st:pro] "trik" → 11 records, 11 words
+[w25:st:pro] "trik" branch complete
+[w25:st:pro] Saved 73,924 worker words
+[w25:st:pro] Searching "triq" | queue=22 | words=73924
+[w25:st:pro] Pacing 9s before "triq" (gap=15500ms)
+[w25:st:pro] Managed Turnstile miss (18287ms)
+[w25:st:pro] Failed "triq" attempt 1: No Turnstile token for direct search
+[w25:st:pro] Saved 73,924 worker words
+[w25:st:pro] Turnstile miss — soft reload before rotate
+[w25:st:pro] heartbeat words=73924 queue=23 rotation=0 idle=41s
+[w25:st:pro] Turnstile mint hard timeout after 15000ms
+[w25:st:pro] Soft reload mint failed — rotating immediately
+[w25:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w25:st:pro] Tor ready on 19075 exit=45.66.35.20
+[w25:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19075
+[w25:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w25-r1
+[w25:st:pro] Proxy tor#2 socks5://127.0.0.1:19075
+[w25:st:pro] Opening https://lastletterlibrary.com
+[w25:st:pro] Library mode=pro
+[w25:st:pro] Managed Turnstile token (len=816, 3990ms, remount)
+[w25:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w25:st:pro] Cleaned 1 old rotated profile(s)
+[w25:st:pro] Searching "triq" | queue=22 | words=73924
+[w25:st:pro] [api] 200 mode=pro startsWith=triq
+[w25:st:pro] [api] 200 mode=pro startsWith=triq (509ms direct)
+[w25:st:pro] "triq" → 12 records, 12 words
+[w25:st:pro] "triq" branch complete
+[w25:st:pro] Saved 73,936 worker words
+[w25:st:pro] Searching "triw" | queue=21 | words=73936
+[w25:st:pro] Pacing 15s before "triw" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 3135ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=triw
+[w25:st:pro] [api] 200 mode=pro startsWith=triw (473ms direct)
+[w25:st:pro] "triw" → 4 records, 4 words
+[w25:st:pro] "triw" branch complete
+[w25:st:pro] Saved 73,940 worker words
+[w25:st:pro] Searching "troe" | queue=20 | words=73940
+[w25:st:pro] Pacing 14s before "troe" (gap=15500ms)
+[w25:st:pro] heartbeat words=73940 queue=20 rotation=1 idle=7s
+[w25:st:pro] Managed Turnstile token (len=816, 12312ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=troe
+[w25:st:pro] [api] 200 mode=pro startsWith=troe (424ms direct)
+[w25:st:pro] "troe" → 5 records, 5 words
+[w25:st:pro] "troe" branch complete
+[w25:st:pro] Saved 73,945 worker words
+[w25:st:pro] Searching "trok" | queue=19 | words=73945
+[w25:st:pro] Pacing 7s before "trok" (gap=15500ms)
+[w25:st:pro] Turnstile mint hard timeout after 20000ms
+[w25:st:pro] Failed "trok" attempt 1: No Turnstile token for direct search
+[w25:st:pro] Saved 73,945 worker words
+[w25:st:pro] Turnstile miss — soft reload before rotate
+[w25:st:pro] Managed Turnstile token (len=816, 5177ms, remount)
+[w25:st:pro] Searching "trok" | queue=19 | words=73945
+[w25:st:pro] [api] 200 mode=pro startsWith=trok
+[w25:st:pro] [api] 200 mode=pro startsWith=trok (399ms direct)
+[w25:st:pro] "trok" → 5 records, 5 words
+[w25:st:pro] "trok" branch complete
+[w25:st:pro] Saved 73,950 worker words; shared last.txt now 466,618
+[w25:st:pro] Searching "troq" | queue=18 | words=73950
+[w25:st:pro] Pacing 15s before "troq" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 3100ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=troq
+[w25:st:pro] [api] 200 mode=pro startsWith=troq (416ms direct)
+[w25:st:pro] "troq" → 0 records, 0 words
+[w25:st:pro] "troq" branch complete
+[w25:st:pro] Saved 73,950 worker words
+[w25:st:pro] Searching "troz" | queue=17 | words=73950
+[w25:st:pro] Pacing 15s before "troz" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 3389ms, remount)
+[w25:st:pro] heartbeat words=73950 queue=17 rotation=1 idle=8s
+[w25:st:pro] [api] 200 mode=pro startsWith=troz
+[w25:st:pro] [api] 200 mode=pro startsWith=troz (441ms direct)
+[w25:st:pro] "troz" → 0 records, 0 words
+[w25:st:pro] "troz" branch complete
+[w25:st:pro] Saved 73,950 worker words
+[w25:st:pro] Searching "truj" | queue=16 | words=73950
+[w25:st:pro] Pacing 14s before "truj" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 6621ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=truj
+[w25:st:pro] [api] 200 mode=pro startsWith=truj (568ms direct)
+[w25:st:pro] "truj" → 0 records, 0 words
+[w25:st:pro] "truj" branch complete
+[w25:st:pro] Saved 73,950 worker words
+[w25:st:pro] Searching "trup" | queue=15 | words=73950
+[w25:st:pro] Pacing 6s before "trup" (gap=15500ms)
+[w25:st:pro] Turnstile mint hard timeout after 20000ms
+[w25:st:pro] Failed "trup" attempt 1: No Turnstile token for direct search
+[w25:st:pro] heartbeat words=73950 queue=16 rotation=1 idle=28s
+[w25:st:pro] Saved 73,950 worker words
+[w25:st:pro] Turnstile miss — soft reload before rotate
+[w25:st:pro] Turnstile mint hard timeout after 15000ms
+[w25:st:pro] Soft reload mint failed — rotating immediately
+[w25:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w25:st:pro] Tor exit 192.108.48.150 already used by another worker (try 1/6)
+[w25:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w25:st:pro] Tor ready on 19075 exit=147.90.235.22
+[w25:st:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19075
+[w25:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w25-r2
+[w25:st:pro] Proxy tor#3 socks5://127.0.0.1:19075
+[w25:st:pro] Opening https://lastletterlibrary.com
+[w25:st:pro] Library mode=pro
+[w25:st:pro] heartbeat words=73950 queue=16 rotation=2 idle=88s
+[w25:st:pro] Managed Turnstile token (len=816, 10543ms, remount)
+[w25:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w25:st:pro] Cleaned 1 old rotated profile(s)
+[w25:st:pro] Searching "trup" | queue=15 | words=73950
+[w25:st:pro] [api] 200 mode=pro startsWith=trup
+[w25:st:pro] [api] 200 mode=pro startsWith=trup (769ms direct)
+[w25:st:pro] "trup" → 0 records, 0 words
+[w25:st:pro] "trup" branch complete
+[w25:st:pro] Saved 73,950 worker words
+[w25:st:pro] Searching "truz" | queue=14 | words=73950
+[w25:st:pro] Pacing 4s before "truz" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 19405ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=truz
+[w25:st:pro] [api] 200 mode=pro startsWith=truz (415ms direct)
+[w25:st:pro] "truz" → 0 records, 0 words
+[w25:st:pro] "truz" branch complete
+[w25:st:pro] Saved 73,950 worker words
+[w25:st:pro] Searching "twiq" | queue=13 | words=73950
+[w25:st:pro] Pacing 9s before "twiq" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 13070ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=twiq
+[w25:st:pro] [api] 200 mode=pro startsWith=twiq (1034ms direct)
+[w25:st:pro] "twiq" → 0 records, 0 words
+[w25:st:pro] "twiq" branch complete
+[w25:st:pro] Saved 73,950 worker words
+[w25:st:pro] Searching "tartz" | queue=12 | words=73950
+[w25:st:pro] Pacing 11s before "tartz" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 8896ms, remount)
+[w25:st:pro] heartbeat words=73950 queue=12 rotation=2 idle=11s
+[w25:st:pro] [api] 200 mode=pro startsWith=tartz
+[w25:st:pro] [api] 200 mode=pro startsWith=tartz (711ms direct)
+[w25:st:pro] "tartz" → 0 records, 0 words
+[w25:st:pro] "tartz" branch complete
+[w25:st:pro] Turnstile mint hard timeout after 20000ms
+[w25:st:pro] Saved 73,950 worker words; shared last.txt now 467,686
+[w25:st:pro] Searching "telel" | queue=11 | words=73950
+[w25:st:pro] heartbeat words=73950 queue=11 rotation=2 idle=5s
+[w25:st:pro] Managed Turnstile token (len=816, 6365ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=telel
+[w25:st:pro] [api] 200 mode=pro startsWith=telel (470ms direct)
+[w25:st:pro] "telel" → 4 records, 4 words
+[w25:st:pro] "telel" branch complete
+[w25:st:pro] Saved 73,954 worker words
+[w25:st:pro] Searching "teler" | queue=10 | words=73954
+[w25:st:pro] Pacing 14s before "teler" (gap=15500ms)
+[w25:st:pro] Managed Turnstile miss (16631ms)
+[w25:st:pro] Failed "teler" attempt 1: No Turnstile token for direct search
+[w25:st:pro] Saved 73,954 worker words
+[w25:st:pro] Turnstile miss — soft reload before rotate
+[w25:st:pro] Turnstile token present (len=816)
+[w25:st:pro] Site Turnstile token (7420ms)
+[w25:st:pro] Searching "teler" | queue=10 | words=73954
+[w25:st:pro] [api] 200 mode=pro startsWith=teler
+[w25:st:pro] [api] 200 mode=pro startsWith=teler (503ms direct)
+[w25:st:pro] "teler" → 17 records, 17 words
+[w25:st:pro] "teler" branch complete
+[w25:st:pro] Saved 73,971 worker words
+[w25:st:pro] Searching "threx" | queue=9 | words=73971
+[w25:st:pro] Pacing 14s before "threx" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 6963ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=threx
+[w25:st:pro] [api] 200 mode=pro startsWith=threx (419ms direct)
+[w25:st:pro] "threx" → 0 records, 0 words
+[w25:st:pro] "threx" branch complete
+[w25:st:pro] Saved 73,971 worker words
+[w25:st:pro] Searching "throy" | queue=8 | words=73971
+[w25:st:pro] Pacing 15s before "throy" (gap=15500ms)
+[w25:st:pro] heartbeat words=73971 queue=8 rotation=2 idle=4s
+[w25:st:pro] Managed Turnstile token (len=816, 5977ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=throy
+[w25:st:pro] [api] 200 mode=pro startsWith=throy (615ms direct)
+[w25:st:pro] "throy" → 0 records, 0 words
+[w25:st:pro] "throy" branch complete
+[w25:st:pro] Saved 73,971 worker words
+[w25:st:pro] Searching "tracy" | queue=7 | words=73971
+[w25:st:pro] Pacing 4s before "tracy" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 17661ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=tracy
+[w25:st:pro] [api] 200 mode=pro startsWith=tracy (559ms direct)
+[w25:st:pro] "tracy" → 1 records, 1 words (incl. exact "tracy")
+[w25:st:pro] "tracy" branch complete
+[w25:st:pro] Saved 73,971 worker words
+[w25:st:pro] Searching "traiv" | queue=6 | words=73971
+[w25:st:pro] Pacing 7s before "traiv" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 13822ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=traiv
+[w25:st:pro] [api] 200 mode=pro startsWith=traiv (506ms direct)
+[w25:st:pro] "traiv" → 0 records, 0 words
+[w25:st:pro] "traiv" branch complete
+[w25:st:pro] Saved 73,971 worker words
+[w25:st:pro] Searching "tramz" | queue=5 | words=73971
+[w25:st:pro] Pacing 15s before "tramz" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 4380ms, remount)
+[w25:st:pro] heartbeat words=73971 queue=5 rotation=2 idle=10s
+[w25:st:pro] [api] 200 mode=pro startsWith=tramz
+[w25:st:pro] [api] 200 mode=pro startsWith=tramz (1902ms direct)
+[w25:st:pro] "tramz" → 0 records, 0 words
+[w25:st:pro] "tramz" branch complete
+[w25:st:pro] Turnstile mint hard timeout after 20000ms
+[w25:st:pro] heartbeat words=73971 queue=5 rotation=2 idle=73s
+[w25:st:pro] Saved 73,971 worker words; shared last.txt now 468,360
+[w25:st:pro] Searching "trapx" | queue=4 | words=73971
+[w25:st:pro] Managed Turnstile token (len=816, 5473ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=trapx
+[w25:st:pro] [api] 200 mode=pro startsWith=trapx (512ms direct)
+[w25:st:pro] "trapx" → 0 records, 0 words
+[w25:st:pro] "trapx" branch complete
+[w25:st:pro] Saved 73,971 worker words
+[w25:st:pro] Searching "treaw" | queue=3 | words=73971
+[w25:st:pro] Pacing 15s before "treaw" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 3701ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=treaw
+[w25:st:pro] [api] 200 mode=pro startsWith=treaw (391ms direct)
+[w25:st:pro] "treaw" → 0 records, 0 words
+[w25:st:pro] "treaw" branch complete
+[w25:st:pro] Saved 73,971 worker words
+[w25:st:pro] Searching "thermv" | queue=2 | words=73971
+[w25:st:pro] Pacing 15s before "thermv" (gap=15500ms)
+[w25:st:pro] Managed Turnstile miss (15481ms)
+[w25:st:pro] Failed "thermv" attempt 1: No Turnstile token for direct search
+[w25:st:pro] Saved 73,971 worker words
+[w25:st:pro] Turnstile miss — soft reload before rotate
+[w25:st:pro] Turnstile token present (len=816)
+[w25:st:pro] Site Turnstile token (7667ms)
+[w25:st:pro] Searching "thermv" | queue=2 | words=73971
+[w25:st:pro] [api] 200 mode=pro startsWith=thermv
+[w25:st:pro] [api] 200 mode=pro startsWith=thermv (502ms direct)
+[w25:st:pro] "thermv" → 0 records, 0 words
+[w25:st:pro] "thermv" branch complete
+[w25:st:pro] Saved 73,971 worker words
+[w25:st:pro] Searching "thermom" | queue=1 | words=73971
+[w25:st:pro] Pacing 15s before "thermom" (gap=15500ms)
+[w25:st:pro] heartbeat words=73971 queue=1 rotation=2 idle=4s
+[w25:st:pro] Managed Turnstile token (len=816, 8374ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=thermom
+[w25:st:pro] [api] 200 mode=pro startsWith=thermom (434ms direct)
+[w25:st:pro] "thermom" → 22 records, 22 words
+[w25:st:pro] "thermom" branch complete
+[w25:st:pro] Saved 73,993 worker words
+[w25:st:pro] Searching "thermox" | queue=0 | words=73993
+[w25:st:pro] Pacing 14s before "thermox" (gap=15500ms)
+[w25:st:pro] Managed Turnstile token (len=816, 6428ms, remount)
+[w25:st:pro] [api] 200 mode=pro startsWith=thermox
+[w25:st:pro] [api] 200 mode=pro startsWith=thermox (490ms direct)
+[w25:st:pro] "thermox" → 0 records, 0 words
+[w25:st:pro] "thermox" branch complete
+[w25:st:pro] Saved 73,993 worker words
+[w25:st:pro] Saved 73,993 worker words
+[w25:st:pro] Worker done. prefixes=9575 words=73993
+[w25:st:pro] Managed Turnstile miss (8877ms)
+[w25:st:pro] Tor exited code=0

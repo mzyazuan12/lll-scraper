@@ -1,0 +1,114 @@
+[cleanup-rev:w0] Reverse queue cleanup bot (DRY_RUN=false) | states=0..0 | sort=alphabetical:desc (Z→A) | parents=4-letter, prune queue items >=5 chars from high end | completed[] is never modified
+[w0:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19450 (try 1)
+[w0:cleanuprev:pro] tor: Aug 05 01:10:38.208 [warn] Fixing permissions on directory /tmp/lll-tor-w0
+[w0:cleanuprev:pro] tor: Aug 05 01:10:38.000 [notice] Bootstrapped 0% (starting): Starting
+[w0:cleanuprev:pro] tor: Aug 05 01:10:39.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w0:cleanuprev:pro] tor: Aug 05 01:10:39.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w0:cleanuprev:pro] tor: Aug 05 01:10:39.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w0:cleanuprev:pro] tor: Aug 05 01:10:40.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 01:10:40.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w0:cleanuprev:pro] tor: Aug 05 01:10:40.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w0:cleanuprev:pro] tor: Aug 05 01:10:40.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w0:cleanuprev:pro] tor: Aug 05 01:10:42.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w0:cleanuprev:pro] tor: Aug 05 01:10:42.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 01:10:42.000 [notice] I learned some more directory 
+[w0:cleanuprev:pro] tor: Aug 05 01:10:43.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 01:10:55.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 01:10:56.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 01:10:56.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 01:10:56.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w0:cleanuprev:pro] tor: Aug 05 01:10:57.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 01:10:57.000 [notice] Bootstrapped 9
+[w0:cleanuprev:pro] tor: Aug 05 01:10:58.000 [notice] Bootstrapped 100% (done): Done
+[w0:cleanuprev:pro] Tor ready on 19450 exit=201.3.225.25
+[cleanup-rev:w0] Browser mode=tor via tor#1 socks5://127.0.0.1:19450
+[w0:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p4-w0-r0
+[w0:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19450
+[w0:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w0:cleanuprev:pro] Library mode=pro
+[w0:cleanuprev:pro] Site Turnstile remint timed out (19392ms)
+[w0:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w0] lll-audit-state-0.json w0: queue=449 completed=1670 words=20222 parents=6 (reverse Z→A)
+[cleanup-rev:w0] Reverse-searching parent "acce" (11 queued descendants, chars=pqrstuvwxyz)
+[w0:cleanuprev:pro] Managed Turnstile miss (12107ms)
+[w0:cleanuprev:pro] Managed Turnstile miss (10545ms)
+[w0:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w0:cleanuprev:pro] Site Turnstile remint timed out (14816ms)
+[w0:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w0] Turnstile miss on "acce" — reload (attempt 1)
+[w0:cleanuprev:pro] Managed Turnstile miss (12698ms)
+[w0:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w0:cleanuprev:pro] Turnstile mint hard timeout after 15000ms
+[w0:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w0] Rotating IP (#1) after Turnstile stuck on "acce"
+[w0:cleanuprev:pro] Tor exited code=null
+[w0:cleanuprev:pro] Starting Tor gen=2 socks=127.0.0.1:19450 (try 1)
+[w0:cleanuprev:pro] Site Turnstile remint timed out (25849ms)
+[w0:cleanuprev:pro] tor: Aug 05 01:12:53.003 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19450
+Aug 05 01:12:53.003 [warn] Fixing permissions on directory /tmp/lll-tor
+[w0:cleanuprev:pro] tor: Aug 05 01:12:58.000 [notice] Bootstrapped 0% (starting): Starting
+Aug 05 01:12:58.000 [notice] Starting with guard context "default"
+[w0:cleanuprev:pro] tor: Aug 05 01:12:59.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w0:cleanuprev:pro] tor: Aug 05 01:12:59.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w0:cleanuprev:pro] tor: Aug 05 01:13:03.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w0:cleanuprev:pro] tor: Aug 05 01:13:03.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 01:13:03.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w0:cleanuprev:pro] tor: Aug 05 01:13:03.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w0:cleanuprev:pro] tor: Aug 05 01:13:04.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w0:cleanuprev:pro] tor: Aug 05 01:13:10.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w0:cleanuprev:pro] tor: Aug 05 01:13:12.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 01:13:12.000 [notice] I learned some more directory 
+[w0:cleanuprev:pro] tor: Aug 05 01:13:14.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 01:13:28.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 01:13:28.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 01:13:28.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 01:13:29.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w0:cleanuprev:pro] tor: Aug 05 01:13:29.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 01:13:29.000 [notice] Bootstrapped 9
+[w0:cleanuprev:pro] tor: Aug 05 01:13:30.000 [notice] Bootstrapped 100% (done): Done
+[w0:cleanuprev:pro] Tor ready on 19450 exit=192.42.116.96
+[cleanup-rev:w0] Browser mode=tor via tor#2 socks5://127.0.0.1:19450 rotation=1
+[w0:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p4-w0-r1
+[w0:cleanuprev:pro] Proxy tor#2 socks5://127.0.0.1:19450
+[w0:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w0:cleanuprev:pro] Library mode=pro
+[w0:cleanuprev:pro] Managed Turnstile token (len=816, 6784ms, remount)
+[w0:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=acce
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=acce sort=alphabetical:desc (615ms direct)
+[cleanup-rev:w0] "acce" reverse full page (100) start="accessory" first='s' end="accentors" next='n' — remove 4 covered groups, keep 's+n', removed 3/449 queue items, leave chars=stuvwxyz, +49 words
+[cleanup-rev:w0] Reverse-searching parent "acco" (2 queued descendants, chars=yz)
+[w0:cleanuprev:pro] Pacing 14s before "acco" (gap=15500ms)
+[w0:cleanuprev:pro] Managed Turnstile token (len=816, 5874ms, reset)
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=acco
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=acco sort=alphabetical:desc (578ms direct)
+[cleanup-rev:w0] "acco" reverse full page (100) start="accoys" first='y' end="accomplishers" next='m' — remove 11 covered groups, keep 'y+m', removed 0/446 queue items, leave chars=yz, +0 words
+[cleanup-rev:w0] Reverse-searching parent "admi" (3 queued descendants, chars=xyz)
+[w0:cleanuprev:pro] Pacing 15s before "admi" (gap=15500ms)
+[w0:cleanuprev:pro] Managed Turnstile token (len=816, 3872ms, reset)
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=admi
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=admi sort=alphabetical:desc (550ms direct)
+[cleanup-rev:w0] "admi" reverse full page (100) start="admixtures" first='x' end="adminicle" next='n' — remove 9 covered groups, keep 'x+n', removed 0/446 queue items, leave chars=xyz, +0 words
+[cleanup-rev:w0] Reverse-searching parent "adve" (9 queued descendants, chars=rstuvwxyz)
+[w0:cleanuprev:pro] Pacing 15s before "adve" (gap=15500ms)
+[w0:cleanuprev:pro] Managed Turnstile token (len=816, 3528ms, reset)
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=adve
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=adve sort=alphabetical:desc (503ms direct)
+[cleanup-rev:w0] "adve" reverse full page (100) start="advews" first='w' end="adventurement" next='n' — remove 8 covered groups, keep 'w+n', removed 5/446 queue items, leave chars=wxyz, +3 words
+[cleanup-rev:w0] Reverse-searching parent "aero" (22 queued descendants, chars=efghijklmnopqrstuvwxyz)
+[w0:cleanuprev:pro] Pacing 15s before "aero" (gap=15500ms)
+[w0:cleanuprev:pro] Managed Turnstile token (len=816, 3734ms, reset)
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=aero
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=aero sort=alphabetical:desc (507ms direct)
+[cleanup-rev:w0] "aero" reverse full page (100) start="aeroyacht" first='y' end="aerophobias" next='p' — remove 8 covered groups, keep 'y+p', removed 8/441 queue items, leave chars=efghijklmnopyz, +4 words
+[cleanup-rev:w0] Reverse-searching parent "afte" (9 queued descendants, chars=rstuvwxyz)
+[w0:cleanuprev:pro] Pacing 15s before "afte" (gap=15500ms)
+[w0:cleanuprev:pro] Managed Turnstile token (len=816, 3523ms, reset)
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=afte
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=afte sort=alphabetical:desc (529ms direct)
+[cleanup-rev:w0] "afte" reverse full page (100) start="afteryears" first='r' end="afterguards" next='r' — remove 0 covered groups, keep 'r', removed 0/433 queue items, leave chars=rstuvwxyz, +0 words
+[cleanup-rev:w0] lll-audit-state-0.json done — parents=6 searches=6 removed=16
+[cleanup-rev:w0] State 0 reverse cleanup finished
+[cleanup-rev:w0] All states processed. searches=6 queue_removed=16
+[w0:cleanuprev:pro] Managed Turnstile miss (560ms)
+[w0:cleanuprev:pro] Tor exited code=0

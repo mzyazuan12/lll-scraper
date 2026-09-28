@@ -1,0 +1,242 @@
+[cleanup:w3] Queue cleanup bot (DRY_RUN=false) | states=3..3 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w3:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19253 (try 1)
+[w3:cleanup:pro] tor: Aug 04 02:46:50.034 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19253
+Aug 04 02:46:50.034 [warn] Fixing permissions on directory /tmp/lll-tor
+[w3:cleanup:pro] tor: Aug 04 02:46:50.000 [notice] Bootstrapped 0% (starting): Starting
+[w3:cleanup:pro] tor: Aug 04 02:46:51.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w3:cleanup:pro] tor: Aug 04 02:46:51.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w3:cleanup:pro] tor: Aug 04 02:47:59.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w3:cleanup:pro] tor: Aug 04 02:48:00.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:48:00.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w3:cleanup:pro] tor: Aug 04 02:48:00.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w3:cleanup:pro] tor: Aug 04 02:48:00.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w3:cleanup:pro] tor: Aug 04 02:48:01.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w3:cleanup:pro] tor: Aug 04 02:48:02.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:48:02.000 [notice] I learned some more directory 
+[w3:cleanup:pro] tor: Aug 04 02:48:02.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w3:cleanup:pro] tor: Aug 04 02:48:07.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w3:cleanup:pro] tor: Aug 04 02:48:08.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w3:cleanup:pro] tor: Aug 04 02:48:08.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w3:cleanup:pro] tor: Aug 04 02:48:08.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w3:cleanup:pro] tor: Aug 04 02:48:09.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:48:09.000 [notice] Bootstrapped 9
+[w3:cleanup:pro] tor: Aug 04 02:48:10.000 [notice] Bootstrapped 100% (done): Done
+[w3:cleanup:pro] Tor ready on 19253 exit=107.189.30.69
+[cleanup:w3] Browser mode=tor via tor#1 socks5://127.0.0.1:19253
+[w3:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w3
+[w3:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19253
+[w3:cleanup:pro] Opening https://lastletterlibrary.com
+[w3:cleanup:pro] Library mode=pro
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w3] lll-audit-state-3.json w3: queue=979 completed=254 words=5908 parents=33
+[cleanup:w3] Searching parent "gal" (28 queued descendants)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gal
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gal (414ms direct)
+[cleanup:w3] "gal" full page (100) ends "galactosyls" next='a' — skip 2 groups, removed 2/979 queue items, +0 words
+[cleanup:w3] Searching parent "gam" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gam" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gam
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gam (533ms direct)
+[cleanup:w3] "gam" full page (100) ends "gamebag" next='e' — skip 6 groups, removed 6/977 queue items, +0 words
+[cleanup:w3] Searching parent "gan" (28 queued descendants)
+[w3:cleanup:pro] Pacing 14s before "gan" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gan
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gan (434ms direct)
+[cleanup:w3] "gan" full page (100) ends "gangliglia" next='g' — skip 8 groups, removed 8/971 queue items, +0 words
+[cleanup:w3] Searching parent "gar" (28 queued descendants)
+[w3:cleanup:pro] Pacing 14s before "gar" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gar
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gar (889ms direct)
+[cleanup:w3] "gar" full page (100) ends "gardenias" next='d' — skip 5 groups, removed 5/963 queue items, +0 words
+[cleanup:w3] Searching parent "gas" (28 queued descendants)
+[w3:cleanup:pro] Pacing 13s before "gas" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gas
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gas (477ms direct)
+[cleanup:w3] "gas" full page (100) ends "gasolenes" next='o' — skip 16 groups, removed 16/958 queue items, +0 words
+[cleanup:w3] Searching parent "gau" (28 queued descendants)
+[w3:cleanup:pro] Pacing 14s before "gau" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gau
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gau (336ms direct)
+[cleanup:w3] "gau" full page (100) ends "gaumier" next='m' — skip 14 groups, removed 14/942 queue items, +0 words
+[cleanup:w3] Searching parent "gel" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gel" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gel
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gel (317ms direct)
+[cleanup:w3] "gel" full page (100) ends "gelider" next='i' — skip 10 groups, removed 10/928 queue items, +0 words
+[cleanup:w3] Searching parent "gem" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gem" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gem
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gem (360ms direct)
+[cleanup:w3] "gem" full page (100) ends "gemmules" next='m' — skip 14 groups, removed 14/918 queue items, +0 words
+[cleanup:w3] Searching parent "gen" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gen" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gen
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gen (355ms direct)
+[cleanup:w3] "gen" full page (100) ends "generalises" next='e' — skip 6 groups, removed 6/904 queue items, +0 words
+[cleanup:w3] Searching parent "geo" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "geo" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=geo
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=geo (354ms direct)
+[cleanup:w3] "geo" full page (100) ends "geodynamic" next='d' — skip 5 groups, removed 5/898 queue items, +0 words
+[cleanup:w3] Searching parent "ger" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "ger" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=ger
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=ger (444ms direct)
+[cleanup:w3] "ger" full page (100) ends "german" next='m' — skip 14 groups, removed 14/893 queue items, +0 words
+[cleanup:w3] Searching parent "ges" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "ges" (gap=15200ms)
+[w3:cleanup:pro] Turnstile mint miss (1/2)
+[w3:cleanup:pro] Site Turnstile remint timed out
+[w3:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w3] Turnstile miss on "ges" — reload (attempt 1)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=ges
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=ges (332ms direct)
+[cleanup:w3] "ges" full page (100) ends "geswarp" next='w' — skip 24 groups, removed 24/879 queue items, +0 words
+[cleanup:w3] Searching parent "gig" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gig" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gig
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gig (345ms direct)
+[cleanup:w3] "gig" full page (100) ends "gigglish" next='g' — skip 8 groups, removed 8/855 queue items, +0 words
+[cleanup:w3] Searching parent "gil" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gil" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gil
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gil (325ms direct)
+[cleanup:w3] "gil" full page (100) ends "gillstoup" next='l' — skip 13 groups, removed 13/847 queue items, +0 words
+[cleanup:w3] Searching parent "gin" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gin" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gin
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gin (343ms direct)
+[cleanup:w3] "gin" full page (100) ends "ginhouses" next='h' — skip 9 groups, removed 9/834 queue items, +0 words
+[cleanup:w3] Searching parent "gir" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gir" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gir
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gir (319ms direct)
+[cleanup:w3] "gir" full page (100) ends "girnier" next='n' — skip 15 groups, removed 15/825 queue items, +0 words
+[cleanup:w3] Searching parent "gla" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gla" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gla
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gla (357ms direct)
+[cleanup:w3] "gla" full page (100) ends "gladier" next='d' — skip 5 groups, removed 5/810 queue items, +0 words
+[cleanup:w3] Searching parent "gle" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gle" (gap=15200ms)
+[w3:cleanup:pro] Turnstile mint miss (1/2)
+[w3:cleanup:pro] Site Turnstile remint timed out
+[w3:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w3] Turnstile miss on "gle" — reload (attempt 1)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gle
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gle (414ms direct)
+[cleanup:w3] "gle" full page (100) ends "glendover" next='n' — skip 15 groups, removed 15/805 queue items, +0 words
+[cleanup:w3] Searching parent "gli" (28 queued descendants)
+[w3:cleanup:pro] Pacing 14s before "gli" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gli
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gli (366ms direct)
+[cleanup:w3] "gli" full page (100) ends "glires" next='r' — skip 19 groups, removed 19/790 queue items, +0 words
+[cleanup:w3] Searching parent "glo" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "glo" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=glo
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=glo (593ms direct)
+[cleanup:w3] "glo" full page (100) ends "globularly" next='b' — skip 3 groups, removed 3/771 queue items, +0 words
+[cleanup:w3] Searching parent "glu" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "glu" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=glu
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=glu (545ms direct)
+[cleanup:w3] "glu" full page (100) ends "glueing" next='e' — skip 6 groups, removed 6/768 queue items, +0 words
+[cleanup:w3] Searching parent "gly" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gly" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gly
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gly (348ms direct)
+[cleanup:w3] "gly" full page (100) ends "glycol" next='c' — skip 4 groups, removed 4/762 queue items, +0 words
+[cleanup:w3] Searching parent "goa" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "goa" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=goa
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=goa (495ms direct)
+[cleanup:w3] "goa" full page (100) ends "goatweeds" next='t' — skip 21 groups, removed 21/758 queue items, +0 words
+[cleanup:w3] Searching parent "god" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "god" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=god
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=god (493ms direct)
+[cleanup:w3] "god" full page (100) ends "godship" next='s' — skip 20 groups, removed 20/737 queue items, +0 words
+[cleanup:w3] Searching parent "gol" (28 queued descendants)
+[w3:cleanup:pro] Pacing 14s before "gol" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gol
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gol (467ms direct)
+[cleanup:w3] "gol" full page (100) ends "goldmanite" next='d' — skip 5 groups, removed 5/717 queue items, +0 words
+[cleanup:w3] Searching parent "gon" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gon" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gon
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gon (387ms direct)
+[cleanup:w3] "gon" full page (100) ends "goniaster" next='i' — skip 10 groups, removed 10/712 queue items, +0 words
+[cleanup:w3] Searching parent "goo" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "goo" (gap=15200ms)
+[w3:cleanup:pro] Turnstile mint miss (1/2)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=goo
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=goo (443ms direct)
+[cleanup:w3] "goo" full page (100) ends "goodwillie" next='d' — skip 5 groups, removed 5/702 queue items, +0 words
+[cleanup:w3] Searching parent "gor" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gor" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gor
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gor (363ms direct)
+[cleanup:w3] "gor" full page (100) ends "gorgonian" next='g' — skip 8 groups, removed 8/697 queue items, +0 words
+[cleanup:w3] Searching parent "gos" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gos" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gos
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gos (434ms direct)
+[cleanup:w3] "gos" full page (100) ends "gossippers" next='s' — skip 20 groups, removed 20/689 queue items, +0 words
+[cleanup:w3] Searching parent "gou" (28 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gou" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gou
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gou (535ms direct)
+[cleanup:w3] "gou" full page (100) ends "gouts" next='t' — skip 21 groups, removed 21/669 queue items, +0 words
+[cleanup:w3] Searching parent "gra" (23 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gra" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gra
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gra (367ms direct)
+[cleanup:w3] "gra" full page (100) ends "gradelier" next='d' — skip 5 groups, removed 0/648 queue items, +0 words
+[cleanup:w3] Searching parent "gre" (24 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gre" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gre
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gre (385ms direct)
+[cleanup:w3] "gre" full page (100) ends "grecianizing" next='c' — skip 4 groups, removed 0/648 queue items, +0 words
+[cleanup:w3] Searching parent "gri" (21 queued descendants)
+[w3:cleanup:pro] Pacing 15s before "gri" (gap=15200ms)
+[w3:cleanup:pro] Managed Turnstile token (len=816)
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gri
+[w3:cleanup:pro] [api] 200 mode=pro startsWith=gri (325ms direct)
+[cleanup:w3] "gri" full page (100) ends "griffithite" next='f' — skip 7 groups, removed 0/648 queue items, +0 words
+[cleanup:w3] lll-audit-state-3.json done — parents=33 searches=33 removed=331
+[cleanup:w3] State 3 cleanup finished (supervisor merges last.txt)
+[cleanup:w3] All states processed. searches=33 queue_removed=331
+[w3:cleanup:pro] Tor exited code=0

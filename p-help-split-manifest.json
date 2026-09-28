@@ -1,0 +1,52 @@
+{
+  "7": {
+    "count": 131,
+    "sample": [
+      "pitz",
+      "plag",
+      "plal",
+      "plaq",
+      "plav"
+    ]
+  },
+  "4": {
+    "count": 131,
+    "sample": [
+      "plac",
+      "plah",
+      "plam",
+      "plar",
+      "plaw"
+    ]
+  },
+  "5": {
+    "count": 131,
+    "sample": [
+      "plad",
+      "plai",
+      "plan",
+      "plas",
+      "plax"
+    ]
+  },
+  "8": {
+    "count": 130,
+    "sample": [
+      "plae",
+      "plaj",
+      "plao",
+      "plat",
+      "play"
+    ]
+  },
+  "11": {
+    "count": 130,
+    "sample": [
+      "plaf",
+      "plak",
+      "plap",
+      "plau",
+      "plaz"
+    ]
+  }
+}

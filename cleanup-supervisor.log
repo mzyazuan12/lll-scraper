@@ -1,0 +1,106 @@
+
+--- launch 12 parallel cleaners ---
+Starting 12 parallel queue cleaners (one JSON each)
+DRY_RUN=0
+stagger=4000ms
+Logs: cleanup-0.log … cleanup-11.log
+Stop: pkill -f 'node cleanup-queue.mjs'; pkill -f 'node run-cleanup-12.mjs'
+Cleanup w0 pid=25461 → cleanup-0.log
+Cleanup w1 pid=25659 → cleanup-1.log
+Cleanup w2 pid=25857 → cleanup-2.log
+Cleanup w3 pid=26081 → cleanup-3.log
+Cleanup w4 pid=26287 → cleanup-4.log
+Cleanup w5 pid=26523 → cleanup-5.log
+Cleanup w6 pid=26767 → cleanup-6.log
+Cleanup w7 pid=26973 → cleanup-7.log
+Cleanup w8 pid=27210 → cleanup-8.log
+Cleanup w9 pid=27418 → cleanup-9.log
+Cleanup w10 pid=27673 → cleanup-10.log
+Cleanup w11 pid=28003 → cleanup-11.log
+Cleanup w8 exited code=0
+Merged last.txt → 68,477 words
+Cleanup w2 exited code=1
+Cleanup w7 exited code=0
+Respawning cleanup w2
+Cleanup w2 pid=35709 → cleanup-2.log
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Cleanup w0 exited code=1
+Respawning cleanup w0
+Cleanup w0 pid=57699 → cleanup-0.log
+Merged last.txt → 68,477 words
+Cleanup w10 exited code=0
+Cleanup w3 exited code=0
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Cleanup w1 exited code=0
+Cleanup w0 exited code=0
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Cleanup w4 exited code=0
+Merged last.txt → 68,477 words
+Cleanup w2 exited code=0
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Cleanup w5 exited code=0
+Cleanup w6 exited code=0
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Cleanup w11 exited code=null
+Respawning cleanup w11
+Cleanup w11 pid=53648 → cleanup-11.log
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Cleanup w11 exited code=0
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Cleanup w9 exited code=null
+Respawning cleanup w9
+Cleanup w9 pid=1439 → cleanup-9.log
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Cleanup w9 exited code=0
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words
+Merged last.txt → 68,477 words

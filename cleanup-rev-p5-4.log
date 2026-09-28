@@ -1,0 +1,36 @@
+[cleanup-rev:w4] Reverse queue cleanup bot (DRY_RUN=false) | states=4..4 | sort=alphabetical:desc (Z→A) | parents=5-letter, prune queue items >=6 chars from high end | completed[] is never modified
+[w4:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19454 (try 1)
+[w4:cleanuprev:pro] tor: Aug 05 08:23:39.030 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19454
+Aug 05 08:23:39.030 [warn] Fixing permissions on directory /tmp/lll-tor
+[w4:cleanuprev:pro] tor: Aug 05 08:23:39.000 [notice] Bootstrapped 0% (starting): Starting
+[w4:cleanuprev:pro] tor: Aug 05 08:23:40.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w4:cleanuprev:pro] tor: Aug 05 08:23:40.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w4:cleanuprev:pro] tor: Aug 05 08:24:48.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w4:cleanuprev:pro] tor: Aug 05 08:24:48.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w4:cleanuprev:pro] tor: Aug 05 08:24:48.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w4:cleanuprev:pro] tor: Aug 05 08:24:49.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w4:cleanuprev:pro] tor: Aug 05 08:24:49.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w4:cleanuprev:pro] tor: Aug 05 08:24:51.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w4:cleanuprev:pro] tor: Aug 05 08:24:51.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:24:51.000 [notice] I learned some more directory 
+[w4:cleanuprev:pro] tor: Aug 05 08:24:52.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w4:cleanuprev:pro] tor: Aug 05 08:25:03.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w4:cleanuprev:pro] tor: Aug 05 08:25:03.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w4:cleanuprev:pro] tor: Aug 05 08:25:04.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w4:cleanuprev:pro] tor: Aug 05 08:25:04.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w4:cleanuprev:pro] tor: Aug 05 08:25:05.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:25:05.000 [notice] Bootstrapped 9
+[w4:cleanuprev:pro] tor: Aug 05 08:25:06.000 [notice] Bootstrapped 100% (done): Done
+[w4:cleanuprev:pro] Tor ready on 19454 exit=64.190.76.10
+[cleanup-rev:w4] Browser mode=tor via tor#1 socks5://127.0.0.1:19454
+[w4:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w4-r0
+[w4:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19454
+[w4:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w4:cleanuprev:pro] Library mode=pro
+[w4:cleanuprev:pro] Site Turnstile remint timed out (19269ms)
+[w4:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w4] lll-audit-state-4.json w4: queue=89 completed=2660 words=18583 parents=0 (reverse Z→A)
+[cleanup-rev:w4] lll-audit-state-4.json done — parents=0 searches=0 removed=0
+[cleanup-rev:w4] State 4 reverse cleanup finished
+[cleanup-rev:w4] All states processed. searches=0 queue_removed=0
+[w4:cleanuprev:pro] Tor exited code=0

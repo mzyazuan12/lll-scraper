@@ -1,0 +1,1692 @@
+
+--- ab/ef-helper start 2026-08-06T01:39:46.921Z letters=ef ---
+[w15:ef:pro] IP mode=tor
+[w15:ef:pro] Starting persistent Tor socks=127.0.0.1:19065 control=127.0.0.1:29065
+[w15:ef:pro] tor: Aug 05 20:39:47.273 [warn] Fixing permissions on directory /tmp/lll-tor-w15
+[w15:ef:pro] tor: Aug 05 20:39:47.000 [notice] Bootstrapped 0% (starting): Starting
+[w15:ef:pro] tor: Aug 05 20:39:48.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w15:ef:pro] tor: Aug 05 20:39:48.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w15:ef:pro] tor: Aug 05 20:39:48.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w15:ef:pro] tor: Aug 05 20:39:49.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 20:39:49.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w15:ef:pro] tor: Aug 05 20:39:49.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w15:ef:pro] tor: Aug 05 20:39:49.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w15:ef:pro] tor: Aug 05 20:39:51.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w15:ef:pro] tor: Aug 05 20:39:52.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 20:39:52.000 [notice] I learned some more directory 
+[w15:ef:pro] tor: Aug 05 20:39:53.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w15:ef:pro] tor: Aug 05 20:40:05.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w15:ef:pro] tor: Aug 05 20:40:05.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w15:ef:pro] tor: Aug 05 20:40:07.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w15:ef:pro] tor: Aug 05 20:40:07.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w15:ef:pro] tor: Aug 05 20:40:08.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 20:40:08.000 [notice] Bootstrapped 9
+[w15:ef:pro] tor: Aug 05 20:40:09.000 [notice] Bootstrapped 100% (done): Done
+[w15:ef:pro] Tor ready on 19065 exit=107.189.31.52
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r0
+[w15:ef:pro] Proxy tor#1 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Site Turnstile remint timed out (22505ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Loaded 3848 prefixes, 30338 words; queue=86
+[w15:ef:pro] Searching "flen" | queue=85 | words=30338
+[w15:ef:pro] Managed Turnstile miss (15044ms)
+[w15:ef:pro] Failed "flen" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 30,338 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (9468ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=185.220.101.20
+[w15:ef:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r1
+[w15:ef:pro] Proxy tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 8849ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "flen" | queue=85 | words=30338
+[w15:ef:pro] [api] 200 mode=pro startsWith=flen
+[w15:ef:pro] [api] 200 mode=pro startsWith=flen (466ms direct)
+[w15:ef:pro] "flen" → 13 records, 13 words
+[w15:ef:pro] "flen" branch complete
+[w15:ef:pro] Saved 30,351 worker words
+[w15:ef:pro] Searching "fleq" | queue=84 | words=30351
+[w15:ef:pro] Pacing 15s before "fleq" (gap=15500ms)
+[w15:ef:pro] heartbeat words=30351 queue=84 rotation=1 idle=0s
+[w15:ef:pro] Managed Turnstile token (len=816, 7154ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fleq
+[w15:ef:pro] [api] 200 mode=pro startsWith=fleq (528ms direct)
+[w15:ef:pro] "fleq" → 0 records, 0 words
+[w15:ef:pro] "fleq" branch complete
+[w15:ef:pro] Saved 30,351 worker words
+[w15:ef:pro] Searching "flet" | queue=83 | words=30351
+[w15:ef:pro] Pacing 15s before "flet" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 5790ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flet
+[w15:ef:pro] [api] 200 mode=pro startsWith=flet (525ms direct)
+[w15:ef:pro] "flet" → 17 records, 17 words (incl. exact "flet")
+[w15:ef:pro] "flet" branch complete
+[w15:ef:pro] Saved 30,367 worker words
+[w15:ef:pro] Searching "flin" | queue=82 | words=30367
+[w15:ef:pro] Pacing 15s before "flin" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15113ms)
+[w15:ef:pro] Failed "flin" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 30,367 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=30367 queue=83 rotation=1 idle=29s
+[w15:ef:pro] Turnstile token present (len=816)
+[w15:ef:pro] Site Turnstile token (14108ms)
+[w15:ef:pro] Searching "flin" | queue=82 | words=30367
+[w15:ef:pro] [api] 200 mode=pro startsWith=flin
+[w15:ef:pro] [api] 200 mode=pro startsWith=flin (678ms direct)
+[w15:ef:pro] "flin" → 51 records, 51 words
+[w15:ef:pro] "flin" branch complete
+[w15:ef:pro] Saved 30,401 worker words
+[w15:ef:pro] Searching "flix" | queue=81 | words=30401
+[w15:ef:pro] Pacing 13s before "flix" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 10508ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flix
+[w15:ef:pro] [api] 200 mode=pro startsWith=flix (569ms direct)
+[w15:ef:pro] "flix" → 6 records, 6 words (incl. exact "flix")
+[w15:ef:pro] "flix" branch complete
+[w15:ef:pro] Saved 30,401 worker words
+[w15:ef:pro] Searching "floc" | queue=80 | words=30401
+[w15:ef:pro] Pacing 15s before "floc" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 3861ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=floc
+[w15:ef:pro] [api] 200 mode=pro startsWith=floc (455ms direct)
+[w15:ef:pro] "floc" → 57 records, 57 words (incl. exact "floc")
+[w15:ef:pro] "floc" branch complete
+[w15:ef:pro] Saved 30,405 worker words; shared last.txt now 424,372
+[w15:ef:pro] Searching "flof" | queue=79 | words=30405
+[w15:ef:pro] Pacing 14s before "flof" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 12340ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flof
+[w15:ef:pro] [api] 200 mode=pro startsWith=flof (528ms direct)
+[w15:ef:pro] "flof" → 0 records, 0 words
+[w15:ef:pro] "flof" branch complete
+[w15:ef:pro] Saved 30,405 worker words
+[w15:ef:pro] Searching "floi" | queue=78 | words=30405
+[w15:ef:pro] Pacing 12s before "floi" (gap=15500ms)
+[w15:ef:pro] heartbeat words=30405 queue=78 rotation=1 idle=8s
+[w15:ef:pro] Managed Turnstile miss (17571ms)
+[w15:ef:pro] Failed "floi" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 30,405 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile token present (len=816)
+[w15:ef:pro] Site Turnstile token (6639ms)
+[w15:ef:pro] Searching "floi" | queue=78 | words=30405
+[w15:ef:pro] [api] 200 mode=pro startsWith=floi
+[w15:ef:pro] [api] 200 mode=pro startsWith=floi (473ms direct)
+[w15:ef:pro] "floi" → 1 records, 1 words
+[w15:ef:pro] "floi" branch complete
+[w15:ef:pro] Saved 30,406 worker words
+[w15:ef:pro] Searching "flol" | queue=77 | words=30406
+[w15:ef:pro] Pacing 15s before "flol" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 3724ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flol
+[w15:ef:pro] [api] 200 mode=pro startsWith=flol (592ms direct)
+[w15:ef:pro] "flol" → 0 records, 0 words
+[w15:ef:pro] "flol" branch complete
+[w15:ef:pro] Saved 30,406 worker words
+[w15:ef:pro] Searching "floo" | queue=76 | words=30406
+[w15:ef:pro] Pacing 15s before "floo" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 9034ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=floo
+[w15:ef:pro] [api] 200 mode=pro startsWith=floo (628ms direct)
+[w15:ef:pro] "floo" → 89 records, 89 words
+[w15:ef:pro] "floo" branch complete
+[w15:ef:pro] Saved 30,495 worker words
+[w15:ef:pro] Searching "flor" | queue=75 | words=30495
+[w15:ef:pro] Pacing 14s before "flor" (gap=15500ms)
+[w15:ef:pro] heartbeat words=30495 queue=75 rotation=1 idle=7s
+[w15:ef:pro] Managed Turnstile miss (16221ms)
+[w15:ef:pro] Failed "flor" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 30,495 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (11022ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=109.70.100.6
+[w15:ef:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r2
+[w15:ef:pro] Proxy tor#3 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 8202ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "flor" | queue=75 | words=30495
+[w15:ef:pro] [api] 200 mode=pro startsWith=flor
+[w15:ef:pro] [api] 200 mode=pro startsWith=flor (746ms direct)
+[w15:ef:pro] "flor" → 100 records, 100 words (incl. exact "flor")
+[w15:ef:pro] Pacing 15s before "flor" (gap=15500ms)
+[w15:ef:pro] heartbeat words=30595 queue=75 rotation=2 idle=67s
+[w15:ef:pro] Managed Turnstile token (len=816, 6862ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flor
+[w15:ef:pro] [api] 200 mode=pro startsWith=flor sort=alphabetical:desc (526ms direct)
+[w15:ef:pro] "flor" full page ends at "floripondio" (next='i'); skip 26 covered groups → 2 children reverse Z→A ends at "florentium" (lo='e' hi='y'); skip 19 middle + 25 new words
+[w15:ef:pro] Saved 30,620 worker words
+[w15:ef:pro] Searching "flou" | queue=76 | words=30620
+[w15:ef:pro] Pacing 13s before "flou" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 8024ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flou
+[w15:ef:pro] [api] 200 mode=pro startsWith=flou (526ms direct)
+[w15:ef:pro] "flou" → 54 records, 54 words
+[w15:ef:pro] "flou" branch complete
+[w15:ef:pro] Saved 30,642 worker words; shared last.txt now 424,911
+[w15:ef:pro] Searching "flui" | queue=75 | words=30642
+[w15:ef:pro] Pacing 10s before "flui" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 5637ms, remount)
+[w15:ef:pro] [api] 429 mode=pro startsWith=flui
+[w15:ef:pro] [api] 429 mode=pro startsWith=flui (579ms direct)
+[w15:ef:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w15:ef:pro] Rate limited — inline wait 2000ms then retry "flui"
+[w15:ef:pro] Managed Turnstile token (len=816, 4387ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flui
+[w15:ef:pro] [api] 200 mode=pro startsWith=flui (564ms direct)
+[w15:ef:pro] "flui" → 56 records, 56 words
+[w15:ef:pro] "flui" branch complete
+[w15:ef:pro] Saved 30,694 worker words
+[w15:ef:pro] Searching "flul" | queue=74 | words=30694
+[w15:ef:pro] Pacing 15s before "flul" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4193ms, remount)
+[w15:ef:pro] heartbeat words=30694 queue=74 rotation=2 idle=15s
+[w15:ef:pro] [api] 200 mode=pro startsWith=flul
+[w15:ef:pro] [api] 200 mode=pro startsWith=flul (661ms direct)
+[w15:ef:pro] "flul" → 0 records, 0 words
+[w15:ef:pro] "flul" branch complete
+[w15:ef:pro] Saved 30,694 worker words
+[w15:ef:pro] Searching "fluo" | queue=73 | words=30694
+[w15:ef:pro] Pacing 15s before "fluo" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 8290ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluo
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluo (507ms direct)
+[w15:ef:pro] "fluo" → 100 records, 100 words
+[w15:ef:pro] Pacing 15s before "fluo" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15853ms)
+[w15:ef:pro] "fluo" reverse search failed (No Turnstile token for direct search); forward-only
+[w15:ef:pro] "fluo" full page ends at "fluoroborate" (next='r'); skip 19 covered groups → 9 children from fluor..
+[w15:ef:pro] Saved 30,794 worker words
+[w15:ef:pro] Searching "flur" | queue=81 | words=30794
+[w15:ef:pro] Managed Turnstile miss (17743ms)
+[w15:ef:pro] Failed "flur" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 30,794 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=30794 queue=82 rotation=2 idle=24s
+[w15:ef:pro] Turnstile token present (len=816)
+[w15:ef:pro] Site Turnstile token (8253ms)
+[w15:ef:pro] Searching "flur" | queue=81 | words=30794
+[w15:ef:pro] [api] 200 mode=pro startsWith=flur
+[w15:ef:pro] [api] 200 mode=pro startsWith=flur (819ms direct)
+[w15:ef:pro] "flur" → 15 records, 15 words
+[w15:ef:pro] "flur" branch complete
+[w15:ef:pro] Saved 30,809 worker words
+[w15:ef:pro] Searching "fluu" | queue=80 | words=30809
+[w15:ef:pro] Pacing 15s before "fluu" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4896ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluu
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluu (726ms direct)
+[w15:ef:pro] "fluu" → 0 records, 0 words
+[w15:ef:pro] "fluu" branch complete
+[w15:ef:pro] Saved 30,809 worker words
+[w15:ef:pro] Searching "flux" | queue=79 | words=30809
+[w15:ef:pro] Pacing 15s before "flux" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15116ms)
+[w15:ef:pro] Failed "flux" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 30,809 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (11171ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] heartbeat words=30809 queue=80 rotation=3 idle=35s
+[w15:ef:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=192.42.116.59
+[w15:ef:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r3
+[w15:ef:pro] Proxy tor#4 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] page.goto failed attempt 1: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 4398ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "flux" | queue=79 | words=30809
+[w15:ef:pro] [api] 200 mode=pro startsWith=flux
+[w15:ef:pro] [api] 200 mode=pro startsWith=flux (433ms direct)
+[w15:ef:pro] "flux" → 29 records, 29 words (incl. exact "flux")
+[w15:ef:pro] "flux" branch complete
+[w15:ef:pro] Saved 30,838 worker words; shared last.txt now 425,871
+[w15:ef:pro] Searching "flyw" | queue=78 | words=30838
+[w15:ef:pro] Pacing 15s before "flyw" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 6487ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flyw
+[w15:ef:pro] [api] 200 mode=pro startsWith=flyw (663ms direct)
+[w15:ef:pro] "flyw" → 9 records, 9 words
+[w15:ef:pro] "flyw" branch complete
+[w15:ef:pro] Saved 30,838 worker words
+[w15:ef:pro] Searching "flyz" | queue=77 | words=30838
+[w15:ef:pro] Pacing 15s before "flyz" (gap=15500ms)
+[w15:ef:pro] heartbeat words=30838 queue=77 rotation=3 idle=3s
+[w15:ef:pro] Managed Turnstile token (len=816, 7162ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flyz
+[w15:ef:pro] [api] 200 mode=pro startsWith=flyz (794ms direct)
+[w15:ef:pro] "flyz" → 0 records, 0 words
+[w15:ef:pro] "flyz" branch complete
+[w15:ef:pro] Saved 30,838 worker words
+[w15:ef:pro] Searching "foly" | queue=76 | words=30838
+[w15:ef:pro] Pacing 14s before "foly" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 6599ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=foly
+[w15:ef:pro] [api] 200 mode=pro startsWith=foly (443ms direct)
+[w15:ef:pro] "foly" → 0 records, 0 words
+[w15:ef:pro] "foly" branch complete
+[w15:ef:pro] Saved 30,838 worker words
+[w15:ef:pro] Searching "fooz" | queue=75 | words=30838
+[w15:ef:pro] Pacing 15s before "fooz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15168ms)
+[w15:ef:pro] Failed "fooz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 30,838 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile token present (len=816)
+[w15:ef:pro] Site Turnstile token (9184ms)
+[w15:ef:pro] Searching "fooz" | queue=75 | words=30838
+[w15:ef:pro] [api] 200 mode=pro startsWith=fooz
+[w15:ef:pro] [api] 200 mode=pro startsWith=fooz (1290ms direct)
+[w15:ef:pro] "fooz" → 7 records, 7 words
+[w15:ef:pro] "fooz" branch complete
+[w15:ef:pro] Saved 30,838 worker words
+[w15:ef:pro] Searching "ford" | queue=74 | words=30838
+[w15:ef:pro] Pacing 13s before "ford" (gap=15500ms)
+[w15:ef:pro] heartbeat words=30838 queue=74 rotation=3 idle=2s
+[w15:ef:pro] Managed Turnstile token (len=816, 8713ms, remount)
+[w15:ef:pro] [api] 429 mode=pro startsWith=ford
+[w15:ef:pro] [api] 429 mode=pro startsWith=ford (429ms direct)
+[w15:ef:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w15:ef:pro] Rate limited — inline wait 2000ms then retry "ford"
+[w15:ef:pro] Managed Turnstile token (len=816, 4291ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=ford
+[w15:ef:pro] [api] 200 mode=pro startsWith=ford (430ms direct)
+[w15:ef:pro] "ford" → 21 records, 21 words (incl. exact "ford")
+[w15:ef:pro] "ford" branch complete
+[w15:ef:pro] Saved 30,859 worker words
+[w15:ef:pro] Searching "forg" | queue=73 | words=30859
+[w15:ef:pro] Pacing 16s before "forg" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4247ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=forg
+[w15:ef:pro] [api] 200 mode=pro startsWith=forg (478ms direct)
+[w15:ef:pro] "forg" → 77 records, 77 words
+[w15:ef:pro] "forg" branch complete
+[w15:ef:pro] Saved 30,936 worker words
+[w15:ef:pro] Searching "forj" | queue=72 | words=30936
+[w15:ef:pro] Pacing 15s before "forj" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4757ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=forj
+[w15:ef:pro] [api] 200 mode=pro startsWith=forj (453ms direct)
+[w15:ef:pro] "forj" → 10 records, 10 words
+[w15:ef:pro] "forj" branch complete
+[w15:ef:pro] Saved 30,946 worker words; shared last.txt now 426,572
+[w15:ef:pro] Searching "form" | queue=71 | words=30946
+[w15:ef:pro] Pacing 13s before "form" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 10949ms, remount)
+[w15:ef:pro] heartbeat words=30946 queue=71 rotation=3 idle=11s
+[w15:ef:pro] [api] 200 mode=pro startsWith=form
+[w15:ef:pro] [api] 200 mode=pro startsWith=form (578ms direct)
+[w15:ef:pro] "form" → 100 records, 100 words (incl. exact "form")
+[w15:ef:pro] Pacing 14s before "form" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 12776ms, remount)
+[w15:ef:pro] [api] 429 mode=pro startsWith=form
+[w15:ef:pro] [api] 429 mode=pro startsWith=form sort=alphabetical:desc (465ms direct)
+[w15:ef:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w15:ef:pro] Rate limited — inline wait 2000ms then retry "form"
+[w15:ef:pro] Managed Turnstile token (len=816, 4291ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=form
+[w15:ef:pro] [api] 200 mode=pro startsWith=form sort=alphabetical:desc (403ms direct)
+[w15:ef:pro] "form" full page ends at "formerness" (next='e'); skip 21 covered groups → 7 children reverse Z→A ends at "formicivorous" (lo='i' hi='y'); skip 15 middle + 100 new words
+[w15:ef:pro] Saved 31,146 worker words
+[w15:ef:pro] Searching "forp" | queue=77 | words=31146
+[w15:ef:pro] Pacing 16s before "forp" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 3539ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=forp
+[w15:ef:pro] [api] 200 mode=pro startsWith=forp (503ms direct)
+[w15:ef:pro] "forp" → 10 records, 10 words
+[w15:ef:pro] "forp" branch complete
+[w15:ef:pro] Saved 31,156 worker words
+[w15:ef:pro] Searching "fors" | queue=76 | words=31156
+[w15:ef:pro] Pacing 14s before "fors" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15325ms)
+[w15:ef:pro] Failed "fors" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,156 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=31156 queue=77 rotation=3 idle=21s
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Site Turnstile remint timed out (16613ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=192.42.116.114
+[w15:ef:pro] Rotating IP (#4, try 1) after No Turnstile token for direct search → tor#5 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r4
+[w15:ef:pro] Proxy tor#5 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 4202ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fors" | queue=76 | words=31156
+[w15:ef:pro] [api] 200 mode=pro startsWith=fors
+[w15:ef:pro] [api] 200 mode=pro startsWith=fors (513ms direct)
+[w15:ef:pro] "fors" → 75 records, 75 words
+[w15:ef:pro] "fors" branch complete
+[w15:ef:pro] Saved 31,231 worker words
+[w15:ef:pro] Searching "forv" | queue=75 | words=31231
+[w15:ef:pro] Pacing 15s before "forv" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 3219ms, remount)
+[w15:ef:pro] heartbeat words=31231 queue=75 rotation=4 idle=10s
+[w15:ef:pro] [api] 200 mode=pro startsWith=forv
+[w15:ef:pro] [api] 200 mode=pro startsWith=forv (378ms direct)
+[w15:ef:pro] "forv" → 1 records, 1 words
+[w15:ef:pro] "forv" branch complete
+[w15:ef:pro] Saved 31,232 worker words
+[w15:ef:pro] Searching "fory" | queue=74 | words=31232
+[w15:ef:pro] Pacing 16s before "fory" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 3791ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fory
+[w15:ef:pro] [api] 200 mode=pro startsWith=fory (593ms direct)
+[w15:ef:pro] "fory" → 1 records, 1 words
+[w15:ef:pro] "fory" branch complete
+[w15:ef:pro] Saved 31,233 worker words
+[w15:ef:pro] Searching "fosu" | queue=73 | words=31233
+[w15:ef:pro] Pacing 15s before "fosu" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 5911ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fosu
+[w15:ef:pro] [api] 200 mode=pro startsWith=fosu (475ms direct)
+[w15:ef:pro] "fosu" → 0 records, 0 words
+[w15:ef:pro] "fosu" branch complete
+[w15:ef:pro] Saved 31,233 worker words
+[w15:ef:pro] Searching "fosx" | queue=72 | words=31233
+[w15:ef:pro] Pacing 15s before "fosx" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 3752ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fosx
+[w15:ef:pro] [api] 200 mode=pro startsWith=fosx (401ms direct)
+[w15:ef:pro] "fosx" → 0 records, 0 words
+[w15:ef:pro] "fosx" branch complete
+[w15:ef:pro] Saved 31,233 worker words; shared last.txt now 427,571
+[w15:ef:pro] Searching "foun" | queue=71 | words=31233
+[w15:ef:pro] Pacing 14s before "foun" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 6138ms, remount)
+[w15:ef:pro] heartbeat words=31233 queue=71 rotation=4 idle=7s
+[w15:ef:pro] [api] 200 mode=pro startsWith=foun
+[w15:ef:pro] [api] 200 mode=pro startsWith=foun (457ms direct)
+[w15:ef:pro] "foun" → 52 records, 52 words (incl. exact "foun")
+[w15:ef:pro] "foun" branch complete
+[w15:ef:pro] Saved 31,253 worker words
+[w15:ef:pro] Searching "fouq" | queue=70 | words=31253
+[w15:ef:pro] Pacing 15s before "fouq" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 14599ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fouq
+[w15:ef:pro] [api] 200 mode=pro startsWith=fouq (1622ms direct)
+[w15:ef:pro] "fouq" → 3 records, 3 words
+[w15:ef:pro] "fouq" branch complete
+[w15:ef:pro] Saved 31,256 worker words
+[w15:ef:pro] Searching "fout" | queue=69 | words=31256
+[w15:ef:pro] Pacing 13s before "fout" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 14290ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fout
+[w15:ef:pro] [api] 200 mode=pro startsWith=fout (494ms direct)
+[w15:ef:pro] "fout" → 14 records, 14 words
+[w15:ef:pro] "fout" branch complete
+[w15:ef:pro] Saved 31,270 worker words
+[w15:ef:pro] Searching "fouw" | queue=68 | words=31270
+[w15:ef:pro] Pacing 15s before "fouw" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 9751ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fouw
+[w15:ef:pro] [api] 200 mode=pro startsWith=fouw (400ms direct)
+[w15:ef:pro] "fouw" → 0 records, 0 words
+[w15:ef:pro] "fouw" branch complete
+[w15:ef:pro] Saved 31,270 worker words
+[w15:ef:pro] Searching "fouz" | queue=67 | words=31270
+[w15:ef:pro] Pacing 16s before "fouz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4197ms, remount)
+[w15:ef:pro] heartbeat words=31270 queue=67 rotation=4 idle=5s
+[w15:ef:pro] [api] 200 mode=pro startsWith=fouz
+[w15:ef:pro] [api] 200 mode=pro startsWith=fouz (481ms direct)
+[w15:ef:pro] "fouz" → 0 records, 0 words
+[w15:ef:pro] "fouz" branch complete
+[w15:ef:pro] Saved 31,270 worker words
+[w15:ef:pro] Searching "fraf" | queue=66 | words=31270
+[w15:ef:pro] Pacing 15s before "fraf" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 7579ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fraf
+[w15:ef:pro] [api] 200 mode=pro startsWith=fraf (473ms direct)
+[w15:ef:pro] "fraf" → 0 records, 0 words
+[w15:ef:pro] "fraf" branch complete
+[w15:ef:pro] Saved 31,270 worker words
+[w15:ef:pro] Searching "frai" | queue=65 | words=31270
+[w15:ef:pro] Pacing 15s before "frai" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 7778ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frai
+[w15:ef:pro] [api] 200 mode=pro startsWith=frai (589ms direct)
+[w15:ef:pro] "frai" → 31 records, 31 words
+[w15:ef:pro] "frai" branch complete
+[w15:ef:pro] Saved 31,301 worker words
+[w15:ef:pro] Searching "fral" | queue=64 | words=31301
+[w15:ef:pro] Pacing 12s before "fral" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (16342ms)
+[w15:ef:pro] Failed "fral" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] heartbeat words=31301 queue=65 rotation=4 idle=17s
+[w15:ef:pro] Saved 31,301 worker words; shared last.txt now 427,806
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (14457ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] heartbeat words=31301 queue=65 rotation=5 idle=77s
+[w15:ef:pro] Tor NEWNYM gen=5; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=185.220.100.244
+[w15:ef:pro] Rotating IP (#5, try 1) after No Turnstile token for direct search → tor#6 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r5
+[w15:ef:pro] Proxy tor#6 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Turnstile token present (len=837)
+[w15:ef:pro] Site Turnstile token (22928ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fral" | queue=64 | words=31301
+[w15:ef:pro] heartbeat words=31301 queue=64 rotation=5 idle=137s
+[w15:ef:pro] [api] 200 mode=pro startsWith=fral
+[w15:ef:pro] [api] 200 mode=pro startsWith=fral (630ms direct)
+[w15:ef:pro] "fral" → 0 records, 0 words
+[w15:ef:pro] "fral" branch complete
+[w15:ef:pro] Saved 31,301 worker words
+[w15:ef:pro] Searching "frao" | queue=63 | words=31301
+[w15:ef:pro] Pacing 12s before "frao" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (17826ms)
+[w15:ef:pro] Failed "frao" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,301 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (14261ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=6; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=37.221.208.71
+[w15:ef:pro] Rotating IP (#6, try 1) after No Turnstile token for direct search → tor#7 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r6
+[w15:ef:pro] Proxy tor#7 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] heartbeat words=31301 queue=64 rotation=6 idle=56s
+[w15:ef:pro] Managed Turnstile token (len=816, 4502ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "frao" | queue=63 | words=31301
+[w15:ef:pro] [api] 200 mode=pro startsWith=frao
+[w15:ef:pro] [api] 200 mode=pro startsWith=frao (664ms direct)
+[w15:ef:pro] "frao" → 0 records, 0 words
+[w15:ef:pro] "frao" branch complete
+[w15:ef:pro] Saved 31,301 worker words
+[w15:ef:pro] Searching "frar" | queue=62 | words=31301
+[w15:ef:pro] Pacing 15s before "frar" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4543ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frar
+[w15:ef:pro] [api] 200 mode=pro startsWith=frar (692ms direct)
+[w15:ef:pro] "frar" → 1 records, 1 words
+[w15:ef:pro] "frar" branch complete
+[w15:ef:pro] Saved 31,302 worker words
+[w15:ef:pro] Searching "fraz" | queue=61 | words=31302
+[w15:ef:pro] Pacing 15s before "fraz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4647ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fraz
+[w15:ef:pro] [api] 200 mode=pro startsWith=fraz (471ms direct)
+[w15:ef:pro] "fraz" → 10 records, 10 words
+[w15:ef:pro] "fraz" branch complete
+[w15:ef:pro] Saved 31,302 worker words
+[w15:ef:pro] Searching "freg" | queue=60 | words=31302
+[w15:ef:pro] Pacing 15s before "freg" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4001ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=freg
+[w15:ef:pro] [api] 200 mode=pro startsWith=freg (552ms direct)
+[w15:ef:pro] "freg" → 4 records, 4 words
+[w15:ef:pro] "freg" branch complete
+[w15:ef:pro] Saved 31,306 worker words
+[w15:ef:pro] Searching "frej" | queue=59 | words=31306
+[w15:ef:pro] Pacing 15s before "frej" (gap=15500ms)
+[w15:ef:pro] heartbeat words=31306 queue=59 rotation=6 idle=8s
+[w15:ef:pro] Managed Turnstile token (len=816, 9428ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frej
+[w15:ef:pro] [api] 200 mode=pro startsWith=frej (439ms direct)
+[w15:ef:pro] "frej" → 0 records, 0 words
+[w15:ef:pro] "frej" branch complete
+[w15:ef:pro] Saved 31,306 worker words
+[w15:ef:pro] Searching "frem" | queue=58 | words=31306
+[w15:ef:pro] Pacing 15s before "frem" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 7702ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frem
+[w15:ef:pro] [api] 200 mode=pro startsWith=frem (713ms direct)
+[w15:ef:pro] "frem" → 16 records, 16 words
+[w15:ef:pro] "frem" branch complete
+[w15:ef:pro] Saved 31,322 worker words; shared last.txt now 429,575
+[w15:ef:pro] Searching "frep" | queue=57 | words=31322
+[w15:ef:pro] Pacing 14s before "frep" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4255ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frep
+[w15:ef:pro] [api] 200 mode=pro startsWith=frep (480ms direct)
+[w15:ef:pro] "frep" → 0 records, 0 words
+[w15:ef:pro] "frep" branch complete
+[w15:ef:pro] Saved 31,322 worker words
+[w15:ef:pro] Searching "fres" | queue=56 | words=31322
+[w15:ef:pro] Pacing 15s before "fres" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 6978ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fres
+[w15:ef:pro] [api] 200 mode=pro startsWith=fres (604ms direct)
+[w15:ef:pro] "fres" → 56 records, 56 words
+[w15:ef:pro] "fres" branch complete
+[w15:ef:pro] Saved 31,329 worker words
+[w15:ef:pro] Searching "frie" | queue=55 | words=31329
+[w15:ef:pro] Pacing 15s before "frie" (gap=15500ms)
+[w15:ef:pro] heartbeat words=31329 queue=55 rotation=6 idle=6s
+[w15:ef:pro] Managed Turnstile token (len=816, 13966ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frie
+[w15:ef:pro] [api] 200 mode=pro startsWith=frie (590ms direct)
+[w15:ef:pro] "frie" → 49 records, 49 words
+[w15:ef:pro] "frie" branch complete
+[w15:ef:pro] Saved 31,365 worker words
+[w15:ef:pro] Searching "frih" | queue=54 | words=31365
+[w15:ef:pro] Pacing 14s before "frih" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 6473ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frih
+[w15:ef:pro] [api] 200 mode=pro startsWith=frih (408ms direct)
+[w15:ef:pro] "frih" → 0 records, 0 words
+[w15:ef:pro] "frih" branch complete
+[w15:ef:pro] Saved 31,365 worker words
+[w15:ef:pro] Searching "frik" | queue=53 | words=31365
+[w15:ef:pro] Pacing 16s before "frik" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15310ms)
+[w15:ef:pro] Failed "frik" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,365 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (9759ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=7; waiting 8000ms
+[w15:ef:pro] heartbeat words=31365 queue=54 rotation=7 idle=35s
+[w15:ef:pro] Tor ready on 19065 exit=5.252.154.89
+[w15:ef:pro] Rotating IP (#7, try 1) after No Turnstile token for direct search → tor#8 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r7
+[w15:ef:pro] Proxy tor#8 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 5325ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "frik" | queue=53 | words=31365
+[w15:ef:pro] [api] 200 mode=pro startsWith=frik
+[w15:ef:pro] [api] 200 mode=pro startsWith=frik (421ms direct)
+[w15:ef:pro] "frik" → 5 records, 5 words
+[w15:ef:pro] "frik" branch complete
+[w15:ef:pro] Saved 31,370 worker words
+[w15:ef:pro] Searching "frin" | queue=52 | words=31370
+[w15:ef:pro] Pacing 15s before "frin" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 5101ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frin
+[w15:ef:pro] [api] 200 mode=pro startsWith=frin (441ms direct)
+[w15:ef:pro] "frin" → 26 records, 26 words
+[w15:ef:pro] "frin" branch complete
+[w15:ef:pro] Saved 31,396 worker words
+[w15:ef:pro] Searching "friq" | queue=51 | words=31396
+[w15:ef:pro] Pacing 15s before "friq" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4922ms, remount)
+[w15:ef:pro] heartbeat words=31396 queue=51 rotation=7 idle=13s
+[w15:ef:pro] [api] 200 mode=pro startsWith=friq
+[w15:ef:pro] [api] 200 mode=pro startsWith=friq (434ms direct)
+[w15:ef:pro] "friq" → 0 records, 0 words
+[w15:ef:pro] "friq" branch complete
+[w15:ef:pro] Saved 31,396 worker words; shared last.txt now 430,240
+[w15:ef:pro] Searching "frit" | queue=50 | words=31396
+[w15:ef:pro] Pacing 13s before "frit" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 6354ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frit
+[w15:ef:pro] [api] 200 mode=pro startsWith=frit (501ms direct)
+[w15:ef:pro] "frit" → 41 records, 41 words (incl. exact "frit")
+[w15:ef:pro] "frit" branch complete
+[w15:ef:pro] Saved 31,401 worker words
+[w15:ef:pro] Searching "fron" | queue=49 | words=31401
+[w15:ef:pro] Pacing 14s before "fron" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 11878ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fron
+[w15:ef:pro] [api] 200 mode=pro startsWith=fron (535ms direct)
+[w15:ef:pro] "fron" → 100 records, 100 words
+[w15:ef:pro] Pacing 12s before "fron" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 7858ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fron
+[w15:ef:pro] [api] 200 mode=pro startsWith=fron sort=alphabetical:desc (444ms direct)
+[w15:ef:pro] "fron" full page ends at "frontogeneses" (next='t'); skip 21 covered groups → 7 children reverse Z→A ends at "frontals" (lo='t' hi='t'); skip 0 middle + 43 new words
+[w15:ef:pro] Saved 31,544 worker words
+[w15:ef:pro] Searching "froq" | queue=55 | words=31544
+[w15:ef:pro] Pacing 15s before "froq" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 6583ms, remount)
+[w15:ef:pro] heartbeat words=31544 queue=55 rotation=7 idle=10s
+[w15:ef:pro] [api] 200 mode=pro startsWith=froq
+[w15:ef:pro] [api] 200 mode=pro startsWith=froq (466ms direct)
+[w15:ef:pro] "froq" → 0 records, 0 words
+[w15:ef:pro] "froq" branch complete
+[w15:ef:pro] Saved 31,544 worker words
+[w15:ef:pro] Searching "frot" | queue=54 | words=31544
+[w15:ef:pro] Pacing 15s before "frot" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 6662ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frot
+[w15:ef:pro] [api] 200 mode=pro startsWith=frot (573ms direct)
+[w15:ef:pro] "frot" → 28 records, 28 words (incl. exact "frot")
+[w15:ef:pro] "frot" branch complete
+[w15:ef:pro] Saved 31,572 worker words
+[w15:ef:pro] Searching "frow" | queue=53 | words=31572
+[w15:ef:pro] Pacing 14s before "frow" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 12021ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frow
+[w15:ef:pro] [api] 200 mode=pro startsWith=frow (610ms direct)
+[w15:ef:pro] "frow" → 52 records, 52 words (incl. exact "frow")
+[w15:ef:pro] "frow" branch complete
+[w15:ef:pro] Saved 31,624 worker words
+[w15:ef:pro] Searching "froz" | queue=52 | words=31624
+[w15:ef:pro] Pacing 15s before "froz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15080ms)
+[w15:ef:pro] Failed "froz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,624 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=31624 queue=53 rotation=7 idle=23s
+[w15:ef:pro] Turnstile token present (len=816)
+[w15:ef:pro] Site Turnstile token (9182ms)
+[w15:ef:pro] Searching "froz" | queue=52 | words=31624
+[w15:ef:pro] [api] 200 mode=pro startsWith=froz
+[w15:ef:pro] [api] 200 mode=pro startsWith=froz (488ms direct)
+[w15:ef:pro] "froz" → 6 records, 6 words
+[w15:ef:pro] "froz" branch complete
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Searching "fruk" | queue=51 | words=31630
+[w15:ef:pro] Pacing 15s before "fruk" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 8344ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fruk
+[w15:ef:pro] [api] 200 mode=pro startsWith=fruk (638ms direct)
+[w15:ef:pro] "fruk" → 0 records, 0 words
+[w15:ef:pro] "fruk" branch complete
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Searching "frun" | queue=50 | words=31630
+[w15:ef:pro] Pacing 1s before "frun" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 15194ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frun
+[w15:ef:pro] [api] 200 mode=pro startsWith=frun (552ms direct)
+[w15:ef:pro] "frun" → 3 records, 3 words
+[w15:ef:pro] "frun" branch complete
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Searching "fruq" | queue=49 | words=31630
+[w15:ef:pro] Pacing 15s before "fruq" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 8144ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fruq
+[w15:ef:pro] [api] 200 mode=pro startsWith=fruq (519ms direct)
+[w15:ef:pro] "fruq" → 1 records, 1 words
+[w15:ef:pro] "fruq" branch complete
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Searching "frut" | queue=48 | words=31630
+[w15:ef:pro] Pacing 15s before "frut" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4324ms, remount)
+[w15:ef:pro] heartbeat words=31630 queue=48 rotation=7 idle=6s
+[w15:ef:pro] [api] 200 mode=pro startsWith=frut
+[w15:ef:pro] [api] 200 mode=pro startsWith=frut (619ms direct)
+[w15:ef:pro] "frut" → 19 records, 19 words
+[w15:ef:pro] "frut" branch complete
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Searching "fruw" | queue=47 | words=31630
+[w15:ef:pro] Pacing 15s before "fruw" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 13712ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fruw
+[w15:ef:pro] [api] 200 mode=pro startsWith=fruw (568ms direct)
+[w15:ef:pro] "fruw" → 0 records, 0 words
+[w15:ef:pro] "fruw" branch complete
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Searching "fruz" | queue=46 | words=31630
+[w15:ef:pro] Pacing 15s before "fruz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15250ms)
+[w15:ef:pro] Failed "fruz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (13315ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] heartbeat words=31630 queue=47 rotation=8 idle=35s
+[w15:ef:pro] Tor NEWNYM gen=8; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=185.220.101.0
+[w15:ef:pro] Rotating IP (#8, try 1) after No Turnstile token for direct search → tor#9 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r8
+[w15:ef:pro] Proxy tor#9 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] heartbeat words=31630 queue=47 rotation=8 idle=96s
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Site Turnstile remint timed out (22734ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fruz" | queue=46 | words=31630
+[w15:ef:pro] Managed Turnstile miss (15242ms)
+[w15:ef:pro] Failed "fruz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (9640ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=9; waiting 8000ms
+[w15:ef:pro] heartbeat words=31630 queue=47 rotation=9 idle=156s
+[w15:ef:pro] Tor ready on 19065 exit=107.189.8.133
+[w15:ef:pro] Rotating IP (#9, try 1) after No Turnstile token for direct search → tor#10 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r9
+[w15:ef:pro] Proxy tor#10 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w15:ef:pro] heartbeat words=31630 queue=47 rotation=9 idle=216s
+[w15:ef:pro] No successful search for 180s — respawning worker
+[w15:ef:pro] Graceful shutdown on watchdog
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Tor exited code=null
+[w15:ef:pro] rotateIp attempt 1 failed: Could not enable Pro mode: locator.waitFor: Target page, context or browser has been closed
+
+--- ab/ef-helper daemon start 2026-08-06T02:11:41Z queue=47 ---
+[w15:ef:pro] IP mode=tor
+[w15:ef:pro] Cleaned 2 old rotated profile(s)
+[w15:ef:pro] Starting persistent Tor socks=127.0.0.1:19065 control=127.0.0.1:29065
+[w15:ef:pro] tor: Aug 05 21:12:22.000 [notice] Bootstrapped 0% (starting): Starting
+[w15:ef:pro] tor: Aug 05 21:12:25.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w15:ef:pro] tor: Aug 05 21:12:25.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w15:ef:pro] tor: Aug 05 21:12:26.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w15:ef:pro] tor: Aug 05 21:12:26.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 21:12:26.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w15:ef:pro] tor: Aug 05 21:12:26.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w15:ef:pro] tor: Aug 05 21:12:27.000 [notice] Bootstrapped 100% (done): Done
+[w15:ef:pro] Tor ready on 19065 exit=192.42.116.101
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r0
+[w15:ef:pro] Proxy tor#1 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Site Turnstile remint timed out (22596ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Loaded 3999 prefixes, 31630 words; queue=47
+[w15:ef:pro] Searching "fruz" | queue=46 | words=31630
+[w15:ef:pro] Managed Turnstile miss (15650ms)
+[w15:ef:pro] Failed "fruz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] heartbeat words=31630 queue=47 rotation=1 idle=60s
+[w15:ef:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=23.129.64.186
+[w15:ef:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r1
+[w15:ef:pro] Proxy tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] heartbeat words=31630 queue=47 rotation=1 idle=120s
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Site Turnstile remint timed out (25057ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fruz" | queue=46 | words=31630
+[w15:ef:pro] Managed Turnstile miss (15589ms)
+[w15:ef:pro] Failed "fruz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=31630 queue=47 rotation=1 idle=180s
+[w15:ef:pro] No successful search for 180s — respawning worker
+[w15:ef:pro] Graceful shutdown on watchdog
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Tor exited code=0
+
+--- ab/ef-helper daemon start 2026-08-06T02:16:12Z queue=47 ---
+[w15:ef:pro] IP mode=tor
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Starting persistent Tor socks=127.0.0.1:19065 control=127.0.0.1:29065
+[w15:ef:pro] tor: Aug 05 21:16:16.000 [notice] Bootstrapped 0% (starting): Starting
+[w15:ef:pro] tor: Aug 05 21:16:19.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w15:ef:pro] tor: Aug 05 21:16:19.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w15:ef:pro] tor: Aug 05 21:16:20.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w15:ef:pro] tor: Aug 05 21:16:20.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 21:16:20.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w15:ef:pro] tor: Aug 05 21:16:21.000 [notice] New control connection opened from 127.0.0.1.
+Aug 05 21:16:21.000 [notice] Bootstrapped 100% (done): Done
+[w15:ef:pro] Tor ready on 19065 exit=203.55.81.2
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r0
+[w15:ef:pro] Proxy tor#1 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 8404ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Loaded 3999 prefixes, 31630 words; queue=47
+[w15:ef:pro] Searching "fruz" | queue=46 | words=31630
+[w15:ef:pro] [api] 200 mode=pro startsWith=fruz
+[w15:ef:pro] [api] 200 mode=pro startsWith=fruz (593ms direct)
+[w15:ef:pro] "fruz" → 1 records, 1 words (incl. exact "fruz")
+[w15:ef:pro] "fruz" branch complete
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Searching "fumy" | queue=45 | words=31630
+[w15:ef:pro] Pacing 15s before "fumy" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4035ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fumy
+[w15:ef:pro] [api] 200 mode=pro startsWith=fumy (506ms direct)
+[w15:ef:pro] "fumy" → 1 records, 1 words (incl. exact "fumy")
+[w15:ef:pro] "fumy" branch complete
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Searching "fune" | queue=44 | words=31630
+[w15:ef:pro] Pacing 10s before "fune" (gap=15500ms)
+[w15:ef:pro] Turnstile mint hard timeout after 20000ms
+[w15:ef:pro] Failed "fune" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,630 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=31630 queue=45 rotation=0 idle=38s
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=81.181.104.22
+[w15:ef:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r1
+[w15:ef:pro] Proxy tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] page.goto failed attempt 1: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w15:ef:pro] heartbeat words=31630 queue=45 rotation=1 idle=98s
+[w15:ef:pro] page.goto failed attempt 2: page.goto: Navigation to "https://lastletterlibrary.com/" is interrupted by another navigation to "https://lastletterlib
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 14618ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fune" | queue=44 | words=31630
+[w15:ef:pro] [api] 200 mode=pro startsWith=fune
+[w15:ef:pro] [api] 200 mode=pro startsWith=fune (532ms direct)
+[w15:ef:pro] "fune" → 21 records, 21 words
+[w15:ef:pro] "fune" branch complete
+[w15:ef:pro] Saved 31,651 worker words
+[w15:ef:pro] Searching "funz" | queue=43 | words=31651
+[w15:ef:pro] Pacing 14s before "funz" (gap=15500ms)
+[w15:ef:pro] heartbeat words=31651 queue=43 rotation=1 idle=6s
+[w15:ef:pro] Managed Turnstile token (len=816, 9155ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=funz
+[w15:ef:pro] [api] 200 mode=pro startsWith=funz (400ms direct)
+[w15:ef:pro] "funz" → 1 records, 1 words
+[w15:ef:pro] "funz" branch complete
+[w15:ef:pro] Saved 31,651 worker words
+[w15:ef:pro] Searching "furh" | queue=42 | words=31651
+[w15:ef:pro] Pacing 15s before "furh" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 7179ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=furh
+[w15:ef:pro] [api] 200 mode=pro startsWith=furh (468ms direct)
+[w15:ef:pro] "furh" → 0 records, 0 words
+[w15:ef:pro] "furh" branch complete
+[w15:ef:pro] Saved 31,651 worker words
+[w15:ef:pro] Searching "furk" | queue=41 | words=31651
+[w15:ef:pro] Pacing 11s before "furk" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 10564ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=furk
+[w15:ef:pro] [api] 200 mode=pro startsWith=furk (414ms direct)
+[w15:ef:pro] "furk" → 2 records, 2 words
+[w15:ef:pro] "furk" branch complete
+[w15:ef:pro] Saved 31,653 worker words
+[w15:ef:pro] Searching "furn" | queue=40 | words=31653
+[w15:ef:pro] Pacing 15s before "furn" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 5789ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=furn
+[w15:ef:pro] [api] 200 mode=pro startsWith=furn (476ms direct)
+[w15:ef:pro] "furn" → 33 records, 33 words
+[w15:ef:pro] "furn" branch complete
+[w15:ef:pro] heartbeat words=31686 queue=40 rotation=1 idle=20s
+[w15:ef:pro] Saved 31,686 worker words
+[w15:ef:pro] Searching "fuss" | queue=39 | words=31686
+[w15:ef:pro] Managed Turnstile miss (16474ms)
+[w15:ef:pro] Failed "fuss" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,686 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=203.55.81.2
+[w15:ef:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r2
+[w15:ef:pro] Proxy tor#3 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] heartbeat words=31686 queue=40 rotation=2 idle=49s
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Turnstile mint hard timeout after 28000ms
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fuss" | queue=39 | words=31686
+[w15:ef:pro] heartbeat words=31686 queue=39 rotation=2 idle=110s
+[w15:ef:pro] Managed Turnstile miss (17970ms)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fuss
+[w15:ef:pro] [api] 200 mode=pro startsWith=fuss (467ms direct)
+[w15:ef:pro] "fuss" → 25 records, 25 words (incl. exact "fuss")
+[w15:ef:pro] "fuss" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "fusv" | queue=38 | words=31704
+[w15:ef:pro] Managed Turnstile token (len=816, 17543ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fusv
+[w15:ef:pro] [api] 200 mode=pro startsWith=fusv (446ms direct)
+[w15:ef:pro] "fusv" → 0 records, 0 words
+[w15:ef:pro] "fusv" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "fusy" | queue=37 | words=31704
+[w15:ef:pro] Pacing 15s before "fusy" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 5206ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fusy
+[w15:ef:pro] [api] 200 mode=pro startsWith=fusy (612ms direct)
+[w15:ef:pro] "fusy" → 0 records, 0 words
+[w15:ef:pro] "fusy" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "factz" | queue=36 | words=31704
+[w15:ef:pro] Pacing 15s before "factz" (gap=15500ms)
+[w15:ef:pro] heartbeat words=31704 queue=36 rotation=2 idle=12s
+[w15:ef:pro] Managed Turnstile token (len=816, 13734ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=factz
+[w15:ef:pro] [api] 200 mode=pro startsWith=factz (558ms direct)
+[w15:ef:pro] "factz" → 0 records, 0 words
+[w15:ef:pro] "factz" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "ferrz" | queue=35 | words=31704
+[w15:ef:pro] Pacing 7s before "ferrz" (gap=15500ms)
+[w15:ef:pro] Turnstile mint hard timeout after 20000ms
+[w15:ef:pro] Failed "ferrz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=31704 queue=36 rotation=2 idle=49s
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Site Turnstile remint timed out (17518ms)
+[w15:ef:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=5.79.66.19
+[w15:ef:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r3
+[w15:ef:pro] Proxy tor#4 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] heartbeat words=31704 queue=36 rotation=3 idle=109s
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Turnstile token present (len=837)
+[w15:ef:pro] Site Turnstile token (21198ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "ferrz" | queue=35 | words=31704
+[w15:ef:pro] [api] 200 mode=pro startsWith=ferrz
+[w15:ef:pro] [api] 200 mode=pro startsWith=ferrz (1008ms direct)
+[w15:ef:pro] "ferrz" → 0 records, 0 words
+[w15:ef:pro] "ferrz" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "fibrz" | queue=34 | words=31704
+[w15:ef:pro] Pacing 14s before "fibrz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15547ms)
+[w15:ef:pro] heartbeat words=31704 queue=34 rotation=3 idle=15s
+[w15:ef:pro] Failed "fibrz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,704 worker words; shared last.txt now 440,588
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile token present (len=837)
+[w15:ef:pro] Site Turnstile token (11192ms)
+[w15:ef:pro] Searching "fibrz" | queue=34 | words=31704
+[w15:ef:pro] [api] 200 mode=pro startsWith=fibrz
+[w15:ef:pro] [api] 200 mode=pro startsWith=fibrz (487ms direct)
+[w15:ef:pro] "fibrz" → 0 records, 0 words
+[w15:ef:pro] "fibrz" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "firej" | queue=33 | words=31704
+[w15:ef:pro] Pacing 10s before "firej" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (18828ms)
+[w15:ef:pro] Failed "firej" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=31704 queue=34 rotation=3 idle=27s
+[w15:ef:pro] Site Turnstile remint timed out (14889ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=192.42.116.15
+[w15:ef:pro] Rotating IP (#4, try 1) after No Turnstile token for direct search → tor#5 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r4
+[w15:ef:pro] Proxy tor#5 socks5://127.0.0.1:19065
+[w15:ef:pro] heartbeat words=31704 queue=34 rotation=4 idle=88s
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Turnstile token present (len=837)
+[w15:ef:pro] Site Turnstile token (19666ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "firej" | queue=33 | words=31704
+[w15:ef:pro] [api] 200 mode=pro startsWith=firej
+[w15:ef:pro] [api] 200 mode=pro startsWith=firej (479ms direct)
+[w15:ef:pro] "firej" → 0 records, 0 words
+[w15:ef:pro] "firej" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "firew" | queue=32 | words=31704
+[w15:ef:pro] Pacing 15s before "firew" (gap=15500ms)
+[w15:ef:pro] heartbeat words=31704 queue=32 rotation=4 idle=15s
+[w15:ef:pro] Managed Turnstile miss (15056ms)
+[w15:ef:pro] Failed "firew" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (11550ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=5; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=192.42.116.95
+[w15:ef:pro] Rotating IP (#5, try 1) after No Turnstile token for direct search → tor#6 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r5
+[w15:ef:pro] Proxy tor#6 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] heartbeat words=31704 queue=33 rotation=5 idle=75s
+[w15:ef:pro] Turnstile token present (len=837)
+[w15:ef:pro] Site Turnstile token (27428ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "firew" | queue=32 | words=31704
+[w15:ef:pro] [api] 200 mode=pro startsWith=firew
+[w15:ef:pro] [api] 200 mode=pro startsWith=firew (525ms direct)
+[w15:ef:pro] "firew" → 25 records, 25 words
+[w15:ef:pro] "firew" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "firez" | queue=31 | words=31704
+[w15:ef:pro] Pacing 10s before "firez" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (19337ms)
+[w15:ef:pro] Failed "firez" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (10131ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=6; waiting 8000ms
+[w15:ef:pro] heartbeat words=31704 queue=32 rotation=6 idle=40s
+[w15:ef:pro] Tor ready on 19065 exit=45.84.107.101
+[w15:ef:pro] Rotating IP (#6, try 1) after No Turnstile token for direct search → tor#7 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r6
+[w15:ef:pro] Proxy tor#7 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w15:ef:pro] heartbeat words=31704 queue=32 rotation=6 idle=100s
+[w15:ef:pro] page.goto failed attempt 2: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w15:ef:pro] page.goto failed attempt 3: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w15:ef:pro] rotateIp attempt 1 failed: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.com/", waiting until "domconte
+[w15:ef:pro] Tor NEWNYM gen=7; waiting 8000ms
+[w15:ef:pro] heartbeat words=31704 queue=32 rotation=7 idle=160s
+[w15:ef:pro] Tor ready on 19065 exit=171.25.193.81
+[w15:ef:pro] Rotating IP (#7, try 2) after No Turnstile token for direct search → tor#8 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r7
+[w15:ef:pro] Proxy tor#8 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Turnstile token present (len=816)
+[w15:ef:pro] Site Turnstile token (19779ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 2 old rotated profile(s)
+[w15:ef:pro] Searching "firez" | queue=31 | words=31704
+[w15:ef:pro] [api] 200 mode=pro startsWith=firez
+[w15:ef:pro] [api] 200 mode=pro startsWith=firez (540ms direct)
+[w15:ef:pro] "firez" → 0 records, 0 words
+[w15:ef:pro] "firez" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "fishv" | queue=30 | words=31704
+[w15:ef:pro] Pacing 15s before "fishv" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15474ms)
+[w15:ef:pro] Failed "fishv" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] heartbeat words=31704 queue=31 rotation=7 idle=27s
+[w15:ef:pro] Saved 31,704 worker words; shared last.txt now 443,759
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (9629ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=8; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=192.42.116.113
+[w15:ef:pro] Rotating IP (#8, try 1) after No Turnstile token for direct search → tor#9 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r8
+[w15:ef:pro] Proxy tor#9 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] heartbeat words=31704 queue=31 rotation=8 idle=87s
+[w15:ef:pro] page.goto failed attempt 1: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 8433ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fishv" | queue=30 | words=31704
+[w15:ef:pro] [api] 200 mode=pro startsWith=fishv
+[w15:ef:pro] [api] 200 mode=pro startsWith=fishv (431ms direct)
+[w15:ef:pro] "fishv" → 0 records, 0 words
+[w15:ef:pro] "fishv" branch complete
+[w15:ef:pro] Saved 31,704 worker words
+[w15:ef:pro] Searching "fishy" | queue=29 | words=31704
+[w15:ef:pro] Pacing 14s before "fishy" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 5787ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fishy
+[w15:ef:pro] [api] 200 mode=pro startsWith=fishy (417ms direct)
+[w15:ef:pro] "fishy" → 5 records, 5 words (incl. exact "fishy")
+[w15:ef:pro] "fishy" branch complete
+[w15:ef:pro] Saved 31,709 worker words
+[w15:ef:pro] Searching "flagx" | queue=28 | words=31709
+[w15:ef:pro] Pacing 14s before "flagx" (gap=15500ms)
+[w15:ef:pro] heartbeat words=31709 queue=28 rotation=8 idle=6s
+[w15:ef:pro] Managed Turnstile token (len=816, 12691ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flagx
+[w15:ef:pro] [api] 200 mode=pro startsWith=flagx (466ms direct)
+[w15:ef:pro] "flagx" → 0 records, 0 words
+[w15:ef:pro] "flagx" branch complete
+[w15:ef:pro] Saved 31,709 worker words
+[w15:ef:pro] Searching "flamy" | queue=27 | words=31709
+[w15:ef:pro] Managed Turnstile token (len=816, 16817ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flamy
+[w15:ef:pro] [api] 200 mode=pro startsWith=flamy (484ms direct)
+[w15:ef:pro] "flamy" → 1 records, 1 words (incl. exact "flamy")
+[w15:ef:pro] "flamy" branch complete
+[w15:ef:pro] Saved 31,709 worker words
+[w15:ef:pro] Searching "flatu" | queue=26 | words=31709
+[w15:ef:pro] Pacing 14s before "flatu" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 8813ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flatu
+[w15:ef:pro] [api] 200 mode=pro startsWith=flatu (551ms direct)
+[w15:ef:pro] "flatu" → 11 records, 11 words
+[w15:ef:pro] "flatu" branch complete
+[w15:ef:pro] Saved 31,720 worker words
+[w15:ef:pro] Searching "flatx" | queue=25 | words=31720
+[w15:ef:pro] Pacing 15s before "flatx" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 3916ms, remount)
+[w15:ef:pro] heartbeat words=31720 queue=25 rotation=8 idle=11s
+[w15:ef:pro] [api] 200 mode=pro startsWith=flatx
+[w15:ef:pro] [api] 200 mode=pro startsWith=flatx (457ms direct)
+[w15:ef:pro] "flatx" → 0 records, 0 words
+[w15:ef:pro] "flatx" branch complete
+[w15:ef:pro] Saved 31,720 worker words
+[w15:ef:pro] Searching "flory" | queue=24 | words=31720
+[w15:ef:pro] Pacing 15s before "flory" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4099ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=flory
+[w15:ef:pro] [api] 200 mode=pro startsWith=flory (496ms direct)
+[w15:ef:pro] "flory" → 1 records, 1 words (incl. exact "flory")
+[w15:ef:pro] "flory" branch complete
+[w15:ef:pro] Saved 31,720 worker words
+[w15:ef:pro] Searching "florz" | queue=23 | words=31720
+[w15:ef:pro] Pacing 12s before "florz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 12834ms, remount)
+[w15:ef:pro] [api] 429 mode=pro startsWith=florz
+[w15:ef:pro] [api] 429 mode=pro startsWith=florz (476ms direct)
+[w15:ef:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w15:ef:pro] Rate limited — inline wait 2000ms then retry "florz"
+[w15:ef:pro] Managed Turnstile token (len=816, 12964ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=florz
+[w15:ef:pro] [api] 200 mode=pro startsWith=florz (501ms direct)
+[w15:ef:pro] "florz" → 0 records, 0 words
+[w15:ef:pro] "florz" branch complete
+[w15:ef:pro] heartbeat words=31720 queue=23 rotation=8 idle=38s
+[w15:ef:pro] Saved 31,720 worker words; shared last.txt now 444,946
+[w15:ef:pro] Searching "fluor" | queue=22 | words=31720
+[w15:ef:pro] Pacing 1s before "fluor" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 14891ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluor
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluor (385ms direct)
+[w15:ef:pro] "fluor" → 100 records, 100 words (incl. exact "fluor")
+[w15:ef:pro] Pacing 16s before "fluor" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4946ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluor
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluor sort=alphabetical:desc (430ms direct)
+[w15:ef:pro] "fluor" full page ends at "fluorometers" (next='o'); skip 26 covered groups → 2 children reverse Z→A ends at "fluorid" (lo='i' hi='y'); skip 15 middle + 37 new words
+[w15:ef:pro] Saved 31,776 worker words
+[w15:ef:pro] Searching "fluos" | queue=23 | words=31776
+[w15:ef:pro] Pacing 13s before "fluos" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (16630ms)
+[w15:ef:pro] Failed "fluos" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,776 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=31776 queue=24 rotation=8 idle=36s
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Site Turnstile remint timed out (18957ms)
+[w15:ef:pro] Tor NEWNYM gen=9; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=185.220.101.133
+[w15:ef:pro] Rotating IP (#9, try 1) after No Turnstile token for direct search → tor#10 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r9
+[w15:ef:pro] Proxy tor#10 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] heartbeat words=31776 queue=24 rotation=9 idle=96s
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Site Turnstile remint timed out (23255ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fluos" | queue=23 | words=31776
+[w15:ef:pro] Managed Turnstile miss (15804ms)
+[w15:ef:pro] Failed "fluos" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,776 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Site Turnstile remint timed out (10000ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] heartbeat words=31776 queue=24 rotation=10 idle=156s
+[w15:ef:pro] Tor NEWNYM gen=10; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=104.244.76.237
+[w15:ef:pro] Rotating IP (#10, try 1) after No Turnstile token for direct search → tor#11 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r10
+[w15:ef:pro] Proxy tor#11 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] heartbeat words=31776 queue=24 rotation=10 idle=216s
+[w15:ef:pro] No successful search for 180s — respawning worker
+[w15:ef:pro] Graceful shutdown on watchdog
+[w15:ef:pro] Saved 31,776 worker words
+[w15:ef:pro] Site Turnstile remint timed out (27300ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fluos" | queue=23 | words=31776
+[w15:ef:pro] Failed "fluos" attempt 1: locator.count: Target page, context or browser has been closed
+[w15:ef:pro] Saved 31,776 worker words
+[w15:ef:pro] Searching "fluos" | queue=23 | words=31776
+[w15:ef:pro] Failed "fluos" attempt 2: locator.count: Target page, context or browser has been closed
+[w15:ef:pro] Saved 31,776 worker words
+[w15:ef:pro] Tor NEWNYM gen=11; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=178.20.55.182
+[w15:ef:pro] Rotating IP (#11, try 1) after locator.count: Target page, context or browser has been closed → tor#12 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r11
+[w15:ef:pro] Proxy tor#12 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] page.goto failed attempt 1: page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastl
+[w15:ef:pro] Tor exited code=0
+
+--- ab/ef-helper daemon start 2026-08-06T02:43:51Z queue=24 ---
+[w15:ef:pro] IP mode=tor
+[w15:ef:pro] Cleaned 2 old rotated profile(s)
+[w15:ef:pro] Starting persistent Tor socks=127.0.0.1:19065 control=127.0.0.1:29065
+[w15:ef:pro] tor: Aug 05 21:43:53.000 [notice] Bootstrapped 0% (starting): Starting
+[w15:ef:pro] tor: Aug 05 21:43:54.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w15:ef:pro] tor: Aug 05 21:43:54.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w15:ef:pro] tor: Aug 05 21:43:55.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w15:ef:pro] tor: Aug 05 21:43:55.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 21:43:55.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w15:ef:pro] tor: Aug 05 21:43:55.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w15:ef:pro] tor: Aug 05 21:43:56.000 [notice] Bootstrapped 100% (done): Done
+[w15:ef:pro] Tor ready on 19065 exit=185.243.218.233
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r0
+[w15:ef:pro] Proxy tor#1 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Turnstile mint hard timeout after 28000ms
+[w15:ef:pro] Site Turnstile remint timed out (30126ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Loaded 4050 prefixes, 31776 words; queue=24
+[w15:ef:pro] Searching "fluos" | queue=23 | words=31776
+[w15:ef:pro] Managed Turnstile token (len=816, 5976ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluos
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluos (488ms direct)
+[w15:ef:pro] "fluos" → 2 records, 2 words
+[w15:ef:pro] "fluos" branch complete
+[w15:ef:pro] Saved 31,778 worker words
+[w15:ef:pro] Searching "fluot" | queue=22 | words=31778
+[w15:ef:pro] Pacing 15s before "fluot" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4183ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluot
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluot (524ms direct)
+[w15:ef:pro] "fluot" → 4 records, 4 words
+[w15:ef:pro] "fluot" branch complete
+[w15:ef:pro] Saved 31,782 worker words
+[w15:ef:pro] Searching "fluou" | queue=21 | words=31782
+[w15:ef:pro] Pacing 15s before "fluou" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4733ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluou
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluou (696ms direct)
+[w15:ef:pro] "fluou" → 0 records, 0 words
+[w15:ef:pro] "fluou" branch complete
+[w15:ef:pro] Saved 31,782 worker words
+[w15:ef:pro] Searching "fluov" | queue=20 | words=31782
+[w15:ef:pro] Pacing 8s before "fluov" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 16418ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluov
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluov (568ms direct)
+[w15:ef:pro] "fluov" → 0 records, 0 words
+[w15:ef:pro] "fluov" branch complete
+[w15:ef:pro] heartbeat words=31782 queue=20 rotation=0 idle=16s
+[w15:ef:pro] Saved 31,782 worker words
+[w15:ef:pro] Searching "fluow" | queue=19 | words=31782
+[w15:ef:pro] Pacing 9s before "fluow" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (18972ms)
+[w15:ef:pro] Failed "fluow" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,782 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Managed Turnstile token (len=816, 4537ms, remount)
+[w15:ef:pro] Searching "fluow" | queue=19 | words=31782
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluow
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluow (447ms direct)
+[w15:ef:pro] "fluow" → 0 records, 0 words
+[w15:ef:pro] "fluow" branch complete
+[w15:ef:pro] Saved 31,782 worker words
+[w15:ef:pro] Searching "fluox" | queue=18 | words=31782
+[w15:ef:pro] Pacing 15s before "fluox" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4534ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluox
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluox (467ms direct)
+[w15:ef:pro] "fluox" → 2 records, 2 words
+[w15:ef:pro] "fluox" branch complete
+[w15:ef:pro] Saved 31,784 worker words
+[w15:ef:pro] Searching "fluoy" | queue=17 | words=31784
+[w15:ef:pro] Pacing 15s before "fluoy" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 6272ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluoy
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluoy (447ms direct)
+[w15:ef:pro] "fluoy" → 0 records, 0 words
+[w15:ef:pro] "fluoy" branch complete
+[w15:ef:pro] heartbeat words=31784 queue=17 rotation=0 idle=19s
+[w15:ef:pro] Saved 31,784 worker words
+[w15:ef:pro] Searching "fluoz" | queue=16 | words=31784
+[w15:ef:pro] Turnstile mint hard timeout after 20000ms
+[w15:ef:pro] Failed "fluoz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,784 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Site Turnstile remint timed out (15148ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w15:ef:pro] heartbeat words=31784 queue=17 rotation=1 idle=45s
+[w15:ef:pro] Tor ready on 19065 exit=185.220.101.17
+[w15:ef:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r1
+[w15:ef:pro] Proxy tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Site Turnstile remint timed out (26921ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fluoz" | queue=16 | words=31784
+[w15:ef:pro] heartbeat words=31784 queue=16 rotation=1 idle=105s
+[w15:ef:pro] Managed Turnstile miss (15778ms)
+[w15:ef:pro] Failed "fluoz" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,784 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w15:ef:pro] heartbeat words=31784 queue=17 rotation=2 idle=165s
+[w15:ef:pro] Tor ready on 19065 exit=109.70.100.12
+[w15:ef:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r2
+[w15:ef:pro] Proxy tor#3 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 6291ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "fluoz" | queue=16 | words=31784
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluoz
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluoz (611ms direct)
+[w15:ef:pro] "fluoz" → 1 records, 1 words
+[w15:ef:pro] "fluoz" branch complete
+[w15:ef:pro] Saved 31,785 worker words
+[w15:ef:pro] Searching "forme" | queue=15 | words=31785
+[w15:ef:pro] Pacing 4s before "forme" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 16232ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=forme
+[w15:ef:pro] [api] 200 mode=pro startsWith=forme (641ms direct)
+[w15:ef:pro] "forme" → 16 records, 16 words (incl. exact "forme")
+[w15:ef:pro] "forme" branch complete
+[w15:ef:pro] Saved 31,787 worker words
+[w15:ef:pro] Searching "formf" | queue=14 | words=31787
+[w15:ef:pro] Pacing 11s before "formf" (gap=15500ms)
+[w15:ef:pro] heartbeat words=31787 queue=14 rotation=2 idle=5s
+[w15:ef:pro] Managed Turnstile token (len=816, 9626ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=formf
+[w15:ef:pro] [api] 200 mode=pro startsWith=formf (638ms direct)
+[w15:ef:pro] "formf" → 4 records, 4 words
+[w15:ef:pro] "formf" branch complete
+[w15:ef:pro] Saved 31,791 worker words
+[w15:ef:pro] Searching "formg" | queue=13 | words=31791
+[w15:ef:pro] Pacing 12s before "formg" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 14319ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=formg
+[w15:ef:pro] [api] 200 mode=pro startsWith=formg (558ms direct)
+[w15:ef:pro] "formg" → 0 records, 0 words
+[w15:ef:pro] "formg" branch complete
+[w15:ef:pro] Saved 31,791 worker words
+[w15:ef:pro] Searching "formh" | queue=12 | words=31791
+[w15:ef:pro] Pacing 10s before "formh" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (18591ms)
+[w15:ef:pro] Failed "formh" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,791 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] heartbeat words=31791 queue=13 rotation=2 idle=35s
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Site Turnstile remint timed out (19091ms)
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=107.189.8.133
+[w15:ef:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r3
+[w15:ef:pro] Proxy tor#4 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] heartbeat words=31791 queue=13 rotation=3 idle=95s
+[w15:ef:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w15:ef:pro] page.goto failed attempt 2: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w15:ef:pro] heartbeat words=31791 queue=13 rotation=3 idle=155s
+[w15:ef:pro] page.goto failed attempt 3: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w15:ef:pro] rotateIp attempt 1 failed: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.com/", waiting until "domcontentloaded"
+
+[w15:ef:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=96.44.159.148
+[w15:ef:pro] Rotating IP (#4, try 2) after No Turnstile token for direct search → tor#5 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r4
+[w15:ef:pro] Proxy tor#5 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] heartbeat words=31791 queue=13 rotation=4 idle=215s
+[w15:ef:pro] No successful search for 180s — respawning worker
+[w15:ef:pro] Graceful shutdown on watchdog
+[w15:ef:pro] Saved 31,791 worker words; shared last.txt now 449,232
+[w15:ef:pro] page.goto failed attempt 1: page.goto: net::ERR_ABORTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.com
+[w15:ef:pro] Tor exited code=0
+
+--- ab/ef-helper daemon start 2026-08-06T02:56:12Z queue=13 ---
+[w15:ef:pro] IP mode=tor
+[w15:ef:pro] Cleaned 3 old rotated profile(s)
+[w15:ef:pro] Starting persistent Tor socks=127.0.0.1:19065 control=127.0.0.1:29065
+[w15:ef:pro] tor: Aug 05 21:56:23.000 [notice] Bootstrapped 0% (starting): Starting
+[w15:ef:pro] tor: Aug 05 21:56:31.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w15:ef:pro] tor: Aug 05 21:56:32.000 [notice] New control connection opened from 127.0.0.1.
+Aug 05 21:56:32.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w15:ef:pro] tor: Aug 05 21:56:32.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+Aug 05 21:56:32.000 [notice] New control connection opened from 127.0.0.1.
+[w15:ef:pro] tor: Aug 05 21:56:32.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 21:56:32.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w15:ef:pro] tor: Aug 05 21:56:32.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w15:ef:pro] tor: Aug 05 21:56:33.000 [notice] Bootstrapped 100% (done): Done
+[w15:ef:pro] Tor ready on 19065 exit=193.189.100.204
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r0
+[w15:ef:pro] Proxy tor#1 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Site Turnstile remint timed out (22306ms)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Loaded 4061 prefixes, 31791 words; queue=13
+[w15:ef:pro] Searching "formh" | queue=12 | words=31791
+[w15:ef:pro] Managed Turnstile token (len=816, 4092ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=formh
+[w15:ef:pro] [api] 200 mode=pro startsWith=formh (466ms direct)
+[w15:ef:pro] "formh" → 0 records, 0 words
+[w15:ef:pro] "formh" branch complete
+[w15:ef:pro] Saved 31,791 worker words
+[w15:ef:pro] Searching "formi" | queue=11 | words=31791
+[w15:ef:pro] Pacing 15s before "formi" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 3515ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=formi
+[w15:ef:pro] [api] 200 mode=pro startsWith=formi (653ms direct)
+[w15:ef:pro] "formi" → 47 records, 47 words
+[w15:ef:pro] "formi" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "formy" | queue=10 | words=31822
+[w15:ef:pro] Pacing 15s before "formy" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 7296ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=formy
+[w15:ef:pro] [api] 200 mode=pro startsWith=formy (527ms direct)
+[w15:ef:pro] "formy" → 8 records, 8 words (incl. exact "formy")
+[w15:ef:pro] "formy" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "formz" | queue=9 | words=31822
+[w15:ef:pro] Pacing 14s before "formz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 10597ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=formz
+[w15:ef:pro] [api] 200 mode=pro startsWith=formz (505ms direct)
+[w15:ef:pro] "formz" → 0 records, 0 words
+[w15:ef:pro] "formz" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "front" | queue=8 | words=31822
+[w15:ef:pro] Pacing 13s before "front" (gap=15500ms)
+[w15:ef:pro] heartbeat words=31822 queue=8 rotation=0 idle=7s
+[w15:ef:pro] Managed Turnstile token (len=816, 11299ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=front
+[w15:ef:pro] [api] 200 mode=pro startsWith=front (493ms direct)
+[w15:ef:pro] "front" → 100 records, 100 words (incl. exact "front")
+[w15:ef:pro] Pacing 15s before "front" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 12383ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=front
+[w15:ef:pro] [api] 200 mode=pro startsWith=front sort=alphabetical:desc (580ms direct)
+[w15:ef:pro] "front" full page ends at "frontpaging" (next='p'); skip 24 covered groups → 4 children reverse Z→A ends at "frontals" (lo='a' hi='w'); skip 21 middle + 0 new words
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "fronu" | queue=11 | words=31822
+[w15:ef:pro] Pacing 15s before "fronu" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (15052ms)
+[w15:ef:pro] Failed "fronu" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile token present (len=816)
+[w15:ef:pro] Site Turnstile token (7821ms)
+[w15:ef:pro] Searching "fronu" | queue=11 | words=31822
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronu
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronu (479ms direct)
+[w15:ef:pro] "fronu" → 0 records, 0 words
+[w15:ef:pro] "fronu" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "fronv" | queue=10 | words=31822
+[w15:ef:pro] Pacing 15s before "fronv" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4773ms, remount)
+[w15:ef:pro] heartbeat words=31822 queue=10 rotation=0 idle=13s
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronv
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronv (727ms direct)
+[w15:ef:pro] "fronv" → 0 records, 0 words
+[w15:ef:pro] "fronv" branch complete
+[w15:ef:pro] Managed Turnstile miss (19130ms)
+[w15:ef:pro] Saved 31,822 worker words; shared last.txt now 450,131
+[w15:ef:pro] Searching "fronw" | queue=9 | words=31822
+[w15:ef:pro] Managed Turnstile miss (15055ms)
+[w15:ef:pro] Failed "fronw" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile token present (len=816)
+[w15:ef:pro] Site Turnstile token (6553ms)
+[w15:ef:pro] Searching "fronw" | queue=9 | words=31822
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronw
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronw (704ms direct)
+[w15:ef:pro] "fronw" → 0 records, 0 words
+[w15:ef:pro] "fronw" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "fronx" | queue=8 | words=31822
+[w15:ef:pro] Pacing 15s before "fronx" (gap=15500ms)
+[w15:ef:pro] heartbeat words=31822 queue=8 rotation=0 idle=1s
+[w15:ef:pro] Managed Turnstile token (len=816, 4647ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronx
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronx (816ms direct)
+[w15:ef:pro] "fronx" → 0 records, 0 words
+[w15:ef:pro] "fronx" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "frony" | queue=7 | words=31822
+[w15:ef:pro] Pacing 12s before "frony" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile miss (16854ms)
+[w15:ef:pro] Failed "frony" attempt 1: No Turnstile token for direct search
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Turnstile miss — soft reload before rotate
+[w15:ef:pro] Turnstile mint hard timeout after 15000ms
+[w15:ef:pro] Soft reload mint failed — rotating immediately
+[w15:ef:pro] Site Turnstile remint timed out (17189ms)
+[w15:ef:pro] heartbeat words=31822 queue=8 rotation=1 idle=43s
+[w15:ef:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w15:ef:pro] Tor ready on 19065 exit=45.84.107.54
+[w15:ef:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Launching persistent Chrome profile /tmp/lll-pw-w15-r1
+[w15:ef:pro] Proxy tor#2 socks5://127.0.0.1:19065
+[w15:ef:pro] Opening https://lastletterlibrary.com
+[w15:ef:pro] Library mode=pro
+[w15:ef:pro] Managed Turnstile token (len=816, 5099ms, remount)
+[w15:ef:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w15:ef:pro] Cleaned 1 old rotated profile(s)
+[w15:ef:pro] Searching "frony" | queue=7 | words=31822
+[w15:ef:pro] [api] 200 mode=pro startsWith=frony
+[w15:ef:pro] [api] 200 mode=pro startsWith=frony (471ms direct)
+[w15:ef:pro] "frony" → 0 records, 0 words
+[w15:ef:pro] "frony" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "fronz" | queue=6 | words=31822
+[w15:ef:pro] Pacing 15s before "fronz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4016ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronz
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronz (426ms direct)
+[w15:ef:pro] "fronz" → 0 records, 0 words
+[w15:ef:pro] "fronz" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "fluory" | queue=5 | words=31822
+[w15:ef:pro] Pacing 15s before "fluory" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 5203ms, remount)
+[w15:ef:pro] heartbeat words=31822 queue=5 rotation=1 idle=13s
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluory
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluory (677ms direct)
+[w15:ef:pro] "fluory" → 1 records, 1 words
+[w15:ef:pro] "fluory" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "fluorz" | queue=4 | words=31822
+[w15:ef:pro] Pacing 12s before "fluorz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 9924ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluorz
+[w15:ef:pro] [api] 200 mode=pro startsWith=fluorz (510ms direct)
+[w15:ef:pro] "fluorz" → 0 records, 0 words
+[w15:ef:pro] "fluorz" branch complete
+[w15:ef:pro] Saved 31,822 worker words; shared last.txt now 450,800
+[w15:ef:pro] Searching "frontw" | queue=3 | words=31822
+[w15:ef:pro] Pacing 9s before "frontw" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 7309ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frontw
+[w15:ef:pro] [api] 200 mode=pro startsWith=frontw (399ms direct)
+[w15:ef:pro] "frontw" → 4 records, 4 words
+[w15:ef:pro] "frontw" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "frontx" | queue=2 | words=31822
+[w15:ef:pro] Pacing 16s before "frontx" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 4307ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frontx
+[w15:ef:pro] [api] 200 mode=pro startsWith=frontx (419ms direct)
+[w15:ef:pro] "frontx" → 0 records, 0 words
+[w15:ef:pro] "frontx" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "fronty" | queue=1 | words=31822
+[w15:ef:pro] Pacing 15s before "fronty" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 5337ms, remount)
+[w15:ef:pro] heartbeat words=31822 queue=1 rotation=1 idle=10s
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronty
+[w15:ef:pro] [api] 200 mode=pro startsWith=fronty (547ms direct)
+[w15:ef:pro] "fronty" → 0 records, 0 words
+[w15:ef:pro] "fronty" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Searching "frontz" | queue=0 | words=31822
+[w15:ef:pro] Pacing 15s before "frontz" (gap=15500ms)
+[w15:ef:pro] Managed Turnstile token (len=816, 9083ms, remount)
+[w15:ef:pro] [api] 200 mode=pro startsWith=frontz
+[w15:ef:pro] [api] 200 mode=pro startsWith=frontz (464ms direct)
+[w15:ef:pro] "frontz" → 0 records, 0 words
+[w15:ef:pro] "frontz" branch complete
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Saved 31,822 worker words
+[w15:ef:pro] Worker done. prefixes=4102 words=31822
+[w15:ef:pro] Managed Turnstile miss (1819ms)
+[w15:ef:pro] Tor exited code=null

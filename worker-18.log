@@ -1,0 +1,3239 @@
+
+--- st-helper start 2026-08-06T02:06:46.617Z letters=st ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 21:06:47.151 [warn] Fixing permissions on directory /tmp/lll-tor-w18
+[w18:st:pro] tor: Aug 05 21:06:47.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 21:06:48.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 21:06:48.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 21:06:48.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 21:06:49.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 21:06:49.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w18:st:pro] tor: Aug 05 21:06:49.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w18:st:pro] tor: Aug 05 21:06:49.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w18:st:pro] tor: Aug 05 21:06:52.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w18:st:pro] tor: Aug 05 21:06:53.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 21:06:53.000 [notice] I learned some more directory 
+[w18:st:pro] tor: Aug 05 21:06:55.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w18:st:pro] tor: Aug 05 21:07:12.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w18:st:pro] tor: Aug 05 21:07:14.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w18:st:pro] tor: Aug 05 21:07:15.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w18:st:pro] tor: Aug 05 21:07:15.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w18:st:pro] tor: Aug 05 21:07:16.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 21:07:16.000 [notice] Bootstrapped 9
+[w18:st:pro] tor: Aug 05 21:07:17.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.92
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] page.goto failed attempt 1: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=794, 15750ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 6663 prefixes, 53959 words; queue=26
+[w18:st:pro] Searching "tr" | queue=25 | words=53959
+[w18:st:pro] [api] 200 mode=pro startsWith=tr
+[w18:st:pro] [api] 200 mode=pro startsWith=tr (557ms direct)
+[w18:st:pro] "tr" → 100 records, 100 words
+[w18:st:pro] Pacing 14s before "tr" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9143ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tr
+[w18:st:pro] [api] 200 mode=pro startsWith=tr sort=alphabetical:desc (535ms direct)
+[w18:st:pro] "tr" full page ends at "trachelocyllosis" (next='a'); skip 5 covered groups → 23 children reverse Z→A ends at "trutination" (lo='u' hi='y'); skip 3 middle + 100 new words
+[w18:st:pro] Saved 54,159 worker words
+[w18:st:pro] Searching "tw" | queue=47 | words=54159
+[w18:st:pro] Pacing 15s before "tw" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4982ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tw
+[w18:st:pro] [api] 200 mode=pro startsWith=tw (510ms direct)
+[w18:st:pro] "tw" → 100 records, 100 words (incl. exact "tw")
+[w18:st:pro] Pacing 15s before "tw" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9322ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tw
+[w18:st:pro] [api] 200 mode=pro startsWith=tw sort=alphabetical:desc (497ms direct)
+[w18:st:pro] "tw" full page ends at "tweakiest" (next='e'); skip 21 covered groups → 7 children reverse Z→A ends at "twitting" (lo='i' hi='y'); skip 15 middle + 100 new words
+[w18:st:pro] Saved 54,359 worker words
+[w18:st:pro] Searching "tac" | queue=53 | words=54359
+[w18:st:pro] Pacing 15s before "tac" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4555ms, remount)
+[w18:st:pro] heartbeat words=54359 queue=53 rotation=0 idle=13s
+[w18:st:pro] [api] 200 mode=pro startsWith=tac
+[w18:st:pro] [api] 200 mode=pro startsWith=tac (523ms direct)
+[w18:st:pro] "tac" → 100 records, 100 words
+[w18:st:pro] Pacing 14s before "tac" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 13633ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tac
+[w18:st:pro] [api] 200 mode=pro startsWith=tac sort=alphabetical:desc (511ms direct)
+[w18:st:pro] "tac" full page ends at "tachygraphometry" (next='h'); skip 18 covered groups → 10 children reverse Z→A ends at "tackers" (lo='k' hi='u'); skip 9 middle + 100 new words
+[w18:st:pro] Saved 54,559 worker words
+[w18:st:pro] Searching "tah" | queue=62 | words=54559
+[w18:st:pro] Turnstile mint hard timeout after 20000ms
+[w18:st:pro] Failed "tah" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 54,559 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=54559 queue=63 rotation=0 idle=29s
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=5.255.125.196
+[w18:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Site Turnstile remint timed out (25862ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tah" | queue=62 | words=54559
+[w18:st:pro] heartbeat words=54559 queue=62 rotation=1 idle=89s
+[w18:st:pro] Managed Turnstile miss (17459ms)
+[w18:st:pro] Failed "tah" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 54,559 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (12490ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.220.101.43
+[w18:st:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r2
+[w18:st:pro] Proxy tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] heartbeat words=54559 queue=63 rotation=2 idle=149s
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 9719ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tah" | queue=62 | words=54559
+[w18:st:pro] [api] 429 mode=pro startsWith=tah
+[w18:st:pro] [api] 429 mode=pro startsWith=tah (621ms direct)
+[w18:st:pro] Learned server gap ≈ 15500ms (wait hint 10000ms)
+[w18:st:pro] Rate limited — inline wait 10000ms then retry "tah"
+[w18:st:pro] Managed Turnstile token (len=816, 12975ms, remount)
+[w18:st:pro] [api] 429 mode=pro startsWith=tah
+[w18:st:pro] [api] 429 mode=pro startsWith=tah (733ms direct)
+[w18:st:pro] Learned server gap ≈ 16663ms (wait hint 13000ms)
+[w18:st:pro] Failed "tah" attempt 1: API 429 for "tah": wait 12s — {"message":"Too many requests. Please wait 12 seconds."}
+[w18:st:pro] Saved 54,559 worker words
+[w18:st:pro] Rate limited — waiting 13000 ms before retry
+[w18:st:pro] Turnstile mint hard timeout after 20000ms
+[w18:st:pro] heartbeat words=54559 queue=63 rotation=2 idle=209s
+[w18:st:pro] No successful search for 180s — respawning worker
+[w18:st:pro] Graceful shutdown on watchdog
+[w18:st:pro] Searching "tah" | queue=62 | words=54559
+[w18:st:pro] Saved 54,559 worker words
+[w18:st:pro] Managed Turnstile miss (1413ms)
+[w18:st:pro] Failed "tah" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 54,559 worker words; shared last.txt now 434,091
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Soft reload failed: page.goto: Target page, context or browser has been closed
+[w18:st:pro] Searching "tah" | queue=62 | words=54559
+[w18:st:pro] Failed "tah" attempt 2: locator.count: Target page, context or browser has been closed
+[w18:st:pro] Saved 54,559 worker words
+[w18:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w18:st:pro] Tor exited code=null
+
+--- st-helper daemon start 2026-08-06T02:14:51Z queue=63 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 21:15:19.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 21:15:42.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 21:15:44.000 [notice] New control connection opened from 127.0.0.1.
+Aug 05 21:15:44.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 21:15:44.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 21:15:45.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 21:15:45.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 21:15:45.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w18:st:pro] tor: Aug 05 21:15:46.000 [notice] Bootstrapped 100% (done): Done
+Aug 05 21:15:46.000 [notice] New control connection opened from 127.0.0.1.
+[w18:st:pro] Tor exit 185.220.101.11 already used by another worker (try 1/6)
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=37.221.208.71
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 7393ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 6710 prefixes, 54559 words; queue=63
+[w18:st:pro] Searching "tah" | queue=62 | words=54559
+[w18:st:pro] [api] 200 mode=pro startsWith=tah
+[w18:st:pro] [api] 200 mode=pro startsWith=tah (592ms direct)
+[w18:st:pro] "tah" → 37 records, 37 words
+[w18:st:pro] "tah" branch complete
+[w18:st:pro] Saved 54,596 worker words
+[w18:st:pro] Searching "tam" | queue=61 | words=54596
+[w18:st:pro] Pacing 14s before "tam" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8927ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tam
+[w18:st:pro] [api] 200 mode=pro startsWith=tam (583ms direct)
+[w18:st:pro] "tam" → 100 records, 100 words (incl. exact "tam")
+[w18:st:pro] Pacing 12s before "tam" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 11945ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tam
+[w18:st:pro] [api] 200 mode=pro startsWith=tam sort=alphabetical:desc (613ms direct)
+[w18:st:pro] "tam" full page ends at "tambuki" (next='b'); skip 23 covered groups → 5 children reverse Z→A ends at "tamein" (lo='e' hi='z'); skip 20 middle + 100 new words
+[w18:st:pro] Saved 54,796 worker words
+[w18:st:pro] Searching "tar" | queue=65 | words=54796
+[w18:st:pro] Pacing 11s before "tar" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8769ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tar
+[w18:st:pro] [api] 200 mode=pro startsWith=tar (885ms direct)
+[w18:st:pro] "tar" → 100 records, 100 words (incl. exact "tar")
+[w18:st:pro] Pacing 15s before "tar" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 11952ms, remount)
+[w18:st:pro] heartbeat words=54896 queue=65 rotation=0 idle=24s
+[w18:st:pro] [api] 200 mode=pro startsWith=tar
+[w18:st:pro] [api] 200 mode=pro startsWith=tar sort=alphabetical:desc (757ms direct)
+[w18:st:pro] "tar" full page ends at "tarboard" (next='b'); skip 8 covered groups → 20 children reverse Z→A ends at "tartarism" (lo='t' hi='z'); skip 5 middle + 100 new words
+[w18:st:pro] Saved 54,996 worker words
+[w18:st:pro] Searching "taw" | queue=84 | words=54996
+[w18:st:pro] Pacing 3s before "taw" (gap=15500ms)
+[w18:st:pro] Turnstile mint hard timeout after 20000ms
+[w18:st:pro] Failed "taw" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 54,996 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=54996 queue=85 rotation=0 idle=46s
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Site Turnstile remint timed out (16585ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.220.101.25
+[w18:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] page.goto failed attempt 1: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w18:st:pro] heartbeat words=54996 queue=85 rotation=1 idle=106s
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (25427ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "taw" | queue=84 | words=54996
+[w18:st:pro] [api] 200 mode=pro startsWith=taw
+[w18:st:pro] [api] 200 mode=pro startsWith=taw (484ms direct)
+[w18:st:pro] "taw" → 67 records, 67 words (incl. exact "taw")
+[w18:st:pro] "taw" branch complete
+[w18:st:pro] Saved 55,063 worker words
+[w18:st:pro] Searching "teb" | queue=83 | words=55063
+[w18:st:pro] Pacing 13s before "teb" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (16665ms)
+[w18:st:pro] Failed "teb" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 55,063 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=55063 queue=84 rotation=1 idle=24s
+[w18:st:pro] Site Turnstile remint timed out (14025ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.100
+[w18:st:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r2
+[w18:st:pro] Proxy tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] heartbeat words=55063 queue=84 rotation=2 idle=84s
+[w18:st:pro] Site Turnstile remint timed out (26180ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "teb" | queue=83 | words=55063
+[w18:st:pro] Managed Turnstile token (len=816, 10424ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=teb
+[w18:st:pro] [api] 200 mode=pro startsWith=teb (671ms direct)
+[w18:st:pro] "teb" → 11 records, 11 words
+[w18:st:pro] "teb" branch complete
+[w18:st:pro] Saved 55,074 worker words
+[w18:st:pro] Searching "teg" | queue=82 | words=55074
+[w18:st:pro] Pacing 14s before "teg" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=794, 8277ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=teg
+[w18:st:pro] [api] 200 mode=pro startsWith=teg (597ms direct)
+[w18:st:pro] "teg" → 38 records, 38 words (incl. exact "teg")
+[w18:st:pro] "teg" branch complete
+[w18:st:pro] Saved 55,112 worker words; shared last.txt now 438,375
+[w18:st:pro] Searching "tel" | queue=81 | words=55112
+[w18:st:pro] Pacing 14s before "tel" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4827ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tel
+[w18:st:pro] [api] 200 mode=pro startsWith=tel (509ms direct)
+[w18:st:pro] "tel" → 100 records, 100 words (incl. exact "tel")
+[w18:st:pro] Pacing 15s before "tel" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 12205ms, remount)
+[w18:st:pro] heartbeat words=55212 queue=81 rotation=2 idle=30s
+[w18:st:pro] [api] 200 mode=pro startsWith=tel
+[w18:st:pro] [api] 200 mode=pro startsWith=tel sort=alphabetical:desc (1682ms direct)
+[w18:st:pro] "tel" full page ends at "teleconverter" (next='e'); skip 18 covered groups → 10 children reverse Z→A ends at "tellurometers" (lo='l' hi='y'); skip 12 middle + 100 new words
+[w18:st:pro] Saved 55,312 worker words
+[w18:st:pro] Searching "teq" | queue=90 | words=55312
+[w18:st:pro] Pacing 1s before "teq" (gap=15500ms)
+[w18:st:pro] Turnstile mint hard timeout after 20000ms
+[w18:st:pro] Failed "teq" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 55,312 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=55312 queue=91 rotation=2 idle=49s
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.243.218.231
+[w18:st:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r3
+[w18:st:pro] Proxy tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] heartbeat words=55312 queue=91 rotation=3 idle=109s
+[w18:st:pro] Turnstile mint hard timeout after 28000ms
+[w18:st:pro] Site Turnstile remint timed out (29600ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "teq" | queue=90 | words=55312
+[w18:st:pro] Managed Turnstile miss (15782ms)
+[w18:st:pro] Failed "teq" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 55,312 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=55312 queue=91 rotation=3 idle=169s
+[w18:st:pro] Site Turnstile remint timed out (9467ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=5; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=171.25.193.235
+[w18:st:pro] Rotating IP (#4, try 1) after No Turnstile token for direct search → tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r4
+[w18:st:pro] Proxy tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Turnstile token present (len=837)
+[w18:st:pro] Site Turnstile token (22059ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "teq" | queue=90 | words=55312
+[w18:st:pro] heartbeat words=55312 queue=90 rotation=4 idle=230s
+[w18:st:pro] No successful search for 180s — respawning worker
+[w18:st:pro] Graceful shutdown on watchdog
+[w18:st:pro] Saved 55,312 worker words
+[w18:st:pro] Failed "teq" attempt 1: page.evaluate: Target page, context or browser has been closed
+[w18:st:pro] Saved 55,312 worker words
+[w18:st:pro] Searching "teq" | queue=90 | words=55312
+[w18:st:pro] Failed "teq" attempt 2: locator.count: Target page, context or browser has been closed
+[w18:st:pro] Saved 55,312 worker words
+[w18:st:pro] Tor exited code=null
+
+--- st-helper daemon start 2026-08-06T02:27:15Z queue=91 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 21:27:41.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 21:28:07.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 21:28:10.000 [notice] New control connection opened from 127.0.0.1.
+Aug 05 21:28:10.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 21:28:10.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 21:28:10.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 21:28:10.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 21:28:10.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w18:st:pro] tor: Aug 05 21:28:12.000 [notice] New control connection opened from 127.0.0.1.
+Aug 05 21:28:12.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=67.215.237.232
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 9576ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 6766 prefixes, 55312 words; queue=91
+[w18:st:pro] Searching "teq" | queue=90 | words=55312
+[w18:st:pro] [api] 200 mode=pro startsWith=teq
+[w18:st:pro] [api] 200 mode=pro startsWith=teq (625ms direct)
+[w18:st:pro] "teq" → 8 records, 8 words
+[w18:st:pro] "teq" branch complete
+[w18:st:pro] Saved 55,320 worker words
+[w18:st:pro] Searching "tev" | queue=89 | words=55320
+[w18:st:pro] Pacing 4s before "tev" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 19187ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tev
+[w18:st:pro] [api] 200 mode=pro startsWith=tev (588ms direct)
+[w18:st:pro] "tev" → 3 records, 3 words
+[w18:st:pro] "tev" branch complete
+[w18:st:pro] Saved 55,323 worker words
+[w18:st:pro] Searching "thc" | queue=88 | words=55323
+[w18:st:pro] Pacing 7s before "thc" (gap=15500ms)
+[w18:st:pro] Turnstile mint hard timeout after 20000ms
+[w18:st:pro] Failed "thc" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 55,323 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (5780ms)
+[w18:st:pro] Searching "thc" | queue=88 | words=55323
+[w18:st:pro] [api] 200 mode=pro startsWith=thc
+[w18:st:pro] [api] 200 mode=pro startsWith=thc (619ms direct)
+[w18:st:pro] "thc" → 0 records, 0 words
+[w18:st:pro] "thc" branch complete
+[w18:st:pro] Saved 55,323 worker words
+[w18:st:pro] Searching "thh" | queue=87 | words=55323
+[w18:st:pro] Pacing 15s before "thh" (gap=15500ms)
+[w18:st:pro] heartbeat words=55323 queue=87 rotation=0 idle=3s
+[w18:st:pro] Managed Turnstile token (len=816, 4679ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thh
+[w18:st:pro] [api] 200 mode=pro startsWith=thh (536ms direct)
+[w18:st:pro] "thh" → 0 records, 0 words
+[w18:st:pro] "thh" branch complete
+[w18:st:pro] Saved 55,323 worker words
+[w18:st:pro] Searching "thm" | queue=86 | words=55323
+[w18:st:pro] Pacing 14s before "thm" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7346ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thm
+[w18:st:pro] [api] 200 mode=pro startsWith=thm (705ms direct)
+[w18:st:pro] "thm" → 0 records, 0 words
+[w18:st:pro] "thm" branch complete
+[w18:st:pro] Saved 55,323 worker words
+[w18:st:pro] Searching "thr" | queue=85 | words=55323
+[w18:st:pro] Pacing 13s before "thr" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 13381ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thr
+[w18:st:pro] [api] 200 mode=pro startsWith=thr (722ms direct)
+[w18:st:pro] "thr" → 100 records, 100 words
+[w18:st:pro] Pacing 14s before "thr" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15556ms)
+[w18:st:pro] "thr" reverse search failed (No Turnstile token for direct search); forward-only
+[w18:st:pro] "thr" full page ends at "threadway" (next='e'); skip 6 covered groups → 22 children from thre..
+[w18:st:pro] heartbeat words=55423 queue=107 rotation=0 idle=30s
+[w18:st:pro] Saved 55,423 worker words
+[w18:st:pro] Searching "thw" | queue=106 | words=55423
+[w18:st:pro] Managed Turnstile token (len=816, 4708ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thw
+[w18:st:pro] [api] 200 mode=pro startsWith=thw (533ms direct)
+[w18:st:pro] "thw" → 39 records, 39 words
+[w18:st:pro] "thw" branch complete
+[w18:st:pro] Saved 55,462 worker words; shared last.txt now 442,016
+[w18:st:pro] Searching "tid" | queue=105 | words=55462
+[w18:st:pro] Pacing 15s before "tid" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4565ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tid
+[w18:st:pro] [api] 200 mode=pro startsWith=tid (570ms direct)
+[w18:st:pro] "tid" → 100 records, 100 words (incl. exact "tid")
+[w18:st:pro] Pacing 12s before "tid" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (17082ms)
+[w18:st:pro] "tid" reverse search failed (No Turnstile token for direct search); forward-only
+[w18:st:pro] "tid" full page ends at "tidytips" (next='y'); skip 26 covered groups → 2 children from tidy..
+[w18:st:pro] Saved 55,562 worker words
+[w18:st:pro] Searching "tii" | queue=106 | words=55562
+[w18:st:pro] Managed Turnstile miss (15473ms)
+[w18:st:pro] Failed "tii" attempt 1: No Turnstile token for direct search
+[w18:st:pro] heartbeat words=55562 queue=107 rotation=0 idle=19s
+[w18:st:pro] Saved 55,562 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (6841ms)
+[w18:st:pro] Searching "tii" | queue=106 | words=55562
+[w18:st:pro] [api] 200 mode=pro startsWith=tii
+[w18:st:pro] [api] 200 mode=pro startsWith=tii (596ms direct)
+[w18:st:pro] "tii" → 0 records, 0 words
+[w18:st:pro] "tii" branch complete
+[w18:st:pro] Saved 55,562 worker words
+[w18:st:pro] Searching "tin" | queue=105 | words=55562
+[w18:st:pro] Pacing 15s before "tin" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4040ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tin
+[w18:st:pro] [api] 200 mode=pro startsWith=tin (656ms direct)
+[w18:st:pro] "tin" → 100 records, 100 words (incl. exact "tin")
+[w18:st:pro] Pacing 15s before "tin" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 11633ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tin
+[w18:st:pro] [api] 200 mode=pro startsWith=tin sort=alphabetical:desc (500ms direct)
+[w18:st:pro] "tin" full page ends at "tinglass" (next='g'); skip 17 covered groups → 11 children reverse Z→A ends at "tinpots" (lo='p' hi='z'); skip 9 middle + 100 new words
+[w18:st:pro] Saved 55,762 worker words
+[w18:st:pro] Searching "tis" | queue=115 | words=55762
+[w18:st:pro] Pacing 15s before "tis" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6500ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tis
+[w18:st:pro] [api] 200 mode=pro startsWith=tis (485ms direct)
+[w18:st:pro] "tis" → 32 records, 32 words (incl. exact "tis")
+[w18:st:pro] "tis" branch complete
+[w18:st:pro] Saved 55,794 worker words
+[w18:st:pro] Searching "tod" | queue=114 | words=55794
+[w18:st:pro] Pacing 15s before "tod" (gap=15500ms)
+[w18:st:pro] heartbeat words=55794 queue=114 rotation=0 idle=1s
+[w18:st:pro] Managed Turnstile token (len=816, 5628ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tod
+[w18:st:pro] [api] 200 mode=pro startsWith=tod (578ms direct)
+[w18:st:pro] "tod" → 45 records, 45 words (incl. exact "tod")
+[w18:st:pro] "tod" branch complete
+[w18:st:pro] Saved 55,839 worker words
+[w18:st:pro] Searching "toi" | queue=113 | words=55839
+[w18:st:pro] Pacing 14s before "toi" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (16145ms)
+[w18:st:pro] Failed "toi" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 55,839 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (7196ms)
+[w18:st:pro] Searching "toi" | queue=113 | words=55839
+[w18:st:pro] [api] 200 mode=pro startsWith=toi
+[w18:st:pro] [api] 200 mode=pro startsWith=toi (641ms direct)
+[w18:st:pro] "toi" → 59 records, 59 words (incl. exact "toi")
+[w18:st:pro] "toi" branch complete
+[w18:st:pro] Saved 55,898 worker words; shared last.txt now 442,999
+[w18:st:pro] Searching "ton" | queue=112 | words=55898
+[w18:st:pro] Pacing 15s before "ton" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4420ms, remount)
+[w18:st:pro] heartbeat words=55898 queue=112 rotation=0 idle=13s
+[w18:st:pro] [api] 200 mode=pro startsWith=ton
+[w18:st:pro] [api] 200 mode=pro startsWith=ton (560ms direct)
+[w18:st:pro] "ton" → 100 records, 100 words (incl. exact "ton")
+[w18:st:pro] Pacing 12s before "ton" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15227ms)
+[w18:st:pro] "ton" reverse search failed (No Turnstile token for direct search); forward-only
+[w18:st:pro] "ton" full page ends at "tongueflower" (next='g'); skip 8 covered groups → 20 children from tong..
+[w18:st:pro] Saved 55,998 worker words
+[w18:st:pro] Searching "tos" | queue=131 | words=55998
+[w18:st:pro] Managed Turnstile token (len=816, 8790ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tos
+[w18:st:pro] [api] 200 mode=pro startsWith=tos (872ms direct)
+[w18:st:pro] "tos" → 74 records, 74 words (incl. exact "tos")
+[w18:st:pro] "tos" branch complete
+[w18:st:pro] Saved 56,072 worker words
+[w18:st:pro] Searching "tox" | queue=130 | words=56072
+[w18:st:pro] Pacing 14s before "tox" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7921ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tox
+[w18:st:pro] [api] 200 mode=pro startsWith=tox (665ms direct)
+[w18:st:pro] "tox" → 100 records, 100 words (incl. exact "tox")
+[w18:st:pro] Pacing 15s before "tox" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4095ms, remount)
+[w18:st:pro] heartbeat words=56172 queue=130 rotation=0 idle=29s
+[w18:st:pro] [api] 200 mode=pro startsWith=tox
+[w18:st:pro] [api] 200 mode=pro startsWith=tox sort=alphabetical:desc (492ms direct)
+[w18:st:pro] "tox" full page ends at "toxity" (next='i'); skip 25 covered groups → 3 children reverse Z→A ends at "toxicologic" (lo='i' hi='y'); skip 15 middle + 1 new words
+[w18:st:pro] Saved 56,173 worker words
+[w18:st:pro] Searching "tra" | queue=132 | words=56173
+[w18:st:pro] Pacing 14s before "tra" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15670ms)
+[w18:st:pro] Failed "tra" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 56,173 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] heartbeat words=56173 queue=133 rotation=1 idle=58s
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.52
+[w18:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] page.goto failed attempt 1: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w18:st:pro] heartbeat words=56173 queue=133 rotation=1 idle=118s
+[w18:st:pro] heartbeat words=56173 queue=133 rotation=1 idle=178s
+[w18:st:pro] page.goto failed attempt 2: page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://lastletterlibrary.com/", waiting until "domco
+[w18:st:pro] heartbeat words=56173 queue=133 rotation=1 idle=238s
+[w18:st:pro] No successful search for 180s — respawning worker
+[w18:st:pro] Graceful shutdown on watchdog
+[w18:st:pro] Saved 56,173 worker words
+[w18:st:pro] page.goto failed attempt 3: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://lastletterlibrary.com/",
+[w18:st:pro] Tor exited code=0
+
+--- st-helper daemon start 2026-08-06T02:39:42Z queue=133 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 2 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 21:40:13.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 21:40:27.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 21:40:28.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 21:40:29.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+Aug 05 21:40:29.000 [notice] New control connection opened from 127.0.0.1.
+[w18:st:pro] tor: Aug 05 21:40:29.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 21:40:29.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 21:40:29.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w18:st:pro] tor: Aug 05 21:40:30.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=178.218.144.18
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 14106ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 6864 prefixes, 56173 words; queue=133
+[w18:st:pro] Searching "tra" | queue=132 | words=56173
+[w18:st:pro] [api] 200 mode=pro startsWith=tra
+[w18:st:pro] [api] 200 mode=pro startsWith=tra (542ms direct)
+[w18:st:pro] "tra" → 100 records, 100 words
+[w18:st:pro] Pacing 14s before "tra" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 13691ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tra
+[w18:st:pro] [api] 200 mode=pro startsWith=tra sort=alphabetical:desc (550ms direct)
+[w18:st:pro] "tra" full page ends at "trachelocyllosis" (next='c'); skip 7 covered groups → 21 children reverse Z→A ends at "travel-sick" (lo='v' hi='z'); skip 3 middle + 100 new words
+[w18:st:pro] Saved 56,273 worker words
+[w18:st:pro] Searching "trb" | queue=152 | words=56273
+[w18:st:pro] Pacing 12s before "trb" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 14683ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trb
+[w18:st:pro] [api] 200 mode=pro startsWith=trb (589ms direct)
+[w18:st:pro] "trb" → 0 records, 0 words
+[w18:st:pro] "trb" branch complete
+[w18:st:pro] Saved 56,273 worker words
+[w18:st:pro] Searching "trc" | queue=151 | words=56273
+[w18:st:pro] Pacing 12s before "trc" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 14024ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trc
+[w18:st:pro] [api] 200 mode=pro startsWith=trc (500ms direct)
+[w18:st:pro] "trc" → 0 records, 0 words
+[w18:st:pro] "trc" branch complete
+[w18:st:pro] Saved 56,273 worker words
+[w18:st:pro] Searching "trd" | queue=150 | words=56273
+[w18:st:pro] Pacing 15s before "trd" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8158ms, remount)
+[w18:st:pro] heartbeat words=56273 queue=150 rotation=0 idle=10s
+[w18:st:pro] [api] 200 mode=pro startsWith=trd
+[w18:st:pro] [api] 200 mode=pro startsWith=trd (462ms direct)
+[w18:st:pro] "trd" → 0 records, 0 words
+[w18:st:pro] "trd" branch complete
+[w18:st:pro] Saved 56,273 worker words
+[w18:st:pro] Searching "tre" | queue=149 | words=56273
+[w18:st:pro] Pacing 15s before "tre" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10012ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tre
+[w18:st:pro] [api] 200 mode=pro startsWith=tre (613ms direct)
+[w18:st:pro] "tre" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "tre" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 11474ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tre
+[w18:st:pro] [api] 200 mode=pro startsWith=tre sort=alphabetical:desc (544ms direct)
+[w18:st:pro] "tre" full page ends at "treatises" (next='a'); skip 11 covered groups → 17 children reverse Z→A ends at "trepidatory" (lo='p' hi='z'); skip 9 middle + 100 new words
+[w18:st:pro] Saved 56,473 worker words
+[w18:st:pro] Searching "trf" | queue=165 | words=56473
+[w18:st:pro] Turnstile mint hard timeout after 20000ms
+[w18:st:pro] heartbeat words=56473 queue=165 rotation=0 idle=13s
+[w18:st:pro] Failed "trf" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 56,473 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=94.16.116.81
+[w18:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] heartbeat words=56473 queue=166 rotation=1 idle=73s
+[w18:st:pro] Site Turnstile remint timed out (26529ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "trf" | queue=165 | words=56473
+[w18:st:pro] Managed Turnstile miss (17509ms)
+[w18:st:pro] Failed "trf" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 56,473 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=56473 queue=166 rotation=1 idle=134s
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.243.218.229
+[w18:st:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r2
+[w18:st:pro] Proxy tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] heartbeat words=56473 queue=166 rotation=2 idle=194s
+[w18:st:pro] No successful search for 180s — respawning worker
+[w18:st:pro] Graceful shutdown on watchdog
+[w18:st:pro] Turnstile mint hard timeout after 28000ms
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "trf" | queue=165 | words=56473
+[w18:st:pro] Saved 56,473 worker words; shared last.txt now 447,198
+[w18:st:pro] Managed Turnstile miss (840ms)
+[w18:st:pro] Failed "trf" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 56,473 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Soft reload failed: page.goto: Target page, context or browser has been closed
+[w18:st:pro] Searching "trf" | queue=165 | words=56473
+[w18:st:pro] Failed "trf" attempt 2: locator.count: Target page, context or browser has been closed
+[w18:st:pro] Saved 56,473 worker words
+[w18:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w18:st:pro] Tor exited code=0
+
+--- st-helper daemon start 2026-08-06T02:47:14Z queue=166 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 21:48:00.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 21:48:08.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 21:48:08.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 21:48:09.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 21:48:09.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 21:48:09.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 21:48:09.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w18:st:pro] tor: Aug 05 21:48:10.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=193.189.100.204
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Site Turnstile remint timed out (25575ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 6887 prefixes, 56473 words; queue=166
+[w18:st:pro] Searching "trf" | queue=165 | words=56473
+[w18:st:pro] Managed Turnstile token (len=816, 9258ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trf
+[w18:st:pro] [api] 200 mode=pro startsWith=trf (1202ms direct)
+[w18:st:pro] "trf" → 0 records, 0 words
+[w18:st:pro] "trf" branch complete
+[w18:st:pro] Saved 56,473 worker words
+[w18:st:pro] Searching "trg" | queue=164 | words=56473
+[w18:st:pro] Pacing 12s before "trg" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7991ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trg
+[w18:st:pro] [api] 200 mode=pro startsWith=trg (691ms direct)
+[w18:st:pro] "trg" → 0 records, 0 words
+[w18:st:pro] "trg" branch complete
+[w18:st:pro] Saved 56,473 worker words
+[w18:st:pro] Searching "trh" | queue=163 | words=56473
+[w18:st:pro] Pacing 15s before "trh" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15206ms)
+[w18:st:pro] Failed "trh" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 56,473 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=56473 queue=164 rotation=0 idle=36s
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=193.189.100.198
+[w18:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] heartbeat words=56473 queue=164 rotation=1 idle=96s
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 9153ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "trh" | queue=163 | words=56473
+[w18:st:pro] [api] 200 mode=pro startsWith=trh
+[w18:st:pro] [api] 200 mode=pro startsWith=trh (629ms direct)
+[w18:st:pro] "trh" → 0 records, 0 words
+[w18:st:pro] "trh" branch complete
+[w18:st:pro] Saved 56,473 worker words
+[w18:st:pro] Searching "tri" | queue=162 | words=56473
+[w18:st:pro] Pacing 11s before "tri" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 13435ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tri
+[w18:st:pro] [api] 200 mode=pro startsWith=tri (656ms direct)
+[w18:st:pro] "tri" → 100 records, 100 words
+[w18:st:pro] Pacing 13s before "tri" (gap=15500ms)
+[w18:st:pro] heartbeat words=56573 queue=162 rotation=1 idle=28s
+[w18:st:pro] Managed Turnstile miss (16424ms)
+[w18:st:pro] "tri" reverse search failed (No Turnstile token for direct search); forward-only
+[w18:st:pro] "tri" full page ends at "triamterene-hydrochlorothiazide" (next='a'); skip 2 covered groups → 26 children from tria..
+[w18:st:pro] Saved 56,573 worker words
+[w18:st:pro] Searching "trj" | queue=187 | words=56573
+[w18:st:pro] Managed Turnstile miss (18387ms)
+[w18:st:pro] Failed "trj" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 56,573 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (12947ms)
+[w18:st:pro] Searching "trj" | queue=187 | words=56573
+[w18:st:pro] [api] 200 mode=pro startsWith=trj
+[w18:st:pro] [api] 200 mode=pro startsWith=trj (694ms direct)
+[w18:st:pro] "trj" → 0 records, 0 words
+[w18:st:pro] "trj" branch complete
+[w18:st:pro] Saved 56,573 worker words
+[w18:st:pro] Searching "trk" | queue=186 | words=56573
+[w18:st:pro] Pacing 14s before "trk" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9253ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trk
+[w18:st:pro] [api] 200 mode=pro startsWith=trk (775ms direct)
+[w18:st:pro] "trk" → 0 records, 0 words
+[w18:st:pro] "trk" branch complete
+[w18:st:pro] Saved 56,573 worker words; shared last.txt now 448,355
+[w18:st:pro] Searching "trl" | queue=185 | words=56573
+[w18:st:pro] Pacing 15s before "trl" (gap=15500ms)
+[w18:st:pro] heartbeat words=56573 queue=185 rotation=1 idle=0s
+[w18:st:pro] Managed Turnstile token (len=816, 5409ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trl
+[w18:st:pro] [api] 200 mode=pro startsWith=trl (620ms direct)
+[w18:st:pro] "trl" → 0 records, 0 words
+[w18:st:pro] "trl" branch complete
+[w18:st:pro] Saved 56,573 worker words
+[w18:st:pro] Searching "trm" | queue=184 | words=56573
+[w18:st:pro] Pacing 15s before "trm" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15926ms)
+[w18:st:pro] Failed "trm" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 56,573 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (13974ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] heartbeat words=56573 queue=185 rotation=2 idle=45s
+[w18:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.97
+[w18:st:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r2
+[w18:st:pro] Proxy tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w18:st:pro] heartbeat words=56573 queue=185 rotation=2 idle=105s
+[w18:st:pro] page.goto failed attempt 2: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w18:st:pro] page.goto failed attempt 3: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w18:st:pro] heartbeat words=56573 queue=185 rotation=2 idle=165s
+[w18:st:pro] rotateIp attempt 1 failed: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.com/", waiting until "domcontentloaded"
+
+[w18:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=107.189.1.160
+[w18:st:pro] Rotating IP (#3, try 2) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r3
+[w18:st:pro] Proxy tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] page.goto failed attempt 1: page.goto: net::ERR_NETWORK_CHANGED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlib
+[w18:st:pro] page.goto failed attempt 2: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 6026ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 2 old rotated profile(s)
+[w18:st:pro] Searching "trm" | queue=184 | words=56573
+[w18:st:pro] [api] 200 mode=pro startsWith=trm
+[w18:st:pro] [api] 200 mode=pro startsWith=trm (540ms direct)
+[w18:st:pro] "trm" → 0 records, 0 words
+[w18:st:pro] "trm" branch complete
+[w18:st:pro] Saved 56,573 worker words
+[w18:st:pro] Searching "trn" | queue=183 | words=56573
+[w18:st:pro] Pacing 15s before "trn" (gap=15500ms)
+[w18:st:pro] heartbeat words=56573 queue=183 rotation=3 idle=2s
+[w18:st:pro] Managed Turnstile token (len=816, 4105ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trn
+[w18:st:pro] [api] 200 mode=pro startsWith=trn (465ms direct)
+[w18:st:pro] "trn" → 1 records, 1 words
+[w18:st:pro] "trn" branch complete
+[w18:st:pro] Saved 56,574 worker words
+[w18:st:pro] Searching "tro" | queue=182 | words=56574
+[w18:st:pro] Pacing 15s before "tro" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5512ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tro
+[w18:st:pro] [api] 200 mode=pro startsWith=tro (646ms direct)
+[w18:st:pro] "tro" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "tro" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8529ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tro
+[w18:st:pro] [api] 200 mode=pro startsWith=tro sort=alphabetical:desc (507ms direct)
+[w18:st:pro] "tro" full page ends at "trochoid" (next='c'); skip 7 covered groups → 21 children reverse Z→A ends at "troules" (lo='u' hi='y'); skip 3 middle + 100 new words
+[w18:st:pro] Saved 56,774 worker words
+[w18:st:pro] Searching "trp" | queue=202 | words=56774
+[w18:st:pro] Pacing 13s before "trp" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 11574ms, remount)
+[w18:st:pro] heartbeat words=56774 queue=202 rotation=3 idle=14s
+[w18:st:pro] [api] 200 mode=pro startsWith=trp
+[w18:st:pro] [api] 200 mode=pro startsWith=trp (525ms direct)
+[w18:st:pro] "trp" → 0 records, 0 words
+[w18:st:pro] "trp" branch complete
+[w18:st:pro] Saved 56,774 worker words
+[w18:st:pro] Searching "trq" | queue=201 | words=56774
+[w18:st:pro] Pacing 13s before "trq" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 13972ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trq
+[w18:st:pro] [api] 200 mode=pro startsWith=trq (733ms direct)
+[w18:st:pro] "trq" → 0 records, 0 words
+[w18:st:pro] "trq" branch complete
+[w18:st:pro] Saved 56,774 worker words
+[w18:st:pro] Searching "trr" | queue=200 | words=56774
+[w18:st:pro] Pacing 12s before "trr" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 14896ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trr
+[w18:st:pro] [api] 200 mode=pro startsWith=trr (462ms direct)
+[w18:st:pro] "trr" → 0 records, 0 words
+[w18:st:pro] "trr" branch complete
+[w18:st:pro] Saved 56,774 worker words; shared last.txt now 450,090
+[w18:st:pro] Searching "trs" | queue=199 | words=56774
+[w18:st:pro] Pacing 15s before "trs" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5683ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trs
+[w18:st:pro] [api] 200 mode=pro startsWith=trs (468ms direct)
+[w18:st:pro] "trs" → 0 records, 0 words
+[w18:st:pro] "trs" branch complete
+[w18:st:pro] Saved 56,774 worker words
+[w18:st:pro] Searching "trt" | queue=198 | words=56774
+[w18:st:pro] Pacing 15s before "trt" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6114ms, remount)
+[w18:st:pro] heartbeat words=56774 queue=198 rotation=3 idle=12s
+[w18:st:pro] [api] 200 mode=pro startsWith=trt
+[w18:st:pro] [api] 200 mode=pro startsWith=trt (737ms direct)
+[w18:st:pro] "trt" → 0 records, 0 words
+[w18:st:pro] "trt" branch complete
+[w18:st:pro] Saved 56,774 worker words
+[w18:st:pro] Searching "tru" | queue=197 | words=56774
+[w18:st:pro] Pacing 15s before "tru" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (17413ms)
+[w18:st:pro] Failed "tru" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 56,774 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Site Turnstile remint timed out (15522ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w18:st:pro] heartbeat words=56774 queue=198 rotation=4 idle=56s
+[w18:st:pro] Tor exit 185.220.100.240 already used by another worker (try 1/6)
+[w18:st:pro] Tor NEWNYM gen=5; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.244.192.175
+[w18:st:pro] Rotating IP (#4, try 1) after No Turnstile token for direct search → tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r4
+[w18:st:pro] Proxy tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Site Turnstile remint timed out (25350ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] heartbeat words=56774 queue=198 rotation=4 idle=116s
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tru" | queue=197 | words=56774
+[w18:st:pro] Managed Turnstile miss (15290ms)
+[w18:st:pro] Failed "tru" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 56,774 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (9376ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=6; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.14
+[w18:st:pro] Rotating IP (#5, try 1) after No Turnstile token for direct search → tor#6 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r5
+[w18:st:pro] Proxy tor#6 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 7797ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tru" | queue=197 | words=56774
+[w18:st:pro] [api] 200 mode=pro startsWith=tru
+[w18:st:pro] [api] 200 mode=pro startsWith=tru (679ms direct)
+[w18:st:pro] "tru" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "tru" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4135ms, remount)
+[w18:st:pro] heartbeat words=56874 queue=197 rotation=5 idle=176s
+[w18:st:pro] [api] 200 mode=pro startsWith=tru
+[w18:st:pro] [api] 200 mode=pro startsWith=tru sort=alphabetical:desc (529ms direct)
+[w18:st:pro] "tru" full page ends at "trueborn" (next='e'); skip 10 covered groups → 18 children reverse Z→A ends at "trust" (lo='s' hi='x'); skip 4 middle + 92 new words
+[w18:st:pro] Saved 56,966 worker words
+[w18:st:pro] Searching "try" | queue=214 | words=56966
+[w18:st:pro] Pacing 15s before "try" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8959ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=try
+[w18:st:pro] [api] 200 mode=pro startsWith=try (627ms direct)
+[w18:st:pro] "try" → 92 records, 92 words (incl. exact "try")
+[w18:st:pro] "try" branch complete
+[w18:st:pro] Saved 56,966 worker words
+[w18:st:pro] Searching "trz" | queue=213 | words=56966
+[w18:st:pro] Pacing 10s before "trz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9245ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trz
+[w18:st:pro] [api] 200 mode=pro startsWith=trz (486ms direct)
+[w18:st:pro] "trz" → 0 records, 0 words
+[w18:st:pro] "trz" branch complete
+[w18:st:pro] Saved 56,966 worker words
+[w18:st:pro] Searching "twe" | queue=212 | words=56966
+[w18:st:pro] Pacing 15s before "twe" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4562ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=twe
+[w18:st:pro] [api] 200 mode=pro startsWith=twe (492ms direct)
+[w18:st:pro] "twe" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "twe" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5577ms, remount)
+[w18:st:pro] heartbeat words=57059 queue=212 rotation=5 idle=23s
+[w18:st:pro] [api] 200 mode=pro startsWith=twe
+[w18:st:pro] [api] 200 mode=pro startsWith=twe sort=alphabetical:desc (500ms direct)
+[w18:st:pro] "twe" full page ends at "twentieth" (next='n'); skip 26 covered groups → 2 children reverse Z→A ends at "tweesh" (lo='e' hi='y'); skip 19 middle + 59 new words
+[w18:st:pro] Saved 57,118 worker words; shared last.txt now 451,054
+[w18:st:pro] Searching "twf" | queue=213 | words=57118
+[w18:st:pro] Pacing 7s before "twf" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15210ms)
+[w18:st:pro] Failed "twf" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,118 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (13745ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] heartbeat words=57118 queue=214 rotation=6 idle=44s
+[w18:st:pro] Tor NEWNYM gen=7; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.220.101.186
+[w18:st:pro] Rotating IP (#6, try 1) after No Turnstile token for direct search → tor#7 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r6
+[w18:st:pro] Proxy tor#7 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (19596ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "twf" | queue=213 | words=57118
+[w18:st:pro] [api] 200 mode=pro startsWith=twf
+[w18:st:pro] [api] 200 mode=pro startsWith=twf (504ms direct)
+[w18:st:pro] "twf" → 0 records, 0 words
+[w18:st:pro] "twf" branch complete
+[w18:st:pro] Saved 57,118 worker words
+[w18:st:pro] Searching "twg" | queue=212 | words=57118
+[w18:st:pro] Pacing 15s before "twg" (gap=15500ms)
+[w18:st:pro] heartbeat words=57118 queue=212 rotation=6 idle=15s
+[w18:st:pro] Managed Turnstile miss (15076ms)
+[w18:st:pro] Failed "twg" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,118 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (10818ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=8; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.220.101.46
+[w18:st:pro] Rotating IP (#7, try 1) after No Turnstile token for direct search → tor#8 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r7
+[w18:st:pro] Proxy tor#8 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (19762ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "twg" | queue=212 | words=57118
+[w18:st:pro] [api] 200 mode=pro startsWith=twg
+[w18:st:pro] [api] 200 mode=pro startsWith=twg (505ms direct)
+[w18:st:pro] "twg" → 0 records, 0 words
+[w18:st:pro] "twg" branch complete
+[w18:st:pro] Saved 57,118 worker words
+[w18:st:pro] Searching "twh" | queue=211 | words=57118
+[w18:st:pro] Pacing 15s before "twh" (gap=15500ms)
+[w18:st:pro] heartbeat words=57118 queue=211 rotation=7 idle=4s
+[w18:st:pro] Managed Turnstile miss (15157ms)
+[w18:st:pro] Failed "twh" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,118 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (11075ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=9; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=45.84.107.54
+[w18:st:pro] Rotating IP (#8, try 1) after No Turnstile token for direct search → tor#9 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r8
+[w18:st:pro] Proxy tor#9 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] heartbeat words=57118 queue=212 rotation=8 idle=64s
+[w18:st:pro] Managed Turnstile token (len=816, 5813ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "twh" | queue=211 | words=57118
+[w18:st:pro] [api] 200 mode=pro startsWith=twh
+[w18:st:pro] [api] 200 mode=pro startsWith=twh (709ms direct)
+[w18:st:pro] "twh" → 0 records, 0 words
+[w18:st:pro] "twh" branch complete
+[w18:st:pro] Saved 57,118 worker words
+[w18:st:pro] Searching "twi" | queue=210 | words=57118
+[w18:st:pro] Pacing 15s before "twi" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7478ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=twi
+[w18:st:pro] [api] 200 mode=pro startsWith=twi (559ms direct)
+[w18:st:pro] "twi" → 100 records, 100 words
+[w18:st:pro] Pacing 14s before "twi" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8947ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=twi
+[w18:st:pro] [api] 200 mode=pro startsWith=twi sort=alphabetical:desc (906ms direct)
+[w18:st:pro] "twi" full page ends at "twinged" (next='n'); skip 22 covered groups → 6 children reverse Z→A ends at "twirled" (lo='r' hi='z'); skip 7 middle + 87 new words
+[w18:st:pro] Saved 57,305 worker words
+[w18:st:pro] Searching "twy" | queue=215 | words=57305
+[w18:st:pro] Pacing 14s before "twy" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9727ms, remount)
+[w18:st:pro] [api] 429 mode=pro startsWith=twy
+[w18:st:pro] [api] 429 mode=pro startsWith=twy (542ms direct)
+[w18:st:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w18:st:pro] Rate limited — inline wait 2000ms then retry "twy"
+[w18:st:pro] Managed Turnstile token (len=816, 4590ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=twy
+[w18:st:pro] [api] 200 mode=pro startsWith=twy (463ms direct)
+[w18:st:pro] "twy" → 8 records, 8 words
+[w18:st:pro] "twy" branch complete
+[w18:st:pro] Saved 57,305 worker words; shared last.txt now 452,806
+[w18:st:pro] Searching "twz" | queue=214 | words=57305
+[w18:st:pro] Pacing 15s before "twz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 3666ms, remount)
+[w18:st:pro] heartbeat words=57305 queue=214 rotation=8 idle=5s
+[w18:st:pro] [api] 200 mode=pro startsWith=twz
+[w18:st:pro] [api] 200 mode=pro startsWith=twz (493ms direct)
+[w18:st:pro] "twz" → 0 records, 0 words
+[w18:st:pro] "twz" branch complete
+[w18:st:pro] Saved 57,305 worker words
+[w18:st:pro] Searching "tach" | queue=213 | words=57305
+[w18:st:pro] Pacing 15s before "tach" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5154ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tach
+[w18:st:pro] [api] 200 mode=pro startsWith=tach (694ms direct)
+[w18:st:pro] "tach" → 100 records, 100 words (incl. exact "tach")
+[w18:st:pro] Pacing 15s before "tach" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6046ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tach
+[w18:st:pro] [api] 200 mode=pro startsWith=tach sort=alphabetical:desc (481ms direct)
+[w18:st:pro] "tach" full page ends at "tachymetrically" (next='y'); skip 26 covered groups → 2 children reverse Z→A ends at "tachistes" (lo='i' hi='y'); skip 15 middle + 33 new words
+[w18:st:pro] Saved 57,355 worker words
+[w18:st:pro] Searching "taci" | queue=214 | words=57355
+[w18:st:pro] Pacing 15s before "taci" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10115ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=taci
+[w18:st:pro] [api] 200 mode=pro startsWith=taci (541ms direct)
+[w18:st:pro] "taci" → 10 records, 10 words
+[w18:st:pro] "taci" branch complete
+[w18:st:pro] Saved 57,365 worker words
+[w18:st:pro] Searching "tacj" | queue=213 | words=57365
+[w18:st:pro] Pacing 15s before "tacj" (gap=15500ms)
+[w18:st:pro] heartbeat words=57365 queue=213 rotation=8 idle=3s
+[w18:st:pro] Managed Turnstile token (len=816, 13504ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tacj
+[w18:st:pro] [api] 200 mode=pro startsWith=tacj (486ms direct)
+[w18:st:pro] "tacj" → 0 records, 0 words
+[w18:st:pro] "tacj" branch complete
+[w18:st:pro] Saved 57,365 worker words
+[w18:st:pro] Searching "tack" | queue=212 | words=57365
+[w18:st:pro] Pacing 15s before "tack" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15151ms)
+[w18:st:pro] Failed "tack" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,365 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Site Turnstile remint timed out (16243ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=10; waiting 8000ms
+[w18:st:pro] heartbeat words=57365 queue=213 rotation=9 idle=48s
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.17
+[w18:st:pro] Rotating IP (#9, try 1) after No Turnstile token for direct search → tor#10 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r9
+[w18:st:pro] Proxy tor#10 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Turnstile token present (len=837)
+[w18:st:pro] Site Turnstile token (21341ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tack" | queue=212 | words=57365
+[w18:st:pro] [api] 200 mode=pro startsWith=tack
+[w18:st:pro] [api] 200 mode=pro startsWith=tack (497ms direct)
+[w18:st:pro] "tack" → 43 records, 43 words (incl. exact "tack")
+[w18:st:pro] "tack" branch complete
+[w18:st:pro] Saved 57,370 worker words
+[w18:st:pro] Searching "tacu" | queue=211 | words=57370
+[w18:st:pro] Pacing 14s before "tacu" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15942ms)
+[w18:st:pro] Failed "tacu" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,370 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=57370 queue=212 rotation=9 idle=25s
+[w18:st:pro] Site Turnstile remint timed out (9468ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=11; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.112
+[w18:st:pro] Rotating IP (#10, try 1) after No Turnstile token for direct search → tor#11 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r10
+[w18:st:pro] Proxy tor#11 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Site Turnstile remint timed out (23165ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tacu" | queue=211 | words=57370
+[w18:st:pro] Managed Turnstile token (len=816, 9820ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tacu
+[w18:st:pro] [api] 200 mode=pro startsWith=tacu (895ms direct)
+[w18:st:pro] "tacu" → 2 records, 2 words
+[w18:st:pro] "tacu" branch complete
+[w18:st:pro] heartbeat words=57370 queue=211 rotation=10 idle=85s
+[w18:st:pro] Saved 57,370 worker words; shared last.txt now 454,116
+[w18:st:pro] Searching "tacv" | queue=210 | words=57370
+[w18:st:pro] Pacing 5s before "tacv" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8928ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tacv
+[w18:st:pro] [api] 200 mode=pro startsWith=tacv (702ms direct)
+[w18:st:pro] "tacv" → 0 records, 0 words
+[w18:st:pro] "tacv" branch complete
+[w18:st:pro] Saved 57,370 worker words
+[w18:st:pro] Searching "tacw" | queue=209 | words=57370
+[w18:st:pro] Pacing 15s before "tacw" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6079ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tacw
+[w18:st:pro] [api] 200 mode=pro startsWith=tacw (800ms direct)
+[w18:st:pro] "tacw" → 0 records, 0 words
+[w18:st:pro] "tacw" branch complete
+[w18:st:pro] Saved 57,370 worker words
+[w18:st:pro] Searching "tacx" | queue=208 | words=57370
+[w18:st:pro] Pacing 15s before "tacx" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5731ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tacx
+[w18:st:pro] [api] 200 mode=pro startsWith=tacx (648ms direct)
+[w18:st:pro] "tacx" → 0 records, 0 words
+[w18:st:pro] "tacx" branch complete
+[w18:st:pro] Saved 57,370 worker words
+[w18:st:pro] Searching "tacy" | queue=207 | words=57370
+[w18:st:pro] Pacing 15s before "tacy" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6428ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tacy
+[w18:st:pro] [api] 200 mode=pro startsWith=tacy (659ms direct)
+[w18:st:pro] "tacy" → 0 records, 0 words
+[w18:st:pro] "tacy" branch complete
+[w18:st:pro] Saved 57,370 worker words
+[w18:st:pro] Searching "tacz" | queue=206 | words=57370
+[w18:st:pro] Pacing 15s before "tacz" (gap=15500ms)
+[w18:st:pro] heartbeat words=57370 queue=206 rotation=10 idle=4s
+[w18:st:pro] Managed Turnstile miss (15261ms)
+[w18:st:pro] Failed "tacz" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,370 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (6161ms)
+[w18:st:pro] Searching "tacz" | queue=206 | words=57370
+[w18:st:pro] [api] 200 mode=pro startsWith=tacz
+[w18:st:pro] [api] 200 mode=pro startsWith=tacz (736ms direct)
+[w18:st:pro] "tacz" → 0 records, 0 words
+[w18:st:pro] "tacz" branch complete
+[w18:st:pro] Saved 57,370 worker words
+[w18:st:pro] Searching "tamb" | queue=205 | words=57370
+[w18:st:pro] Pacing 15s before "tamb" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 14020ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tamb
+[w18:st:pro] [api] 200 mode=pro startsWith=tamb (840ms direct)
+[w18:st:pro] "tamb" → 44 records, 44 words
+[w18:st:pro] "tamb" branch complete
+[w18:st:pro] Saved 57,380 worker words
+[w18:st:pro] Searching "tamc" | queue=204 | words=57380
+[w18:st:pro] Pacing 13s before "tamc" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (16625ms)
+[w18:st:pro] Failed "tamc" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,380 worker words; shared last.txt now 455,360
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=57380 queue=205 rotation=10 idle=23s
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (5325ms)
+[w18:st:pro] Searching "tamc" | queue=204 | words=57380
+[w18:st:pro] [api] 200 mode=pro startsWith=tamc
+[w18:st:pro] [api] 200 mode=pro startsWith=tamc (896ms direct)
+[w18:st:pro] "tamc" → 0 records, 0 words
+[w18:st:pro] "tamc" branch complete
+[w18:st:pro] Saved 57,380 worker words
+[w18:st:pro] Searching "tamd" | queue=203 | words=57380
+[w18:st:pro] Pacing 15s before "tamd" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6068ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tamd
+[w18:st:pro] [api] 200 mode=pro startsWith=tamd (666ms direct)
+[w18:st:pro] "tamd" → 0 records, 0 words
+[w18:st:pro] "tamd" branch complete
+[w18:st:pro] Saved 57,380 worker words
+[w18:st:pro] Searching "tame" | queue=202 | words=57380
+[w18:st:pro] Pacing 15s before "tame" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15246ms)
+[w18:st:pro] Failed "tame" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,380 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (12599ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] heartbeat words=57380 queue=203 rotation=11 idle=43s
+[w18:st:pro] Tor NEWNYM gen=12; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=45.148.10.111
+[w18:st:pro] Rotating IP (#11, try 1) after No Turnstile token for direct search → tor#12 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r11
+[w18:st:pro] Proxy tor#12 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (19728ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tame" | queue=202 | words=57380
+[w18:st:pro] [api] 200 mode=pro startsWith=tame
+[w18:st:pro] [api] 200 mode=pro startsWith=tame (447ms direct)
+[w18:st:pro] "tame" → 25 records, 25 words (incl. exact "tame")
+[w18:st:pro] "tame" branch complete
+[w18:st:pro] Saved 57,389 worker words
+[w18:st:pro] Searching "tamz" | queue=201 | words=57389
+[w18:st:pro] Pacing 15s before "tamz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15253ms)
+[w18:st:pro] Failed "tamz" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,389 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=57389 queue=202 rotation=11 idle=20s
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Site Turnstile remint timed out (15280ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=13; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=5.255.111.52
+[w18:st:pro] Rotating IP (#12, try 1) after No Turnstile token for direct search → tor#13 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r12
+[w18:st:pro] Proxy tor#13 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 7818ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tamz" | queue=201 | words=57389
+[w18:st:pro] [api] 200 mode=pro startsWith=tamz
+[w18:st:pro] [api] 200 mode=pro startsWith=tamz (827ms direct)
+[w18:st:pro] "tamz" → 1 records, 1 words
+[w18:st:pro] "tamz" branch complete
+[w18:st:pro] Saved 57,389 worker words
+[w18:st:pro] Searching "tarb" | queue=200 | words=57389
+[w18:st:pro] Pacing 12s before "tarb" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9122ms, remount)
+[w18:st:pro] heartbeat words=57389 queue=200 rotation=12 idle=12s
+[w18:st:pro] [api] 200 mode=pro startsWith=tarb
+[w18:st:pro] [api] 200 mode=pro startsWith=tarb (545ms direct)
+[w18:st:pro] "tarb" → 27 records, 27 words
+[w18:st:pro] "tarb" branch complete
+[w18:st:pro] Saved 57,411 worker words
+[w18:st:pro] Searching "tarc" | queue=199 | words=57411
+[w18:st:pro] Pacing 13s before "tarc" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7602ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tarc
+[w18:st:pro] [api] 200 mode=pro startsWith=tarc (471ms direct)
+[w18:st:pro] "tarc" → 4 records, 4 words
+[w18:st:pro] "tarc" branch complete
+[w18:st:pro] Saved 57,415 worker words; shared last.txt now 456,511
+[w18:st:pro] Searching "tard" | queue=198 | words=57415
+[w18:st:pro] Pacing 15s before "tard" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 3871ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tard
+[w18:st:pro] [api] 200 mode=pro startsWith=tard (527ms direct)
+[w18:st:pro] "tard" → 28 records, 28 words
+[w18:st:pro] "tard" branch complete
+[w18:st:pro] Saved 57,443 worker words
+[w18:st:pro] Searching "tare" | queue=197 | words=57443
+[w18:st:pro] Pacing 15s before "tare" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4919ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tare
+[w18:st:pro] [api] 200 mode=pro startsWith=tare (495ms direct)
+[w18:st:pro] "tare" → 14 records, 14 words (incl. exact "tare")
+[w18:st:pro] "tare" branch complete
+[w18:st:pro] Saved 57,457 worker words
+[w18:st:pro] Searching "tarf" | queue=196 | words=57457
+[w18:st:pro] Pacing 15s before "tarf" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4374ms, remount)
+[w18:st:pro] heartbeat words=57457 queue=196 rotation=12 idle=12s
+[w18:st:pro] [api] 200 mode=pro startsWith=tarf
+[w18:st:pro] [api] 200 mode=pro startsWith=tarf (493ms direct)
+[w18:st:pro] "tarf" → 2 records, 2 words
+[w18:st:pro] "tarf" branch complete
+[w18:st:pro] Saved 57,459 worker words
+[w18:st:pro] Searching "targ" | queue=195 | words=57459
+[w18:st:pro] Pacing 15s before "targ" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7179ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=targ
+[w18:st:pro] [api] 200 mode=pro startsWith=targ (495ms direct)
+[w18:st:pro] "targ" → 29 records, 29 words
+[w18:st:pro] "targ" branch complete
+[w18:st:pro] Saved 57,488 worker words
+[w18:st:pro] Searching "tarh" | queue=194 | words=57488
+[w18:st:pro] Pacing 15s before "tarh" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9361ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tarh
+[w18:st:pro] [api] 200 mode=pro startsWith=tarh (499ms direct)
+[w18:st:pro] "tarh" → 3 records, 3 words
+[w18:st:pro] "tarh" branch complete
+[w18:st:pro] Saved 57,491 worker words
+[w18:st:pro] Searching "tari" | queue=193 | words=57491
+[w18:st:pro] Pacing 15s before "tari" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9535ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tari
+[w18:st:pro] [api] 200 mode=pro startsWith=tari (525ms direct)
+[w18:st:pro] "tari" → 29 records, 29 words (incl. exact "tari")
+[w18:st:pro] "tari" branch complete
+[w18:st:pro] Saved 57,520 worker words
+[w18:st:pro] Searching "tarj" | queue=192 | words=57520
+[w18:st:pro] Pacing 15s before "tarj" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4280ms, remount)
+[w18:st:pro] heartbeat words=57520 queue=192 rotation=12 idle=10s
+[w18:st:pro] [api] 200 mode=pro startsWith=tarj
+[w18:st:pro] [api] 200 mode=pro startsWith=tarj (487ms direct)
+[w18:st:pro] "tarj" → 0 records, 0 words
+[w18:st:pro] "tarj" branch complete
+[w18:st:pro] Saved 57,520 worker words
+[w18:st:pro] Searching "tark" | queue=191 | words=57520
+[w18:st:pro] Pacing 15s before "tark" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7535ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tark
+[w18:st:pro] [api] 200 mode=pro startsWith=tark (545ms direct)
+[w18:st:pro] "tark" → 5 records, 5 words
+[w18:st:pro] "tark" branch complete
+[w18:st:pro] Saved 57,525 worker words; shared last.txt now 457,911
+[w18:st:pro] Searching "tarl" | queue=190 | words=57525
+[w18:st:pro] Pacing 3s before "tarl" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15960ms)
+[w18:st:pro] Failed "tarl" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,525 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (14519ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=14; waiting 8000ms
+[w18:st:pro] heartbeat words=57525 queue=191 rotation=13 idle=26s
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.20
+[w18:st:pro] Rotating IP (#13, try 1) after No Turnstile token for direct search → tor#14 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r13
+[w18:st:pro] Proxy tor#14 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 7136ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tarl" | queue=190 | words=57525
+[w18:st:pro] [api] 200 mode=pro startsWith=tarl
+[w18:st:pro] [api] 200 mode=pro startsWith=tarl (648ms direct)
+[w18:st:pro] "tarl" → 10 records, 10 words
+[w18:st:pro] "tarl" branch complete
+[w18:st:pro] Saved 57,535 worker words
+[w18:st:pro] Searching "tarm" | queue=189 | words=57535
+[w18:st:pro] Pacing 15s before "tarm" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5687ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tarm
+[w18:st:pro] [api] 200 mode=pro startsWith=tarm (630ms direct)
+[w18:st:pro] "tarm" → 10 records, 10 words
+[w18:st:pro] "tarm" branch complete
+[w18:st:pro] Saved 57,545 worker words
+[w18:st:pro] Searching "tarn" | queue=188 | words=57545
+[w18:st:pro] Pacing 15s before "tarn" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5778ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tarn
+[w18:st:pro] [api] 200 mode=pro startsWith=tarn (633ms direct)
+[w18:st:pro] "tarn" → 18 records, 18 words (incl. exact "tarn")
+[w18:st:pro] "tarn" branch complete
+[w18:st:pro] Saved 57,563 worker words
+[w18:st:pro] Searching "taro" | queue=187 | words=57563
+[w18:st:pro] Pacing 15s before "taro" (gap=15500ms)
+[w18:st:pro] heartbeat words=57563 queue=187 rotation=13 idle=4s
+[w18:st:pro] Managed Turnstile token (len=816, 6102ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=taro
+[w18:st:pro] [api] 200 mode=pro startsWith=taro (631ms direct)
+[w18:st:pro] "taro" → 12 records, 12 words (incl. exact "taro")
+[w18:st:pro] "taro" branch complete
+[w18:st:pro] Saved 57,575 worker words
+[w18:st:pro] Searching "tarp" | queue=186 | words=57575
+[w18:st:pro] Pacing 15s before "tarp" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6751ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tarp
+[w18:st:pro] [api] 200 mode=pro startsWith=tarp (817ms direct)
+[w18:st:pro] "tarp" → 19 records, 19 words (incl. exact "tarp")
+[w18:st:pro] "tarp" branch complete
+[w18:st:pro] Saved 57,594 worker words
+[w18:st:pro] Searching "tarq" | queue=185 | words=57594
+[w18:st:pro] Pacing 15s before "tarq" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7378ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tarq
+[w18:st:pro] [api] 200 mode=pro startsWith=tarq (751ms direct)
+[w18:st:pro] "tarq" → 2 records, 2 words
+[w18:st:pro] "tarq" branch complete
+[w18:st:pro] Saved 57,596 worker words
+[w18:st:pro] Searching "tarr" | queue=184 | words=57596
+[w18:st:pro] Pacing 14s before "tarr" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10618ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tarr
+[w18:st:pro] [api] 200 mode=pro startsWith=tarr (680ms direct)
+[w18:st:pro] "tarr" → 45 records, 45 words (incl. exact "tarr")
+[w18:st:pro] "tarr" branch complete
+[w18:st:pro] heartbeat words=57641 queue=184 rotation=13 idle=16s
+[w18:st:pro] Saved 57,641 worker words; shared last.txt now 458,912
+[w18:st:pro] Searching "tars" | queue=183 | words=57641
+[w18:st:pro] Pacing 11s before "tars" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8739ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tars
+[w18:st:pro] [api] 200 mode=pro startsWith=tars (623ms direct)
+[w18:st:pro] "tars" → 50 records, 50 words (incl. exact "tars")
+[w18:st:pro] "tars" branch complete
+[w18:st:pro] Saved 57,691 worker words
+[w18:st:pro] Searching "tart" | queue=182 | words=57691
+[w18:st:pro] Pacing 15s before "tart" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10561ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tart
+[w18:st:pro] [api] 200 mode=pro startsWith=tart (823ms direct)
+[w18:st:pro] "tart" → 100 records, 100 words (incl. exact "tart")
+[w18:st:pro] Pacing 14s before "tart" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10972ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tart
+[w18:st:pro] [api] 200 mode=pro startsWith=tart sort=alphabetical:desc (672ms direct)
+[w18:st:pro] "tart" full page ends at "tartuffes" (next='u'); skip 26 covered groups → 2 children reverse Z→A ends at "tartarean" (lo='a' hi='y'); skip 23 middle + 0 new words
+[w18:st:pro] Saved 57,722 worker words
+[w18:st:pro] Searching "tarz" | queue=183 | words=57722
+[w18:st:pro] Pacing 15s before "tarz" (gap=15500ms)
+[w18:st:pro] heartbeat words=57722 queue=183 rotation=13 idle=15s
+[w18:st:pro] Managed Turnstile token (len=816, 15132ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tarz
+[w18:st:pro] [api] 200 mode=pro startsWith=tarz (736ms direct)
+[w18:st:pro] "tarz" → 3 records, 3 words
+[w18:st:pro] "tarz" branch complete
+[w18:st:pro] Saved 57,722 worker words
+[w18:st:pro] Searching "tele" | queue=182 | words=57722
+[w18:st:pro] Pacing 14s before "tele" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7867ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tele
+[w18:st:pro] [api] 200 mode=pro startsWith=tele (625ms direct)
+[w18:st:pro] "tele" → 100 records, 100 words (incl. exact "tele")
+[w18:st:pro] Pacing 15s before "tele" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5375ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tele
+[w18:st:pro] [api] 200 mode=pro startsWith=tele sort=alphabetical:desc (655ms direct)
+[w18:st:pro] "tele" full page ends at "telegonies" (next='g'); skip 12 covered groups → 16 children reverse Z→A ends at "telestereoscope" (lo='s' hi='x'); skip 4 middle + 100 new words
+[w18:st:pro] Saved 57,862 worker words
+[w18:st:pro] Searching "telf" | queue=197 | words=57862
+[w18:st:pro] Pacing 15s before "telf" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6001ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=telf
+[w18:st:pro] [api] 200 mode=pro startsWith=telf (741ms direct)
+[w18:st:pro] "telf" → 14 records, 14 words
+[w18:st:pro] "telf" branch complete
+[w18:st:pro] Saved 57,876 worker words
+[w18:st:pro] Searching "telg" | queue=196 | words=57876
+[w18:st:pro] Pacing 15s before "telg" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5838ms, remount)
+[w18:st:pro] heartbeat words=57876 queue=196 rotation=13 idle=12s
+[w18:st:pro] [api] 200 mode=pro startsWith=telg
+[w18:st:pro] [api] 200 mode=pro startsWith=telg (693ms direct)
+[w18:st:pro] "telg" → 0 records, 0 words
+[w18:st:pro] "telg" branch complete
+[w18:st:pro] Saved 57,876 worker words
+[w18:st:pro] Searching "telh" | queue=195 | words=57876
+[w18:st:pro] Pacing 15s before "telh" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10377ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=telh
+[w18:st:pro] [api] 200 mode=pro startsWith=telh (848ms direct)
+[w18:st:pro] "telh" → 3 records, 3 words
+[w18:st:pro] "telh" branch complete
+[w18:st:pro] Saved 57,879 worker words
+[w18:st:pro] Searching "teli" | queue=194 | words=57879
+[w18:st:pro] Pacing 14s before "teli" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (16337ms)
+[w18:st:pro] Failed "teli" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,879 worker words; shared last.txt now 459,771
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (5626ms)
+[w18:st:pro] Searching "teli" | queue=194 | words=57879
+[w18:st:pro] [api] 200 mode=pro startsWith=teli
+[w18:st:pro] [api] 200 mode=pro startsWith=teli (594ms direct)
+[w18:st:pro] "teli" → 17 records, 17 words (incl. exact "teli")
+[w18:st:pro] "teli" branch complete
+[w18:st:pro] Saved 57,896 worker words
+[w18:st:pro] Searching "telj" | queue=193 | words=57896
+[w18:st:pro] Pacing 15s before "telj" (gap=15500ms)
+[w18:st:pro] heartbeat words=57896 queue=193 rotation=13 idle=10s
+[w18:st:pro] Managed Turnstile miss (15197ms)
+[w18:st:pro] Failed "telj" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 57,896 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (7684ms)
+[w18:st:pro] Searching "telj" | queue=193 | words=57896
+[w18:st:pro] [api] 200 mode=pro startsWith=telj
+[w18:st:pro] [api] 200 mode=pro startsWith=telj (828ms direct)
+[w18:st:pro] "telj" → 0 records, 0 words
+[w18:st:pro] "telj" branch complete
+[w18:st:pro] Saved 57,896 worker words
+[w18:st:pro] Searching "telk" | queue=192 | words=57896
+[w18:st:pro] Pacing 14s before "telk" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8436ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=telk
+[w18:st:pro] [api] 200 mode=pro startsWith=telk (703ms direct)
+[w18:st:pro] "telk" → 0 records, 0 words
+[w18:st:pro] "telk" branch complete
+[w18:st:pro] Saved 57,896 worker words
+[w18:st:pro] Searching "tell" | queue=191 | words=57896
+[w18:st:pro] Pacing 13s before "tell" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7105ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tell
+[w18:st:pro] [api] 200 mode=pro startsWith=tell (675ms direct)
+[w18:st:pro] "tell" → 84 records, 84 words (incl. exact "tell")
+[w18:st:pro] "tell" branch complete
+[w18:st:pro] Saved 57,970 worker words
+[w18:st:pro] Searching "tely" | queue=190 | words=57970
+[w18:st:pro] Pacing 15s before "tely" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7899ms, remount)
+[w18:st:pro] heartbeat words=57970 queue=190 rotation=13 idle=12s
+[w18:st:pro] [api] 200 mode=pro startsWith=tely
+[w18:st:pro] [api] 200 mode=pro startsWith=tely (636ms direct)
+[w18:st:pro] "tely" → 2 records, 2 words
+[w18:st:pro] "tely" branch complete
+[w18:st:pro] Saved 57,970 worker words
+[w18:st:pro] Searching "telz" | queue=189 | words=57970
+[w18:st:pro] Pacing 15s before "telz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7525ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=telz
+[w18:st:pro] [api] 200 mode=pro startsWith=telz (665ms direct)
+[w18:st:pro] "telz" → 0 records, 0 words
+[w18:st:pro] "telz" branch complete
+[w18:st:pro] Saved 57,970 worker words
+[w18:st:pro] Searching "thre" | queue=188 | words=57970
+[w18:st:pro] Pacing 15s before "thre" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10835ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thre
+[w18:st:pro] [api] 200 mode=pro startsWith=thre (659ms direct)
+[w18:st:pro] "thre" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "thre" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5935ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thre
+[w18:st:pro] [api] 200 mode=pro startsWith=thre sort=alphabetical:desc (634ms direct)
+[w18:st:pro] "thre" full page ends at "threepenny" (next='e'); skip 24 covered groups → 4 children reverse Z→A ends at "threatproof" (lo='a' hi='w'); skip 21 middle + 60 new words
+[w18:st:pro] Saved 58,099 worker words; shared last.txt now 460,651
+[w18:st:pro] Searching "thrf" | queue=191 | words=58099
+[w18:st:pro] Pacing 15s before "thrf" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5598ms, remount)
+[w18:st:pro] heartbeat words=58099 queue=191 rotation=13 idle=10s
+[w18:st:pro] [api] 200 mode=pro startsWith=thrf
+[w18:st:pro] [api] 200 mode=pro startsWith=thrf (664ms direct)
+[w18:st:pro] "thrf" → 0 records, 0 words
+[w18:st:pro] "thrf" branch complete
+[w18:st:pro] Saved 58,099 worker words
+[w18:st:pro] Searching "thrg" | queue=190 | words=58099
+[w18:st:pro] Pacing 15s before "thrg" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5652ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrg
+[w18:st:pro] [api] 200 mode=pro startsWith=thrg (626ms direct)
+[w18:st:pro] "thrg" → 0 records, 0 words
+[w18:st:pro] "thrg" branch complete
+[w18:st:pro] Saved 58,099 worker words
+[w18:st:pro] Searching "thrh" | queue=189 | words=58099
+[w18:st:pro] Pacing 15s before "thrh" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6057ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrh
+[w18:st:pro] [api] 200 mode=pro startsWith=thrh (654ms direct)
+[w18:st:pro] "thrh" → 0 records, 0 words
+[w18:st:pro] "thrh" branch complete
+[w18:st:pro] Saved 58,099 worker words
+[w18:st:pro] Searching "thri" | queue=188 | words=58099
+[w18:st:pro] Pacing 15s before "thri" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9555ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thri
+[w18:st:pro] [api] 200 mode=pro startsWith=thri (699ms direct)
+[w18:st:pro] "thri" → 81 records, 81 words
+[w18:st:pro] "thri" branch complete
+[w18:st:pro] Saved 58,180 worker words
+[w18:st:pro] Searching "thrj" | queue=187 | words=58180
+[w18:st:pro] Pacing 15s before "thrj" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5910ms, remount)
+[w18:st:pro] heartbeat words=58180 queue=187 rotation=13 idle=8s
+[w18:st:pro] [api] 200 mode=pro startsWith=thrj
+[w18:st:pro] [api] 200 mode=pro startsWith=thrj (643ms direct)
+[w18:st:pro] "thrj" → 0 records, 0 words
+[w18:st:pro] "thrj" branch complete
+[w18:st:pro] Saved 58,180 worker words
+[w18:st:pro] Searching "thrk" | queue=186 | words=58180
+[w18:st:pro] Pacing 15s before "thrk" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5770ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrk
+[w18:st:pro] [api] 200 mode=pro startsWith=thrk (650ms direct)
+[w18:st:pro] "thrk" → 0 records, 0 words
+[w18:st:pro] "thrk" branch complete
+[w18:st:pro] Saved 58,180 worker words
+[w18:st:pro] Searching "thrl" | queue=185 | words=58180
+[w18:st:pro] Pacing 15s before "thrl" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5612ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrl
+[w18:st:pro] [api] 200 mode=pro startsWith=thrl (666ms direct)
+[w18:st:pro] "thrl" → 0 records, 0 words
+[w18:st:pro] "thrl" branch complete
+[w18:st:pro] Saved 58,180 worker words
+[w18:st:pro] Searching "thrm" | queue=184 | words=58180
+[w18:st:pro] Pacing 15s before "thrm" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8942ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrm
+[w18:st:pro] [api] 200 mode=pro startsWith=thrm (689ms direct)
+[w18:st:pro] "thrm" → 0 records, 0 words
+[w18:st:pro] "thrm" branch complete
+[w18:st:pro] Saved 58,180 worker words; shared last.txt now 461,497
+[w18:st:pro] Searching "thrn" | queue=183 | words=58180
+[w18:st:pro] Pacing 12s before "thrn" (gap=15500ms)
+[w18:st:pro] heartbeat words=58180 queue=183 rotation=13 idle=3s
+[w18:st:pro] Managed Turnstile token (len=816, 13987ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrn
+[w18:st:pro] [api] 200 mode=pro startsWith=thrn (704ms direct)
+[w18:st:pro] "thrn" → 0 records, 0 words
+[w18:st:pro] "thrn" branch complete
+[w18:st:pro] Saved 58,180 worker words
+[w18:st:pro] Searching "thro" | queue=182 | words=58180
+[w18:st:pro] Pacing 15s before "thro" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7451ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thro
+[w18:st:pro] [api] 200 mode=pro startsWith=thro (641ms direct)
+[w18:st:pro] "thro" → 100 records, 100 words (incl. exact "thro")
+[w18:st:pro] Pacing 15s before "thro" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10871ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thro
+[w18:st:pro] [api] 200 mode=pro startsWith=thro sort=alphabetical:desc (636ms direct)
+[w18:st:pro] "thro" full page ends at "thromboxanes" (next='m'); skip 23 covered groups → 5 children reverse Z→A ends at "thrombosis" (lo='m' hi='w'); skip 9 middle + 93 new words
+[w18:st:pro] Saved 58,373 worker words
+[w18:st:pro] Searching "thrp" | queue=186 | words=58373
+[w18:st:pro] Pacing 15s before "thrp" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 12976ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrp
+[w18:st:pro] [api] 200 mode=pro startsWith=thrp (687ms direct)
+[w18:st:pro] "thrp" → 0 records, 0 words
+[w18:st:pro] "thrp" branch complete
+[w18:st:pro] Saved 58,373 worker words
+[w18:st:pro] Searching "thrq" | queue=185 | words=58373
+[w18:st:pro] Pacing 14s before "thrq" (gap=15500ms)
+[w18:st:pro] heartbeat words=58373 queue=185 rotation=13 idle=3s
+[w18:st:pro] Managed Turnstile token (len=816, 10971ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrq
+[w18:st:pro] [api] 200 mode=pro startsWith=thrq (702ms direct)
+[w18:st:pro] "thrq" → 0 records, 0 words
+[w18:st:pro] "thrq" branch complete
+[w18:st:pro] Saved 58,373 worker words
+[w18:st:pro] Searching "thrr" | queue=184 | words=58373
+[w18:st:pro] Pacing 15s before "thrr" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10839ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrr
+[w18:st:pro] [api] 200 mode=pro startsWith=thrr (713ms direct)
+[w18:st:pro] "thrr" → 0 records, 0 words
+[w18:st:pro] "thrr" branch complete
+[w18:st:pro] Saved 58,373 worker words
+[w18:st:pro] Searching "thrs" | queue=183 | words=58373
+[w18:st:pro] Pacing 15s before "thrs" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15382ms)
+[w18:st:pro] Failed "thrs" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 58,373 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (5773ms)
+[w18:st:pro] Searching "thrs" | queue=183 | words=58373
+[w18:st:pro] [api] 200 mode=pro startsWith=thrs
+[w18:st:pro] [api] 200 mode=pro startsWith=thrs (689ms direct)
+[w18:st:pro] "thrs" → 0 records, 0 words
+[w18:st:pro] "thrs" branch complete
+[w18:st:pro] Saved 58,373 worker words
+[w18:st:pro] Searching "thrt" | queue=182 | words=58373
+[w18:st:pro] Pacing 15s before "thrt" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5640ms, remount)
+[w18:st:pro] heartbeat words=58373 queue=182 rotation=13 idle=9s
+[w18:st:pro] [api] 200 mode=pro startsWith=thrt
+[w18:st:pro] [api] 200 mode=pro startsWith=thrt (648ms direct)
+[w18:st:pro] "thrt" → 0 records, 0 words
+[w18:st:pro] "thrt" branch complete
+[w18:st:pro] Saved 58,373 worker words; shared last.txt now 462,785
+[w18:st:pro] Searching "thru" | queue=181 | words=58373
+[w18:st:pro] Pacing 15s before "thru" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5813ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thru
+[w18:st:pro] [api] 200 mode=pro startsWith=thru (641ms direct)
+[w18:st:pro] "thru" → 53 records, 53 words (incl. exact "thru")
+[w18:st:pro] "thru" branch complete
+[w18:st:pro] Saved 58,426 worker words
+[w18:st:pro] Searching "thrv" | queue=180 | words=58426
+[w18:st:pro] Pacing 15s before "thrv" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7727ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrv
+[w18:st:pro] [api] 200 mode=pro startsWith=thrv (679ms direct)
+[w18:st:pro] "thrv" → 0 records, 0 words
+[w18:st:pro] "thrv" branch complete
+[w18:st:pro] Saved 58,426 worker words
+[w18:st:pro] Searching "thrw" | queue=179 | words=58426
+[w18:st:pro] Pacing 15s before "thrw" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8409ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrw
+[w18:st:pro] [api] 200 mode=pro startsWith=thrw (648ms direct)
+[w18:st:pro] "thrw" → 0 records, 0 words
+[w18:st:pro] "thrw" branch complete
+[w18:st:pro] Saved 58,426 worker words
+[w18:st:pro] Searching "thrx" | queue=178 | words=58426
+[w18:st:pro] Pacing 15s before "thrx" (gap=15500ms)
+[w18:st:pro] heartbeat words=58426 queue=178 rotation=13 idle=7s
+[w18:st:pro] Managed Turnstile token (len=816, 7231ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrx
+[w18:st:pro] [api] 200 mode=pro startsWith=thrx (659ms direct)
+[w18:st:pro] "thrx" → 0 records, 0 words
+[w18:st:pro] "thrx" branch complete
+[w18:st:pro] Saved 58,426 worker words
+[w18:st:pro] Searching "thry" | queue=177 | words=58426
+[w18:st:pro] Pacing 15s before "thry" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8128ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thry
+[w18:st:pro] [api] 200 mode=pro startsWith=thry (673ms direct)
+[w18:st:pro] "thry" → 3 records, 3 words
+[w18:st:pro] "thry" branch complete
+[w18:st:pro] Saved 58,429 worker words
+[w18:st:pro] Searching "thrz" | queue=176 | words=58429
+[w18:st:pro] Pacing 15s before "thrz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 12235ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=thrz
+[w18:st:pro] [api] 200 mode=pro startsWith=thrz (727ms direct)
+[w18:st:pro] "thrz" → 0 records, 0 words
+[w18:st:pro] "thrz" branch complete
+[w18:st:pro] Saved 58,429 worker words
+[w18:st:pro] Searching "tidy" | queue=175 | words=58429
+[w18:st:pro] Pacing 15s before "tidy" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7844ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tidy
+[w18:st:pro] [api] 200 mode=pro startsWith=tidy (680ms direct)
+[w18:st:pro] "tidy" → 4 records, 4 words (incl. exact "tidy")
+[w18:st:pro] "tidy" branch complete
+[w18:st:pro] Saved 58,429 worker words
+[w18:st:pro] Searching "tidz" | queue=174 | words=58429
+[w18:st:pro] Pacing 15s before "tidz" (gap=15500ms)
+[w18:st:pro] heartbeat words=58429 queue=174 rotation=13 idle=5s
+[w18:st:pro] Managed Turnstile token (len=816, 12184ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tidz
+[w18:st:pro] [api] 200 mode=pro startsWith=tidz (669ms direct)
+[w18:st:pro] "tidz" → 0 records, 0 words
+[w18:st:pro] "tidz" branch complete
+[w18:st:pro] Saved 58,429 worker words; shared last.txt now 463,495
+[w18:st:pro] Searching "ting" | queue=173 | words=58429
+[w18:st:pro] Pacing 14s before "ting" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15146ms)
+[w18:st:pro] Failed "ting" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 58,429 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (5879ms)
+[w18:st:pro] Searching "ting" | queue=173 | words=58429
+[w18:st:pro] [api] 200 mode=pro startsWith=ting
+[w18:st:pro] [api] 200 mode=pro startsWith=ting (1151ms direct)
+[w18:st:pro] "ting" → 44 records, 44 words (incl. exact "ting")
+[w18:st:pro] "ting" branch complete
+[w18:st:pro] Saved 58,453 worker words
+[w18:st:pro] Searching "tinh" | queue=172 | words=58453
+[w18:st:pro] Pacing 15s before "tinh" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6126ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tinh
+[w18:st:pro] [api] 200 mode=pro startsWith=tinh (698ms direct)
+[w18:st:pro] "tinh" → 3 records, 3 words
+[w18:st:pro] "tinh" branch complete
+[w18:st:pro] Saved 58,456 worker words
+[w18:st:pro] Searching "tini" | queue=171 | words=58456
+[w18:st:pro] Pacing 15s before "tini" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5526ms, remount)
+[w18:st:pro] heartbeat words=58456 queue=171 rotation=13 idle=8s
+[w18:st:pro] [api] 200 mode=pro startsWith=tini
+[w18:st:pro] [api] 200 mode=pro startsWith=tini (655ms direct)
+[w18:st:pro] "tini" → 8 records, 8 words
+[w18:st:pro] "tini" branch complete
+[w18:st:pro] Saved 58,464 worker words
+[w18:st:pro] Searching "tinj" | queue=170 | words=58464
+[w18:st:pro] Pacing 15s before "tinj" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5578ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tinj
+[w18:st:pro] [api] 200 mode=pro startsWith=tinj (679ms direct)
+[w18:st:pro] "tinj" → 0 records, 0 words
+[w18:st:pro] "tinj" branch complete
+[w18:st:pro] Saved 58,464 worker words
+[w18:st:pro] Searching "tink" | queue=169 | words=58464
+[w18:st:pro] Pacing 15s before "tink" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7237ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tink
+[w18:st:pro] [api] 200 mode=pro startsWith=tink (649ms direct)
+[w18:st:pro] "tink" → 35 records, 35 words (incl. exact "tink")
+[w18:st:pro] "tink" branch complete
+[w18:st:pro] Saved 58,499 worker words
+[w18:st:pro] Searching "tinl" | queue=168 | words=58499
+[w18:st:pro] Pacing 15s before "tinl" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6896ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tinl
+[w18:st:pro] [api] 200 mode=pro startsWith=tinl (653ms direct)
+[w18:st:pro] "tinl" → 2 records, 2 words
+[w18:st:pro] "tinl" branch complete
+[w18:st:pro] Saved 58,501 worker words
+[w18:st:pro] Searching "tinm" | queue=167 | words=58501
+[w18:st:pro] Pacing 15s before "tinm" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5639ms, remount)
+[w18:st:pro] heartbeat words=58501 queue=167 rotation=13 idle=6s
+[w18:st:pro] [api] 200 mode=pro startsWith=tinm
+[w18:st:pro] [api] 200 mode=pro startsWith=tinm (662ms direct)
+[w18:st:pro] "tinm" → 2 records, 2 words
+[w18:st:pro] "tinm" branch complete
+[w18:st:pro] Saved 58,503 worker words; shared last.txt now 463,943
+[w18:st:pro] Searching "tinn" | queue=166 | words=58503
+[w18:st:pro] Pacing 15s before "tinn" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5356ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tinn
+[w18:st:pro] [api] 200 mode=pro startsWith=tinn (630ms direct)
+[w18:st:pro] "tinn" → 23 records, 23 words
+[w18:st:pro] "tinn" branch complete
+[w18:st:pro] Saved 58,526 worker words
+[w18:st:pro] Searching "tino" | queue=165 | words=58526
+[w18:st:pro] Pacing 15s before "tino" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5403ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tino
+[w18:st:pro] [api] 200 mode=pro startsWith=tino (692ms direct)
+[w18:st:pro] "tino" → 5 records, 5 words (incl. exact "tino")
+[w18:st:pro] "tino" branch complete
+[w18:st:pro] Saved 58,531 worker words
+[w18:st:pro] Searching "tinp" | queue=164 | words=58531
+[w18:st:pro] Pacing 15s before "tinp" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5767ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tinp
+[w18:st:pro] [api] 200 mode=pro startsWith=tinp (685ms direct)
+[w18:st:pro] "tinp" → 6 records, 6 words
+[w18:st:pro] "tinp" branch complete
+[w18:st:pro] Saved 58,536 worker words
+[w18:st:pro] Searching "tinz" | queue=163 | words=58536
+[w18:st:pro] Pacing 15s before "tinz" (gap=15500ms)
+[w18:st:pro] heartbeat words=58536 queue=163 rotation=13 idle=4s
+[w18:st:pro] Managed Turnstile token (len=816, 5673ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tinz
+[w18:st:pro] [api] 200 mode=pro startsWith=tinz (707ms direct)
+[w18:st:pro] "tinz" → 2 records, 2 words
+[w18:st:pro] "tinz" branch complete
+[w18:st:pro] Saved 58,536 worker words
+[w18:st:pro] Searching "tong" | queue=162 | words=58536
+[w18:st:pro] Pacing 15s before "tong" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15250ms)
+[w18:st:pro] Failed "tong" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 58,536 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (5356ms)
+[w18:st:pro] Searching "tong" | queue=162 | words=58536
+[w18:st:pro] [api] 200 mode=pro startsWith=tong
+[w18:st:pro] [api] 200 mode=pro startsWith=tong (770ms direct)
+[w18:st:pro] "tong" → 67 records, 67 words (incl. exact "tong")
+[w18:st:pro] "tong" branch complete
+[w18:st:pro] Saved 58,562 worker words
+[w18:st:pro] Searching "tonh" | queue=161 | words=58562
+[w18:st:pro] Pacing 15s before "tonh" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5144ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonh
+[w18:st:pro] [api] 200 mode=pro startsWith=tonh (620ms direct)
+[w18:st:pro] "tonh" → 0 records, 0 words
+[w18:st:pro] "tonh" branch complete
+[w18:st:pro] Saved 58,562 worker words
+[w18:st:pro] Searching "toni" | queue=160 | words=58562
+[w18:st:pro] Pacing 15s before "toni" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4935ms, remount)
+[w18:st:pro] heartbeat words=58562 queue=160 rotation=13 idle=10s
+[w18:st:pro] [api] 200 mode=pro startsWith=toni
+[w18:st:pro] [api] 200 mode=pro startsWith=toni (630ms direct)
+[w18:st:pro] "toni" → 38 records, 38 words
+[w18:st:pro] "toni" branch complete
+[w18:st:pro] Saved 58,600 worker words; shared last.txt now 464,413
+[w18:st:pro] Searching "tonj" | queue=159 | words=58600
+[w18:st:pro] Pacing 15s before "tonj" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5902ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonj
+[w18:st:pro] [api] 200 mode=pro startsWith=tonj (728ms direct)
+[w18:st:pro] "tonj" → 3 records, 3 words
+[w18:st:pro] "tonj" branch complete
+[w18:st:pro] Saved 58,603 worker words
+[w18:st:pro] Searching "tonk" | queue=158 | words=58603
+[w18:st:pro] Pacing 15s before "tonk" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6260ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonk
+[w18:st:pro] [api] 200 mode=pro startsWith=tonk (655ms direct)
+[w18:st:pro] "tonk" → 15 records, 15 words (incl. exact "tonk")
+[w18:st:pro] "tonk" branch complete
+[w18:st:pro] Saved 58,618 worker words
+[w18:st:pro] Searching "tonl" | queue=157 | words=58618
+[w18:st:pro] Pacing 15s before "tonl" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6616ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonl
+[w18:st:pro] [api] 200 mode=pro startsWith=tonl (645ms direct)
+[w18:st:pro] "tonl" → 2 records, 2 words
+[w18:st:pro] "tonl" branch complete
+[w18:st:pro] Saved 58,620 worker words
+[w18:st:pro] Searching "tonm" | queue=156 | words=58620
+[w18:st:pro] Pacing 15s before "tonm" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6208ms, remount)
+[w18:st:pro] heartbeat words=58620 queue=156 rotation=13 idle=8s
+[w18:st:pro] [api] 200 mode=pro startsWith=tonm
+[w18:st:pro] [api] 200 mode=pro startsWith=tonm (668ms direct)
+[w18:st:pro] "tonm" → 0 records, 0 words
+[w18:st:pro] "tonm" branch complete
+[w18:st:pro] Saved 58,620 worker words
+[w18:st:pro] Searching "tonn" | queue=155 | words=58620
+[w18:st:pro] Pacing 15s before "tonn" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6408ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonn
+[w18:st:pro] [api] 200 mode=pro startsWith=tonn (645ms direct)
+[w18:st:pro] "tonn" → 21 records, 21 words
+[w18:st:pro] "tonn" branch complete
+[w18:st:pro] Saved 58,641 worker words
+[w18:st:pro] Searching "tono" | queue=154 | words=58641
+[w18:st:pro] Pacing 15s before "tono" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6468ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tono
+[w18:st:pro] [api] 200 mode=pro startsWith=tono (646ms direct)
+[w18:st:pro] "tono" → 18 records, 18 words
+[w18:st:pro] "tono" branch complete
+[w18:st:pro] Saved 58,659 worker words
+[w18:st:pro] Searching "tonp" | queue=153 | words=58659
+[w18:st:pro] Pacing 15s before "tonp" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5402ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonp
+[w18:st:pro] [api] 200 mode=pro startsWith=tonp (636ms direct)
+[w18:st:pro] "tonp" → 0 records, 0 words
+[w18:st:pro] "tonp" branch complete
+[w18:st:pro] Saved 58,659 worker words
+[w18:st:pro] Searching "tonq" | queue=152 | words=58659
+[w18:st:pro] Pacing 15s before "tonq" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5428ms, remount)
+[w18:st:pro] heartbeat words=58659 queue=152 rotation=13 idle=6s
+[w18:st:pro] [api] 200 mode=pro startsWith=tonq
+[w18:st:pro] [api] 200 mode=pro startsWith=tonq (650ms direct)
+[w18:st:pro] "tonq" → 0 records, 0 words
+[w18:st:pro] "tonq" branch complete
+[w18:st:pro] Saved 58,659 worker words; shared last.txt now 464,911
+[w18:st:pro] Searching "tonr" | queue=151 | words=58659
+[w18:st:pro] Pacing 15s before "tonr" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5467ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonr
+[w18:st:pro] [api] 200 mode=pro startsWith=tonr (674ms direct)
+[w18:st:pro] "tonr" → 0 records, 0 words
+[w18:st:pro] "tonr" branch complete
+[w18:st:pro] Saved 58,659 worker words
+[w18:st:pro] Searching "tons" | queue=150 | words=58659
+[w18:st:pro] Pacing 15s before "tons" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5573ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tons
+[w18:st:pro] [api] 200 mode=pro startsWith=tons (638ms direct)
+[w18:st:pro] "tons" → 38 records, 38 words (incl. exact "tons")
+[w18:st:pro] "tons" branch complete
+[w18:st:pro] Saved 58,697 worker words
+[w18:st:pro] Searching "tont" | queue=149 | words=58697
+[w18:st:pro] Pacing 15s before "tont" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5521ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tont
+[w18:st:pro] [api] 200 mode=pro startsWith=tont (631ms direct)
+[w18:st:pro] "tont" → 5 records, 5 words
+[w18:st:pro] "tont" branch complete
+[w18:st:pro] Saved 58,702 worker words
+[w18:st:pro] Searching "tonu" | queue=148 | words=58702
+[w18:st:pro] Pacing 15s before "tonu" (gap=15500ms)
+[w18:st:pro] heartbeat words=58702 queue=148 rotation=13 idle=4s
+[w18:st:pro] Managed Turnstile token (len=816, 6352ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonu
+[w18:st:pro] [api] 200 mode=pro startsWith=tonu (646ms direct)
+[w18:st:pro] "tonu" → 2 records, 2 words
+[w18:st:pro] "tonu" branch complete
+[w18:st:pro] Saved 58,704 worker words
+[w18:st:pro] Searching "tonv" | queue=147 | words=58704
+[w18:st:pro] Pacing 15s before "tonv" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5700ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonv
+[w18:st:pro] [api] 200 mode=pro startsWith=tonv (630ms direct)
+[w18:st:pro] "tonv" → 0 records, 0 words
+[w18:st:pro] "tonv" branch complete
+[w18:st:pro] Saved 58,704 worker words
+[w18:st:pro] Searching "tonw" | queue=146 | words=58704
+[w18:st:pro] Pacing 15s before "tonw" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6166ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonw
+[w18:st:pro] [api] 200 mode=pro startsWith=tonw (645ms direct)
+[w18:st:pro] "tonw" → 0 records, 0 words
+[w18:st:pro] "tonw" branch complete
+[w18:st:pro] Saved 58,704 worker words
+[w18:st:pro] Searching "tonx" | queue=145 | words=58704
+[w18:st:pro] Pacing 15s before "tonx" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 10701ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonx
+[w18:st:pro] [api] 200 mode=pro startsWith=tonx (735ms direct)
+[w18:st:pro] "tonx" → 0 records, 0 words
+[w18:st:pro] "tonx" branch complete
+[w18:st:pro] Saved 58,704 worker words
+[w18:st:pro] Searching "tony" | queue=144 | words=58704
+[w18:st:pro] Pacing 15s before "tony" (gap=15500ms)
+[w18:st:pro] heartbeat words=58704 queue=144 rotation=13 idle=1s
+[w18:st:pro] Managed Turnstile token (len=816, 11872ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tony
+[w18:st:pro] [api] 200 mode=pro startsWith=tony (718ms direct)
+[w18:st:pro] "tony" → 2 records, 2 words (incl. exact "tony")
+[w18:st:pro] "tony" branch complete
+[w18:st:pro] Saved 58,706 worker words; shared last.txt now 465,795
+[w18:st:pro] Searching "tonz" | queue=143 | words=58706
+[w18:st:pro] Pacing 14s before "tonz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8778ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tonz
+[w18:st:pro] [api] 200 mode=pro startsWith=tonz (776ms direct)
+[w18:st:pro] "tonz" → 0 records, 0 words
+[w18:st:pro] "tonz" branch complete
+[w18:st:pro] Saved 58,706 worker words
+[w18:st:pro] Searching "toxi" | queue=142 | words=58706
+[w18:st:pro] Pacing 15s before "toxi" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6546ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=toxi
+[w18:st:pro] [api] 200 mode=pro startsWith=toxi (719ms direct)
+[w18:st:pro] "toxi" → 82 records, 82 words
+[w18:st:pro] "toxi" branch complete
+[w18:st:pro] Saved 58,706 worker words
+[w18:st:pro] Searching "toxy" | queue=141 | words=58706
+[w18:st:pro] Pacing 15s before "toxy" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8498ms, remount)
+[w18:st:pro] heartbeat words=58706 queue=141 rotation=13 idle=15s
+[w18:st:pro] [api] 200 mode=pro startsWith=toxy
+[w18:st:pro] [api] 200 mode=pro startsWith=toxy (649ms direct)
+[w18:st:pro] "toxy" → 1 records, 1 words
+[w18:st:pro] "toxy" branch complete
+[w18:st:pro] Saved 58,706 worker words
+[w18:st:pro] Searching "toxz" | queue=140 | words=58706
+[w18:st:pro] Pacing 15s before "toxz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6863ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=toxz
+[w18:st:pro] [api] 200 mode=pro startsWith=toxz (640ms direct)
+[w18:st:pro] "toxz" → 0 records, 0 words
+[w18:st:pro] "toxz" branch complete
+[w18:st:pro] Saved 58,706 worker words
+[w18:st:pro] Searching "trac" | queue=139 | words=58706
+[w18:st:pro] Pacing 15s before "trac" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15114ms)
+[w18:st:pro] Failed "trac" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 58,706 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (5588ms)
+[w18:st:pro] Searching "trac" | queue=139 | words=58706
+[w18:st:pro] [api] 200 mode=pro startsWith=trac
+[w18:st:pro] [api] 200 mode=pro startsWith=trac (731ms direct)
+[w18:st:pro] "trac" → 100 records, 100 words (incl. exact "trac")
+[w18:st:pro] Pacing 15s before "trac" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5297ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trac
+[w18:st:pro] [api] 200 mode=pro startsWith=trac sort=alphabetical:desc (627ms direct)
+[w18:st:pro] "trac" full page ends at "tracheophony" (next='h'); skip 22 covered groups → 6 children reverse Z→A ends at "tracked" (lo='k' hi='y'); skip 13 middle + 100 new words
+[w18:st:pro] Saved 58,841 worker words
+[w18:st:pro] Searching "trad" | queue=144 | words=58841
+[w18:st:pro] Pacing 15s before "trad" (gap=15500ms)
+[w18:st:pro] heartbeat words=58841 queue=144 rotation=13 idle=5s
+[w18:st:pro] Managed Turnstile token (len=816, 5204ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trad
+[w18:st:pro] [api] 200 mode=pro startsWith=trad (629ms direct)
+[w18:st:pro] "trad" → 100 records, 100 words (incl. exact "trad")
+[w18:st:pro] Pacing 15s before "trad" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5612ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trad
+[w18:st:pro] [api] 200 mode=pro startsWith=trad sort=alphabetical:desc (683ms direct)
+[w18:st:pro] "trad" full page ends at "traducianist" (next='u'); skip 26 covered groups → 2 children reverse Z→A ends at "trademarking" (lo='e' hi='y'); skip 19 middle + 15 new words
+[w18:st:pro] Saved 58,956 worker words
+[w18:st:pro] Searching "trae" | queue=145 | words=58956
+[w18:st:pro] Pacing 15s before "trae" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5649ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trae
+[w18:st:pro] [api] 200 mode=pro startsWith=trae (660ms direct)
+[w18:st:pro] "trae" → 0 records, 0 words
+[w18:st:pro] "trae" branch complete
+[w18:st:pro] Saved 58,956 worker words; shared last.txt now 466,780
+[w18:st:pro] Searching "traf" | queue=144 | words=58956
+[w18:st:pro] Pacing 15s before "traf" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5139ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=traf
+[w18:st:pro] [api] 200 mode=pro startsWith=traf (647ms direct)
+[w18:st:pro] "traf" → 22 records, 22 words
+[w18:st:pro] "traf" branch complete
+[w18:st:pro] Saved 58,978 worker words
+[w18:st:pro] Searching "trag" | queue=143 | words=58978
+[w18:st:pro] Pacing 15s before "trag" (gap=15500ms)
+[w18:st:pro] heartbeat words=58978 queue=143 rotation=13 idle=3s
+[w18:st:pro] Managed Turnstile token (len=816, 5327ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trag
+[w18:st:pro] [api] 200 mode=pro startsWith=trag (629ms direct)
+[w18:st:pro] "trag" → 66 records, 66 words (incl. exact "trag")
+[w18:st:pro] "trag" branch complete
+[w18:st:pro] Saved 59,044 worker words
+[w18:st:pro] Searching "trah" | queue=142 | words=59044
+[w18:st:pro] Pacing 15s before "trah" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5585ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trah
+[w18:st:pro] [api] 200 mode=pro startsWith=trah (642ms direct)
+[w18:st:pro] "trah" → 4 records, 4 words (incl. exact "trah")
+[w18:st:pro] "trah" branch complete
+[w18:st:pro] Saved 59,048 worker words
+[w18:st:pro] Searching "trai" | queue=141 | words=59048
+[w18:st:pro] Pacing 15s before "trai" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5639ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trai
+[w18:st:pro] [api] 200 mode=pro startsWith=trai (649ms direct)
+[w18:st:pro] "trai" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "trai" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5575ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trai
+[w18:st:pro] [api] 200 mode=pro startsWith=trai sort=alphabetical:desc (625ms direct)
+[w18:st:pro] "trai" full page ends at "traipse" (next='p'); skip 21 covered groups → 7 children reverse Z→A ends at "trailery" (lo='l' hi='t'); skip 7 middle + 31 new words
+[w18:st:pro] Saved 59,179 worker words
+[w18:st:pro] Searching "traj" | queue=147 | words=59179
+[w18:st:pro] Pacing 15s before "traj" (gap=15500ms)
+[w18:st:pro] heartbeat words=59179 queue=147 rotation=13 idle=1s
+[w18:st:pro] Managed Turnstile token (len=816, 5589ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=traj
+[w18:st:pro] [api] 200 mode=pro startsWith=traj (693ms direct)
+[w18:st:pro] "traj" → 11 records, 11 words
+[w18:st:pro] "traj" branch complete
+[w18:st:pro] Saved 59,190 worker words
+[w18:st:pro] Searching "trak" | queue=146 | words=59190
+[w18:st:pro] Pacing 15s before "trak" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6005ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trak
+[w18:st:pro] [api] 200 mode=pro startsWith=trak (692ms direct)
+[w18:st:pro] "trak" → 2 records, 2 words
+[w18:st:pro] "trak" branch complete
+[w18:st:pro] Saved 59,192 worker words
+[w18:st:pro] Searching "tral" | queue=145 | words=59192
+[w18:st:pro] Pacing 15s before "tral" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5915ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tral
+[w18:st:pro] [api] 200 mode=pro startsWith=tral (640ms direct)
+[w18:st:pro] "tral" → 16 records, 16 words
+[w18:st:pro] "tral" branch complete
+[w18:st:pro] Saved 59,208 worker words
+[w18:st:pro] Searching "tram" | queue=144 | words=59208
+[w18:st:pro] Pacing 15s before "tram" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5584ms, remount)
+[w18:st:pro] heartbeat words=59208 queue=144 rotation=13 idle=14s
+[w18:st:pro] [api] 200 mode=pro startsWith=tram
+[w18:st:pro] [api] 200 mode=pro startsWith=tram (676ms direct)
+[w18:st:pro] "tram" → 100 records, 100 words (incl. exact "tram")
+[w18:st:pro] Pacing 15s before "tram" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5119ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tram
+[w18:st:pro] [api] 200 mode=pro startsWith=tram sort=alphabetical:desc (680ms direct)
+[w18:st:pro] "tram" full page ends at "tramways" (next='w'); skip 26 covered groups → 2 children reverse Z→A ends at "trama" (lo='a' hi='y'); skip 23 middle + 1 new words
+[w18:st:pro] Saved 59,309 worker words; shared last.txt now 467,494
+[w18:st:pro] Searching "tran" | queue=145 | words=59309
+[w18:st:pro] Pacing 15s before "tran" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5837ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tran
+[w18:st:pro] [api] 200 mode=pro startsWith=tran (675ms direct)
+[w18:st:pro] "tran" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "tran" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5671ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tran
+[w18:st:pro] [api] 200 mode=pro startsWith=tran sort=alphabetical:desc (754ms direct)
+[w18:st:pro] "tran" full page ends at "transacting" (next='s'); skip 26 covered groups → 2 children reverse Z→A ends at "transudes" (lo='s' hi='z'); skip 6 middle + 100 new words
+[w18:st:pro] Saved 59,509 worker words
+[w18:st:pro] Searching "trao" | queue=146 | words=59509
+[w18:st:pro] Pacing 15s before "trao" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5843ms, remount)
+[w18:st:pro] heartbeat words=59509 queue=146 rotation=13 idle=12s
+[w18:st:pro] [api] 200 mode=pro startsWith=trao
+[w18:st:pro] [api] 200 mode=pro startsWith=trao (670ms direct)
+[w18:st:pro] "trao" → 0 records, 0 words
+[w18:st:pro] "trao" branch complete
+[w18:st:pro] Saved 59,509 worker words
+[w18:st:pro] Searching "trap" | queue=145 | words=59509
+[w18:st:pro] Pacing 15s before "trap" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5645ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trap
+[w18:st:pro] [api] 200 mode=pro startsWith=trap (668ms direct)
+[w18:st:pro] "trap" → 100 records, 100 words (incl. exact "trap")
+[w18:st:pro] Pacing 15s before "trap" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5375ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trap
+[w18:st:pro] [api] 200 mode=pro startsWith=trap sort=alphabetical:desc (891ms direct)
+[w18:st:pro] "trap" full page ends at "trapshootings" (next='s'); skip 22 covered groups → 6 children reverse Z→A ends at "trapanner" (lo='a' hi='u'); skip 19 middle + 6 new words
+[w18:st:pro] Saved 59,615 worker words
+[w18:st:pro] Searching "traq" | queue=150 | words=59615
+[w18:st:pro] Pacing 15s before "traq" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5626ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=traq
+[w18:st:pro] [api] 200 mode=pro startsWith=traq (658ms direct)
+[w18:st:pro] "traq" → 0 records, 0 words
+[w18:st:pro] "traq" branch complete
+[w18:st:pro] Saved 59,615 worker words
+[w18:st:pro] Searching "trar" | queue=149 | words=59615
+[w18:st:pro] Pacing 15s before "trar" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5483ms, remount)
+[w18:st:pro] heartbeat words=59615 queue=149 rotation=13 idle=10s
+[w18:st:pro] [api] 200 mode=pro startsWith=trar
+[w18:st:pro] [api] 200 mode=pro startsWith=trar (666ms direct)
+[w18:st:pro] "trar" → 0 records, 0 words
+[w18:st:pro] "trar" branch complete
+[w18:st:pro] Saved 59,615 worker words
+[w18:st:pro] Searching "tras" | queue=148 | words=59615
+[w18:st:pro] Pacing 15s before "tras" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15077ms)
+[w18:st:pro] Failed "tras" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 59,615 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (5555ms)
+[w18:st:pro] Searching "tras" | queue=148 | words=59615
+[w18:st:pro] [api] 200 mode=pro startsWith=tras
+[w18:st:pro] [api] 200 mode=pro startsWith=tras (604ms direct)
+[w18:st:pro] "tras" → 32 records, 32 words
+[w18:st:pro] "tras" branch complete
+[w18:st:pro] Saved 59,647 worker words
+[w18:st:pro] Searching "trat" | queue=147 | words=59647
+[w18:st:pro] Pacing 15s before "trat" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4610ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trat
+[w18:st:pro] [api] 200 mode=pro startsWith=trat (666ms direct)
+[w18:st:pro] "trat" → 9 records, 9 words (incl. exact "trat")
+[w18:st:pro] "trat" branch complete
+[w18:st:pro] Saved 59,656 worker words; shared last.txt now 468,341
+[w18:st:pro] Searching "trau" | queue=146 | words=59656
+[w18:st:pro] Pacing 15s before "trau" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5408ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trau
+[w18:st:pro] [api] 200 mode=pro startsWith=trau (658ms direct)
+[w18:st:pro] "trau" → 43 records, 43 words
+[w18:st:pro] "trau" branch complete
+[w18:st:pro] Saved 59,699 worker words
+[w18:st:pro] Searching "trav" | queue=145 | words=59699
+[w18:st:pro] Pacing 15s before "trav" (gap=15500ms)
+[w18:st:pro] heartbeat words=59699 queue=145 rotation=13 idle=1s
+[w18:st:pro] Managed Turnstile token (len=816, 8565ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trav
+[w18:st:pro] [api] 200 mode=pro startsWith=trav (637ms direct)
+[w18:st:pro] "trav" → 76 records, 76 words (incl. exact "trav")
+[w18:st:pro] "trav" branch complete
+[w18:st:pro] Saved 59,712 worker words
+[w18:st:pro] Searching "traz" | queue=144 | words=59712
+[w18:st:pro] Pacing 15s before "traz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 15001ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=traz
+[w18:st:pro] [api] 200 mode=pro startsWith=traz (1026ms direct)
+[w18:st:pro] "traz" → 3 records, 3 words
+[w18:st:pro] "traz" branch complete
+[w18:st:pro] Saved 59,712 worker words
+[w18:st:pro] Searching "trea" | queue=143 | words=59712
+[w18:st:pro] Pacing 15s before "trea" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8782ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trea
+[w18:st:pro] [api] 200 mode=pro startsWith=trea (826ms direct)
+[w18:st:pro] "trea" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "trea" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8991ms, remount)
+[w18:st:pro] heartbeat words=59712 queue=143 rotation=13 idle=30s
+[w18:st:pro] [api] 200 mode=pro startsWith=trea
+[w18:st:pro] [api] 200 mode=pro startsWith=trea sort=alphabetical:desc (681ms direct)
+[w18:st:pro] "trea" full page ends at "treatises" (next='t'); skip 21 covered groups → 7 children reverse Z→A ends at "treachers" (lo='c' hi='t'); skip 16 middle + 8 new words
+[w18:st:pro] Saved 59,720 worker words
+[w18:st:pro] Searching "treb" | queue=149 | words=59720
+[w18:st:pro] Pacing 15s before "treb" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8458ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=treb
+[w18:st:pro] [api] 200 mode=pro startsWith=treb (686ms direct)
+[w18:st:pro] "treb" → 20 records, 20 words
+[w18:st:pro] "treb" branch complete
+[w18:st:pro] Saved 59,740 worker words
+[w18:st:pro] Searching "trec" | queue=148 | words=59740
+[w18:st:pro] Pacing 15s before "trec" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15081ms)
+[w18:st:pro] Failed "trec" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 59,740 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (9089ms)
+[w18:st:pro] Searching "trec" | queue=148 | words=59740
+[w18:st:pro] [api] 200 mode=pro startsWith=trec
+[w18:st:pro] [api] 200 mode=pro startsWith=trec (835ms direct)
+[w18:st:pro] "trec" → 13 records, 13 words
+[w18:st:pro] "trec" branch complete
+[w18:st:pro] Saved 59,753 worker words
+[w18:st:pro] Searching "tred" | queue=147 | words=59753
+[w18:st:pro] Pacing 15s before "tred" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8649ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tred
+[w18:st:pro] [api] 200 mode=pro startsWith=tred (733ms direct)
+[w18:st:pro] "tred" → 14 records, 14 words
+[w18:st:pro] "tred" branch complete
+[w18:st:pro] Saved 59,767 worker words; shared last.txt now 468,640
+[w18:st:pro] Searching "tree" | queue=146 | words=59767
+[w18:st:pro] Pacing 15s before "tree" (gap=15500ms)
+[w18:st:pro] heartbeat words=59767 queue=146 rotation=13 idle=1s
+[w18:st:pro] Managed Turnstile token (len=816, 7525ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tree
+[w18:st:pro] [api] 200 mode=pro startsWith=tree (743ms direct)
+[w18:st:pro] "tree" → 57 records, 57 words (incl. exact "tree")
+[w18:st:pro] "tree" branch complete
+[w18:st:pro] Saved 59,824 worker words
+[w18:st:pro] Searching "tref" | queue=145 | words=59824
+[w18:st:pro] Pacing 15s before "tref" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8073ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tref
+[w18:st:pro] [api] 200 mode=pro startsWith=tref (628ms direct)
+[w18:st:pro] "tref" → 11 records, 11 words (incl. exact "tref")
+[w18:st:pro] "tref" branch complete
+[w18:st:pro] Saved 59,835 worker words
+[w18:st:pro] Searching "treg" | queue=144 | words=59835
+[w18:st:pro] Pacing 15s before "treg" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 13327ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=treg
+[w18:st:pro] [api] 200 mode=pro startsWith=treg (667ms direct)
+[w18:st:pro] "treg" → 7 records, 7 words
+[w18:st:pro] "treg" branch complete
+[w18:st:pro] Saved 59,842 worker words
+[w18:st:pro] Searching "treh" | queue=143 | words=59842
+[w18:st:pro] Pacing 15s before "treh" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8898ms, remount)
+[w18:st:pro] heartbeat words=59842 queue=143 rotation=13 idle=15s
+[w18:st:pro] [api] 200 mode=pro startsWith=treh
+[w18:st:pro] [api] 200 mode=pro startsWith=treh (679ms direct)
+[w18:st:pro] "treh" → 5 records, 5 words
+[w18:st:pro] "treh" branch complete
+[w18:st:pro] Saved 59,847 worker words
+[w18:st:pro] Searching "trei" | queue=142 | words=59847
+[w18:st:pro] Pacing 15s before "trei" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8884ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trei
+[w18:st:pro] [api] 200 mode=pro startsWith=trei (694ms direct)
+[w18:st:pro] "trei" → 9 records, 9 words
+[w18:st:pro] "trei" branch complete
+[w18:st:pro] Saved 59,856 worker words
+[w18:st:pro] Searching "trej" | queue=141 | words=59856
+[w18:st:pro] Pacing 15s before "trej" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8627ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trej
+[w18:st:pro] [api] 200 mode=pro startsWith=trej (747ms direct)
+[w18:st:pro] "trej" → 0 records, 0 words
+[w18:st:pro] "trej" branch complete
+[w18:st:pro] Saved 59,856 worker words
+[w18:st:pro] Searching "trek" | queue=140 | words=59856
+[w18:st:pro] Pacing 15s before "trek" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8791ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trek
+[w18:st:pro] [api] 200 mode=pro startsWith=trek (669ms direct)
+[w18:st:pro] "trek" → 12 records, 12 words (incl. exact "trek")
+[w18:st:pro] "trek" branch complete
+[w18:st:pro] Saved 59,868 worker words
+[w18:st:pro] Searching "trel" | queue=139 | words=59868
+[w18:st:pro] Pacing 15s before "trel" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6148ms, remount)
+[w18:st:pro] heartbeat words=59868 queue=139 rotation=13 idle=13s
+[w18:st:pro] [api] 200 mode=pro startsWith=trel
+[w18:st:pro] [api] 200 mode=pro startsWith=trel (654ms direct)
+[w18:st:pro] "trel" → 7 records, 7 words
+[w18:st:pro] "trel" branch complete
+[w18:st:pro] Saved 59,875 worker words; shared last.txt now 468,955
+[w18:st:pro] Searching "trem" | queue=138 | words=59875
+[w18:st:pro] Pacing 15s before "trem" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6504ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trem
+[w18:st:pro] [api] 200 mode=pro startsWith=trem (694ms direct)
+[w18:st:pro] "trem" → 91 records, 91 words (incl. exact "trem")
+[w18:st:pro] "trem" branch complete
+[w18:st:pro] Saved 59,966 worker words
+[w18:st:pro] Searching "tren" | queue=137 | words=59966
+[w18:st:pro] Pacing 15s before "tren" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6541ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tren
+[w18:st:pro] [api] 200 mode=pro startsWith=tren (771ms direct)
+[w18:st:pro] "tren" → 72 records, 72 words
+[w18:st:pro] "tren" branch complete
+[w18:st:pro] Saved 60,038 worker words
+[w18:st:pro] Searching "treo" | queue=136 | words=60038
+[w18:st:pro] Pacing 15s before "treo" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7980ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=treo
+[w18:st:pro] [api] 200 mode=pro startsWith=treo (669ms direct)
+[w18:st:pro] "treo" → 1 records, 1 words
+[w18:st:pro] "treo" branch complete
+[w18:st:pro] Saved 60,039 worker words
+[w18:st:pro] Searching "trep" | queue=135 | words=60039
+[w18:st:pro] Pacing 15s before "trep" (gap=15500ms)
+[w18:st:pro] Graceful shutdown on SIGTERM
+[w18:st:pro] Managed Turnstile miss (2425ms)
+[w18:st:pro] Saved 60,039 worker words
+[w18:st:pro] Tor exited code=0
+
+--- boost-12 start 2026-08-06T03:54:02.371Z letters=st ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 22:54:02.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 22:54:04.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 22:54:04.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 22:54:05.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 22:54:05.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 22:54:05.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 22:54:06.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=109.70.100.1
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (19752ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 9550 prefixes, 73859 words; queue=26
+[w18:st:pro] Searching "trez" | queue=25 | words=73859
+[w18:st:pro] [api] 200 mode=pro startsWith=trez
+[w18:st:pro] [api] 200 mode=pro startsWith=trez (800ms direct)
+[w18:st:pro] "trez" → 2 records, 2 words (incl. exact "trez")
+[w18:st:pro] "trez" branch complete
+[w18:st:pro] Saved 73,859 worker words
+[w18:st:pro] Searching "trif" | queue=24 | words=73859
+[w18:st:pro] Pacing 15s before "trif" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15080ms)
+[w18:st:pro] Failed "trif" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 73,859 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (9388ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor exit 185.220.101.18 already used by another worker (try 1/6)
+[w18:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.220.101.174
+[w18:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] heartbeat words=73859 queue=25 rotation=1 idle=59s
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Site Turnstile remint timed out (25351ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "trif" | queue=24 | words=73859
+[w18:st:pro] Managed Turnstile miss (18831ms)
+[w18:st:pro] [api] 200 mode=pro startsWith=trif
+[w18:st:pro] [api] 200 mode=pro startsWith=trif (562ms direct)
+[w18:st:pro] "trif" → 95 records, 95 words
+[w18:st:pro] "trif" branch complete
+[w18:st:pro] heartbeat words=73954 queue=24 rotation=1 idle=120s
+[w18:st:pro] Saved 73,954 worker words
+[w18:st:pro] Searching "tril" | queue=23 | words=73954
+[w18:st:pro] Pacing 2s before "tril" (gap=15500ms)
+[w18:st:pro] Turnstile mint hard timeout after 20000ms
+[w18:st:pro] Failed "tril" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 73,954 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (9509ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.51
+[w18:st:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r2
+[w18:st:pro] Proxy tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] heartbeat words=73954 queue=24 rotation=2 idle=59s
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 10415ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "tril" | queue=23 | words=73954
+[w18:st:pro] [api] 200 mode=pro startsWith=tril
+[w18:st:pro] [api] 200 mode=pro startsWith=tril (631ms direct)
+[w18:st:pro] "tril" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "tril" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5632ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tril
+[w18:st:pro] [api] 200 mode=pro startsWith=tril sort=alphabetical:desc (524ms direct)
+[w18:st:pro] "tril" full page ends at "trilocular" (next='o'); skip 22 covered groups → 6 children reverse Z→A ends at "trilateralisms" (lo='a' hi='u'); skip 19 middle + 10 new words
+[w18:st:pro] Saved 74,064 worker words
+[w18:st:pro] Searching "trir" | queue=28 | words=74064
+[w18:st:pro] Pacing 15s before "trir" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6834ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trir
+[w18:st:pro] [api] 200 mode=pro startsWith=trir (569ms direct)
+[w18:st:pro] "trir" → 17 records, 17 words
+[w18:st:pro] "trir" branch complete
+[w18:st:pro] Saved 74,081 worker words
+[w18:st:pro] Searching "trix" | queue=27 | words=74081
+[w18:st:pro] Pacing 15s before "trix" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7176ms, remount)
+[w18:st:pro] heartbeat words=74081 queue=27 rotation=2 idle=10s
+[w18:st:pro] [api] 200 mode=pro startsWith=trix
+[w18:st:pro] [api] 200 mode=pro startsWith=trix (480ms direct)
+[w18:st:pro] "trix" → 3 records, 3 words (incl. exact "trix")
+[w18:st:pro] "trix" branch complete
+[w18:st:pro] Saved 74,084 worker words
+[w18:st:pro] Searching "trof" | queue=26 | words=74084
+[w18:st:pro] Pacing 15s before "trof" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 13093ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trof
+[w18:st:pro] [api] 200 mode=pro startsWith=trof (880ms direct)
+[w18:st:pro] "trof" → 6 records, 6 words
+[w18:st:pro] "trof" branch complete
+[w18:st:pro] Saved 74,090 worker words
+[w18:st:pro] Searching "trol" | queue=25 | words=74090
+[w18:st:pro] Turnstile mint hard timeout after 20000ms
+[w18:st:pro] Failed "trol" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 74,090 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] heartbeat words=74090 queue=26 rotation=2 idle=20s
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (14977ms)
+[w18:st:pro] Searching "trol" | queue=25 | words=74090
+[w18:st:pro] [api] 200 mode=pro startsWith=trol
+[w18:st:pro] [api] 200 mode=pro startsWith=trol (527ms direct)
+[w18:st:pro] "trol" → 52 records, 52 words
+[w18:st:pro] "trol" branch complete
+[w18:st:pro] Saved 74,142 worker words
+[w18:st:pro] Searching "tror" | queue=24 | words=74142
+[w18:st:pro] Pacing 15s before "tror" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5134ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tror
+[w18:st:pro] [api] 200 mode=pro startsWith=tror (640ms direct)
+[w18:st:pro] "tror" → 0 records, 0 words
+[w18:st:pro] "tror" branch complete
+[w18:st:pro] Saved 74,142 worker words
+[w18:st:pro] Searching "true" | queue=23 | words=74142
+[w18:st:pro] Pacing 15s before "true" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 13406ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=true
+[w18:st:pro] [api] 200 mode=pro startsWith=true (798ms direct)
+[w18:st:pro] "true" → 25 records, 25 words (incl. exact "true")
+[w18:st:pro] "true" branch complete
+[w18:st:pro] Saved 74,162 worker words
+[w18:st:pro] Searching "truk" | queue=22 | words=74162
+[w18:st:pro] Pacing 8s before "truk" (gap=15500ms)
+[w18:st:pro] heartbeat words=74162 queue=22 rotation=2 idle=7s
+[w18:st:pro] Managed Turnstile miss (18867ms)
+[w18:st:pro] Failed "truk" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 74,162 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (13717ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=104.244.79.61
+[w18:st:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r3
+[w18:st:pro] Proxy tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] heartbeat words=74162 queue=23 rotation=3 idle=68s
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Site Turnstile remint timed out (24619ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "truk" | queue=22 | words=74162
+[w18:st:pro] heartbeat words=74162 queue=22 rotation=3 idle=128s
+[w18:st:pro] Managed Turnstile miss (15827ms)
+[w18:st:pro] Failed "truk" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 74,162 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=5; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.220.101.31
+[w18:st:pro] Rotating IP (#4, try 1) after No Turnstile token for direct search → tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r4
+[w18:st:pro] Proxy tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] heartbeat words=74162 queue=23 rotation=4 idle=188s
+[w18:st:pro] No successful search for 180s — respawning worker
+[w18:st:pro] Graceful shutdown on watchdog
+[w18:st:pro] Saved 74,162 worker words
+[w18:st:pro] Site Turnstile remint timed out (26962ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "truk" | queue=22 | words=74162
+[w18:st:pro] Failed "truk" attempt 1: locator.count: Target page, context or browser has been closed
+[w18:st:pro] Saved 74,162 worker words
+[w18:st:pro] Searching "truk" | queue=22 | words=74162
+[w18:st:pro] Failed "truk" attempt 2: locator.count: Target page, context or browser has been closed
+[w18:st:pro] Saved 74,162 worker words
+[w18:st:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T04:04:58Z queue=23 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 23:05:32.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 23:05:37.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 23:05:37.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 23:05:37.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 23:05:38.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:05:38.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 23:05:39.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=109.70.100.3
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w18:st:pro] page.goto failed attempt 2: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Site Turnstile remint timed out (23175ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 9581 prefixes, 74162 words; queue=23
+[w18:st:pro] Searching "truk" | queue=22 | words=74162
+[w18:st:pro] Managed Turnstile miss (15054ms)
+[w18:st:pro] Failed "truk" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 74,162 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (9454ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=45.133.74.53
+[w18:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] heartbeat words=74162 queue=23 rotation=1 idle=61s
+[w18:st:pro] Managed Turnstile token (len=816, 13810ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "truk" | queue=22 | words=74162
+[w18:st:pro] [api] 200 mode=pro startsWith=truk
+[w18:st:pro] [api] 200 mode=pro startsWith=truk (763ms direct)
+[w18:st:pro] "truk" → 2 records, 2 words (incl. exact "truk")
+[w18:st:pro] "truk" branch complete
+[w18:st:pro] Saved 74,164 worker words
+[w18:st:pro] Searching "truq" | queue=21 | words=74164
+[w18:st:pro] Pacing 5s before "truq" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 18997ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=truq
+[w18:st:pro] [api] 200 mode=pro startsWith=truq (1218ms direct)
+[w18:st:pro] "truq" → 4 records, 4 words
+[w18:st:pro] "truq" branch complete
+[w18:st:pro] Saved 74,168 worker words
+[w18:st:pro] Searching "twey" | queue=20 | words=74168
+[w18:st:pro] Pacing 10s before "twey" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8039ms, remount)
+[w18:st:pro] [api] 429 mode=pro startsWith=twey
+[w18:st:pro] [api] 429 mode=pro startsWith=twey (554ms direct)
+[w18:st:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w18:st:pro] Rate limited — inline wait 2000ms then retry "twey"
+[w18:st:pro] heartbeat words=74168 queue=20 rotation=1 idle=14s
+[w18:st:pro] Managed Turnstile token (len=816, 5280ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=twey
+[w18:st:pro] [api] 200 mode=pro startsWith=twey (545ms direct)
+[w18:st:pro] "twey" → 1 records, 1 words
+[w18:st:pro] "twey" branch complete
+[w18:st:pro] Saved 74,168 worker words
+[w18:st:pro] Searching "twir" | queue=19 | words=74168
+[w18:st:pro] Pacing 15s before "twir" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6836ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=twir
+[w18:st:pro] [api] 200 mode=pro startsWith=twir (528ms direct)
+[w18:st:pro] "twir" → 20 records, 20 words
+[w18:st:pro] "twir" branch complete
+[w18:st:pro] Saved 74,174 worker words
+[w18:st:pro] Searching "teleg" | queue=18 | words=74174
+[w18:st:pro] Pacing 15s before "teleg" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5460ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=teleg
+[w18:st:pro] [api] 200 mode=pro startsWith=teleg (539ms direct)
+[w18:st:pro] "teleg" → 44 records, 44 words (incl. exact "teleg")
+[w18:st:pro] "teleg" branch complete
+[w18:st:pro] Saved 74,207 worker words
+[w18:st:pro] Searching "telem" | queue=17 | words=74207
+[w18:st:pro] Pacing 15s before "telem" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 13275ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=telem
+[w18:st:pro] [api] 200 mode=pro startsWith=telem (733ms direct)
+[w18:st:pro] "telem" → 43 records, 43 words
+[w18:st:pro] "telem" branch complete
+[w18:st:pro] Saved 74,250 worker words
+[w18:st:pro] Searching "teles" | queue=16 | words=74250
+[w18:st:pro] Pacing 15s before "teles" (gap=15500ms)
+[w18:st:pro] heartbeat words=74250 queue=16 rotation=1 idle=11s
+[w18:st:pro] Managed Turnstile miss (15381ms)
+[w18:st:pro] Failed "teles" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 74,250 worker words; shared last.txt now 470,186
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w18:st:pro] heartbeat words=74250 queue=17 rotation=2 idle=71s
+[w18:st:pro] Tor ready on 19068 exit=193.189.100.203
+[w18:st:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r2
+[w18:st:pro] Proxy tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 5674ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "teles" | queue=16 | words=74250
+[w18:st:pro] [api] 200 mode=pro startsWith=teles
+[w18:st:pro] [api] 200 mode=pro startsWith=teles (488ms direct)
+[w18:st:pro] "teles" → 67 records, 67 words (incl. exact "teles")
+[w18:st:pro] "teles" branch complete
+[w18:st:pro] Saved 74,304 worker words
+[w18:st:pro] Searching "threy" | queue=15 | words=74304
+[w18:st:pro] Pacing 15s before "threy" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 5714ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=threy
+[w18:st:pro] [api] 200 mode=pro startsWith=threy (491ms direct)
+[w18:st:pro] "threy" → 0 records, 0 words
+[w18:st:pro] "threy" branch complete
+[w18:st:pro] Saved 74,304 worker words
+[w18:st:pro] Searching "throz" | queue=14 | words=74304
+[w18:st:pro] Pacing 15s before "throz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7838ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=throz
+[w18:st:pro] [api] 200 mode=pro startsWith=throz (538ms direct)
+[w18:st:pro] "throz" → 0 records, 0 words
+[w18:st:pro] "throz" branch complete
+[w18:st:pro] Saved 74,304 worker words
+[w18:st:pro] Searching "tracz" | queue=13 | words=74304
+[w18:st:pro] Pacing 13s before "tracz" (gap=15500ms)
+[w18:st:pro] heartbeat words=74304 queue=13 rotation=2 idle=4s
+[w18:st:pro] Managed Turnstile token (len=816, 10005ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=tracz
+[w18:st:pro] [api] 200 mode=pro startsWith=tracz (518ms direct)
+[w18:st:pro] "tracz" → 0 records, 0 words
+[w18:st:pro] "tracz" branch complete
+[w18:st:pro] Saved 74,304 worker words
+[w18:st:pro] Searching "traiw" | queue=12 | words=74304
+[w18:st:pro] Pacing 15s before "traiw" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8051ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=traiw
+[w18:st:pro] [api] 200 mode=pro startsWith=traiw (508ms direct)
+[w18:st:pro] "traiw" → 0 records, 0 words
+[w18:st:pro] "traiw" branch complete
+[w18:st:pro] Saved 74,304 worker words
+[w18:st:pro] Searching "trans" | queue=11 | words=74304
+[w18:st:pro] Pacing 15s before "trans" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6292ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trans
+[w18:st:pro] [api] 200 mode=pro startsWith=trans (514ms direct)
+[w18:st:pro] "trans" → 100 records, 100 words (incl. exact "trans")
+[w18:st:pro] Pacing 15s before "trans" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 6842ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trans
+[w18:st:pro] [api] 200 mode=pro startsWith=trans sort=alphabetical:desc (587ms direct)
+[w18:st:pro] "trans" full page ends at "transcending" (next='c'); skip 8 covered groups → 20 children reverse Z→A ends at "transubstantiatively" (lo='u' hi='z'); skip 4 middle + 10 new words
+[w18:st:pro] heartbeat words=74401 queue=31 rotation=2 idle=35s
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "trapy" | queue=30 | words=74401
+[w18:st:pro] Pacing 8s before "trapy" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 12892ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trapy
+[w18:st:pro] [api] 200 mode=pro startsWith=trapy (532ms direct)
+[w18:st:pro] "trapy" → 0 records, 0 words
+[w18:st:pro] "trapy" branch complete
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "treax" | queue=29 | words=74401
+[w18:st:pro] Pacing 14s before "treax" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 12314ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=treax
+[w18:st:pro] [api] 200 mode=pro startsWith=treax (532ms direct)
+[w18:st:pro] "treax" → 0 records, 0 words
+[w18:st:pro] "treax" branch complete
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "trilu" | queue=28 | words=74401
+[w18:st:pro] Managed Turnstile miss (18772ms)
+[w18:st:pro] Managed Turnstile token (len=816, 7380ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trilu
+[w18:st:pro] [api] 200 mode=pro startsWith=trilu (503ms direct)
+[w18:st:pro] "trilu" → 2 records, 2 words
+[w18:st:pro] "trilu" branch complete
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "trilv" | queue=27 | words=74401
+[w18:st:pro] Pacing 11s before "trilv" (gap=15500ms)
+[w18:st:pro] heartbeat words=74401 queue=27 rotation=2 idle=1s
+[w18:st:pro] Managed Turnstile token (len=816, 12379ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trilv
+[w18:st:pro] [api] 200 mode=pro startsWith=trilv (541ms direct)
+[w18:st:pro] "trilv" → 0 records, 0 words
+[w18:st:pro] "trilv" branch complete
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "trilw" | queue=26 | words=74401
+[w18:st:pro] Pacing 13s before "trilw" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 8332ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trilw
+[w18:st:pro] [api] 200 mode=pro startsWith=trilw (816ms direct)
+[w18:st:pro] "trilw" → 0 records, 0 words
+[w18:st:pro] "trilw" branch complete
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "trilx" | queue=25 | words=74401
+[w18:st:pro] Pacing 8s before "trilx" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 16410ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trilx
+[w18:st:pro] [api] 200 mode=pro startsWith=trilx (653ms direct)
+[w18:st:pro] "trilx" → 0 records, 0 words
+[w18:st:pro] "trilx" branch complete
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "trily" | queue=24 | words=74401
+[w18:st:pro] Pacing 12s before "trily" (gap=15500ms)
+[w18:st:pro] heartbeat words=74401 queue=24 rotation=2 idle=11s
+[w18:st:pro] Managed Turnstile token (len=816, 17409ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trily
+[w18:st:pro] [api] 200 mode=pro startsWith=trily (550ms direct)
+[w18:st:pro] "trily" → 0 records, 0 words
+[w18:st:pro] "trily" branch complete
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "trilz" | queue=23 | words=74401
+[w18:st:pro] Pacing 14s before "trilz" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 9217ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=trilz
+[w18:st:pro] [api] 200 mode=pro startsWith=trilz (591ms direct)
+[w18:st:pro] "trilz" → 0 records, 0 words
+[w18:st:pro] "trilz" branch complete
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "thermw" | queue=22 | words=74401
+[w18:st:pro] Pacing 12s before "thermw" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (16707ms)
+[w18:st:pro] Failed "thermw" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (10542ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w18:st:pro] heartbeat words=74401 queue=23 rotation=3 idle=37s
+[w18:st:pro] Tor ready on 19068 exit=152.53.157.69
+[w18:st:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r3
+[w18:st:pro] Proxy tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w18:st:pro] heartbeat words=74401 queue=23 rotation=3 idle=97s
+[w18:st:pro] page.goto failed attempt 2: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Site Turnstile remint timed out (22966ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "thermw" | queue=22 | words=74401
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=3 idle=157s
+[w18:st:pro] Managed Turnstile miss (15148ms)
+[w18:st:pro] Failed "thermw" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 74,401 worker words; shared last.txt now 471,840
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Turnstile mint hard timeout after 15000ms
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.67
+[w18:st:pro] Rotating IP (#4, try 1) after No Turnstile token for direct search → tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r4
+[w18:st:pro] Proxy tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] heartbeat words=74401 queue=23 rotation=4 idle=217s
+[w18:st:pro] No successful search for 180s — respawning worker
+[w18:st:pro] Graceful shutdown on watchdog
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T04:19:50Z queue=23 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 2 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 23:19:51.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 23:19:52.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 23:19:52.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 23:19:53.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 23:19:53.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:19:53.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 23:19:54.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.54
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Turnstile token present (len=837)
+[w18:st:pro] Site Turnstile token (19541ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 9609 prefixes, 74401 words; queue=23
+[w18:st:pro] Searching "thermw" | queue=22 | words=74401
+[w18:st:pro] [api] 200 mode=pro startsWith=thermw
+[w18:st:pro] [api] 200 mode=pro startsWith=thermw (633ms direct)
+[w18:st:pro] "thermw" → 0 records, 0 words
+[w18:st:pro] "thermw" branch complete
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] Pacing 15s before "transc" (gap=15500ms)
+[w18:st:pro] Managed Turnstile miss (15067ms)
+[w18:st:pro] Failed "transc" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (9418ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=109.70.100.5
+[w18:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=1 idle=59s
+[w18:st:pro] Turnstile token present (len=816)
+[w18:st:pro] Site Turnstile token (19587ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (494ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.97
+[w18:st:pro] Rotating IP (#2, try 1) after API 403 for "transc": Anti-bot verification failed. Please refresh the page. → tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r2
+[w18:st:pro] Proxy tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 5878ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (963ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=3 idle=119s
+[w18:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=45.66.35.30
+[w18:st:pro] Rotating IP (#3, try 1) after API 403 for "transc": Anti-bot verification failed. Please refresh the page. → tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r3
+[w18:st:pro] Proxy tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 4651ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (409ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.220.101.164
+[w18:st:pro] Rotating IP (#4, try 1) after API 403 for "transc": Anti-bot verification failed. Please refresh the page. → tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r4
+[w18:st:pro] Proxy tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=4 idle=179s
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Site Turnstile remint timed out (22255ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] Managed Turnstile miss (15039ms)
+[w18:st:pro] Failed "transc" attempt 1: No Turnstile token for direct search
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Turnstile miss — soft reload before rotate
+[w18:st:pro] Site Turnstile remint timed out (9322ms)
+[w18:st:pro] Soft reload mint failed — rotating immediately
+[w18:st:pro] Tor NEWNYM gen=5; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=109.70.100.4
+[w18:st:pro] Rotating IP (#5, try 1) after No Turnstile token for direct search → tor#6 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r5
+[w18:st:pro] Proxy tor#6 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=5 idle=239s
+[w18:st:pro] No successful search for 180s — respawning worker
+[w18:st:pro] Graceful shutdown on watchdog
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] page.goto failed attempt 1: page.goto: net::ERR_ABORTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.com
+[w18:st:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T04:25:27Z queue=22 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 2 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 23:25:27.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 23:25:29.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 23:25:29.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 23:25:30.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 23:25:30.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:25:30.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 23:25:30.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w18:st:pro] tor: Aug 05 23:25:31.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=5.255.117.56
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 7948ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 9610 prefixes, 74401 words; queue=22
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (544ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.65
+[w18:st:pro] Rotating IP (#1, try 1) after API 403 for "transc": Anti-bot verification failed. Please refresh the page. → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 4150ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (681ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=2 idle=60s
+[w18:st:pro] Tor ready on 19068 exit=192.42.116.105
+[w18:st:pro] Rotating IP (#2, try 1) after API 403 for "transc": Anti-bot verification failed. Please refresh the page. → tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r2
+[w18:st:pro] Proxy tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 9233ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (756ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=185.100.85.24
+[w18:st:pro] Rotating IP (#3, try 1) after API 403 for "transc": Anti-bot verification failed. Please refresh the page. → tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r3
+[w18:st:pro] Proxy tor#4 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Turnstile token present (len=837)
+[w18:st:pro] Site Turnstile token (19555ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (467ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=4 idle=120s
+[w18:st:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=109.70.100.6
+[w18:st:pro] Rotating IP (#4, try 1) after API 403 for "transc": Anti-bot verification failed. Please refresh the page. → tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r4
+[w18:st:pro] Proxy tor#5 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 4260ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (571ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor NEWNYM gen=5; waiting 8000ms
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=5 idle=180s
+[w18:st:pro] No successful search for 180s — respawning worker
+[w18:st:pro] Graceful shutdown on watchdog
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor exited code=0
+[w18:st:pro] Tor exit IP probe failed (try 1/6)
+[w18:st:pro] rotateIp attempt 1 failed: ENOENT: no such file or directory, open '/tmp/lll-tor-w18/control_auth_cookie'
+
+--- boost-12 daemon start 2026-08-06T04:29:41Z queue=22 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 23:29:42.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 23:29:44.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 23:29:44.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 23:29:44.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 23:29:45.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:29:45.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 23:29:45.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w18:st:pro] tor: Aug 05 23:29:46.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor exit 45.84.107.97 already used by another worker (try 1/6)
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=45.66.35.28
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 7921ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 9610 prefixes, 74401 words; queue=22
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (427ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=192.3.140.104
+[w18:st:pro] Rotating IP (#1, try 1) after API 403 for "transc": Anti-bot verification failed. Please refresh the page. → tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r1
+[w18:st:pro] Proxy tor#2 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=1 idle=60s
+[w18:st:pro] Turnstile token present (len=837)
+[w18:st:pro] Site Turnstile token (19804ms)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (643ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w18:st:pro] Tor ready on 19068 exit=194.26.192.203
+[w18:st:pro] Rotating IP (#2, try 1) after API 403 for "transc": Anti-bot verification failed. Please refresh the page. → tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r2
+[w18:st:pro] Proxy tor#3 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 4859ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (434ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": Anti-bot verification failed. Please refresh the page.
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w18:st:pro] Graceful shutdown on SIGTERM
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T04:33:21Z queue=22 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 23:33:22.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 23:33:23.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 23:33:23.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 23:33:24.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 23:33:24.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:33:24.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 23:33:24.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w18:st:pro] tor: Aug 05 23:33:25.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=185.220.101.186
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 5267ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 9610 prefixes, 74401 words; queue=22
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 403 mode=pro startsWith=transc
+[w18:st:pro] [api] 403 mode=pro startsWith=transc (573ms direct)
+[w18:st:pro] Failed "transc" attempt 1: API 403 for "transc": {"message":"Anti-bot verification failed. Are you a robot?"}
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Anti-bot rejection — cooling down 72s before rotating
+[w18:st:pro] heartbeat words=74401 queue=22 rotation=0 idle=60s
+[w18:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w18:st:pro] Graceful shutdown on SIGTERM
+[w18:st:pro] Saved 74,401 worker words
+[w18:st:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T04:39:17Z queue=22 ---
+[w18:st:pro] IP mode=tor
+[w18:st:pro] Cleaned 1 old rotated profile(s)
+[w18:st:pro] Starting persistent Tor socks=127.0.0.1:19068 control=127.0.0.1:29068
+[w18:st:pro] tor: Aug 05 23:39:18.000 [notice] Bootstrapped 0% (starting): Starting
+[w18:st:pro] tor: Aug 05 23:39:19.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w18:st:pro] tor: Aug 05 23:39:19.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w18:st:pro] tor: Aug 05 23:39:20.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w18:st:pro] tor: Aug 05 23:39:20.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:39:20.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w18:st:pro] tor: Aug 05 23:39:21.000 [notice] Bootstrapped 100% (done): Done
+[w18:st:pro] Tor ready on 19068 exit=147.90.234.116
+[w18:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w18-r0
+[w18:st:pro] Proxy tor#1 socks5://127.0.0.1:19068
+[w18:st:pro] Opening https://lastletterlibrary.com
+[w18:st:pro] Library mode=pro
+[w18:st:pro] Managed Turnstile token (len=816, 5214ms, remount)
+[w18:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w18:st:pro] Loaded 9610 prefixes, 74401 words; queue=22
+[w18:st:pro] Searching "transc" | queue=21 | words=74401
+[w18:st:pro] [api] 200 mode=pro startsWith=transc
+[w18:st:pro] [api] 200 mode=pro startsWith=transc (654ms direct)
+[w18:st:pro] "transc" → 100 records, 100 words
+[w18:st:pro] Pacing 15s before "transc" (gap=15500ms)
+[w18:st:pro] Managed Turnstile token (len=816, 4398ms, remount)
+[w18:st:pro] [api] 200 mode=pro startsWith=transc
+[w18:st:pro] [api] 200 mode=pro startsWith=transc sort=alphabetical:desc (448ms direct)
+[w18:st:pro] "transc" full page ends at "transcriptome" (next='r'); skip 22 covered groups → 6 children reverse Z→A ends at "transcendences" (lo='e' hi='u'); skip 15 middle + 15 new words
+[w18:st:pro] Saved 74,475 worker words
+[w18:st:pro] Searching "transd" | queue=26 | words=74475
+[w18:st:pro] Pacing 15s before "transd" (gap=15500ms)
+[w18:st:pro] Graceful shutdown on SIGTERM
+[w18:st:pro] Managed Turnstile miss (4242ms)
+[w18:st:pro] Saved 74,475 worker words
+[w18:st:pro] Tor exited code=0

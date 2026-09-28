@@ -1,0 +1,559 @@
+
+--- boost-12 start 2026-08-06T03:54:20.307Z letters=st ---
+[w23:st:pro] IP mode=tor
+[w23:st:pro] Starting persistent Tor socks=127.0.0.1:19073 control=127.0.0.1:29073
+[w23:st:pro] tor: Aug 05 22:54:20.717 [warn] Fixing permissions on directory /tmp/lll-tor-w23
+[w23:st:pro] tor: Aug 05 22:54:20.000 [notice] Bootstrapped 0% (starting): Starting
+[w23:st:pro] tor: Aug 05 22:54:21.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w23:st:pro] tor: Aug 05 22:54:21.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w23:st:pro] tor: Aug 05 22:54:22.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w23:st:pro] tor: Aug 05 22:54:22.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 22:54:22.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w23:st:pro] tor: Aug 05 22:54:23.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w23:st:pro] tor: Aug 05 22:54:23.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w23:st:pro] tor: Aug 05 22:54:25.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w23:st:pro] tor: Aug 05 22:54:25.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 22:54:25.000 [notice] I learned some more directory 
+[w23:st:pro] tor: Aug 05 22:54:27.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w23:st:pro] tor: Aug 05 22:54:33.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w23:st:pro] tor: Aug 05 22:54:33.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w23:st:pro] tor: Aug 05 22:54:33.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w23:st:pro] tor: Aug 05 22:54:33.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w23:st:pro] tor: Aug 05 22:54:33.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 22:54:33.000 [notice] Bootstrapped 9
+[w23:st:pro] tor: Aug 05 22:54:34.000 [notice] Bootstrapped 100% (done): Done
+[w23:st:pro] Tor ready on 19073 exit=185.220.101.8
+[w23:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w23-r0
+[w23:st:pro] Proxy tor#1 socks5://127.0.0.1:19073
+[w23:st:pro] Opening https://lastletterlibrary.com
+[w23:st:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w23:st:pro] Library mode=pro
+[w23:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w23:st:pro] Loaded 9550 prefixes, 73859 words; queue=25
+[w23:st:pro] Searching "trib" | queue=24 | words=73859
+[w23:st:pro] Failed "trib" attempt 1: No Turnstile token for direct search
+[w23:st:pro] Saved 73,859 worker words
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] Turnstile mint hard timeout after 15000ms
+[w23:st:pro] Soft reload mint failed — rotating immediately
+[w23:st:pro] heartbeat words=73859 queue=25 rotation=1 idle=60s
+[w23:st:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w23:st:pro] Tor ready on 19073 exit=192.42.116.62
+[w23:st:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19073
+[w23:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w23-r1
+[w23:st:pro] Proxy tor#2 socks5://127.0.0.1:19073
+[w23:st:pro] Opening https://lastletterlibrary.com
+[w23:st:pro] Library mode=pro
+[w23:st:pro] Managed Turnstile token (len=816, 3939ms, remount)
+[w23:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w23:st:pro] Cleaned 1 old rotated profile(s)
+[w23:st:pro] Searching "trib" | queue=24 | words=73859
+[w23:st:pro] [api] 200 mode=pro startsWith=trib
+[w23:st:pro] [api] 200 mode=pro startsWith=trib (509ms direct)
+[w23:st:pro] "trib" → 100 records, 100 words (incl. exact "trib")
+[w23:st:pro] Pacing 15s before "trib" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 3421ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trib
+[w23:st:pro] [api] 200 mode=pro startsWith=trib sort=alphabetical:desc (472ms direct)
+[w23:st:pro] "trib" full page ends at "tribunes" (next='u'); skip 22 covered groups → 6 children reverse Z→A ends at "tribelike" (lo='e' hi='u'); skip 15 middle + 27 new words
+[w23:st:pro] Saved 73,986 worker words
+[w23:st:pro] Searching "trih" | queue=29 | words=73986
+[w23:st:pro] Pacing 4s before "trih" (gap=15500ms)
+[w23:st:pro] heartbeat words=73986 queue=29 rotation=1 idle=9s
+[w23:st:pro] Turnstile mint hard timeout after 20000ms
+[w23:st:pro] Failed "trih" attempt 1: No Turnstile token for direct search
+[w23:st:pro] Saved 73,986 worker words
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] Turnstile token present (len=816)
+[w23:st:pro] Site Turnstile token (6089ms)
+[w23:st:pro] Searching "trih" | queue=29 | words=73986
+[w23:st:pro] [api] 200 mode=pro startsWith=trih
+[w23:st:pro] [api] 200 mode=pro startsWith=trih (514ms direct)
+[w23:st:pro] "trih" → 30 records, 30 words
+[w23:st:pro] "trih" branch complete
+[w23:st:pro] Saved 74,016 worker words
+[w23:st:pro] Searching "trin" | queue=28 | words=74016
+[w23:st:pro] Pacing 15s before "trin" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 4280ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trin
+[w23:st:pro] [api] 200 mode=pro startsWith=trin (373ms direct)
+[w23:st:pro] "trin" → 100 records, 100 words (incl. exact "trin")
+[w23:st:pro] Pacing 16s before "trin" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 5413ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trin
+[w23:st:pro] [api] 200 mode=pro startsWith=trin sort=alphabetical:desc (388ms direct)
+[w23:st:pro] "trin" full page ends at "trinode" (next='o'); skip 22 covered groups → 6 children reverse Z→A ends at "trineural" (lo='e' hi='u'); skip 15 middle + 22 new words
+[w23:st:pro] Saved 74,138 worker words
+[w23:st:pro] Searching "trit" | queue=33 | words=74138
+[w23:st:pro] Pacing 15s before "trit" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 6089ms, remount)
+[w23:st:pro] heartbeat words=74138 queue=33 rotation=1 idle=8s
+[w23:st:pro] [api] 200 mode=pro startsWith=trit
+[w23:st:pro] [api] 200 mode=pro startsWith=trit (458ms direct)
+[w23:st:pro] "trit" → 100 records, 100 words (incl. exact "trit")
+[w23:st:pro] Pacing 14s before "trit" (gap=15500ms)
+[w23:st:pro] Managed Turnstile miss (19172ms)
+[w23:st:pro] "trit" reverse search failed (No Turnstile token for direct search); forward-only
+[w23:st:pro] "trit" full page ends at "tritoral" (next='o'); skip 16 covered groups → 12 children from trito..
+[w23:st:pro] Saved 74,238 worker words
+[w23:st:pro] Searching "triz" | queue=44 | words=74238
+[w23:st:pro] heartbeat words=74238 queue=44 rotation=1 idle=11s
+[w23:st:pro] Managed Turnstile miss (18067ms)
+[w23:st:pro] Failed "triz" attempt 1: No Turnstile token for direct search
+[w23:st:pro] Saved 74,238 worker words
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] Managed Turnstile token (len=816, 4253ms, remount)
+[w23:st:pro] Searching "triz" | queue=44 | words=74238
+[w23:st:pro] [api] 200 mode=pro startsWith=triz
+[w23:st:pro] [api] 200 mode=pro startsWith=triz (370ms direct)
+[w23:st:pro] "triz" → 6 records, 6 words
+[w23:st:pro] "triz" branch complete
+[w23:st:pro] Saved 74,244 worker words; shared last.txt now 467,168
+[w23:st:pro] Searching "troh" | queue=43 | words=74244
+[w23:st:pro] Pacing 15s before "troh" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 3079ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=troh
+[w23:st:pro] [api] 200 mode=pro startsWith=troh (383ms direct)
+[w23:st:pro] "troh" → 0 records, 0 words
+[w23:st:pro] "troh" branch complete
+[w23:st:pro] Saved 74,244 worker words
+[w23:st:pro] Searching "tron" | queue=42 | words=74244
+[w23:st:pro] Pacing 15s before "tron" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 11487ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tron
+[w23:st:pro] [api] 200 mode=pro startsWith=tron (571ms direct)
+[w23:st:pro] "tron" → 17 records, 17 words (incl. exact "tron")
+[w23:st:pro] "tron" branch complete
+[w23:st:pro] heartbeat words=74261 queue=42 rotation=1 idle=27s
+[w23:st:pro] Saved 74,261 worker words
+[w23:st:pro] Searching "trot" | queue=41 | words=74261
+[w23:st:pro] Pacing 2s before "trot" (gap=15500ms)
+[w23:st:pro] Turnstile mint hard timeout after 20000ms
+[w23:st:pro] Failed "trot" attempt 1: No Turnstile token for direct search
+[w23:st:pro] Saved 74,261 worker words
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] Site Turnstile remint timed out (12692ms)
+[w23:st:pro] Soft reload mint failed — rotating immediately
+[w23:st:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w23:st:pro] Tor ready on 19073 exit=45.84.107.97
+[w23:st:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19073
+[w23:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w23-r2
+[w23:st:pro] Proxy tor#3 socks5://127.0.0.1:19073
+[w23:st:pro] Opening https://lastletterlibrary.com
+[w23:st:pro] heartbeat words=74261 queue=42 rotation=2 idle=60s
+[w23:st:pro] Library mode=pro
+[w23:st:pro] Site Turnstile remint timed out (24263ms)
+[w23:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w23:st:pro] Cleaned 1 old rotated profile(s)
+[w23:st:pro] Searching "trot" | queue=41 | words=74261
+[w23:st:pro] Managed Turnstile token (len=816, 6517ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trot
+[w23:st:pro] [api] 200 mode=pro startsWith=trot (531ms direct)
+[w23:st:pro] "trot" → 35 records, 35 words (incl. exact "trot")
+[w23:st:pro] "trot" branch complete
+[w23:st:pro] Saved 74,296 worker words
+[w23:st:pro] Searching "trug" | queue=40 | words=74296
+[w23:st:pro] Pacing 12s before "trug" (gap=15500ms)
+[w23:st:pro] heartbeat words=74296 queue=40 rotation=2 idle=3s
+[w23:st:pro] Managed Turnstile token (len=816, 10293ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trug
+[w23:st:pro] [api] 200 mode=pro startsWith=trug (2511ms direct)
+[w23:st:pro] "trug" → 5 records, 5 words (incl. exact "trug")
+[w23:st:pro] "trug" branch complete
+[w23:st:pro] Saved 74,301 worker words
+[w23:st:pro] Searching "trum" | queue=39 | words=74301
+[w23:st:pro] Pacing 4s before "trum" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 11937ms, remount)
+[w23:st:pro] [api] 429 mode=pro startsWith=trum
+[w23:st:pro] [api] 429 mode=pro startsWith=trum (398ms direct)
+[w23:st:pro] Learned server gap ≈ 15500ms (wait hint 3000ms)
+[w23:st:pro] Rate limited — inline wait 3000ms then retry "trum"
+[w23:st:pro] Managed Turnstile token (len=816, 5584ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trum
+[w23:st:pro] [api] 200 mode=pro startsWith=trum (424ms direct)
+[w23:st:pro] "trum" → 39 records, 39 words
+[w23:st:pro] "trum" branch complete
+[w23:st:pro] Saved 74,340 worker words
+[w23:st:pro] Searching "trus" | queue=38 | words=74340
+[w23:st:pro] Pacing 13s before "trus" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 7569ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trus
+[w23:st:pro] [api] 200 mode=pro startsWith=trus (487ms direct)
+[w23:st:pro] "trus" → 80 records, 80 words
+[w23:st:pro] "trus" branch complete
+[w23:st:pro] Saved 74,356 worker words
+[w23:st:pro] Searching "twin" | queue=37 | words=74356
+[w23:st:pro] Pacing 15s before "twin" (gap=15500ms)
+[w23:st:pro] heartbeat words=74356 queue=37 rotation=2 idle=12s
+[w23:st:pro] Managed Turnstile token (len=816, 15506ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=twin
+[w23:st:pro] [api] 200 mode=pro startsWith=twin (740ms direct)
+[w23:st:pro] "twin" → 85 records, 85 words (incl. exact "twin")
+[w23:st:pro] "twin" branch complete
+[w23:st:pro] Turnstile mint hard timeout after 20000ms
+[w23:st:pro] Saved 74,417 worker words; shared last.txt now 468,102
+[w23:st:pro] Searching "tachy" | queue=36 | words=74417
+[w23:st:pro] Managed Turnstile token (len=816, 3536ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tachy
+[w23:st:pro] [api] 200 mode=pro startsWith=tachy (424ms direct)
+[w23:st:pro] "tachy" → 78 records, 78 words
+[w23:st:pro] "tachy" branch complete
+[w23:st:pro] Saved 74,417 worker words
+[w23:st:pro] Searching "telei" | queue=35 | words=74417
+[w23:st:pro] Pacing 15s before "telei" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 3048ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=telei
+[w23:st:pro] [api] 200 mode=pro startsWith=telei (740ms direct)
+[w23:st:pro] "telei" → 4 records, 4 words (incl. exact "telei")
+[w23:st:pro] "telei" branch complete
+[w23:st:pro] heartbeat words=74421 queue=35 rotation=2 idle=23s
+[w23:st:pro] Saved 74,421 worker words
+[w23:st:pro] Searching "teleo" | queue=34 | words=74421
+[w23:st:pro] Pacing 4s before "teleo" (gap=15500ms)
+[w23:st:pro] Turnstile mint hard timeout after 20000ms
+[w23:st:pro] Failed "teleo" attempt 1: No Turnstile token for direct search
+[w23:st:pro] Saved 74,421 worker words
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] Site Turnstile remint timed out (12838ms)
+[w23:st:pro] Soft reload mint failed — rotating immediately
+[w23:st:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w23:st:pro] Tor ready on 19073 exit=192.42.116.48
+[w23:st:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19073
+[w23:st:pro] Launching persistent Chrome profile /tmp/lll-pw-w23-r3
+[w23:st:pro] Proxy tor#4 socks5://127.0.0.1:19073
+[w23:st:pro] Opening https://lastletterlibrary.com
+[w23:st:pro] heartbeat words=74421 queue=35 rotation=3 idle=59s
+[w23:st:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w23:st:pro] heartbeat words=74421 queue=35 rotation=3 idle=119s
+[w23:st:pro] page.goto failed attempt 2: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w23:st:pro] Library mode=pro
+[w23:st:pro] Turnstile token present (len=837)
+[w23:st:pro] Site Turnstile token (20022ms)
+[w23:st:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w23:st:pro] Cleaned 1 old rotated profile(s)
+[w23:st:pro] Searching "teleo" | queue=34 | words=74421
+[w23:st:pro] [api] 200 mode=pro startsWith=teleo
+[w23:st:pro] [api] 200 mode=pro startsWith=teleo (509ms direct)
+[w23:st:pro] "teleo" → 54 records, 54 words
+[w23:st:pro] "teleo" branch complete
+[w23:st:pro] Saved 74,475 worker words
+[w23:st:pro] Searching "teley" | queue=33 | words=74475
+[w23:st:pro] Pacing 15s before "teley" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 4315ms, remount)
+[w23:st:pro] heartbeat words=74475 queue=33 rotation=3 idle=15s
+[w23:st:pro] [api] 200 mode=pro startsWith=teley
+[w23:st:pro] [api] 200 mode=pro startsWith=teley (402ms direct)
+[w23:st:pro] "teley" → 0 records, 0 words
+[w23:st:pro] "teley" branch complete
+[w23:st:pro] Saved 74,475 worker words
+[w23:st:pro] Searching "throm" | queue=32 | words=74475
+[w23:st:pro] Pacing 16s before "throm" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 3923ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=throm
+[w23:st:pro] [api] 200 mode=pro startsWith=throm (389ms direct)
+[w23:st:pro] "throm" → 59 records, 59 words
+[w23:st:pro] "throm" branch complete
+[w23:st:pro] Saved 74,475 worker words
+[w23:st:pro] Searching "traci" | queue=31 | words=74475
+[w23:st:pro] Pacing 15s before "traci" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 3656ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=traci
+[w23:st:pro] [api] 200 mode=pro startsWith=traci (426ms direct)
+[w23:st:pro] "traci" → 3 records, 3 words
+[w23:st:pro] "traci" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "tradz" | queue=30 | words=74478
+[w23:st:pro] Pacing 15s before "tradz" (gap=15500ms)
+[w23:st:pro] Managed Turnstile miss (18232ms)
+[w23:st:pro] Failed "tradz" attempt 1: No Turnstile token for direct search
+[w23:st:pro] heartbeat words=74478 queue=31 rotation=3 idle=30s
+[w23:st:pro] Saved 74,478 worker words; shared last.txt now 469,695
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] Managed Turnstile token (len=816, 4482ms, remount)
+[w23:st:pro] Searching "tradz" | queue=30 | words=74478
+[w23:st:pro] [api] 200 mode=pro startsWith=tradz
+[w23:st:pro] [api] 200 mode=pro startsWith=tradz (412ms direct)
+[w23:st:pro] "tradz" → 0 records, 0 words
+[w23:st:pro] "tradz" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "traiy" | queue=29 | words=74478
+[w23:st:pro] Pacing 16s before "traiy" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 3863ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=traiy
+[w23:st:pro] [api] 200 mode=pro startsWith=traiy (432ms direct)
+[w23:st:pro] "traiy" → 0 records, 0 words
+[w23:st:pro] "traiy" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "trapu" | queue=28 | words=74478
+[w23:st:pro] Pacing 15s before "trapu" (gap=15500ms)
+[w23:st:pro] heartbeat words=74478 queue=28 rotation=3 idle=4s
+[w23:st:pro] Managed Turnstile miss (15119ms)
+[w23:st:pro] Failed "trapu" attempt 1: No Turnstile token for direct search
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] Managed Turnstile token (len=816, 4065ms, remount)
+[w23:st:pro] Searching "trapu" | queue=28 | words=74478
+[w23:st:pro] [api] 200 mode=pro startsWith=trapu
+[w23:st:pro] [api] 200 mode=pro startsWith=trapu (536ms direct)
+[w23:st:pro] "trapu" → 2 records, 2 words
+[w23:st:pro] "trapu" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "treat" | queue=27 | words=74478
+[w23:st:pro] Pacing 15s before "treat" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 4393ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=treat
+[w23:st:pro] [api] 200 mode=pro startsWith=treat (417ms direct)
+[w23:st:pro] "treat" → 24 records, 24 words (incl. exact "treat")
+[w23:st:pro] "treat" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "treaz" | queue=26 | words=74478
+[w23:st:pro] Pacing 13s before "treaz" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 7976ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=treaz
+[w23:st:pro] [api] 200 mode=pro startsWith=treaz (488ms direct)
+[w23:st:pro] "treaz" → 0 records, 0 words
+[w23:st:pro] "treaz" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "tribu" | queue=25 | words=74478
+[w23:st:pro] Pacing 14s before "tribu" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 10576ms, remount)
+[w23:st:pro] heartbeat words=74478 queue=25 rotation=3 idle=10s
+[w23:st:pro] [api] 200 mode=pro startsWith=tribu
+[w23:st:pro] [api] 200 mode=pro startsWith=tribu (428ms direct)
+[w23:st:pro] "tribu" → 46 records, 46 words
+[w23:st:pro] "tribu" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "tribv" | queue=24 | words=74478
+[w23:st:pro] Pacing 15s before "tribv" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 8512ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tribv
+[w23:st:pro] [api] 200 mode=pro startsWith=tribv (795ms direct)
+[w23:st:pro] "tribv" → 0 records, 0 words
+[w23:st:pro] "tribv" branch complete
+[w23:st:pro] Saved 74,478 worker words; shared last.txt now 470,203
+[w23:st:pro] Searching "tribw" | queue=23 | words=74478
+[w23:st:pro] Managed Turnstile token (len=816, 19133ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tribw
+[w23:st:pro] [api] 200 mode=pro startsWith=tribw (475ms direct)
+[w23:st:pro] "tribw" → 0 records, 0 words
+[w23:st:pro] "tribw" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "tribx" | queue=22 | words=74478
+[w23:st:pro] Pacing 14s before "tribx" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 7240ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tribx
+[w23:st:pro] [api] 200 mode=pro startsWith=tribx (403ms direct)
+[w23:st:pro] "tribx" → 0 records, 0 words
+[w23:st:pro] "tribx" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "triby" | queue=21 | words=74478
+[w23:st:pro] Pacing 15s before "triby" (gap=15500ms)
+[w23:st:pro] heartbeat words=74478 queue=21 rotation=3 idle=1s
+[w23:st:pro] Managed Turnstile token (len=816, 5172ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=triby
+[w23:st:pro] [api] 200 mode=pro startsWith=triby (415ms direct)
+[w23:st:pro] "triby" → 0 records, 0 words
+[w23:st:pro] "triby" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "tribz" | queue=20 | words=74478
+[w23:st:pro] Pacing 15s before "tribz" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 6038ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tribz
+[w23:st:pro] [api] 200 mode=pro startsWith=tribz (429ms direct)
+[w23:st:pro] "tribz" → 0 records, 0 words
+[w23:st:pro] "tribz" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "trinu" | queue=19 | words=74478
+[w23:st:pro] Pacing 14s before "trinu" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 14710ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trinu
+[w23:st:pro] [api] 200 mode=pro startsWith=trinu (501ms direct)
+[w23:st:pro] "trinu" → 5 records, 5 words
+[w23:st:pro] "trinu" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "trinv" | queue=18 | words=74478
+[w23:st:pro] Pacing 14s before "trinv" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 10178ms, remount)
+[w23:st:pro] heartbeat words=74478 queue=18 rotation=3 idle=12s
+[w23:st:pro] [api] 200 mode=pro startsWith=trinv
+[w23:st:pro] [api] 200 mode=pro startsWith=trinv (698ms direct)
+[w23:st:pro] "trinv" → 0 records, 0 words
+[w23:st:pro] "trinv" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "trinw" | queue=17 | words=74478
+[w23:st:pro] Pacing 13s before "trinw" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 10855ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trinw
+[w23:st:pro] [api] 200 mode=pro startsWith=trinw (424ms direct)
+[w23:st:pro] "trinw" → 0 records, 0 words
+[w23:st:pro] "trinw" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "trinx" | queue=16 | words=74478
+[w23:st:pro] Pacing 15s before "trinx" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 4507ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trinx
+[w23:st:pro] [api] 200 mode=pro startsWith=trinx (483ms direct)
+[w23:st:pro] "trinx" → 0 records, 0 words
+[w23:st:pro] "trinx" branch complete
+[w23:st:pro] Turnstile mint hard timeout after 20000ms
+[w23:st:pro] heartbeat words=74478 queue=16 rotation=3 idle=44s
+[w23:st:pro] Saved 74,478 worker words; shared last.txt now 470,615
+[w23:st:pro] Searching "triny" | queue=15 | words=74478
+[w23:st:pro] Managed Turnstile token (len=816, 15105ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=triny
+[w23:st:pro] [api] 200 mode=pro startsWith=triny (516ms direct)
+[w23:st:pro] "triny" → 0 records, 0 words
+[w23:st:pro] "triny" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "trinz" | queue=14 | words=74478
+[w23:st:pro] Pacing 15s before "trinz" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 17217ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trinz
+[w23:st:pro] [api] 200 mode=pro startsWith=trinz (505ms direct)
+[w23:st:pro] "trinz" → 0 records, 0 words
+[w23:st:pro] "trinz" branch complete
+[w23:st:pro] Saved 74,478 worker words
+[w23:st:pro] Searching "trito" | queue=13 | words=74478
+[w23:st:pro] Pacing 13s before "trito" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 9598ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trito
+[w23:st:pro] [api] 200 mode=pro startsWith=trito (577ms direct)
+[w23:st:pro] "trito" → 31 records, 31 words
+[w23:st:pro] "trito" branch complete
+[w23:st:pro] Saved 74,481 worker words
+[w23:st:pro] Searching "tritp" | queue=12 | words=74481
+[w23:st:pro] Pacing 15s before "tritp" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 9537ms, remount)
+[w23:st:pro] heartbeat words=74481 queue=12 rotation=3 idle=9s
+[w23:st:pro] [api] 200 mode=pro startsWith=tritp
+[w23:st:pro] [api] 200 mode=pro startsWith=tritp (427ms direct)
+[w23:st:pro] "tritp" → 0 records, 0 words
+[w23:st:pro] "tritp" branch complete
+[w23:st:pro] Saved 74,481 worker words
+[w23:st:pro] Searching "tritq" | queue=11 | words=74481
+[w23:st:pro] Pacing 15s before "tritq" (gap=15500ms)
+[w23:st:pro] Managed Turnstile miss (15304ms)
+[w23:st:pro] Failed "tritq" attempt 1: No Turnstile token for direct search
+[w23:st:pro] Saved 74,481 worker words
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] Turnstile token present (len=816)
+[w23:st:pro] Site Turnstile token (7292ms)
+[w23:st:pro] Searching "tritq" | queue=11 | words=74481
+[w23:st:pro] [api] 200 mode=pro startsWith=tritq
+[w23:st:pro] [api] 200 mode=pro startsWith=tritq (636ms direct)
+[w23:st:pro] "tritq" → 0 records, 0 words
+[w23:st:pro] "tritq" branch complete
+[w23:st:pro] Saved 74,481 worker words
+[w23:st:pro] Searching "tritr" | queue=10 | words=74481
+[w23:st:pro] Pacing 14s before "tritr" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 11020ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tritr
+[w23:st:pro] [api] 200 mode=pro startsWith=tritr (438ms direct)
+[w23:st:pro] "tritr" → 1 records, 1 words
+[w23:st:pro] "tritr" branch complete
+[w23:st:pro] Saved 74,482 worker words
+[w23:st:pro] Searching "trits" | queue=9 | words=74482
+[w23:st:pro] Pacing 15s before "trits" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 7008ms, remount)
+[w23:st:pro] heartbeat words=74482 queue=9 rotation=3 idle=10s
+[w23:st:pro] [api] 200 mode=pro startsWith=trits
+[w23:st:pro] [api] 200 mode=pro startsWith=trits (551ms direct)
+[w23:st:pro] "trits" → 0 records, 0 words
+[w23:st:pro] "trits" branch complete
+[w23:st:pro] Turnstile mint hard timeout after 20000ms
+[w23:st:pro] Saved 74,482 worker words; shared last.txt now 471,234
+[w23:st:pro] Searching "tritt" | queue=8 | words=74482
+[w23:st:pro] Managed Turnstile miss (15048ms)
+[w23:st:pro] Failed "tritt" attempt 1: No Turnstile token for direct search
+[w23:st:pro] Saved 74,482 worker words
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] heartbeat words=74482 queue=9 rotation=3 idle=19s
+[w23:st:pro] Managed Turnstile token (len=816, 4325ms, remount)
+[w23:st:pro] Searching "tritt" | queue=8 | words=74482
+[w23:st:pro] [api] 200 mode=pro startsWith=tritt
+[w23:st:pro] [api] 200 mode=pro startsWith=tritt (391ms direct)
+[w23:st:pro] "tritt" → 1 records, 1 words
+[w23:st:pro] "tritt" branch complete
+[w23:st:pro] Saved 74,483 worker words
+[w23:st:pro] Searching "tritu" | queue=7 | words=74483
+[w23:st:pro] Pacing 16s before "tritu" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 4256ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tritu
+[w23:st:pro] [api] 200 mode=pro startsWith=tritu (390ms direct)
+[w23:st:pro] "tritu" → 21 records, 21 words
+[w23:st:pro] "tritu" branch complete
+[w23:st:pro] Saved 74,504 worker words
+[w23:st:pro] Searching "tritv" | queue=6 | words=74504
+[w23:st:pro] Pacing 16s before "tritv" (gap=15500ms)
+[w23:st:pro] Managed Turnstile miss (15065ms)
+[w23:st:pro] Managed Turnstile token (len=816, 4162ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tritv
+[w23:st:pro] [api] 200 mode=pro startsWith=tritv (455ms direct)
+[w23:st:pro] "tritv" → 0 records, 0 words
+[w23:st:pro] "tritv" branch complete
+[w23:st:pro] Saved 74,504 worker words
+[w23:st:pro] Searching "tritw" | queue=5 | words=74504
+[w23:st:pro] Pacing 14s before "tritw" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 7005ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tritw
+[w23:st:pro] [api] 200 mode=pro startsWith=tritw (469ms direct)
+[w23:st:pro] "tritw" → 0 records, 0 words
+[w23:st:pro] "tritw" branch complete
+[w23:st:pro] heartbeat words=74504 queue=5 rotation=3 idle=21s
+[w23:st:pro] Saved 74,504 worker words
+[w23:st:pro] Searching "tritx" | queue=4 | words=74504
+[w23:st:pro] Pacing 7s before "tritx" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 18459ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tritx
+[w23:st:pro] [api] 200 mode=pro startsWith=tritx (452ms direct)
+[w23:st:pro] "tritx" → 0 records, 0 words
+[w23:st:pro] "tritx" branch complete
+[w23:st:pro] Saved 74,504 worker words
+[w23:st:pro] Searching "trity" | queue=3 | words=74504
+[w23:st:pro] Pacing 15s before "trity" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 10055ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=trity
+[w23:st:pro] [api] 200 mode=pro startsWith=trity (391ms direct)
+[w23:st:pro] "trity" → 2 records, 2 words
+[w23:st:pro] "trity" branch complete
+[w23:st:pro] Saved 74,506 worker words
+[w23:st:pro] Searching "tritz" | queue=2 | words=74506
+[w23:st:pro] Pacing 15s before "tritz" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 6498ms, remount)
+[w23:st:pro] [api] 200 mode=pro startsWith=tritz
+[w23:st:pro] [api] 200 mode=pro startsWith=tritz (458ms direct)
+[w23:st:pro] "tritz" → 0 records, 0 words
+[w23:st:pro] "tritz" branch complete
+[w23:st:pro] Saved 74,506 worker words; shared last.txt now 471,839
+[w23:st:pro] Searching "thermy" | queue=1 | words=74506
+[w23:st:pro] Pacing 8s before "thermy" (gap=15500ms)
+[w23:st:pro] Managed Turnstile token (len=816, 10569ms, remount)
+[w23:st:pro] heartbeat words=74506 queue=1 rotation=3 idle=7s
+[w23:st:pro] [api] 200 mode=pro startsWith=thermy
+[w23:st:pro] [api] 200 mode=pro startsWith=thermy (428ms direct)
+[w23:st:pro] "thermy" → 0 records, 0 words
+[w23:st:pro] "thermy" branch complete
+[w23:st:pro] Saved 74,506 worker words
+[w23:st:pro] Searching "thermop" | queue=0 | words=74506
+[w23:st:pro] Pacing 14s before "thermop" (gap=15500ms)
+[w23:st:pro] Managed Turnstile miss (15946ms)
+[w23:st:pro] Failed "thermop" attempt 1: No Turnstile token for direct search
+[w23:st:pro] Saved 74,506 worker words
+[w23:st:pro] Turnstile miss — soft reload before rotate
+[w23:st:pro] Managed Turnstile token (len=816, 4816ms, remount)
+[w23:st:pro] Searching "thermop" | queue=0 | words=74506
+[w23:st:pro] [api] 200 mode=pro startsWith=thermop
+[w23:st:pro] [api] 200 mode=pro startsWith=thermop (424ms direct)
+[w23:st:pro] "thermop" → 41 records, 41 words
+[w23:st:pro] "thermop" branch complete
+[w23:st:pro] Saved 74,527 worker words
+[w23:st:pro] Saved 74,527 worker words
+[w23:st:pro] Worker done. prefixes=9659 words=74527
+[w23:st:pro] Managed Turnstile miss (157ms)
+[w23:st:pro] Tor exited code=0

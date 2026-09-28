@@ -1,0 +1,513 @@
+[cleanup:w4] Queue cleanup bot (DRY_RUN=false) | states=4..4 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w4:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19254 (try 1)
+[w4:cleanup:pro] tor: Aug 04 02:46:54.026 [warn] Fixing permissions on directory /tmp/lll-tor-w4
+[w4:cleanup:pro] tor: Aug 04 02:46:54.000 [notice] Bootstrapped 0% (starting): Starting
+[w4:cleanup:pro] tor: Aug 04 02:46:55.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w4:cleanup:pro] tor: Aug 04 02:46:55.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w4:cleanup:pro] tor: Aug 04 02:46:55.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w4:cleanup:pro] tor: Aug 04 02:46:55.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:46:55.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w4:cleanup:pro] tor: Aug 04 02:46:55.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w4:cleanup:pro] tor: Aug 04 02:46:56.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w4:cleanup:pro] tor: Aug 04 02:46:57.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w4:cleanup:pro] tor: Aug 04 02:46:57.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:46:57.000 [notice] I learned some more directory 
+[w4:cleanup:pro] tor: Aug 04 02:46:58.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 02:47:02.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 02:47:03.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 02:47:03.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 02:47:04.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w4:cleanup:pro] tor: Aug 04 02:47:04.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:47:04.000 [notice] Bootstrapped 9
+[w4:cleanup:pro] tor: Aug 04 02:47:04.000 [notice] Bootstrapped 100% (done): Done
+[w4:cleanup:pro] Tor ready on 19254 exit=185.220.101.102
+[cleanup:w4] Browser mode=tor via tor#1 socks5://127.0.0.1:19254
+[w4:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w4
+[w4:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19254
+[w4:cleanup:pro] Opening https://lastletterlibrary.com
+[w4:cleanup:pro] Library mode=pro
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w4] lll-audit-state-4.json w4: queue=792 completed=301 words=5001 parents=28
+[cleanup:w4] Searching parent "ich" (28 queued descendants)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ich
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ich (502ms direct)
+[cleanup:w4] "ich" full page (100) ends "ichthyolite" next='t' — skip 21 groups, removed 21/792 queue items, +0 words
+[cleanup:w4] Searching parent "ico" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ico" (gap=15200ms)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "ico" — reload (attempt 1)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ico
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ico (471ms direct)
+[cleanup:w4] "ico" full page (100) ends "icosandrian" next='s' — skip 20 groups, removed 20/771 queue items, +0 words
+[cleanup:w4] Searching parent "ide" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ide" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ide
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ide (489ms direct)
+[cleanup:w4] "ide" full page (100) ends "identikits" next='n' — skip 15 groups, removed 15/751 queue items, +0 words
+[cleanup:w4] Searching parent "idi" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "idi" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=idi
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=idi (618ms direct)
+[cleanup:w4] "idi" full page (100) ends "idiosyncracies" next='o' — skip 16 groups, removed 16/736 queue items, +0 words
+[cleanup:w4] Searching parent "ign" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ign" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ign
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ign (391ms direct)
+[cleanup:w4] "ign" full page (100) ends "ignote" next='o' — skip 16 groups, removed 16/720 queue items, +0 words
+[cleanup:w4] Searching parent "ill" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ill" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ill
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ill (381ms direct)
+[cleanup:w4] "ill" full page (100) ends "illegitimatised" next='e' — skip 6 groups, removed 6/704 queue items, +0 words
+[cleanup:w4] Searching parent "imb" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "imb" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imb
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imb (388ms direct)
+[cleanup:w4] "imb" full page (100) ends "imbosk" next='o' — skip 16 groups, removed 16/698 queue items, +0 words
+[cleanup:w4] Searching parent "imm" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "imm" (gap=15200ms)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "imm" — reload (attempt 1)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imm
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imm (377ms direct)
+[cleanup:w4] "imm" full page (100) ends "immediate-release" next='e' — skip 6 groups, removed 6/682 queue items, +0 words
+[cleanup:w4] Searching parent "imp" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "imp" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imp
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imp (402ms direct)
+[cleanup:w4] "imp" full page (100) ends "imparked" next='a' — skip 2 groups, removed 2/676 queue items, +0 words
+[cleanup:w4] Searching parent "ina" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ina" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ina
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ina (521ms direct)
+[cleanup:w4] "ina" full page (100) ends "inaffable" next='f' — skip 7 groups, removed 7/674 queue items, +0 words
+[cleanup:w4] Searching parent "inc" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inc" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inc
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inc (438ms direct)
+[cleanup:w4] "inc" full page (100) ends "incarnalised" next='a' — skip 2 groups, removed 2/667 queue items, +0 words
+[cleanup:w4] Searching parent "ind" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ind" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ind
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ind (384ms direct)
+[cleanup:w4] "ind" full page (100) ends "indefectibly" next='e' — skip 6 groups, removed 6/665 queue items, +0 words
+[cleanup:w4] Searching parent "ine" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ine" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ine
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ine (388ms direct)
+[cleanup:w4] "ine" full page (100) ends "ineloquences" next='l' — skip 13 groups, removed 13/659 queue items, +0 words
+[cleanup:w4] Searching parent "inf" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inf" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inf
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inf (364ms direct)
+[cleanup:w4] "inf" full page (100) ends "infarctate" next='a' — skip 2 groups, removed 2/646 queue items, +0 words
+[cleanup:w4] Searching parent "ing" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ing" (gap=15200ms)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "ing" — reload (attempt 1)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ing
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ing (358ms direct)
+[cleanup:w4] "ing" full page (100) ends "inglobe" next='l' — skip 13 groups, removed 13/644 queue items, +0 words
+[cleanup:w4] Searching parent "inh" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inh" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inh
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inh (409ms direct)
+[cleanup:w4] "inh" full page (100) ends "inheritors" next='e' — skip 6 groups, removed 6/631 queue items, +0 words
+[cleanup:w4] Searching parent "ini" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ini" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ini
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ini (437ms direct)
+[cleanup:w4] "ini" full page (100) ends "initiatrices" next='t' — skip 21 groups, removed 21/625 queue items, +0 words
+[cleanup:w4] Searching parent "inn" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inn" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inn
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inn (391ms direct)
+[cleanup:w4] "inn" full page (100) ends "innovationist" next='o' — skip 16 groups, removed 16/604 queue items, +0 words
+[cleanup:w4] Searching parent "ino" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ino" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ino
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ino (426ms direct)
+[cleanup:w4] "ino" full page (100) ends "inopinate" next='p' — skip 17 groups, removed 17/588 queue items, +0 words
+[cleanup:w4] Searching parent "ins" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ins" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ins
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ins (449ms direct)
+[cleanup:w4] "ins" full page (100) ends "insculped" next='c' — skip 4 groups, removed 4/571 queue items, +0 words
+[cleanup:w4] Searching parent "int" (28 queued descendants)
+[w4:cleanup:pro] Pacing 14s before "int" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=int
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=int (421ms direct)
+[cleanup:w4] "int" full page (100) ends "intellected" next='e' — skip 6 groups, removed 6/567 queue items, +0 words
+[cleanup:w4] Searching parent "inv" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inv" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inv
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inv (394ms direct)
+[cleanup:w4] "inv" full page (100) ends "inveigle" next='e' — skip 6 groups, removed 6/561 queue items, +0 words
+[cleanup:w4] Searching parent "iod" (28 queued descendants)
+[w4:cleanup:pro] Pacing 14s before "iod" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iod
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iod (370ms direct)
+[cleanup:w4] "iod" full page (100) ends "iodospongin" next='o' — skip 16 groups, removed 16/555 queue items, +0 words
+[cleanup:w4] Searching parent "ion" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ion" (gap=15200ms)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "ion" — reload (attempt 1)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "ion" — reload (attempt 2)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "ion" — reload (attempt 3)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] FAILED "ion": No Turnstile token for direct search
+[cleanup:w4] Searching parent "iri" (23 queued descendants)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "iri" — reload (attempt 1)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "iri" — reload (attempt 2)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "iri" — reload (attempt 3)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] FAILED "iri": No Turnstile token for direct search
+[cleanup:w4] Searching parent "iro" (10 queued descendants)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "iro" — reload (attempt 1)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "iro" — reload (attempt 2)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "iro" — reload (attempt 3)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] FAILED "iro": No Turnstile token for direct search
+[cleanup:w4] Searching parent "irr" (22 queued descendants)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "irr" — reload (attempt 1)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "irr" — reload (attempt 2)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "irr" — reload (attempt 3)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] FAILED "irr": No Turnstile token for direct search
+[cleanup:w4] Searching parent "iso" (24 queued descendants)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "iso" — reload (attempt 1)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "iso" — reload (attempt 2)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "iso" — reload (attempt 3)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] FAILED "iso": No Turnstile token for direct search
+[cleanup:w4] lll-audit-state-4.json done — parents=28 searches=23 removed=253
+[cleanup:w4] State 4 cleanup finished (supervisor merges last.txt)
+[cleanup:w4] All states processed. searches=23 queue_removed=253
+[w4:cleanup:pro] Tor exited code=0
+
+--- re-pass skipped parents (retry until success) ---
+[cleanup:w4] Queue cleanup bot (DRY_RUN=false) | states=4..4 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w4:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19254 (try 1)
+[w4:cleanup:pro] tor: Aug 04 03:52:59.934 [warn] Fixing permissions on directory /tmp/lll-tor-w4
+[w4:cleanup:pro] tor: Aug 04 03:53:00.000 [notice] Bootstrapped 0% (starting): Starting
+[w4:cleanup:pro] tor: Aug 04 03:53:01.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w4:cleanup:pro] tor: Aug 04 03:53:01.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w4:cleanup:pro] tor: Aug 04 03:53:01.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w4:cleanup:pro] tor: Aug 04 03:53:01.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 03:53:01.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w4:cleanup:pro] tor: Aug 04 03:53:01.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w4:cleanup:pro] tor: Aug 04 03:53:01.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w4:cleanup:pro] tor: Aug 04 03:53:03.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w4:cleanup:pro] tor: Aug 04 03:53:03.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:53:03.000 [notice] I learned some more directory 
+[w4:cleanup:pro] tor: Aug 04 03:53:03.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 03:53:06.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 03:53:08.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 03:53:08.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 03:53:08.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w4:cleanup:pro] tor: Aug 04 03:53:09.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 03:53:09.000 [notice] Bootstrapped 9
+[w4:cleanup:pro] tor: Aug 04 03:53:09.000 [notice] Bootstrapped 100% (done): Done
+[w4:cleanup:pro] Tor ready on 19254 exit=86.54.28.49
+[cleanup:w4] Browser mode=tor via tor#1 socks5://127.0.0.1:19254
+[w4:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w4-r0
+[w4:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19254
+[w4:cleanup:pro] Opening https://lastletterlibrary.com
+[w4:cleanup:pro] Library mode=pro
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w4] lll-audit-state-4.json w4: queue=539 completed=301 words=5001 parents=28
+[cleanup:w4] Searching parent "ich" (7 queued descendants)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Turnstile miss on "ich" — reload (attempt 1)
+[w4:cleanup:pro] Turnstile mint miss (1/2)
+[w4:cleanup:pro] Site Turnstile remint timed out
+[w4:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w4] Rotating IP (#1) after Turnstile stuck on "ich"
+[w4:cleanup:pro] Tor exited code=0
+[w4:cleanup:pro] Starting Tor gen=2 socks=127.0.0.1:19254 (try 1)
+[w4:cleanup:pro] tor: Aug 04 03:56:08.059 [warn] Fixing permissions on directory /tmp/lll-tor-w4
+[w4:cleanup:pro] tor: Aug 04 03:56:08.000 [notice] Bootstrapped 0% (starting): Starting
+[w4:cleanup:pro] tor: Aug 04 03:56:09.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w4:cleanup:pro] tor: Aug 04 03:56:09.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w4:cleanup:pro] tor: Aug 04 03:56:11.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w4:cleanup:pro] tor: Aug 04 03:56:11.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w4:cleanup:pro] tor: Aug 04 03:56:11.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w4:cleanup:pro] tor: Aug 04 03:56:11.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w4:cleanup:pro] tor: Aug 04 03:56:12.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w4:cleanup:pro] tor: Aug 04 03:56:13.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w4:cleanup:pro] tor: Aug 04 03:56:13.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:56:13.000 [notice] I learned some more directory 
+[w4:cleanup:pro] tor: Aug 04 03:56:13.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 03:56:18.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 03:56:20.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 03:56:20.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w4:cleanup:pro] tor: Aug 04 03:56:20.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w4:cleanup:pro] tor: Aug 04 03:56:21.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 03:56:21.000 [notice] Bootstrapped 9
+[w4:cleanup:pro] tor: Aug 04 03:56:21.000 [notice] Bootstrapped 100% (done): Done
+[w4:cleanup:pro] Tor ready on 19254 exit=192.42.116.109
+[cleanup:w4] Browser mode=tor via tor#2 socks5://127.0.0.1:19254 rotation=1
+[w4:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w4-r1
+[w4:cleanup:pro] Proxy tor#2 socks5://127.0.0.1:19254
+[w4:cleanup:pro] Opening https://lastletterlibrary.com
+[w4:cleanup:pro] Library mode=pro
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ich
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ich (695ms direct)
+[cleanup:w4] "ich" full page (100) ends "ichthyolite" next='t' — skip 21 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ico" (8 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ico" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ico
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ico (457ms direct)
+[cleanup:w4] "ico" full page (100) ends "icosandrian" next='s' — skip 20 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ide" (13 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ide" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ide
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ide (389ms direct)
+[cleanup:w4] "ide" full page (100) ends "identikits" next='n' — skip 15 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "idi" (12 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "idi" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=idi
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=idi (487ms direct)
+[cleanup:w4] "idi" full page (100) ends "idiosyncracies" next='o' — skip 16 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ign" (12 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ign" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ign
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ign (396ms direct)
+[cleanup:w4] "ign" full page (100) ends "ignote" next='o' — skip 16 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ill" (22 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ill" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ill
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ill (406ms direct)
+[cleanup:w4] "ill" full page (100) ends "illegitimatised" next='e' — skip 6 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "imb" (12 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "imb" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imb
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imb (425ms direct)
+[cleanup:w4] "imb" full page (100) ends "imbosk" next='o' — skip 16 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "imm" (22 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "imm" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imm
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imm (490ms direct)
+[cleanup:w4] "imm" full page (100) ends "immediate-release" next='e' — skip 6 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "imp" (26 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "imp" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imp
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=imp (409ms direct)
+[cleanup:w4] "imp" full page (100) ends "imparked" next='a' — skip 2 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ina" (21 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ina" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ina
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ina (396ms direct)
+[cleanup:w4] "ina" full page (100) ends "inaffable" next='f' — skip 7 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "inc" (26 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inc" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inc
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inc (464ms direct)
+[cleanup:w4] "inc" full page (100) ends "incarnalised" next='a' — skip 2 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ind" (22 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ind" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ind
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ind (395ms direct)
+[cleanup:w4] "ind" full page (100) ends "indefectibly" next='e' — skip 6 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ine" (15 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ine" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ine
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ine (449ms direct)
+[cleanup:w4] "ine" full page (100) ends "ineloquences" next='l' — skip 13 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "inf" (26 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inf" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inf
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inf (454ms direct)
+[cleanup:w4] "inf" full page (100) ends "infarctate" next='a' — skip 2 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ing" (15 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ing" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=794)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ing
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ing (452ms direct)
+[cleanup:w4] "ing" full page (100) ends "inglobe" next='l' — skip 13 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "inh" (22 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inh" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inh
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inh (520ms direct)
+[cleanup:w4] "inh" full page (100) ends "inheritors" next='e' — skip 6 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ini" (7 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ini" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ini
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ini (395ms direct)
+[cleanup:w4] "ini" full page (100) ends "initiatrices" next='t' — skip 21 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "inn" (12 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inn" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inn
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inn (411ms direct)
+[cleanup:w4] "inn" full page (100) ends "innovationist" next='o' — skip 16 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ino" (11 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ino" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ino
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ino (423ms direct)
+[cleanup:w4] "ino" full page (100) ends "inopinate" next='p' — skip 17 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ins" (24 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ins" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ins
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ins (483ms direct)
+[cleanup:w4] "ins" full page (100) ends "insculped" next='c' — skip 4 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "int" (22 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "int" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=int
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=int (491ms direct)
+[cleanup:w4] "int" full page (100) ends "intellected" next='e' — skip 6 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "inv" (22 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "inv" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inv
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=inv (395ms direct)
+[cleanup:w4] "inv" full page (100) ends "inveigle" next='e' — skip 6 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "iod" (12 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "iod" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=794)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iod
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iod (409ms direct)
+[cleanup:w4] "iod" full page (100) ends "iodospongin" next='o' — skip 16 groups, removed 0/539 queue items, +0 words
+[cleanup:w4] Searching parent "ion" (28 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "ion" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ion
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=ion (463ms direct)
+[cleanup:w4] "ion" full page (100) ends "ionotropic" next='o' — skip 16 groups, removed 16/539 queue items, +0 words
+[cleanup:w4] Searching parent "iri" (23 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "iri" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iri
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iri (411ms direct)
+[cleanup:w4] "iri" full page (100) ends "iridotasis" next='d' — skip 5 groups, removed 0/523 queue items, +0 words
+[cleanup:w4] Searching parent "iro" (10 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "iro" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iro
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iro (388ms direct)
+[cleanup:w4] "iro" full page (100) ends "iroquois" next='q' — skip 18 groups, removed 0/523 queue items, +0 words
+[cleanup:w4] Searching parent "irr" (22 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "irr" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=irr
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=irr (454ms direct)
+[cleanup:w4] "irr" full page (100) ends "irredeemed" next='e' — skip 6 groups, removed 0/523 queue items, +0 words
+[cleanup:w4] Searching parent "iso" (24 queued descendants)
+[w4:cleanup:pro] Pacing 15s before "iso" (gap=15200ms)
+[w4:cleanup:pro] Managed Turnstile token (len=816)
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iso
+[w4:cleanup:pro] [api] 200 mode=pro startsWith=iso (440ms direct)
+[cleanup:w4] "iso" full page (100) ends "isocheimal" next='c' — skip 4 groups, removed 0/523 queue items, +0 words
+[cleanup:w4] lll-audit-state-4.json done — parents=28 searches=28 removed=16
+[cleanup:w4] State 4 cleanup finished (supervisor merges last.txt)
+[cleanup:w4] All states processed. searches=28 queue_removed=16
+[w4:cleanup:pro] Tor exited code=0

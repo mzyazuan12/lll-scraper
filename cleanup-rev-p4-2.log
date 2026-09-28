@@ -1,0 +1,130 @@
+[cleanup-rev:w2] Reverse queue cleanup bot (DRY_RUN=false) | states=2..2 | sort=alphabetical:desc (Z→A) | parents=4-letter, prune queue items >=5 chars from high end | completed[] is never modified
+[w2:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19452 (try 1)
+[w2:cleanuprev:pro] tor: Aug 05 01:10:45.185 [warn] Fixing permissions on directory /tmp/lll-tor-w2
+[w2:cleanuprev:pro] tor: Aug 05 01:10:45.000 [notice] Bootstrapped 0% (starting): Starting
+[w2:cleanuprev:pro] tor: Aug 05 01:10:46.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w2:cleanuprev:pro] tor: Aug 05 01:10:46.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w2:cleanuprev:pro] tor: Aug 05 01:10:47.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w2:cleanuprev:pro] tor: Aug 05 01:10:48.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 01:10:48.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w2:cleanuprev:pro] tor: Aug 05 01:10:48.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w2:cleanuprev:pro] tor: Aug 05 01:10:48.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w2:cleanuprev:pro] tor: Aug 05 01:10:50.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w2:cleanuprev:pro] tor: Aug 05 01:10:50.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 01:10:50.000 [notice] I learned some more directory 
+[w2:cleanuprev:pro] tor: Aug 05 01:10:51.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 01:10:57.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 01:10:58.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 01:10:58.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 01:10:58.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w2:cleanuprev:pro] tor: Aug 05 01:10:59.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 01:10:59.000 [notice] Bootstrapped 9
+[w2:cleanuprev:pro] tor: Aug 05 01:11:00.000 [notice] Bootstrapped 100% (done): Done
+[w2:cleanuprev:pro] Tor ready on 19452 exit=192.42.116.114
+[cleanup-rev:w2] Browser mode=tor via tor#1 socks5://127.0.0.1:19452
+[w2:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p4-w2-r0
+[w2:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19452
+[w2:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w2:cleanuprev:pro] Library mode=pro
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 4904ms, remount)
+[w2:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w2] lll-audit-state-2.json w2: queue=289 completed=1443 words=15545 parents=9 (reverse Z→A)
+[cleanup-rev:w2] Reverse-searching parent "elec" (7 queued descendants, chars=tuvwxyz)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=elec
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=elec sort=alphabetical:desc (525ms direct)
+[cleanup-rev:w2] "elec" reverse full page (100) start="electuary" first='t' end="electrospinnability" next='t' — remove 0 covered groups, keep 't', removed 0/289 queue items, leave chars=tuvwxyz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "emba" (2 queued descendants, chars=yz)
+[w2:cleanuprev:pro] Pacing 15s before "emba" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 3115ms, reset)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=emba
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=emba sort=alphabetical:desc (556ms direct)
+[cleanup-rev:w2] "emba" reverse full page (100) start="embays" first='y' end="emballonurine" next='l' — remove 12 covered groups, keep 'y+l', removed 0/289 queue items, leave chars=yz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "embo" (3 queued descendants, chars=xyz)
+[w2:cleanuprev:pro] Pacing 15s before "embo" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 3332ms, reset)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=embo
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=embo sort=alphabetical:desc (463ms direct)
+[cleanup-rev:w2] "embo" reverse full page (100) start="emboxing" first='x' end="embolismal" next='l' — remove 11 covered groups, keep 'x+l', removed 0/289 queue items, leave chars=xyz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "ente" (8 queued descendants, chars=rtuvwxyz)
+[w2:cleanuprev:pro] Pacing 15s before "ente" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 3682ms, reset)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=ente
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=ente sort=alphabetical:desc (552ms direct)
+[cleanup-rev:w2] "ente" reverse full page (100) start="entetee" first='t' end="enterologies" next='r' — remove 1 covered groups, keep 't+r', removed 0/289 queue items, leave chars=rtuvwxyz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "ento" (2 queued descendants, chars=mz)
+[w2:cleanuprev:pro] Pacing 15s before "ento" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 4437ms, reset)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=ento
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=ento sort=alphabetical:desc (556ms direct)
+[cleanup-rev:w2] "ento" reverse full page (100) start="entozoon" first='z' end="entomologising" next='m' — remove 12 covered groups, keep 'z+m', removed 0/289 queue items, leave chars=mz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "entr" (22 queued descendants, chars=efghijklmnopqrstuvwxyz)
+[w2:cleanuprev:pro] Pacing 13s before "entr" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 11393ms, reset)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=entr
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=entr sort=alphabetical:desc (535ms direct)
+[cleanup-rev:w2] "entr" reverse full page (100) start="entryways" first='y' end="entreat" next='e' — remove 19 covered groups, keep 'y+e', removed 19/289 queue items, leave chars=eyz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "epic" (2 queued descendants, chars=yz)
+[w2:cleanuprev:pro] Pacing 12s before "epic" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile miss (12481ms)
+[w2:cleanuprev:pro] Turnstile mint hard timeout after 15000ms
+[w2:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w2:cleanuprev:pro] Managed Turnstile miss (16128ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 7782ms, remount)
+[w2:cleanuprev:pro] Turnstile token present (len=816)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=epic
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=epic sort=alphabetical:desc (814ms direct)
+[cleanup-rev:w2] "epic" reverse full page (100) start="epicyte" first='y' end="epichirema" next='h' — remove 16 covered groups, keep 'y+h', removed 0/270 queue items, leave chars=yz, +0 words
+[cleanup-rev:w2] Reverse-searching parent "epig" (9 queued descendants, chars=rstuvwxyz)
+[w2:cleanuprev:pro] Pacing 15s before "epig" (gap=15500ms)
+[w2:cleanuprev:pro] Managed Turnstile miss (12086ms)
+[w2:cleanuprev:pro] Managed Turnstile token (len=816, 9295ms, remount)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=epig
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=epig sort=alphabetical:desc (657ms direct)
+[cleanup-rev:w2] "epig" reverse full page (100) start="epigyny" first='y' end="epigastrical" next='a' — remove 23 covered groups, keep 'y+a', removed 7/270 queue items, leave chars=yz, +11 words
+[cleanup-rev:w2] Reverse-searching parent "epip" (12 queued descendants, chars=opqrstuvwxyz)
+[w2:cleanuprev:pro] Pacing 15s before "epip" (gap=15500ms)
+[w2:cleanuprev:pro] [api] 403 mode=pro startsWith=epip
+[w2:cleanuprev:pro] [api] 403 mode=pro startsWith=epip sort=alphabetical:desc (552ms direct)
+[cleanup-rev:w2] FAILED "epip" try 1/8: API 403 for "epip": Anti-bot verification failed. Please refresh the page.
+[cleanup-rev:w2] Rotating IP (#1) after retry "epip" after failure
+[w2:cleanuprev:pro] Managed Turnstile miss (629ms)
+[w2:cleanuprev:pro] Tor exited code=0
+[w2:cleanuprev:pro] Starting Tor gen=2 socks=127.0.0.1:19452 (try 1)
+[w2:cleanuprev:pro] tor: Aug 05 01:14:14.033 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19452
+Aug 05 01:14:14.033 [warn] Fixing permissions on directory /tmp/lll-tor
+[w2:cleanuprev:pro] tor: Aug 05 01:14:14.000 [notice] Bootstrapped 0% (starting): Starting
+[w2:cleanuprev:pro] tor: Aug 05 01:14:15.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w2:cleanuprev:pro] tor: Aug 05 01:14:15.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w2:cleanuprev:pro] tor: Aug 05 01:15:23.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w2:cleanuprev:pro] tor: Aug 05 01:15:23.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 01:15:23.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w2:cleanuprev:pro] tor: Aug 05 01:15:24.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w2:cleanuprev:pro] tor: Aug 05 01:15:24.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w2:cleanuprev:pro] tor: Aug 05 01:15:25.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w2:cleanuprev:pro] tor: Aug 05 01:15:25.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 01:15:25.000 [notice] I learned some more directory 
+[w2:cleanuprev:pro] tor: Aug 05 01:15:25.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 01:15:36.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 01:15:36.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 01:15:36.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w2:cleanuprev:pro] tor: Aug 05 01:15:36.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w2:cleanuprev:pro] tor: Aug 05 01:15:36.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 01:15:36.000 [notice] Bootstrapped 9
+[w2:cleanuprev:pro] tor: Aug 05 01:15:37.000 [notice] Bootstrapped 100% (done): Done
+[w2:cleanuprev:pro] Tor ready on 19452 exit=107.189.8.56
+[cleanup-rev:w2] Browser mode=tor via tor#2 socks5://127.0.0.1:19452 rotation=1
+[w2:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p4-w2-r1
+[w2:cleanuprev:pro] Proxy tor#2 socks5://127.0.0.1:19452
+[w2:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w2:cleanuprev:pro] Library mode=pro
+[w2:cleanuprev:pro] Turnstile token present (len=837)
+[w2:cleanuprev:pro] Site Turnstile token (17099ms)
+[w2:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=epip
+[w2:cleanuprev:pro] [api] 200 mode=pro startsWith=epip sort=alphabetical:desc (590ms direct)
+[cleanup-rev:w2] "epip" reverse full page (100) start="epipubis" first='u' end="epipens" next='e' — remove 15 covered groups, keep 'u+e', removed 6/263 queue items, leave chars=uvwxyz, +10 words
+[cleanup-rev:w2] lll-audit-state-2.json done — parents=9 searches=9 removed=32
+[cleanup-rev:w2] State 2 reverse cleanup finished
+[cleanup-rev:w2] All states processed. searches=9 queue_removed=32
+[w2:cleanuprev:pro] Managed Turnstile miss (926ms)
+[w2:cleanuprev:pro] Tor exited code=0

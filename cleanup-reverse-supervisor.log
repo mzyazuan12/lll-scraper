@@ -1,0 +1,144 @@
+Starting 12 parallel REVERSE (Z→A) queue cleaners
+DRY_RUN=0
+stagger=3500ms
+Logs: cleanup-rev-0.log … cleanup-rev-11.log
+Stop: pkill -f 'node cleanup-queue-reverse.mjs'; pkill -f 'node run-cleanup-reverse-12.mjs'
+Cleanup-rev w0 pid=42111 → cleanup-rev-0.log
+Cleanup-rev w1 pid=42284 → cleanup-rev-1.log
+Cleanup-rev w2 pid=42464 → cleanup-rev-2.log
+Cleanup-rev w3 pid=42640 → cleanup-rev-3.log
+Cleanup-rev w4 pid=42811 → cleanup-rev-4.log
+Cleanup-rev w5 pid=43021 → cleanup-rev-5.log
+Cleanup-rev w6 pid=43200 → cleanup-rev-6.log
+Cleanup-rev w7 pid=43408 → cleanup-rev-7.log
+Cleanup-rev w8 pid=43605 → cleanup-rev-8.log
+Cleanup-rev w9 pid=43845 → cleanup-rev-9.log
+Cleanup-rev w10 pid=44042 → cleanup-rev-10.log
+Cleanup-rev w11 pid=44204 → cleanup-rev-11.log
+Merged last.txt → 111,537 words
+Cleanup-rev w5 exited code=0
+Merged last.txt → 112,989 words
+Merged last.txt → 116,300 words
+Cleanup-rev w7 exited code=1
+Respawning cleanup-rev w7
+Cleanup-rev w7 pid=61230 → cleanup-rev-7.log
+Cleanup-rev w8 exited code=1
+Cleanup-rev w10 exited code=1
+Respawning cleanup-rev w8
+Cleanup-rev w8 pid=62128 → cleanup-rev-8.log
+Respawning cleanup-rev w10
+Cleanup-rev w10 pid=62278 → cleanup-rev-10.log
+Starting 12 parallel REVERSE (Z→A) queue cleaners
+DRY_RUN=0
+stagger=3500ms
+Logs: cleanup-rev-0.log … cleanup-rev-11.log
+Stop: pkill -f 'node cleanup-queue-reverse.mjs'; pkill -f 'node run-cleanup-reverse-12.mjs'
+Cleanup-rev w0 pid=70204 → cleanup-rev-0.log
+Cleanup-rev w1 pid=70419 → cleanup-rev-1.log
+Cleanup-rev w2 pid=70626 → cleanup-rev-2.log
+Cleanup-rev w3 pid=70827 → cleanup-rev-3.log
+Cleanup-rev w4 pid=71023 → cleanup-rev-4.log
+Cleanup-rev w5 pid=71221 → cleanup-rev-5.log
+Cleanup-rev w6 pid=71437 → cleanup-rev-6.log
+Cleanup-rev w7 pid=71667 → cleanup-rev-7.log
+Cleanup-rev w8 pid=71909 → cleanup-rev-8.log
+Cleanup-rev w9 pid=72139 → cleanup-rev-9.log
+Cleanup-rev w10 pid=72342 → cleanup-rev-10.log
+Cleanup-rev w11 pid=72568 → cleanup-rev-11.log
+Cleanup-rev w0 exited code=1
+Respawning cleanup-rev w0
+Cleanup-rev w0 pid=75642 → cleanup-rev-0.log
+Starting 12 parallel REVERSE (Z→A) queue cleaners
+DRY_RUN=0
+stagger=3500ms
+Logs: cleanup-rev-0.log … cleanup-rev-11.log
+Stop: pkill -f 'node cleanup-queue-reverse.mjs'; pkill -f 'node run-cleanup-reverse-12.mjs'
+Cleanup-rev w0 pid=84121 → cleanup-rev-0.log
+Cleanup-rev w1 pid=84335 → cleanup-rev-1.log
+Cleanup-rev w2 pid=84545 → cleanup-rev-2.log
+Cleanup-rev w3 pid=84754 → cleanup-rev-3.log
+Cleanup-rev w4 pid=84955 → cleanup-rev-4.log
+Cleanup-rev w5 pid=85188 → cleanup-rev-5.log
+Cleanup-rev w6 pid=85393 → cleanup-rev-6.log
+Cleanup-rev w7 pid=85629 → cleanup-rev-7.log
+Cleanup-rev w8 pid=85804 → cleanup-rev-8.log
+Cleanup-rev w9 pid=86062 → cleanup-rev-9.log
+Cleanup-rev w10 pid=86290 → cleanup-rev-10.log
+Cleanup-rev w11 pid=86502 → cleanup-rev-11.log
+Merged last.txt → 118,788 words
+Cleanup-rev w5 exited code=1
+Respawning cleanup-rev w5
+Cleanup-rev w5 pid=95122 → cleanup-rev-5.log
+Merged last.txt → 118,988 words
+Cleanup-rev w5 exited code=1
+Respawning cleanup-rev w5
+Cleanup-rev w5 pid=1224 → cleanup-rev-5.log
+Merged last.txt → 119,888 words
+Cleanup-rev w11 exited code=1
+Respawning cleanup-rev w11
+Cleanup-rev w11 pid=6133 → cleanup-rev-11.log
+Merged last.txt → 121,018 words
+Cleanup-rev w3 exited code=1
+Respawning cleanup-rev w3
+Cleanup-rev w3 pid=10913 → cleanup-rev-3.log
+Merged last.txt → 121,938 words
+Cleanup-rev w5 exited code=0
+Merged last.txt → 123,305 words
+Cleanup-rev w8 exited code=1
+Respawning cleanup-rev w8
+Cleanup-rev w8 pid=19080 → cleanup-rev-8.log
+Cleanup-rev w7 exited code=0
+Cleanup-rev w2 exited code=null
+Cleanup-rev w0 exited code=null
+Cleanup-rev w1 exited code=null
+Cleanup-rev w4 exited code=null
+Starting 12 parallel REVERSE (Z→A) queue cleaners
+DRY_RUN=0
+stagger=3500ms
+Logs: cleanup-rev-0.log … cleanup-rev-11.log
+Stop: pkill -f 'node cleanup-queue-reverse.mjs'; pkill -f 'node run-cleanup-reverse-12.mjs'
+Cleanup-rev w0 pid=11213 → cleanup-rev-0.log
+Cleanup-rev w1 pid=11362 → cleanup-rev-1.log
+Cleanup-rev w2 pid=11561 → cleanup-rev-2.log
+Cleanup-rev w3 pid=11710 → cleanup-rev-3.log
+Cleanup-rev w4 pid=11881 → cleanup-rev-4.log
+Cleanup-rev w5 pid=12115 → cleanup-rev-5.log
+Cleanup-rev w6 pid=12267 → cleanup-rev-6.log
+Cleanup-rev w7 pid=12473 → cleanup-rev-7.log
+Cleanup-rev w8 pid=12708 → cleanup-rev-8.log
+Cleanup-rev w9 pid=12887 → cleanup-rev-9.log
+Cleanup-rev w10 pid=13156 → cleanup-rev-10.log
+Cleanup-rev w11 pid=13400 → cleanup-rev-11.log
+Cleanup-rev w11 exited code=0
+Merged last.txt → 198,131 words
+Merged last.txt → 198,131 words
+Merged last.txt → 198,131 words
+Cleanup-rev w4 exited code=0
+Merged last.txt → 198,807 words
+Merged last.txt → 198,807 words
+Cleanup-rev w10 exited code=0
+Merged last.txt → 199,493 words
+Merged last.txt → 200,028 words
+Cleanup-rev w3 exited code=0
+Merged last.txt → 200,943 words
+Cleanup-rev w2 exited code=0
+Merged last.txt → 202,136 words
+Cleanup-rev w7 exited code=0
+Cleanup-rev w6 exited code=0
+Merged last.txt → 204,184 words
+Merged last.txt → 206,242 words
+Cleanup-rev w5 exited code=0
+Cleanup-rev w8 exited code=0
+Merged last.txt → 207,670 words
+Merged last.txt → 208,817 words
+Merged last.txt → 210,205 words
+Cleanup-rev w1 exited code=0
+Merged last.txt → 210,819 words
+Cleanup-rev w0 exited code=0
+Merged last.txt → 211,351 words
+Merged last.txt → 212,051 words
+Merged last.txt → 212,848 words
+Merged last.txt → 213,397 words
+Merged last.txt → 214,195 words
+Merged last.txt → 214,490 words
+Cleanup-rev w9 exited code=0

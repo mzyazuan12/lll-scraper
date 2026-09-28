@@ -1,0 +1,274 @@
+2026-08-05T22:54:45 daemon up pid=38526
+2026-08-05T22:54:47 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[] w1_live=True w1_q=97
+2026-08-05T22:55:14 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[] w1_live=True w1_q=107
+2026-08-05T22:56:45 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[] w1_live=True w1_q=105
+2026-08-05T22:58:00 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[] w1_live=True w1_q=104
+2026-08-05T22:58:26 w14 down with queue=113 — spawning
+2026-08-05T22:58:26 started w14 pid=46517 letters=cd queue=113
+2026-08-05T22:58:34 w19 down with queue=25 — spawning
+2026-08-05T22:58:34 started w19 pid=46784 letters=st queue=25
+2026-08-05T22:59:52 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[] w1_live=True w1_q=104
+2026-08-05T23:02:19 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[] w1_live=True w1_q=97
+2026-08-05T23:02:58 w22 down with queue=106 — spawning
+2026-08-05T23:02:59 started w22 pid=53867 letters=cd queue=106
+2026-08-05T23:03:17 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[] w1_live=True w1_q=97
+2026-08-05T23:04:18 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[] w1_live=True w1_q=97
+2026-08-05T23:04:58 w18 down with queue=23 — spawning
+2026-08-05T23:04:58 started w18 pid=57321 letters=st queue=23
+2026-08-05T23:05:40 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[] w1_live=True w1_q=95
+2026-08-05T23:07:07 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25] drained=[25] w1_live=True w1_q=97
+2026-08-05T23:07:34 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24] drained=[25] w1_live=True w1_q=101
+2026-08-05T23:08:01 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24] drained=[25] w1_live=True w1_q=99
+2026-08-05T23:09:24 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24] drained=[25] w1_live=True w1_q=96
+2026-08-05T23:09:52 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24] drained=[25] w1_live=True w1_q=95
+2026-08-05T23:10:20 w22 down with queue=97 — spawning
+2026-08-05T23:10:21 started w22 pid=69565 letters=cd queue=97
+2026-08-05T23:11:34 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23, 24] drained=[24, 25] w1_live=True w1_q=93
+2026-08-05T23:12:02 w14 down with queue=109 — spawning
+2026-08-05T23:12:02 started w14 pid=72100 letters=cd queue=109
+2026-08-05T23:12:53 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23] drained=[24, 25] w1_live=True w1_q=93
+2026-08-05T23:14:35 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23] drained=[24, 25] w1_live=True w1_q=93
+2026-08-05T23:15:11 w20 down with queue=37 — spawning
+2026-08-05T23:15:11 started w20 pid=77642 letters=st queue=37
+2026-08-05T23:16:29 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23] drained=[24, 25] w1_live=True w1_q=92
+2026-08-05T23:16:58 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23] drained=[24, 25] w1_live=True w1_q=90
+2026-08-05T23:18:09 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23] drained=[24, 25] w1_live=True w1_q=87
+2026-08-05T23:19:25 health alive=[12, 13, 14, 18, 19, 20, 21, 22, 23] drained=[24, 25] w1_live=True w1_q=83
+2026-08-05T23:19:50 w18 down with queue=23 — spawning
+2026-08-05T23:19:50 started w18 pid=88196 letters=st queue=23
+2026-08-05T23:20:07 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=81
+2026-08-05T23:20:33 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:21:00 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:21:27 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:21:54 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:22:20 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:22:46 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:23:11 w14 down with queue=97 — spawning
+2026-08-05T23:23:11 started w14 pid=99518 letters=cd queue=97
+2026-08-05T23:23:21 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:23:47 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:24:12 w13 down with queue=72 — spawning
+2026-08-05T23:24:12 started w13 pid=3638 letters=cd queue=72
+2026-08-05T23:24:20 w19 down with queue=25 — spawning
+2026-08-05T23:24:20 started w19 pid=4185 letters=st queue=25
+2026-08-05T23:24:28 w20 down with queue=28 — spawning
+2026-08-05T23:24:28 started w20 pid=4729 letters=st queue=28
+2026-08-05T23:24:36 w21 down with queue=70 — spawning
+2026-08-05T23:24:36 started w21 pid=5232 letters=cd queue=70
+2026-08-05T23:24:44 w22 down with queue=90 — spawning
+2026-08-05T23:24:44 started w22 pid=5740 letters=cd queue=90
+2026-08-05T23:24:54 health alive=[13, 14, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:25:19 w12 down with queue=80 — spawning
+2026-08-05T23:25:19 started w12 pid=7716 letters=cd queue=80
+2026-08-05T23:25:27 w18 down with queue=22 — spawning
+2026-08-05T23:25:27 started w18 pid=8189 letters=st queue=22
+2026-08-05T23:25:36 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:26:03 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:26:29 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:26:54 w14 down with queue=97 — spawning
+2026-08-05T23:26:54 started w14 pid=13348 letters=cd queue=97
+2026-08-05T23:27:04 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:27:31 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=False w1_q=80
+2026-08-05T23:27:56 w13 down with queue=72 — spawning
+2026-08-05T23:27:56 started w13 pid=17280 letters=cd queue=72
+2026-08-05T23:28:04 w19 down with queue=25 — spawning
+2026-08-05T23:28:04 started w19 pid=17788 letters=st queue=25
+2026-08-05T23:28:14 health alive=[12, 13, 14, 18, 19, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:28:39 w12 down with queue=80 — spawning
+2026-08-05T23:28:39 started w12 pid=20079 letters=cd queue=80
+2026-08-05T23:28:47 w20 down with queue=28 — spawning
+2026-08-05T23:28:47 started w20 pid=20640 letters=st queue=28
+2026-08-05T23:28:55 w21 down with queue=70 — spawning
+2026-08-05T23:28:55 started w21 pid=21249 letters=cd queue=70
+2026-08-05T23:29:03 w22 down with queue=90 — spawning
+2026-08-05T23:29:03 started w22 pid=21780 letters=cd queue=90
+2026-08-05T23:29:16 health alive=[12, 13, 14, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:29:41 w18 down with queue=22 — spawning
+2026-08-05T23:29:41 started w18 pid=23939 letters=st queue=22
+2026-08-05T23:29:51 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:30:16 w14 down with queue=97 — spawning
+2026-08-05T23:30:16 started w14 pid=25868 letters=cd queue=97
+2026-08-05T23:30:25 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:30:52 health alive=[12, 13, 14, 18, 19, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:31:18 w13 down with queue=72 — spawning
+2026-08-05T23:31:18 started w13 pid=29675 letters=cd queue=72
+2026-08-05T23:31:27 health alive=[12, 13, 14, 18, 20, 21, 22] drained=[23, 24, 25] w1_live=True w1_q=80
+2026-08-05T23:33:21 daemon up pid=36098 max_helpers=6
+2026-08-05T23:33:21 w18 down with queue=22 — spawning
+2026-08-05T23:33:21 started w18 pid=36116 letters=st queue=22
+2026-08-05T23:33:29 w19 down with queue=25 — spawning
+2026-08-05T23:33:29 started w19 pid=36570 letters=st queue=25
+2026-08-05T23:33:37 w20 down with queue=28 — spawning
+2026-08-05T23:33:37 started w20 pid=37054 letters=st queue=28
+2026-08-05T23:33:45 w21 down with queue=70 — spawning
+2026-08-05T23:33:45 started w21 pid=37516 letters=cd queue=70
+2026-08-05T23:33:53 w13 down with queue=72 — spawning
+2026-08-05T23:33:53 started w13 pid=37953 letters=cd queue=72
+2026-08-05T23:34:01 w1 down with queue=80 — spawning
+2026-08-05T23:34:01 started w1 pid=38411 letters=cd queue=80
+2026-08-05T23:34:10 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:34:36 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:38:11 daemon up pid=50628 max_helpers=6
+2026-08-05T23:38:11 w19 down with queue=25 — spawning
+2026-08-05T23:38:11 started w19 pid=50646 letters=st queue=25
+2026-08-05T23:38:19 w20 down with queue=28 — spawning
+2026-08-05T23:38:19 started w20 pid=51097 letters=st queue=28
+2026-08-05T23:38:27 w21 down with queue=70 — spawning
+2026-08-05T23:38:27 started w21 pid=51550 letters=cd queue=70
+2026-08-05T23:38:35 w13 down with queue=72 — spawning
+2026-08-05T23:38:35 started w13 pid=52006 letters=cd queue=72
+2026-08-05T23:38:43 w1 down with queue=80 — spawning
+2026-08-05T23:38:43 started w1 pid=52469 letters=cd queue=80
+2026-08-05T23:38:52 health alive=[1, 13, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:39:17 w18 down with queue=22 — spawning
+2026-08-05T23:39:17 started w18 pid=54158 letters=st queue=22
+2026-08-05T23:39:26 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:39:52 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:40:47 daemon up pid=59068 max_helpers=6
+2026-08-05T23:40:47 w19 down with queue=25 — spawning
+2026-08-05T23:40:47 started w19 pid=59087 letters=st queue=25
+2026-08-05T23:40:55 w20 down with queue=28 — spawning
+2026-08-05T23:40:55 started w20 pid=59516 letters=st queue=28
+2026-08-05T23:41:03 w21 down with queue=70 — spawning
+2026-08-05T23:41:03 started w21 pid=59972 letters=cd queue=70
+2026-08-05T23:41:11 w13 down with queue=72 — spawning
+2026-08-05T23:41:11 started w13 pid=60436 letters=cd queue=72
+2026-08-05T23:41:19 w1 down with queue=80 — spawning
+2026-08-05T23:41:19 started w1 pid=60895 letters=cd queue=80
+2026-08-05T23:41:29 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:41:55 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:42:21 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:42:48 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:43:15 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:43:51 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:44:20 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:44:59 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:45:27 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:45:54 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:46:23 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:46:50 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:47:18 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:47:44 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:48:15 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:48:44 health alive=[1, 13, 18, 19, 20, 21] drained=[23, 24, 25]
+2026-08-05T23:49:09 w12 down with queue=80 — spawning
+2026-08-05T23:49:09 started w12 pid=82774 letters=cd queue=80
+2026-08-05T23:49:18 health alive=[1, 12, 13, 18, 19, 21] drained=[20, 23, 24, 25]
+2026-08-05T23:49:44 health alive=[1, 12, 13, 18, 19, 21] drained=[19, 20, 23, 24, 25]
+2026-08-05T23:50:09 w22 down with queue=90 — spawning
+2026-08-05T23:50:09 started w22 pid=85808 letters=cd queue=90
+2026-08-05T23:50:19 health alive=[1, 12, 13, 18, 21, 22] drained=[19, 20, 23, 24, 25]
+2026-08-05T23:50:47 health alive=[1, 12, 13, 18, 21, 22] drained=[19, 20, 23, 24, 25]
+2026-08-05T23:51:15 health alive=[1, 12, 13, 18, 21, 22] drained=[19, 20, 23, 24, 25]
+2026-08-05T23:51:43 health alive=[1, 12, 13, 18, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:52:08 w14 down with queue=97 — spawning
+2026-08-05T23:52:08 started w14 pid=91477 letters=cd queue=97
+2026-08-05T23:52:22 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:52:51 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:53:17 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:53:45 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:54:12 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:54:41 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:55:16 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:55:47 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:56:19 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:56:52 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:57:19 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:57:48 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:58:20 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:58:54 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:59:23 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-05T23:59:50 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:00:17 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:00:46 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:01:13 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:01:39 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:02:08 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:02:52 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:03:19 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:03:45 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:04:18 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:04:47 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:05:14 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:05:41 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:06:12 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:06:42 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:07:15 health alive=[1, 12, 13, 14, 21, 22] drained=[18, 19, 20, 23, 24, 25]
+2026-08-06T00:07:22 daemon up pid=32850 max_helpers=12
+2026-08-06T00:07:22 w1 down with queue=2 — spawning
+2026-08-06T00:07:22 started w1 pid=32880 letters=cd queue=2
+2026-08-06T00:07:30 w26 down with queue=2 — spawning
+2026-08-06T00:07:30 started w26 pid=33323 letters=cd queue=2
+2026-08-06T00:07:38 w21 down with queue=17 — spawning
+2026-08-06T00:07:38 started w21 pid=33743 letters=cd queue=17
+2026-08-06T00:07:46 w30 down with queue=17 — spawning
+2026-08-06T00:07:46 started w30 pid=34170 letters=cd queue=17
+2026-08-06T00:07:54 w14 down with queue=29 — spawning
+2026-08-06T00:07:54 started w14 pid=34682 letters=cd queue=29
+2026-08-06T00:08:02 w29 down with queue=29 — spawning
+2026-08-06T00:08:02 started w29 pid=35171 letters=cd queue=29
+2026-08-06T00:08:10 w13 down with queue=31 — spawning
+2026-08-06T00:08:10 started w13 pid=35603 letters=cd queue=31
+2026-08-06T00:08:18 w28 down with queue=31 — spawning
+2026-08-06T00:08:18 started w28 pid=36042 letters=cd queue=31
+2026-08-06T00:08:26 w27 down with queue=33 — spawning
+2026-08-06T00:08:26 started w27 pid=36503 letters=cd queue=33
+2026-08-06T00:08:34 w12 down with queue=34 — spawning
+2026-08-06T00:08:34 started w12 pid=36897 letters=cd queue=34
+2026-08-06T00:08:42 w31 down with queue=39 — spawning
+2026-08-06T00:08:42 started w31 pid=37372 letters=cd queue=39
+2026-08-06T00:08:50 w22 down with queue=40 — spawning
+2026-08-06T00:08:51 started w22 pid=37733 letters=cd queue=40
+2026-08-06T00:09:02 health alive=[12, 13, 14, 21, 22, 26, 27, 28, 29, 30, 31] drained=[1, 18, 19, 20, 23, 24, 25]
+2026-08-06T00:10:05 health alive=[12, 13, 14, 21, 22, 26, 27, 28, 29, 30, 31] drained=[1, 18, 19, 20, 23, 24, 25]
+2026-08-06T00:11:36 health alive=[12, 13, 14, 21, 22, 26, 27, 28, 29, 30, 31] drained=[1, 18, 19, 20, 23, 24, 25]
+2026-08-06T00:13:14 health alive=[12, 13, 14, 21, 22, 26, 27, 28, 29, 30, 31] drained=[1, 18, 19, 20, 23, 24, 25]
+2026-08-06T00:14:20 health alive=[12, 13, 14, 21, 22, 26, 27, 28, 29, 30, 31] drained=[1, 18, 19, 20, 23, 24, 25]
+2026-08-06T00:15:23 health alive=[12, 13, 14, 21, 22, 26, 28, 29, 30, 31] drained=[1, 18, 19, 20, 23, 24, 25]
+2026-08-06T00:15:58 w27 down with queue=33 — spawning
+2026-08-06T00:15:59 started w27 pid=54105 letters=cd queue=33
+2026-08-06T00:16:13 health alive=[12, 13, 14, 21, 22, 26, 27, 28, 29, 30, 31] drained=[1, 18, 19, 20, 23, 24, 25]
+2026-08-06T00:17:31 health alive=[12, 13, 14, 21, 22, 26, 27, 28, 29, 31] drained=[1, 18, 19, 20, 23, 24, 25, 30]
+2026-08-06T00:18:32 health alive=[12, 13, 14, 21, 22, 27, 28, 29, 31] drained=[1, 18, 19, 20, 23, 24, 25, 30]
+2026-08-06T00:18:59 w26 down with queue=6 — spawning
+2026-08-06T00:18:59 started w26 pid=61130 letters=cd queue=6
+2026-08-06T00:19:10 health alive=[13, 14, 21, 22, 26, 27, 28, 29, 31] drained=[1, 12, 18, 19, 20, 23, 24, 25, 30]
+2026-08-06T00:19:51 health alive=[13, 14, 21, 22, 26, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 30]
+2026-08-06T00:20:22 health alive=[14, 21, 22, 26, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 30]
+2026-08-06T00:20:55 health alive=[14, 21, 22, 26, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 26, 30]
+2026-08-06T00:21:23 health alive=[14, 21, 22, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 26, 30]
+2026-08-06T00:21:58 health alive=[14, 21, 22, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 26, 30]
+2026-08-06T00:22:33 health alive=[14, 21, 22, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 26, 30]
+2026-08-06T00:23:01 health alive=[14, 21, 22, 27, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 26, 30]
+2026-08-06T00:23:27 w28 down with queue=7 — spawning
+2026-08-06T00:23:27 started w28 pid=73537 letters=cd queue=7
+2026-08-06T00:23:39 health alive=[14, 21, 22, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 26, 30]
+2026-08-06T00:24:07 health alive=[14, 21, 22, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 26, 30]
+2026-08-06T00:24:32 w14 down with queue=33 — spawning
+2026-08-06T00:24:32 started w14 pid=76710 letters=cd queue=33
+2026-08-06T00:24:42 health alive=[14, 21, 22, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 26, 30]
+2026-08-06T00:25:09 health alive=[14, 21, 22, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 23, 24, 25, 26, 30]
+2026-08-06T00:25:36 health alive=[14, 21, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 22, 23, 24, 25, 26, 30]
+2026-08-06T00:26:03 health alive=[14, 21, 27, 28, 29, 31] drained=[1, 12, 13, 18, 19, 20, 22, 23, 24, 25, 26, 30]
+2026-08-06T00:26:30 health alive=[14, 21, 27, 29, 31] drained=[1, 12, 13, 18, 19, 20, 22, 23, 24, 25, 26, 28, 30]
+2026-08-06T00:26:56 health alive=[14, 21, 27, 29] drained=[1, 12, 13, 18, 19, 20, 22, 23, 24, 25, 26, 28, 30, 31]
+2026-08-06T00:27:23 health alive=[14, 21, 27, 29] drained=[1, 12, 13, 18, 19, 20, 22, 23, 24, 25, 26, 28, 30, 31]
+2026-08-06T00:27:49 health alive=[14, 21, 27, 29] drained=[1, 12, 13, 18, 19, 20, 22, 23, 24, 25, 26, 28, 30, 31]
+2026-08-06T00:28:16 health alive=[14, 21, 27] drained=[1, 12, 13, 18, 19, 20, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:28:42 health alive=[14, 21, 27] drained=[1, 12, 13, 18, 19, 20, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:29:08 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:29:34 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:30:01 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:30:27 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:30:53 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:31:19 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:31:45 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:32:11 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:32:38 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:33:04 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:33:30 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:33:57 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:34:23 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:34:49 health alive=[14, 27] drained=[1, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:35:15 health alive=[27] drained=[1, 12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31]
+2026-08-06T00:35:40 all helper queues drained — daemon exiting

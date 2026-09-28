@@ -1,0 +1,126 @@
+{
+  "at": "2026-08-06T05:07:22.289Z",
+  "pairs": [
+    {
+      "parent": 1,
+      "helper": 26,
+      "before": 4,
+      "parentQueue": 2,
+      "helperQueue": 2,
+      "parentSample": [
+        "distq",
+        "disty"
+      ],
+      "helperSample": [
+        "distr",
+        "distz"
+      ]
+    },
+    {
+      "parent": 12,
+      "helper": 27,
+      "before": 67,
+      "parentQueue": 34,
+      "helperQueue": 33,
+      "parentSample": [
+        "depoz",
+        "dermu",
+        "dermw",
+        "dermy",
+        "descr"
+      ],
+      "helperSample": [
+        "derma",
+        "dermv",
+        "dermx",
+        "dermz",
+        "descs"
+      ]
+    },
+    {
+      "parent": 13,
+      "helper": 28,
+      "before": 62,
+      "parentQueue": 31,
+      "helperQueue": 31,
+      "parentSample": [
+        "deser",
+        "deset",
+        "desev",
+        "desex",
+        "desez"
+      ],
+      "helperSample": [
+        "deses",
+        "deseu",
+        "desew",
+        "desey",
+        "deter"
+      ]
+    },
+    {
+      "parent": 14,
+      "helper": 29,
+      "before": 58,
+      "parentQueue": 29,
+      "helperQueue": 29,
+      "parentSample": [
+        "disg",
+        "diss",
+        "divz",
+        "docz",
+        "dogl"
+      ],
+      "helperSample": [
+        "dism",
+        "dive",
+        "doct",
+        "dodz",
+        "dolk"
+      ]
+    },
+    {
+      "parent": 21,
+      "helper": 30,
+      "before": 34,
+      "parentQueue": 17,
+      "helperQueue": 17,
+      "parentSample": [
+        "dispg",
+        "dispi",
+        "dispk",
+        "dispm",
+        "dispo"
+      ],
+      "helperSample": [
+        "disph",
+        "dispj",
+        "displ",
+        "dispn",
+        "dispp"
+      ]
+    },
+    {
+      "parent": 22,
+      "helper": 31,
+      "before": 79,
+      "parentQueue": 40,
+      "helperQueue": 39,
+      "parentSample": [
+        "dogk",
+        "doly",
+        "dorq",
+        "dowo",
+        "draf"
+      ],
+      "helperSample": [
+        "dolj",
+        "doom",
+        "doud",
+        "dowu",
+        "dral"
+      ]
+    }
+  ],
+  "collisions": []
+}

@@ -1,0 +1,287 @@
+
+--- boost-12 daemon start 2026-08-06T05:07:30Z queue=2 ---
+[w26:cd:pro] IP mode=tor
+[w26:cd:pro] Starting persistent Tor socks=127.0.0.1:19076 control=127.0.0.1:29076
+[w26:cd:pro] tor: Aug 06 00:07:31.065 [warn] Fixing permissions on directory /tmp/lll-tor-w26
+[w26:cd:pro] tor: Aug 06 00:07:31.000 [notice] Bootstrapped 0% (starting): Starting
+[w26:cd:pro] tor: Aug 06 00:07:32.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w26:cd:pro] tor: Aug 06 00:07:32.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w26:cd:pro] tor: Aug 06 00:07:32.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w26:cd:pro] tor: Aug 06 00:07:33.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 06 00:07:33.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w26:cd:pro] tor: Aug 06 00:07:33.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w26:cd:pro] tor: Aug 06 00:07:34.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w26:cd:pro] tor: Aug 06 00:07:36.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w26:cd:pro] tor: Aug 06 00:07:36.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 06 00:07:36.000 [notice] I learned some more directory 
+[w26:cd:pro] tor: Aug 06 00:07:37.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w26:cd:pro] tor: Aug 06 00:07:44.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w26:cd:pro] tor: Aug 06 00:07:45.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w26:cd:pro] tor: Aug 06 00:07:45.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w26:cd:pro] tor: Aug 06 00:07:45.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w26:cd:pro] tor: Aug 06 00:07:46.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 06 00:07:46.000 [notice] Bootstrapped 9
+[w26:cd:pro] tor: Aug 06 00:07:47.000 [notice] Bootstrapped 100% (done): Done
+[w26:cd:pro] Tor ready on 19076 exit=171.25.193.78
+[w26:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w26-r0
+[w26:cd:pro] Proxy tor#1 socks5://127.0.0.1:19076
+[w26:cd:pro] Opening https://lastletterlibrary.com
+[w26:cd:pro] Library mode=pro
+[w26:cd:pro] Turnstile token present (len=816)
+[w26:cd:pro] Site Turnstile token (19326ms)
+[w26:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w26:cd:pro] Loaded 7281 prefixes, 57424 words; queue=2
+[w26:cd:pro] Searching "distr" | queue=1 | words=57424
+[w26:cd:pro] [api] 200 mode=pro startsWith=distr
+[w26:cd:pro] [api] 200 mode=pro startsWith=distr (461ms direct)
+[w26:cd:pro] "distr" → 100 records, 100 words (incl. exact "distr")
+[w26:cd:pro] Pacing 16s before "distr" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile miss (15040ms)
+[w26:cd:pro] "distr" reverse search failed (No Turnstile token for direct search); forward-only
+[w26:cd:pro] "distr" full page ends at "distringases" (next='i'); skip 10 covered groups → 18 children from distri..
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distz" | queue=18 | words=57477
+[w26:cd:pro] Managed Turnstile miss (15059ms)
+[w26:cd:pro] Failed "distz" attempt 1: No Turnstile token for direct search
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Turnstile miss — soft reload before rotate
+[w26:cd:pro] Turnstile token present (len=837)
+[w26:cd:pro] Site Turnstile token (7286ms)
+[w26:cd:pro] Searching "distz" | queue=18 | words=57477
+[w26:cd:pro] [api] 200 mode=pro startsWith=distz
+[w26:cd:pro] [api] 200 mode=pro startsWith=distz (441ms direct)
+[w26:cd:pro] "distz" → 0 records, 0 words
+[w26:cd:pro] "distz" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distri" | queue=17 | words=57477
+[w26:cd:pro] Pacing 15s before "distri" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile miss (15053ms)
+[w26:cd:pro] heartbeat words=57477 queue=17 rotation=0 idle=20s
+[w26:cd:pro] Managed Turnstile miss (15038ms)
+[w26:cd:pro] Failed "distri" attempt 1: No Turnstile token for direct search
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Turnstile miss — soft reload before rotate
+[w26:cd:pro] Turnstile mint hard timeout after 15000ms
+[w26:cd:pro] Site Turnstile remint timed out (15383ms)
+[w26:cd:pro] Soft reload mint failed — rotating immediately
+[w26:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w26:cd:pro] Tor ready on 19076 exit=185.246.188.73
+[w26:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19076
+[w26:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w26-r1
+[w26:cd:pro] Proxy tor#2 socks5://127.0.0.1:19076
+[w26:cd:pro] Opening https://lastletterlibrary.com
+[w26:cd:pro] heartbeat words=57477 queue=18 rotation=1 idle=80s
+[w26:cd:pro] page.goto failed attempt 1: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w26:cd:pro] Library mode=pro
+[w26:cd:pro] Managed Turnstile token (len=816, 10166ms, remount)
+[w26:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w26:cd:pro] Cleaned 1 old rotated profile(s)
+[w26:cd:pro] Searching "distri" | queue=17 | words=57477
+[w26:cd:pro] [api] 200 mode=pro startsWith=distri
+[w26:cd:pro] [api] 200 mode=pro startsWith=distri (541ms direct)
+[w26:cd:pro] "distri" → 47 records, 47 words
+[w26:cd:pro] "distri" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrj" | queue=16 | words=57477
+[w26:cd:pro] Pacing 15s before "distrj" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 7444ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrj
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrj (485ms direct)
+[w26:cd:pro] "distrj" → 0 records, 0 words
+[w26:cd:pro] "distrj" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrk" | queue=15 | words=57477
+[w26:cd:pro] Pacing 14s before "distrk" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 9085ms, remount)
+[w26:cd:pro] heartbeat words=57477 queue=15 rotation=1 idle=15s
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrk
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrk (1172ms direct)
+[w26:cd:pro] "distrk" → 0 records, 0 words
+[w26:cd:pro] "distrk" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrl" | queue=14 | words=57477
+[w26:cd:pro] Pacing 11s before "distrl" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 8215ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrl
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrl (572ms direct)
+[w26:cd:pro] "distrl" → 0 records, 0 words
+[w26:cd:pro] "distrl" branch complete
+[w26:cd:pro] Saved 57,477 worker words; shared last.txt now 480,187
+[w26:cd:pro] Searching "distrm" | queue=13 | words=57477
+[w26:cd:pro] Pacing 12s before "distrm" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 5141ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrm
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrm (515ms direct)
+[w26:cd:pro] "distrm" → 0 records, 0 words
+[w26:cd:pro] "distrm" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrn" | queue=12 | words=57477
+[w26:cd:pro] Pacing 13s before "distrn" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 11372ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrn
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrn (1262ms direct)
+[w26:cd:pro] "distrn" → 0 records, 0 words
+[w26:cd:pro] "distrn" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distro" | queue=11 | words=57477
+[w26:cd:pro] Pacing 8s before "distro" (gap=15500ms)
+[w26:cd:pro] heartbeat words=57477 queue=11 rotation=1 idle=6s
+[w26:cd:pro] Turnstile mint hard timeout after 20000ms
+[w26:cd:pro] Failed "distro" attempt 1: No Turnstile token for direct search
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Turnstile miss — soft reload before rotate
+[w26:cd:pro] Turnstile token present (len=816)
+[w26:cd:pro] Site Turnstile token (8368ms)
+[w26:cd:pro] Searching "distro" | queue=11 | words=57477
+[w26:cd:pro] [api] 200 mode=pro startsWith=distro
+[w26:cd:pro] [api] 200 mode=pro startsWith=distro (399ms direct)
+[w26:cd:pro] "distro" → 7 records, 7 words (incl. exact "distro")
+[w26:cd:pro] "distro" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrp" | queue=10 | words=57477
+[w26:cd:pro] Pacing 15s before "distrp" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile miss (15983ms)
+[w26:cd:pro] Failed "distrp" attempt 1: No Turnstile token for direct search
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Turnstile miss — soft reload before rotate
+[w26:cd:pro] Turnstile token present (len=816)
+[w26:cd:pro] Site Turnstile token (7007ms)
+[w26:cd:pro] Searching "distrp" | queue=10 | words=57477
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrp
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrp (384ms direct)
+[w26:cd:pro] "distrp" → 0 records, 0 words
+[w26:cd:pro] "distrp" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrq" | queue=9 | words=57477
+[w26:cd:pro] Pacing 14s before "distrq" (gap=15500ms)
+[w26:cd:pro] heartbeat words=57477 queue=9 rotation=1 idle=1s
+[w26:cd:pro] Managed Turnstile token (len=816, 5919ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrq
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrq (439ms direct)
+[w26:cd:pro] "distrq" → 0 records, 0 words
+[w26:cd:pro] "distrq" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrr" | queue=8 | words=57477
+[w26:cd:pro] Pacing 15s before "distrr" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 6406ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrr
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrr (645ms direct)
+[w26:cd:pro] "distrr" → 0 records, 0 words
+[w26:cd:pro] "distrr" branch complete
+[w26:cd:pro] Turnstile mint hard timeout after 20000ms
+[w26:cd:pro] heartbeat words=57477 queue=8 rotation=1 idle=47s
+[w26:cd:pro] Saved 57,477 worker words; shared last.txt now 480,248
+[w26:cd:pro] Searching "distrs" | queue=7 | words=57477
+[w26:cd:pro] Managed Turnstile token (len=816, 3936ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrs
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrs (389ms direct)
+[w26:cd:pro] "distrs" → 0 records, 0 words
+[w26:cd:pro] "distrs" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrt" | queue=6 | words=57477
+[w26:cd:pro] Pacing 16s before "distrt" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 3346ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrt
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrt (491ms direct)
+[w26:cd:pro] "distrt" → 0 records, 0 words
+[w26:cd:pro] "distrt" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distru" | queue=5 | words=57477
+[w26:cd:pro] Pacing 13s before "distru" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile miss (16699ms)
+[w26:cd:pro] Failed "distru" attempt 1: No Turnstile token for direct search
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Turnstile miss — soft reload before rotate
+[w26:cd:pro] Site Turnstile remint timed out (12346ms)
+[w26:cd:pro] Soft reload mint failed — rotating immediately
+[w26:cd:pro] heartbeat words=57477 queue=6 rotation=2 idle=34s
+[w26:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w26:cd:pro] Tor ready on 19076 exit=45.84.107.101
+[w26:cd:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19076
+[w26:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w26-r2
+[w26:cd:pro] Proxy tor#3 socks5://127.0.0.1:19076
+[w26:cd:pro] Opening https://lastletterlibrary.com
+[w26:cd:pro] heartbeat words=57477 queue=6 rotation=2 idle=94s
+[w26:cd:pro] heartbeat words=57477 queue=6 rotation=2 idle=154s
+[w26:cd:pro] page.goto failed attempt 1: page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://lastletterlibrary.com/", waiting until "domco
+[w26:cd:pro] heartbeat words=57477 queue=6 rotation=2 idle=214s
+[w26:cd:pro] No successful search for 180s — respawning worker
+[w26:cd:pro] Graceful shutdown on watchdog
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] rotate after error failed: Could not enable Pro mode: locator.waitFor: Target page, context or browser has been closed
+[w26:cd:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T05:18:59Z queue=6 ---
+[w26:cd:pro] IP mode=tor
+[w26:cd:pro] Cleaned 2 old rotated profile(s)
+[w26:cd:pro] Starting persistent Tor socks=127.0.0.1:19076 control=127.0.0.1:29076
+[w26:cd:pro] tor: Aug 06 00:19:00.000 [notice] Bootstrapped 0% (starting): Starting
+[w26:cd:pro] tor: Aug 06 00:19:07.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w26:cd:pro] tor: Aug 06 00:19:07.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w26:cd:pro] tor: Aug 06 00:19:08.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w26:cd:pro] tor: Aug 06 00:19:08.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 06 00:19:08.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w26:cd:pro] tor: Aug 06 00:19:09.000 [notice] Bootstrapped 100% (done): Done
+[w26:cd:pro] Tor ready on 19076 exit=109.70.100.13
+[w26:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w26-r0
+[w26:cd:pro] Proxy tor#1 socks5://127.0.0.1:19076
+[w26:cd:pro] Opening https://lastletterlibrary.com
+[w26:cd:pro] Library mode=pro
+[w26:cd:pro] Managed Turnstile token (len=816, 6475ms, remount)
+[w26:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w26:cd:pro] Loaded 7305 prefixes, 57477 words; queue=6
+[w26:cd:pro] Searching "distru" | queue=5 | words=57477
+[w26:cd:pro] [api] 200 mode=pro startsWith=distru
+[w26:cd:pro] [api] 200 mode=pro startsWith=distru (550ms direct)
+[w26:cd:pro] "distru" → 13 records, 13 words
+[w26:cd:pro] "distru" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrv" | queue=4 | words=57477
+[w26:cd:pro] Pacing 14s before "distrv" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 7307ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrv
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrv (464ms direct)
+[w26:cd:pro] "distrv" → 0 records, 0 words
+[w26:cd:pro] "distrv" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrw" | queue=3 | words=57477
+[w26:cd:pro] Pacing 15s before "distrw" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 4717ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrw
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrw (451ms direct)
+[w26:cd:pro] "distrw" → 0 records, 0 words
+[w26:cd:pro] "distrw" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrx" | queue=2 | words=57477
+[w26:cd:pro] Pacing 16s before "distrx" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 3641ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrx
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrx (540ms direct)
+[w26:cd:pro] "distrx" → 0 records, 0 words
+[w26:cd:pro] "distrx" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distry" | queue=1 | words=57477
+[w26:cd:pro] Pacing 15s before "distry" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 4333ms, remount)
+[w26:cd:pro] heartbeat words=57477 queue=1 rotation=0 idle=13s
+[w26:cd:pro] [api] 200 mode=pro startsWith=distry
+[w26:cd:pro] [api] 200 mode=pro startsWith=distry (524ms direct)
+[w26:cd:pro] "distry" → 0 records, 0 words
+[w26:cd:pro] "distry" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Searching "distrz" | queue=0 | words=57477
+[w26:cd:pro] Pacing 15s before "distrz" (gap=15500ms)
+[w26:cd:pro] Managed Turnstile token (len=816, 3951ms, remount)
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrz
+[w26:cd:pro] [api] 200 mode=pro startsWith=distrz (408ms direct)
+[w26:cd:pro] "distrz" → 0 records, 0 words
+[w26:cd:pro] "distrz" branch complete
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Saved 57,477 worker words
+[w26:cd:pro] Worker done. prefixes=7311 words=57477
+[w26:cd:pro] Managed Turnstile miss (519ms)
+[w26:cd:pro] Tor exited code=0

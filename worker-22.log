@@ -1,0 +1,1773 @@
+
+--- boost-12 start 2026-08-06T03:54:16.789Z letters=cd ---
+[w22:cd:pro] IP mode=tor
+[w22:cd:pro] Starting persistent Tor socks=127.0.0.1:19072 control=127.0.0.1:29072
+[w22:cd:pro] tor: Aug 05 22:54:17.236 [warn] Fixing permissions on directory /tmp/lll-tor-w22
+[w22:cd:pro] tor: Aug 05 22:54:17.000 [notice] Bootstrapped 0% (starting): Starting
+[w22:cd:pro] tor: Aug 05 22:54:18.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w22:cd:pro] tor: Aug 05 22:54:18.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w22:cd:pro] tor: Aug 05 22:54:19.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w22:cd:pro] tor: Aug 05 22:54:20.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 22:54:20.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w22:cd:pro] tor: Aug 05 22:54:20.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w22:cd:pro] tor: Aug 05 22:54:20.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w22:cd:pro] tor: Aug 05 22:54:22.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w22:cd:pro] tor: Aug 05 22:54:22.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 22:54:22.000 [notice] I learned some more directory 
+[w22:cd:pro] tor: Aug 05 22:54:23.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w22:cd:pro] tor: Aug 05 22:54:29.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w22:cd:pro] tor: Aug 05 22:54:30.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w22:cd:pro] tor: Aug 05 22:54:30.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w22:cd:pro] tor: Aug 05 22:54:30.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w22:cd:pro] tor: Aug 05 22:54:31.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 22:54:31.000 [notice] Bootstrapped 9
+[w22:cd:pro] tor: Aug 05 22:54:32.000 [notice] Bootstrapped 100% (done): Done
+[w22:cd:pro] Tor ready on 19072 exit=192.42.116.56
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r0
+[w22:cd:pro] Proxy tor#1 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w22:cd:pro] page.goto failed attempt 2: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (28008ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Loaded 7019 prefixes, 55296 words; queue=98
+[w22:cd:pro] Searching "dum" | queue=97 | words=55296
+[w22:cd:pro] [api] 200 mode=pro startsWith=dum
+[w22:cd:pro] [api] 200 mode=pro startsWith=dum (1684ms direct)
+[w22:cd:pro] "dum" → 100 records, 100 words (incl. exact "dum")
+[w22:cd:pro] Pacing 11s before "dum" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (16688ms)
+[w22:cd:pro] "dum" reverse search failed (No Turnstile token for direct search); forward-only
+[w22:cd:pro] "dum" full page ends at "dummyweed" (next='m'); skip 14 covered groups → 14 children from dumm..
+[w22:cd:pro] Saved 55,396 worker words
+[w22:cd:pro] Searching "dus" | queue=110 | words=55396
+[w22:cd:pro] Managed Turnstile miss (15226ms)
+[w22:cd:pro] Failed "dus" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,396 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Site Turnstile remint timed out (9564ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] heartbeat words=55396 queue=111 rotation=1 idle=32s
+[w22:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=185.220.101.21
+[w22:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r1
+[w22:cd:pro] Proxy tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 11671ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "dus" | queue=110 | words=55396
+[w22:cd:pro] [api] 200 mode=pro startsWith=dus
+[w22:cd:pro] [api] 200 mode=pro startsWith=dus (1057ms direct)
+[w22:cd:pro] "dus" → 99 records, 99 words
+[w22:cd:pro] "dus" branch complete
+[w22:cd:pro] Saved 55,450 worker words
+[w22:cd:pro] Searching "dyr" | queue=109 | words=55450
+[w22:cd:pro] Pacing 14s before "dyr" (gap=15500ms)
+[w22:cd:pro] heartbeat words=55450 queue=109 rotation=1 idle=4s
+[w22:cd:pro] Managed Turnstile token (len=816, 6839ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dyr
+[w22:cd:pro] [api] 200 mode=pro startsWith=dyr (546ms direct)
+[w22:cd:pro] "dyr" → 0 records, 0 words
+[w22:cd:pro] "dyr" branch complete
+[w22:cd:pro] Saved 55,450 worker words
+[w22:cd:pro] Searching "dyz" | queue=108 | words=55450
+[w22:cd:pro] Pacing 15s before "dyz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 8298ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dyz
+[w22:cd:pro] [api] 200 mode=pro startsWith=dyz (543ms direct)
+[w22:cd:pro] "dyz" → 0 records, 0 words
+[w22:cd:pro] "dyz" branch complete
+[w22:cd:pro] Saved 55,450 worker words
+[w22:cd:pro] Searching "daiv" | queue=107 | words=55450
+[w22:cd:pro] Pacing 15s before "daiv" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 8832ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=daiv
+[w22:cd:pro] [api] 200 mode=pro startsWith=daiv (550ms direct)
+[w22:cd:pro] "daiv" → 1 records, 1 words
+[w22:cd:pro] "daiv" branch complete
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Searching "damy" | queue=106 | words=55451
+[w22:cd:pro] Pacing 15s before "damy" (gap=15500ms)
+[w22:cd:pro] heartbeat words=55451 queue=106 rotation=1 idle=21s
+[w22:cd:pro] Turnstile mint hard timeout after 20000ms
+[w22:cd:pro] Failed "damy" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Turnstile mint hard timeout after 15000ms
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w22:cd:pro] heartbeat words=55451 queue=107 rotation=2 idle=81s
+[w22:cd:pro] Tor ready on 19072 exit=171.25.193.131
+[w22:cd:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r2
+[w22:cd:pro] Proxy tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Site Turnstile remint timed out (24956ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "damy" | queue=106 | words=55451
+[w22:cd:pro] heartbeat words=55451 queue=106 rotation=2 idle=141s
+[w22:cd:pro] Managed Turnstile miss (17137ms)
+[w22:cd:pro] [api] 200 mode=pro startsWith=damy
+[w22:cd:pro] [api] 200 mode=pro startsWith=damy (831ms direct)
+[w22:cd:pro] "damy" → 1 records, 1 words
+[w22:cd:pro] "damy" branch complete
+[w22:cd:pro] Managed Turnstile miss (18162ms)
+[w22:cd:pro] heartbeat words=55451 queue=106 rotation=2 idle=210s
+[w22:cd:pro] No successful search for 180s — respawning worker
+[w22:cd:pro] Graceful shutdown on watchdog
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Saved 55,451 worker words; shared last.txt now 467,399
+[w22:cd:pro] Searching "danz" | queue=105 | words=55451
+[w22:cd:pro] Failed "danz" attempt 1: locator.count: Target page, context or browser has been closed
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Searching "danz" | queue=105 | words=55451
+[w22:cd:pro] Failed "danz" attempt 2: locator.count: Target page, context or browser has been closed
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Tor exited code=null
+
+--- boost-12 daemon start 2026-08-06T04:02:58Z queue=106 ---
+[w22:cd:pro] IP mode=tor
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Starting persistent Tor socks=127.0.0.1:19072 control=127.0.0.1:29072
+[w22:cd:pro] tor: Aug 05 23:03:14.000 [notice] Bootstrapped 0% (starting): Starting
+[w22:cd:pro] tor: Aug 05 23:03:17.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w22:cd:pro] tor: Aug 05 23:03:17.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w22:cd:pro] tor: Aug 05 23:03:17.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w22:cd:pro] tor: Aug 05 23:03:17.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:03:17.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w22:cd:pro] tor: Aug 05 23:03:18.000 [notice] Bootstrapped 100% (done): Done
+[w22:cd:pro] Tor ready on 19072 exit=179.43.159.202
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r0
+[w22:cd:pro] Proxy tor#1 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 13737ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Loaded 7039 prefixes, 55451 words; queue=106
+[w22:cd:pro] Searching "danz" | queue=105 | words=55451
+[w22:cd:pro] [api] 200 mode=pro startsWith=danz
+[w22:cd:pro] [api] 200 mode=pro startsWith=danz (836ms direct)
+[w22:cd:pro] "danz" → 3 records, 3 words
+[w22:cd:pro] "danz" branch complete
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Searching "datu" | queue=104 | words=55451
+[w22:cd:pro] Pacing 12s before "datu" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 10317ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=datu
+[w22:cd:pro] [api] 200 mode=pro startsWith=datu (421ms direct)
+[w22:cd:pro] "datu" → 9 records, 9 words
+[w22:cd:pro] "datu" branch complete
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Searching "dauw" | queue=103 | words=55451
+[w22:cd:pro] Pacing 15s before "dauw" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4927ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dauw
+[w22:cd:pro] [api] 200 mode=pro startsWith=dauw (775ms direct)
+[w22:cd:pro] "dauw" → 1 records, 1 words (incl. exact "dauw")
+[w22:cd:pro] "dauw" branch complete
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Searching "dayy" | queue=102 | words=55451
+[w22:cd:pro] Pacing 9s before "dayy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 19233ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dayy
+[w22:cd:pro] [api] 200 mode=pro startsWith=dayy (662ms direct)
+[w22:cd:pro] "dayy" → 0 records, 0 words
+[w22:cd:pro] "dayy" branch complete
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Searching "de-w" | queue=101 | words=55451
+[w22:cd:pro] Pacing 14s before "de-w" (gap=15500ms)
+[w22:cd:pro] heartbeat words=55451 queue=101 rotation=0 idle=4s
+[w22:cd:pro] Managed Turnstile miss (15742ms)
+[w22:cd:pro] Failed "de-w" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (12308ms)
+[w22:cd:pro] Searching "de-w" | queue=101 | words=55451
+[w22:cd:pro] [api] 200 mode=pro startsWith=de-w
+[w22:cd:pro] [api] 200 mode=pro startsWith=de-w (470ms direct)
+[w22:cd:pro] "de-w" → 0 records, 0 words
+[w22:cd:pro] "de-w" branch complete
+[w22:cd:pro] Saved 55,451 worker words
+[w22:cd:pro] Searching "deaf" | queue=100 | words=55451
+[w22:cd:pro] Pacing 15s before "deaf" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5706ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deaf
+[w22:cd:pro] [api] 200 mode=pro startsWith=deaf (603ms direct)
+[w22:cd:pro] "deaf" → 21 records, 21 words (incl. exact "deaf")
+[w22:cd:pro] "deaf" branch complete
+[w22:cd:pro] Saved 55,472 worker words
+[w22:cd:pro] Searching "deal" | queue=99 | words=55472
+[w22:cd:pro] Pacing 15s before "deal" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5612ms, remount)
+[w22:cd:pro] heartbeat words=55472 queue=99 rotation=0 idle=12s
+[w22:cd:pro] [api] 200 mode=pro startsWith=deal
+[w22:cd:pro] [api] 200 mode=pro startsWith=deal (445ms direct)
+[w22:cd:pro] "deal" → 52 records, 52 words (incl. exact "deal")
+[w22:cd:pro] "deal" branch complete
+[w22:cd:pro] Saved 55,524 worker words; shared last.txt now 468,594
+[w22:cd:pro] Searching "dear" | queue=98 | words=55524
+[w22:cd:pro] Pacing 7s before "dear" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 13412ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dear
+[w22:cd:pro] [api] 200 mode=pro startsWith=dear (513ms direct)
+[w22:cd:pro] "dear" → 40 records, 40 words (incl. exact "dear")
+[w22:cd:pro] "dear" branch complete
+[w22:cd:pro] Saved 55,559 worker words
+[w22:cd:pro] Searching "debf" | queue=97 | words=55559
+[w22:cd:pro] Pacing 15s before "debf" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 14742ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=debf
+[w22:cd:pro] [api] 200 mode=pro startsWith=debf (772ms direct)
+[w22:cd:pro] "debf" → 0 records, 0 words
+[w22:cd:pro] "debf" branch complete
+[w22:cd:pro] Saved 55,559 worker words
+[w22:cd:pro] Searching "debl" | queue=96 | words=55559
+[w22:cd:pro] Pacing 14s before "debl" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15653ms)
+[w22:cd:pro] Failed "debl" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,559 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] heartbeat words=55559 queue=97 rotation=0 idle=24s
+[w22:cd:pro] Site Turnstile remint timed out (12880ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=109.71.252.182
+[w22:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r1
+[w22:cd:pro] Proxy tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] page.goto failed attempt 1: page.goto: net::ERR_TIMED_OUT at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastletterlibrary.c
+[w22:cd:pro] heartbeat words=55559 queue=97 rotation=1 idle=84s
+[w22:cd:pro] page.goto failed attempt 2: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://lastletterlibrary.com/
+Call log:
+  - navigating to "https://lastlett
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] heartbeat words=55559 queue=97 rotation=1 idle=144s
+[w22:cd:pro] Site Turnstile remint timed out (26250ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "debl" | queue=96 | words=55559
+[w22:cd:pro] Managed Turnstile miss (15824ms)
+[w22:cd:pro] Failed "debl" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,559 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Site Turnstile remint timed out (9446ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=192.42.116.17
+[w22:cd:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r2
+[w22:cd:pro] Proxy tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] heartbeat words=55559 queue=97 rotation=2 idle=204s
+[w22:cd:pro] No successful search for 180s — respawning worker
+[w22:cd:pro] Graceful shutdown on watchdog
+[w22:cd:pro] Saved 55,559 worker words
+[w22:cd:pro] page.goto failed attempt 1: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://lastletterlibrary.com/",
+[w22:cd:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T04:10:20Z queue=97 ---
+[w22:cd:pro] IP mode=tor
+[w22:cd:pro] Cleaned 2 old rotated profile(s)
+[w22:cd:pro] Starting persistent Tor socks=127.0.0.1:19072 control=127.0.0.1:29072
+[w22:cd:pro] tor: Aug 05 23:10:34.000 [notice] Bootstrapped 0% (starting): Starting
+[w22:cd:pro] tor: Aug 05 23:10:47.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w22:cd:pro] tor: Aug 05 23:10:48.000 [notice] New control connection opened from 127.0.0.1.
+Aug 05 23:10:48.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w22:cd:pro] tor: Aug 05 23:10:48.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w22:cd:pro] tor: Aug 05 23:10:48.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:10:48.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w22:cd:pro] tor: Aug 05 23:10:48.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w22:cd:pro] tor: Aug 05 23:10:49.000 [notice] Bootstrapped 100% (done): Done
+[w22:cd:pro] Tor ready on 19072 exit=192.42.116.115
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r0
+[w22:cd:pro] Proxy tor#1 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 6087ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Loaded 7048 prefixes, 55559 words; queue=97
+[w22:cd:pro] Searching "debl" | queue=96 | words=55559
+[w22:cd:pro] [api] 200 mode=pro startsWith=debl
+[w22:cd:pro] [api] 200 mode=pro startsWith=debl (633ms direct)
+[w22:cd:pro] "debl" → 6 records, 6 words
+[w22:cd:pro] "debl" branch complete
+[w22:cd:pro] Saved 55,565 worker words
+[w22:cd:pro] Searching "deca" | queue=95 | words=55565
+[w22:cd:pro] Pacing 15s before "deca" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5570ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deca
+[w22:cd:pro] [api] 200 mode=pro startsWith=deca (649ms direct)
+[w22:cd:pro] "deca" → 100 records, 100 words
+[w22:cd:pro] Pacing 15s before "deca" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6635ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deca
+[w22:cd:pro] [api] 200 mode=pro startsWith=deca sort=alphabetical:desc (524ms direct)
+[w22:cd:pro] "deca" full page ends at "decalomania" (next='l'); skip 19 covered groups → 9 children reverse Z→A ends at "decarboxylates" (lo='r' hi='y'); skip 6 middle + 100 new words
+[w22:cd:pro] Saved 55,666 worker words
+[w22:cd:pro] Searching "decg" | queue=103 | words=55666
+[w22:cd:pro] Pacing 15s before "decg" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 9294ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=decg
+[w22:cd:pro] [api] 200 mode=pro startsWith=decg (580ms direct)
+[w22:cd:pro] "decg" → 0 records, 0 words
+[w22:cd:pro] "decg" branch complete
+[w22:cd:pro] Saved 55,666 worker words
+[w22:cd:pro] Searching "decm" | queue=102 | words=55666
+[w22:cd:pro] Pacing 13s before "decm" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 9967ms, remount)
+[w22:cd:pro] heartbeat words=55666 queue=102 rotation=0 idle=10s
+[w22:cd:pro] [api] 200 mode=pro startsWith=decm
+[w22:cd:pro] [api] 200 mode=pro startsWith=decm (433ms direct)
+[w22:cd:pro] "decm" → 0 records, 0 words
+[w22:cd:pro] "decm" branch complete
+[w22:cd:pro] Saved 55,666 worker words
+[w22:cd:pro] Searching "decy" | queue=101 | words=55666
+[w22:cd:pro] Pacing 15s before "decy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 11502ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=decy
+[w22:cd:pro] [api] 200 mode=pro startsWith=decy (775ms direct)
+[w22:cd:pro] "decy" → 5 records, 5 words
+[w22:cd:pro] "decy" branch complete
+[w22:cd:pro] Saved 55,666 worker words
+[w22:cd:pro] Searching "dedy" | queue=100 | words=55666
+[w22:cd:pro] Pacing 14s before "dedy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6633ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dedy
+[w22:cd:pro] [api] 200 mode=pro startsWith=dedy (633ms direct)
+[w22:cd:pro] "dedy" → 0 records, 0 words
+[w22:cd:pro] "dedy" branch complete
+[w22:cd:pro] Saved 55,666 worker words
+[w22:cd:pro] Searching "deff" | queue=99 | words=55666
+[w22:cd:pro] Pacing 15s before "deff" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 14611ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deff
+[w22:cd:pro] [api] 200 mode=pro startsWith=deff (565ms direct)
+[w22:cd:pro] "deff" → 4 records, 4 words
+[w22:cd:pro] "deff" branch complete
+[w22:cd:pro] Saved 55,670 worker words
+[w22:cd:pro] Searching "defl" | queue=98 | words=55670
+[w22:cd:pro] Pacing 11s before "defl" (gap=15500ms)
+[w22:cd:pro] heartbeat words=55670 queue=98 rotation=0 idle=7s
+[w22:cd:pro] Managed Turnstile miss (16663ms)
+[w22:cd:pro] Failed "defl" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,670 worker words; shared last.txt now 470,745
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Turnstile mint hard timeout after 15000ms
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] heartbeat words=55670 queue=99 rotation=1 idle=67s
+[w22:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=185.220.101.148
+[w22:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r1
+[w22:cd:pro] Proxy tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 7341ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "defl" | queue=98 | words=55670
+[w22:cd:pro] [api] 200 mode=pro startsWith=defl
+[w22:cd:pro] [api] 200 mode=pro startsWith=defl (1281ms direct)
+[w22:cd:pro] "defl" → 91 records, 91 words
+[w22:cd:pro] "defl" branch complete
+[w22:cd:pro] Saved 55,761 worker words
+[w22:cd:pro] Searching "defr" | queue=97 | words=55761
+[w22:cd:pro] Pacing 13s before "defr" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6649ms, remount)
+[w22:cd:pro] heartbeat words=55761 queue=97 rotation=1 idle=7s
+[w22:cd:pro] [api] 200 mode=pro startsWith=defr
+[w22:cd:pro] [api] 200 mode=pro startsWith=defr (432ms direct)
+[w22:cd:pro] "defr" → 53 records, 53 words
+[w22:cd:pro] "defr" branch complete
+[w22:cd:pro] Saved 55,814 worker words
+[w22:cd:pro] Searching "defx" | queue=96 | words=55814
+[w22:cd:pro] Pacing 14s before "defx" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 9909ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=defx
+[w22:cd:pro] [api] 200 mode=pro startsWith=defx (551ms direct)
+[w22:cd:pro] "defx" → 0 records, 0 words
+[w22:cd:pro] "defx" branch complete
+[w22:cd:pro] Saved 55,814 worker words
+[w22:cd:pro] Searching "degw" | queue=95 | words=55814
+[w22:cd:pro] Pacing 8s before "degw" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 18193ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=degw
+[w22:cd:pro] [api] 200 mode=pro startsWith=degw (457ms direct)
+[w22:cd:pro] "degw" → 0 records, 0 words
+[w22:cd:pro] "degw" branch complete
+[w22:cd:pro] Saved 55,814 worker words
+[w22:cd:pro] Searching "deio" | queue=94 | words=55814
+[w22:cd:pro] Pacing 15s before "deio" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6261ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deio
+[w22:cd:pro] [api] 200 mode=pro startsWith=deio (477ms direct)
+[w22:cd:pro] "deio" → 21 records, 21 words
+[w22:cd:pro] "deio" branch complete
+[w22:cd:pro] Saved 55,834 worker words
+[w22:cd:pro] Searching "deiu" | queue=93 | words=55834
+[w22:cd:pro] Pacing 15s before "deiu" (gap=15500ms)
+[w22:cd:pro] heartbeat words=55834 queue=93 rotation=1 idle=2s
+[w22:cd:pro] Managed Turnstile token (len=816, 5955ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deiu
+[w22:cd:pro] [api] 200 mode=pro startsWith=deiu (416ms direct)
+[w22:cd:pro] "deiu" → 0 records, 0 words
+[w22:cd:pro] "deiu" branch complete
+[w22:cd:pro] Saved 55,834 worker words
+[w22:cd:pro] Searching "dele" | queue=92 | words=55834
+[w22:cd:pro] Pacing 15s before "dele" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5287ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dele
+[w22:cd:pro] [api] 200 mode=pro startsWith=dele (434ms direct)
+[w22:cd:pro] "dele" → 91 records, 91 words (incl. exact "dele")
+[w22:cd:pro] "dele" branch complete
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Searching "delk" | queue=91 | words=55883
+[w22:cd:pro] Pacing 15s before "delk" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5816ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=delk
+[w22:cd:pro] [api] 200 mode=pro startsWith=delk (433ms direct)
+[w22:cd:pro] "delk" → 0 records, 0 words
+[w22:cd:pro] "delk" branch complete
+[w22:cd:pro] Saved 55,883 worker words; shared last.txt now 471,463
+[w22:cd:pro] Searching "delq" | queue=90 | words=55883
+[w22:cd:pro] Pacing 8s before "delq" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15486ms)
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=1 idle=9s
+[w22:cd:pro] Failed "delq" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Turnstile mint hard timeout after 15000ms
+[w22:cd:pro] Site Turnstile remint timed out (15842ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w22:cd:pro] heartbeat words=55883 queue=91 rotation=2 idle=69s
+[w22:cd:pro] Tor ready on 19072 exit=185.220.101.135
+[w22:cd:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r2
+[w22:cd:pro] Proxy tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Site Turnstile remint timed out (22550ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delq" | queue=90 | words=55883
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=2 idle=129s
+[w22:cd:pro] Managed Turnstile miss (15042ms)
+[w22:cd:pro] Failed "delq" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Turnstile token present (len=837)
+[w22:cd:pro] Site Turnstile token (6665ms)
+[w22:cd:pro] Searching "delq" | queue=90 | words=55883
+[w22:cd:pro] [api] 200 mode=pro startsWith=delq
+[w22:cd:pro] [api] 200 mode=pro startsWith=delq (636ms direct)
+[w22:cd:pro] "delq" → 0 records, 0 words
+[w22:cd:pro] "delq" branch complete
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] Pacing 15s before "delw" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15121ms)
+[w22:cd:pro] Failed "delw" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Site Turnstile remint timed out (9510ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=192.42.116.143
+[w22:cd:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r3
+[w22:cd:pro] Proxy tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=3 idle=44s
+[w22:cd:pro] Managed Turnstile token (len=816, 4548ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (500ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=109.70.100.1
+[w22:cd:pro] Rotating IP (#4, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#5 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r4
+[w22:cd:pro] Proxy tor#5 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (19568ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (371ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=5; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=185.220.101.11
+[w22:cd:pro] Rotating IP (#5, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#6 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r5
+[w22:cd:pro] Proxy tor#6 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 5105ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (406ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=6 idle=104s
+[w22:cd:pro] Tor NEWNYM gen=6; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=192.42.116.57
+[w22:cd:pro] Rotating IP (#6, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#7 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r6
+[w22:cd:pro] Proxy tor#7 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 7193ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (1120ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words; shared last.txt now 472,178
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=7 idle=164s
+[w22:cd:pro] Tor NEWNYM gen=7; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=185.243.218.231
+[w22:cd:pro] Rotating IP (#7, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#8 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r7
+[w22:cd:pro] Proxy tor#8 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Site Turnstile remint timed out (22287ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] Managed Turnstile miss (15043ms)
+[w22:cd:pro] Failed "delw" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=7 idle=224s
+[w22:cd:pro] No successful search for 180s — respawning worker
+[w22:cd:pro] Graceful shutdown on watchdog
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Site Turnstile remint timed out (9286ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=8; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=203.55.81.1
+[w22:cd:pro] Rotating IP (#8, try 1) after No Turnstile token for direct search → tor#9 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r8
+[w22:cd:pro] Proxy tor#9 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 4858ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (465ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=9; waiting 8000ms
+[w22:cd:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T04:24:44Z queue=90 ---
+[w22:cd:pro] IP mode=tor
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Starting persistent Tor socks=127.0.0.1:19072 control=127.0.0.1:29072
+[w22:cd:pro] tor: Aug 05 23:24:45.000 [notice] Bootstrapped 0% (starting): Starting
+[w22:cd:pro] tor: Aug 05 23:24:47.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w22:cd:pro] tor: Aug 05 23:24:47.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w22:cd:pro] tor: Aug 05 23:24:47.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w22:cd:pro] tor: Aug 05 23:24:47.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:24:47.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w22:cd:pro] tor: Aug 05 23:24:47.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w22:cd:pro] tor: Aug 05 23:24:48.000 [notice] Bootstrapped 100% (done): Done
+[w22:cd:pro] Tor ready on 19072 exit=23.191.200.38
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r0
+[w22:cd:pro] Proxy tor#1 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Turnstile token present (len=837)
+[w22:cd:pro] Site Turnstile token (20557ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Loaded 7083 prefixes, 55883 words; queue=90
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (516ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=109.70.100.6
+[w22:cd:pro] Rotating IP (#1, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r1
+[w22:cd:pro] Proxy tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 6834ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (538ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=2 idle=60s
+[w22:cd:pro] Tor ready on 19072 exit=45.66.35.42
+[w22:cd:pro] Rotating IP (#2, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r2
+[w22:cd:pro] Proxy tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 8247ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (577ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=94.16.116.81
+[w22:cd:pro] Rotating IP (#3, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r3
+[w22:cd:pro] Proxy tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 5359ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (542ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=4 idle=120s
+[w22:cd:pro] Tor ready on 19072 exit=193.189.100.196
+[w22:cd:pro] Rotating IP (#4, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#5 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r4
+[w22:cd:pro] Proxy tor#5 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 4901ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (479ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=5; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=192.42.116.17
+[w22:cd:pro] Rotating IP (#5, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#6 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r5
+[w22:cd:pro] Proxy tor#6 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 5055ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (423ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=6; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=51.15.59.15
+[w22:cd:pro] Rotating IP (#6, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#7 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r6
+[w22:cd:pro] Proxy tor#7 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=6 idle=180s
+[w22:cd:pro] No successful search for 180s — respawning worker
+[w22:cd:pro] Graceful shutdown on watchdog
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] page.goto failed attempt 1: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://lastletterlibrary.com/",
+[w22:cd:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T04:29:03Z queue=90 ---
+[w22:cd:pro] IP mode=tor
+[w22:cd:pro] Cleaned 2 old rotated profile(s)
+[w22:cd:pro] Starting persistent Tor socks=127.0.0.1:19072 control=127.0.0.1:29072
+[w22:cd:pro] tor: Aug 05 23:29:04.000 [notice] Bootstrapped 0% (starting): Starting
+[w22:cd:pro] tor: Aug 05 23:29:06.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w22:cd:pro] tor: Aug 05 23:29:06.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w22:cd:pro] tor: Aug 05 23:29:06.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w22:cd:pro] tor: Aug 05 23:29:06.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:29:06.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w22:cd:pro] tor: Aug 05 23:29:06.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w22:cd:pro] tor: Aug 05 23:29:07.000 [notice] Bootstrapped 100% (done): Done
+[w22:cd:pro] Tor ready on 19072 exit=147.90.235.227
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r0
+[w22:cd:pro] Proxy tor#1 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 5321ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Loaded 7083 prefixes, 55883 words; queue=90
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (427ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=45.148.10.111
+[w22:cd:pro] Rotating IP (#1, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r1
+[w22:cd:pro] Proxy tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 4396ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (394ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=107.189.5.7
+[w22:cd:pro] Rotating IP (#2, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r2
+[w22:cd:pro] Proxy tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 5413ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (530ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] heartbeat words=55883 queue=90 rotation=3 idle=60s
+[w22:cd:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=171.25.193.36
+[w22:cd:pro] Rotating IP (#3, try 1) after API 403 for "delw": Anti-bot verification failed. Please refresh the page. → tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r3
+[w22:cd:pro] Proxy tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Site Turnstile remint timed out (22306ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] heartbeat words=55883 queue=89 rotation=3 idle=120s
+[w22:cd:pro] Managed Turnstile miss (15044ms)
+[w22:cd:pro] Failed "delw" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (6601ms)
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw
+[w22:cd:pro] [api] 403 mode=pro startsWith=delw (466ms direct)
+[w22:cd:pro] Failed "delw" attempt 1: API 403 for "delw": Anti-bot verification failed. Please refresh the page.
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w22:cd:pro] Graceful shutdown on SIGTERM
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T04:50:09Z queue=90 ---
+[w22:cd:pro] IP mode=tor
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Starting persistent Tor socks=127.0.0.1:19072 control=127.0.0.1:29072
+[w22:cd:pro] tor: Aug 05 23:50:10.000 [notice] Bootstrapped 0% (starting): Starting
+[w22:cd:pro] tor: Aug 05 23:50:12.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w22:cd:pro] tor: Aug 05 23:50:12.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w22:cd:pro] tor: Aug 05 23:50:12.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w22:cd:pro] tor: Aug 05 23:50:12.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 23:50:12.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w22:cd:pro] tor: Aug 05 23:50:13.000 [notice] Bootstrapped 100% (done): Done
+[w22:cd:pro] Tor ready on 19072 exit=171.25.193.81
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r0
+[w22:cd:pro] Proxy tor#1 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 6065ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Loaded 7083 prefixes, 55883 words; queue=90
+[w22:cd:pro] Searching "delw" | queue=89 | words=55883
+[w22:cd:pro] [api] 200 mode=pro startsWith=delw
+[w22:cd:pro] [api] 200 mode=pro startsWith=delw (651ms direct)
+[w22:cd:pro] "delw" → 0 records, 0 words
+[w22:cd:pro] "delw" branch complete
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Searching "demc" | queue=88 | words=55883
+[w22:cd:pro] Pacing 15s before "demc" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4166ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demc
+[w22:cd:pro] [api] 200 mode=pro startsWith=demc (488ms direct)
+[w22:cd:pro] "demc" → 0 records, 0 words
+[w22:cd:pro] "demc" branch complete
+[w22:cd:pro] Saved 55,883 worker words
+[w22:cd:pro] Searching "demi" | queue=87 | words=55883
+[w22:cd:pro] Pacing 15s before "demi" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4893ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demi
+[w22:cd:pro] [api] 200 mode=pro startsWith=demi (596ms direct)
+[w22:cd:pro] "demi" → 100 records, 100 words (incl. exact "demi")
+[w22:cd:pro] Pacing 15s before "demi" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5400ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demi
+[w22:cd:pro] [api] 200 mode=pro startsWith=demi sort=alphabetical:desc (627ms direct)
+[w22:cd:pro] "demi" full page ends at "demilawyer" (next='l'); skip 19 covered groups → 9 children reverse Z→A ends at "demipronation" (lo='p' hi='w'); skip 6 middle + 100 new words
+[w22:cd:pro] Saved 56,083 worker words
+[w22:cd:pro] Searching "demo" | queue=95 | words=56083
+[w22:cd:pro] Pacing 15s before "demo" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5970ms, remount)
+[w22:cd:pro] heartbeat words=56083 queue=95 rotation=0 idle=13s
+[w22:cd:pro] [api] 200 mode=pro startsWith=demo
+[w22:cd:pro] [api] 200 mode=pro startsWith=demo (477ms direct)
+[w22:cd:pro] "demo" → 100 records, 100 words (incl. exact "demo")
+[w22:cd:pro] Pacing 15s before "demo" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6353ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demo
+[w22:cd:pro] [api] 200 mode=pro startsWith=demo sort=alphabetical:desc (442ms direct)
+[w22:cd:pro] "demo" full page ends at "demolitions" (next='l'); skip 20 covered groups → 8 children reverse Z→A ends at "demonophobia" (lo='n' hi='v'); skip 7 middle + 92 new words
+[w22:cd:pro] Saved 56,275 worker words
+[w22:cd:pro] Searching "deng" | queue=102 | words=56275
+[w22:cd:pro] Pacing 15s before "deng" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6742ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deng
+[w22:cd:pro] [api] 200 mode=pro startsWith=deng (436ms direct)
+[w22:cd:pro] "deng" → 2 records, 2 words
+[w22:cd:pro] "deng" branch complete
+[w22:cd:pro] Saved 56,277 worker words
+[w22:cd:pro] Searching "denm" | queue=101 | words=56277
+[w22:cd:pro] Pacing 15s before "denm" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15134ms)
+[w22:cd:pro] Failed "denm" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,277 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] heartbeat words=56277 queue=102 rotation=0 idle=26s
+[w22:cd:pro] Site Turnstile remint timed out (9785ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=45.84.107.222
+[w22:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r1
+[w22:cd:pro] Proxy tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 6338ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "denm" | queue=101 | words=56277
+[w22:cd:pro] [api] 200 mode=pro startsWith=denm
+[w22:cd:pro] [api] 200 mode=pro startsWith=denm (414ms direct)
+[w22:cd:pro] "denm" → 1 records, 1 words
+[w22:cd:pro] "denm" branch complete
+[w22:cd:pro] Saved 56,278 worker words
+[w22:cd:pro] Searching "dens" | queue=100 | words=56278
+[w22:cd:pro] Pacing 16s before "dens" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6082ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dens
+[w22:cd:pro] [api] 200 mode=pro startsWith=dens (420ms direct)
+[w22:cd:pro] "dens" → 35 records, 35 words (incl. exact "dens")
+[w22:cd:pro] "dens" branch complete
+[w22:cd:pro] Saved 56,313 worker words; shared last.txt now 476,364
+[w22:cd:pro] Searching "depf" | queue=99 | words=56313
+[w22:cd:pro] Pacing 15s before "depf" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4462ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=depf
+[w22:cd:pro] [api] 200 mode=pro startsWith=depf (419ms direct)
+[w22:cd:pro] "depf" → 0 records, 0 words
+[w22:cd:pro] "depf" branch complete
+[w22:cd:pro] Saved 56,313 worker words
+[w22:cd:pro] Searching "depl" | queue=98 | words=56313
+[w22:cd:pro] Pacing 16s before "depl" (gap=15500ms)
+[w22:cd:pro] heartbeat words=56313 queue=98 rotation=1 idle=0s
+[w22:cd:pro] Managed Turnstile token (len=816, 4778ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=depl
+[w22:cd:pro] [api] 200 mode=pro startsWith=depl (418ms direct)
+[w22:cd:pro] "depl" → 70 records, 70 words
+[w22:cd:pro] "depl" branch complete
+[w22:cd:pro] Saved 56,383 worker words
+[w22:cd:pro] Searching "depr" | queue=97 | words=56383
+[w22:cd:pro] Pacing 15s before "depr" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15066ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4596ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=depr
+[w22:cd:pro] [api] 200 mode=pro startsWith=depr (424ms direct)
+[w22:cd:pro] "depr" → 100 records, 100 words (incl. exact "depr")
+[w22:cd:pro] Pacing 16s before "depr" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6428ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=depr
+[w22:cd:pro] [api] 200 mode=pro startsWith=depr sort=alphabetical:desc (488ms direct)
+[w22:cd:pro] "depr" full page ends at "depressurise" (next='e'); skip 15 covered groups → 13 children reverse Z→A ends at "deprehension" (lo='e' hi='o'); skip 9 middle + 30 new words
+[w22:cd:pro] Saved 56,513 worker words
+[w22:cd:pro] Searching "depz" | queue=109 | words=56513
+[w22:cd:pro] Pacing 15s before "depz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5860ms, remount)
+[w22:cd:pro] heartbeat words=56513 queue=109 rotation=1 idle=9s
+[w22:cd:pro] [api] 200 mode=pro startsWith=depz
+[w22:cd:pro] [api] 200 mode=pro startsWith=depz (448ms direct)
+[w22:cd:pro] "depz" → 0 records, 0 words
+[w22:cd:pro] "depz" branch complete
+[w22:cd:pro] Saved 56,513 worker words
+[w22:cd:pro] Searching "derj" | queue=108 | words=56513
+[w22:cd:pro] Pacing 16s before "derj" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6255ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=derj
+[w22:cd:pro] [api] 200 mode=pro startsWith=derj (443ms direct)
+[w22:cd:pro] "derj" → 0 records, 0 words
+[w22:cd:pro] "derj" branch complete
+[w22:cd:pro] Saved 56,513 worker words
+[w22:cd:pro] Searching "derx" | queue=107 | words=56513
+[w22:cd:pro] Pacing 15s before "derx" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5550ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=derx
+[w22:cd:pro] [api] 200 mode=pro startsWith=derx (452ms direct)
+[w22:cd:pro] "derx" → 0 records, 0 words
+[w22:cd:pro] "derx" branch complete
+[w22:cd:pro] Saved 56,513 worker words
+[w22:cd:pro] Searching "desf" | queue=106 | words=56513
+[w22:cd:pro] Pacing 15s before "desf" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 11586ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=desf
+[w22:cd:pro] [api] 200 mode=pro startsWith=desf (440ms direct)
+[w22:cd:pro] "desf" → 3 records, 3 words
+[w22:cd:pro] "desf" branch complete
+[w22:cd:pro] Saved 56,516 worker words
+[w22:cd:pro] Searching "desl" | queue=105 | words=56516
+[w22:cd:pro] Pacing 15s before "desl" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 7112ms, remount)
+[w22:cd:pro] heartbeat words=56516 queue=105 rotation=1 idle=7s
+[w22:cd:pro] [api] 200 mode=pro startsWith=desl
+[w22:cd:pro] [api] 200 mode=pro startsWith=desl (441ms direct)
+[w22:cd:pro] "desl" → 3 records, 3 words
+[w22:cd:pro] "desl" branch complete
+[w22:cd:pro] Saved 56,519 worker words; shared last.txt now 477,015
+[w22:cd:pro] Searching "desr" | queue=104 | words=56519
+[w22:cd:pro] Pacing 15s before "desr" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 12500ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=desr
+[w22:cd:pro] [api] 200 mode=pro startsWith=desr (421ms direct)
+[w22:cd:pro] "desr" → 1 records, 1 words
+[w22:cd:pro] "desr" branch complete
+[w22:cd:pro] Saved 56,520 worker words
+[w22:cd:pro] Searching "detf" | queue=103 | words=56520
+[w22:cd:pro] Pacing 15s before "detf" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6827ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=detf
+[w22:cd:pro] [api] 200 mode=pro startsWith=detf (448ms direct)
+[w22:cd:pro] "detf" → 0 records, 0 words
+[w22:cd:pro] "detf" branch complete
+[w22:cd:pro] Saved 56,520 worker words
+[w22:cd:pro] Searching "detl" | queue=102 | words=56520
+[w22:cd:pro] Pacing 16s before "detl" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 9354ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=detl
+[w22:cd:pro] [api] 200 mode=pro startsWith=detl (429ms direct)
+[w22:cd:pro] "detl" → 0 records, 0 words
+[w22:cd:pro] "detl" branch complete
+[w22:cd:pro] Saved 56,520 worker words
+[w22:cd:pro] Searching "detw" | queue=101 | words=56520
+[w22:cd:pro] Pacing 15s before "detw" (gap=15500ms)
+[w22:cd:pro] heartbeat words=56520 queue=101 rotation=1 idle=5s
+[w22:cd:pro] Managed Turnstile token (len=816, 7436ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=detw
+[w22:cd:pro] [api] 200 mode=pro startsWith=detw (473ms direct)
+[w22:cd:pro] "detw" → 0 records, 0 words
+[w22:cd:pro] "detw" branch complete
+[w22:cd:pro] Saved 56,520 worker words
+[w22:cd:pro] Searching "deuv" | queue=100 | words=56520
+[w22:cd:pro] Pacing 15s before "deuv" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 13288ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deuv
+[w22:cd:pro] [api] 200 mode=pro startsWith=deuv (436ms direct)
+[w22:cd:pro] "deuv" → 0 records, 0 words
+[w22:cd:pro] "deuv" branch complete
+[w22:cd:pro] Saved 56,520 worker words
+[w22:cd:pro] Searching "devf" | queue=99 | words=56520
+[w22:cd:pro] Pacing 15s before "devf" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 8747ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=devf
+[w22:cd:pro] [api] 200 mode=pro startsWith=devf (591ms direct)
+[w22:cd:pro] "devf" → 0 records, 0 words
+[w22:cd:pro] "devf" branch complete
+[w22:cd:pro] Saved 56,520 worker words
+[w22:cd:pro] Searching "devl" | queue=98 | words=56520
+[w22:cd:pro] Pacing 15s before "devl" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15057ms)
+[w22:cd:pro] Failed "devl" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,520 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] heartbeat words=56520 queue=99 rotation=1 idle=19s
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (5831ms)
+[w22:cd:pro] Searching "devl" | queue=98 | words=56520
+[w22:cd:pro] [api] 200 mode=pro startsWith=devl
+[w22:cd:pro] [api] 200 mode=pro startsWith=devl (600ms direct)
+[w22:cd:pro] "devl" → 2 records, 2 words
+[w22:cd:pro] "devl" branch complete
+[w22:cd:pro] Saved 56,522 worker words; shared last.txt now 477,198
+[w22:cd:pro] Searching "devy" | queue=97 | words=56522
+[w22:cd:pro] Pacing 15s before "devy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 7504ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=devy
+[w22:cd:pro] [api] 200 mode=pro startsWith=devy (458ms direct)
+[w22:cd:pro] "devy" → 0 records, 0 words
+[w22:cd:pro] "devy" branch complete
+[w22:cd:pro] Saved 56,522 worker words
+[w22:cd:pro] Searching "diae" | queue=96 | words=56522
+[w22:cd:pro] Pacing 15s before "diae" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6663ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=diae
+[w22:cd:pro] [api] 200 mode=pro startsWith=diae (438ms direct)
+[w22:cd:pro] "diae" → 5 records, 5 words
+[w22:cd:pro] "diae" branch complete
+[w22:cd:pro] Saved 56,527 worker words
+[w22:cd:pro] Searching "diak" | queue=95 | words=56527
+[w22:cd:pro] Pacing 15s before "diak" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 12282ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=diak
+[w22:cd:pro] [api] 200 mode=pro startsWith=diak (467ms direct)
+[w22:cd:pro] "diak" → 6 records, 6 words
+[w22:cd:pro] "diak" branch complete
+[w22:cd:pro] Saved 56,533 worker words
+[w22:cd:pro] Searching "diaq" | queue=94 | words=56533
+[w22:cd:pro] Pacing 15s before "diaq" (gap=15500ms)
+[w22:cd:pro] heartbeat words=56533 queue=94 rotation=1 idle=9s
+[w22:cd:pro] Managed Turnstile token (len=816, 14751ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=diaq
+[w22:cd:pro] [api] 200 mode=pro startsWith=diaq (462ms direct)
+[w22:cd:pro] "diaq" → 0 records, 0 words
+[w22:cd:pro] "diaq" branch complete
+[w22:cd:pro] Saved 56,533 worker words
+[w22:cd:pro] Searching "dici" | queue=93 | words=56533
+[w22:cd:pro] Pacing 15s before "dici" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 7488ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dici
+[w22:cd:pro] [api] 200 mode=pro startsWith=dici (458ms direct)
+[w22:cd:pro] "dici" → 4 records, 4 words
+[w22:cd:pro] "dici" branch complete
+[w22:cd:pro] Saved 56,537 worker words
+[w22:cd:pro] Searching "dico" | queue=92 | words=56537
+[w22:cd:pro] Pacing 15s before "dico" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 10860ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dico
+[w22:cd:pro] [api] 200 mode=pro startsWith=dico (527ms direct)
+[w22:cd:pro] "dico" → 24 records, 24 words
+[w22:cd:pro] "dico" branch complete
+[w22:cd:pro] Saved 56,561 worker words
+[w22:cd:pro] Searching "dicu" | queue=91 | words=56561
+[w22:cd:pro] Pacing 15s before "dicu" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 11584ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dicu
+[w22:cd:pro] [api] 200 mode=pro startsWith=dicu (426ms direct)
+[w22:cd:pro] "dicu" → 2 records, 2 words
+[w22:cd:pro] "dicu" branch complete
+[w22:cd:pro] Saved 56,563 worker words
+[w22:cd:pro] Searching "didy" | queue=90 | words=56563
+[w22:cd:pro] Pacing 15s before "didy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5498ms, remount)
+[w22:cd:pro] heartbeat words=56563 queue=90 rotation=1 idle=7s
+[w22:cd:pro] [api] 200 mode=pro startsWith=didy
+[w22:cd:pro] [api] 200 mode=pro startsWith=didy (443ms direct)
+[w22:cd:pro] "didy" → 20 records, 20 words (incl. exact "didy")
+[w22:cd:pro] "didy" branch complete
+[w22:cd:pro] Saved 56,563 worker words; shared last.txt now 478,200
+[w22:cd:pro] Searching "diew" | queue=89 | words=56563
+[w22:cd:pro] Pacing 15s before "diew" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 8518ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=diew
+[w22:cd:pro] [api] 200 mode=pro startsWith=diew (427ms direct)
+[w22:cd:pro] "diew" → 1 records, 1 words
+[w22:cd:pro] "diew" branch complete
+[w22:cd:pro] Saved 56,564 worker words
+[w22:cd:pro] Searching "difv" | queue=88 | words=56564
+[w22:cd:pro] Pacing 15s before "difv" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 9867ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=difv
+[w22:cd:pro] [api] 200 mode=pro startsWith=difv (489ms direct)
+[w22:cd:pro] "difv" → 0 records, 0 words
+[w22:cd:pro] "difv" branch complete
+[w22:cd:pro] Saved 56,564 worker words
+[w22:cd:pro] Searching "digy" | queue=87 | words=56564
+[w22:cd:pro] Pacing 15s before "digy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15256ms)
+[w22:cd:pro] Failed "digy" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,564 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] heartbeat words=56564 queue=88 rotation=1 idle=21s
+[w22:cd:pro] Site Turnstile remint timed out (9676ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=185.150.28.13
+[w22:cd:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r2
+[w22:cd:pro] Proxy tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (19528ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "digy" | queue=87 | words=56564
+[w22:cd:pro] [api] 200 mode=pro startsWith=digy
+[w22:cd:pro] [api] 200 mode=pro startsWith=digy (461ms direct)
+[w22:cd:pro] "digy" → 3 records, 3 words
+[w22:cd:pro] "digy" branch complete
+[w22:cd:pro] Saved 56,564 worker words
+[w22:cd:pro] Searching "dilx" | queue=86 | words=56564
+[w22:cd:pro] Pacing 15s before "dilx" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15069ms)
+[w22:cd:pro] Failed "dilx" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,564 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] heartbeat words=56564 queue=87 rotation=2 idle=19s
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (6750ms)
+[w22:cd:pro] Searching "dilx" | queue=86 | words=56564
+[w22:cd:pro] [api] 200 mode=pro startsWith=dilx
+[w22:cd:pro] [api] 200 mode=pro startsWith=dilx (397ms direct)
+[w22:cd:pro] "dilx" → 0 records, 0 words
+[w22:cd:pro] "dilx" branch complete
+[w22:cd:pro] Saved 56,564 worker words
+[w22:cd:pro] Searching "dimh" | queue=85 | words=56564
+[w22:cd:pro] Pacing 15s before "dimh" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15050ms)
+[w22:cd:pro] Managed Turnstile miss (15061ms)
+[w22:cd:pro] Failed "dimh" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,564 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Site Turnstile remint timed out (9505ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=192.42.116.100
+[w22:cd:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r3
+[w22:cd:pro] Proxy tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] heartbeat words=56564 queue=86 rotation=3 idle=56s
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 8878ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "dimh" | queue=85 | words=56564
+[w22:cd:pro] [api] 200 mode=pro startsWith=dimh
+[w22:cd:pro] [api] 200 mode=pro startsWith=dimh (688ms direct)
+[w22:cd:pro] "dimh" → 0 records, 0 words
+[w22:cd:pro] "dimh" branch complete
+[w22:cd:pro] Saved 56,564 worker words; shared last.txt now 478,560
+[w22:cd:pro] Searching "dinj" | queue=84 | words=56564
+[w22:cd:pro] Pacing 10s before "dinj" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6658ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dinj
+[w22:cd:pro] [api] 200 mode=pro startsWith=dinj (392ms direct)
+[w22:cd:pro] "dinj" → 0 records, 0 words
+[w22:cd:pro] "dinj" branch complete
+[w22:cd:pro] Saved 56,564 worker words
+[w22:cd:pro] Searching "diny" | queue=83 | words=56564
+[w22:cd:pro] Pacing 15s before "diny" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5101ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=diny
+[w22:cd:pro] [api] 200 mode=pro startsWith=diny (439ms direct)
+[w22:cd:pro] "diny" → 0 records, 0 words
+[w22:cd:pro] "diny" branch complete
+[w22:cd:pro] Saved 56,564 worker words
+[w22:cd:pro] Searching "diph" | queue=82 | words=56564
+[w22:cd:pro] Pacing 15s before "diph" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4618ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=diph
+[w22:cd:pro] [api] 200 mode=pro startsWith=diph (410ms direct)
+[w22:cd:pro] "diph" → 100 records, 100 words
+[w22:cd:pro] Pacing 16s before "diph" (gap=15500ms)
+[w22:cd:pro] heartbeat words=56586 queue=82 rotation=3 idle=18s
+[w22:cd:pro] Managed Turnstile token (len=816, 4541ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=diph
+[w22:cd:pro] [api] 200 mode=pro startsWith=diph sort=alphabetical:desc (381ms direct)
+[w22:cd:pro] "diph" full page ends at "diphthongizes" (next='t'); skip 26 covered groups → 2 children reverse Z→A ends at "diphenyldiazomethane" (lo='e' hi='y'); skip 19 middle + 23 new words
+[w22:cd:pro] Saved 56,609 worker words
+[w22:cd:pro] Searching "dipn" | queue=83 | words=56609
+[w22:cd:pro] Pacing 16s before "dipn" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4970ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dipn
+[w22:cd:pro] [api] 200 mode=pro startsWith=dipn (549ms direct)
+[w22:cd:pro] "dipn" → 16 records, 16 words
+[w22:cd:pro] "dipn" branch complete
+[w22:cd:pro] Saved 56,625 worker words
+[w22:cd:pro] Searching "dipz" | queue=82 | words=56625
+[w22:cd:pro] Pacing 15s before "dipz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5196ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dipz
+[w22:cd:pro] [api] 200 mode=pro startsWith=dipz (451ms direct)
+[w22:cd:pro] "dipz" → 0 records, 0 words
+[w22:cd:pro] "dipz" branch complete
+[w22:cd:pro] Saved 56,625 worker words
+[w22:cd:pro] Searching "dirz" | queue=81 | words=56625
+[w22:cd:pro] Pacing 15s before "dirz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6550ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dirz
+[w22:cd:pro] [api] 200 mode=pro startsWith=dirz (406ms direct)
+[w22:cd:pro] "dirz" → 0 records, 0 words
+[w22:cd:pro] "dirz" branch complete
+[w22:cd:pro] Saved 56,625 worker words
+[w22:cd:pro] Searching "disf" | queue=80 | words=56625
+[w22:cd:pro] Pacing 15s before "disf" (gap=15500ms)
+[w22:cd:pro] heartbeat words=56625 queue=80 rotation=3 idle=1s
+[w22:cd:pro] Managed Turnstile token (len=816, 7633ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=disf
+[w22:cd:pro] [api] 200 mode=pro startsWith=disf (380ms direct)
+[w22:cd:pro] "disf" → 88 records, 88 words
+[w22:cd:pro] "disf" branch complete
+[w22:cd:pro] Saved 56,713 worker words
+[w22:cd:pro] Searching "disl" | queue=79 | words=56713
+[w22:cd:pro] Pacing 16s before "disl" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15158ms)
+[w22:cd:pro] Failed "disl" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,713 worker words; shared last.txt now 478,999
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Site Turnstile remint timed out (9881ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=4; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=192.42.116.19
+[w22:cd:pro] Rotating IP (#4, try 1) after No Turnstile token for direct search → tor#5 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r4
+[w22:cd:pro] Proxy tor#5 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] heartbeat words=56713 queue=80 rotation=4 idle=45s
+[w22:cd:pro] Managed Turnstile token (len=816, 6018ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "disl" | queue=79 | words=56713
+[w22:cd:pro] [api] 200 mode=pro startsWith=disl
+[w22:cd:pro] [api] 200 mode=pro startsWith=disl (668ms direct)
+[w22:cd:pro] "disl" → 90 records, 90 words
+[w22:cd:pro] "disl" branch complete
+[w22:cd:pro] Saved 56,803 worker words
+[w22:cd:pro] Searching "disr" | queue=78 | words=56803
+[w22:cd:pro] Pacing 15s before "disr" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4613ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=disr
+[w22:cd:pro] [api] 200 mode=pro startsWith=disr (421ms direct)
+[w22:cd:pro] "disr" → 100 records, 100 words
+[w22:cd:pro] Pacing 16s before "disr" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4858ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=disr
+[w22:cd:pro] [api] 200 mode=pro startsWith=disr sort=alphabetical:desc (474ms direct)
+[w22:cd:pro] "disr" full page ends at "disruptionist" (next='u'); skip 22 covered groups → 6 children reverse Z→A ends at "disray" (lo='a' hi='u'); skip 19 middle + 10 new words
+[w22:cd:pro] Saved 56,913 worker words
+[w22:cd:pro] Searching "ditz" | queue=83 | words=56913
+[w22:cd:pro] Pacing 15s before "ditz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5839ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=ditz
+[w22:cd:pro] [api] 200 mode=pro startsWith=ditz (619ms direct)
+[w22:cd:pro] "ditz" → 7 records, 7 words (incl. exact "ditz")
+[w22:cd:pro] "ditz" branch complete
+[w22:cd:pro] Saved 56,913 worker words
+[w22:cd:pro] Searching "divy" | queue=82 | words=56913
+[w22:cd:pro] Pacing 15s before "divy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5840ms, remount)
+[w22:cd:pro] heartbeat words=56913 queue=82 rotation=4 idle=7s
+[w22:cd:pro] [api] 200 mode=pro startsWith=divy
+[w22:cd:pro] [api] 200 mode=pro startsWith=divy (488ms direct)
+[w22:cd:pro] "divy" → 1 records, 1 words
+[w22:cd:pro] "divy" branch complete
+[w22:cd:pro] Saved 56,913 worker words
+[w22:cd:pro] Searching "docs" | queue=81 | words=56913
+[w22:cd:pro] Pacing 15s before "docs" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6558ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=docs
+[w22:cd:pro] [api] 200 mode=pro startsWith=docs (425ms direct)
+[w22:cd:pro] "docs" → 1 records, 1 words (incl. exact "docs")
+[w22:cd:pro] "docs" branch complete
+[w22:cd:pro] Saved 56,914 worker words
+[w22:cd:pro] Searching "docy" | queue=80 | words=56914
+[w22:cd:pro] Pacing 15s before "docy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5408ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=docy
+[w22:cd:pro] [api] 200 mode=pro startsWith=docy (441ms direct)
+[w22:cd:pro] "docy" → 0 records, 0 words
+[w22:cd:pro] "docy" branch complete
+[w22:cd:pro] Saved 56,914 worker words
+[w22:cd:pro] Searching "dody" | queue=79 | words=56914
+[w22:cd:pro] Pacing 15s before "dody" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6256ms, remount)
+[w22:cd:pro] Graceful shutdown on SIGTERM
+[w22:cd:pro] Saved 56,914 worker words
+[w22:cd:pro] Tor exited code=0
+
+--- boost-12 daemon start 2026-08-06T05:08:50Z queue=40 ---
+[w22:cd:pro] IP mode=tor
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Starting persistent Tor socks=127.0.0.1:19072 control=127.0.0.1:29072
+[w22:cd:pro] tor: Aug 06 00:08:53.000 [notice] Bootstrapped 0% (starting): Starting
+[w22:cd:pro] tor: Aug 06 00:08:55.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w22:cd:pro] tor: Aug 06 00:08:55.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w22:cd:pro] tor: Aug 06 00:08:55.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w22:cd:pro] tor: Aug 06 00:08:56.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 06 00:08:56.000 [notice] Bootstrapped 75% (enough_dirinfo): Load
+[w22:cd:pro] tor: Aug 06 00:08:56.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+[w22:cd:pro] tor: Aug 06 00:08:56.000 [notice] Bootstrapped 100% (done): Done
+[w22:cd:pro] Tor ready on 19072 exit=185.220.100.240
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r0
+[w22:cd:pro] Proxy tor#1 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Site Turnstile remint timed out (23776ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Loaded 7233 prefixes, 56914 words; queue=40
+[w22:cd:pro] Searching "dogk" | queue=39 | words=56914
+[w22:cd:pro] Managed Turnstile miss (15323ms)
+[w22:cd:pro] Failed "dogk" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,914 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Site Turnstile remint timed out (13809ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=37.114.50.18
+[w22:cd:pro] Rotating IP (#1, try 1) after No Turnstile token for direct search → tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r1
+[w22:cd:pro] Proxy tor#2 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] heartbeat words=56914 queue=40 rotation=1 idle=60s
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 10911ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "dogk" | queue=39 | words=56914
+[w22:cd:pro] [api] 200 mode=pro startsWith=dogk
+[w22:cd:pro] [api] 200 mode=pro startsWith=dogk (713ms direct)
+[w22:cd:pro] "dogk" → 0 records, 0 words
+[w22:cd:pro] "dogk" branch complete
+[w22:cd:pro] Saved 56,914 worker words
+[w22:cd:pro] Searching "doly" | queue=38 | words=56914
+[w22:cd:pro] Pacing 14s before "doly" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 9735ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=doly
+[w22:cd:pro] [api] 200 mode=pro startsWith=doly (975ms direct)
+[w22:cd:pro] "doly" → 0 records, 0 words
+[w22:cd:pro] "doly" branch complete
+[w22:cd:pro] Saved 56,914 worker words
+[w22:cd:pro] Searching "dorq" | queue=37 | words=56914
+[w22:cd:pro] Pacing 14s before "dorq" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 8933ms, remount)
+[w22:cd:pro] [api] 429 mode=pro startsWith=dorq
+[w22:cd:pro] [api] 429 mode=pro startsWith=dorq (492ms direct)
+[w22:cd:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w22:cd:pro] Rate limited — inline wait 2000ms then retry "dorq"
+[w22:cd:pro] Managed Turnstile token (len=816, 8088ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dorq
+[w22:cd:pro] [api] 200 mode=pro startsWith=dorq (574ms direct)
+[w22:cd:pro] "dorq" → 0 records, 0 words
+[w22:cd:pro] "dorq" branch complete
+[w22:cd:pro] Saved 56,914 worker words
+[w22:cd:pro] Searching "dowo" | queue=36 | words=56914
+[w22:cd:pro] Pacing 13s before "dowo" (gap=15500ms)
+[w22:cd:pro] heartbeat words=56914 queue=36 rotation=1 idle=2s
+[w22:cd:pro] Managed Turnstile token (len=816, 7983ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dowo
+[w22:cd:pro] [api] 200 mode=pro startsWith=dowo (464ms direct)
+[w22:cd:pro] "dowo" → 0 records, 0 words
+[w22:cd:pro] "dowo" branch complete
+[w22:cd:pro] Saved 56,914 worker words
+[w22:cd:pro] Searching "draf" | queue=35 | words=56914
+[w22:cd:pro] Pacing 15s before "draf" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 8204ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=draf
+[w22:cd:pro] [api] 200 mode=pro startsWith=draf (520ms direct)
+[w22:cd:pro] "draf" → 38 records, 38 words
+[w22:cd:pro] "draf" branch complete
+[w22:cd:pro] Saved 56,937 worker words
+[w22:cd:pro] Searching "drar" | queue=34 | words=56937
+[w22:cd:pro] Pacing 13s before "drar" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (16752ms)
+[w22:cd:pro] Failed "drar" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,937 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] heartbeat words=56937 queue=35 rotation=1 idle=31s
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (10352ms)
+[w22:cd:pro] Searching "drar" | queue=34 | words=56937
+[w22:cd:pro] [api] 200 mode=pro startsWith=drar
+[w22:cd:pro] [api] 200 mode=pro startsWith=drar (694ms direct)
+[w22:cd:pro] "drar" → 0 records, 0 words
+[w22:cd:pro] "drar" branch complete
+[w22:cd:pro] Turnstile mint hard timeout after 20000ms
+[w22:cd:pro] Saved 56,937 worker words; shared last.txt now 480,217
+[w22:cd:pro] Searching "dreg" | queue=33 | words=56937
+[w22:cd:pro] Managed Turnstile token (len=816, 7058ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dreg
+[w22:cd:pro] [api] 200 mode=pro startsWith=dreg (547ms direct)
+[w22:cd:pro] "dreg" → 10 records, 10 words (incl. exact "dreg")
+[w22:cd:pro] "dreg" branch complete
+[w22:cd:pro] Saved 56,947 worker words
+[w22:cd:pro] Searching "droq" | queue=32 | words=56947
+[w22:cd:pro] Pacing 15s before "droq" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 8048ms, remount)
+[w22:cd:pro] heartbeat words=56947 queue=32 rotation=1 idle=13s
+[w22:cd:pro] [api] 200 mode=pro startsWith=droq
+[w22:cd:pro] [api] 200 mode=pro startsWith=droq (462ms direct)
+[w22:cd:pro] "droq" → 0 records, 0 words
+[w22:cd:pro] "droq" branch complete
+[w22:cd:pro] Saved 56,947 worker words
+[w22:cd:pro] Searching "dryu" | queue=31 | words=56947
+[w22:cd:pro] Pacing 15s before "dryu" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 9700ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dryu
+[w22:cd:pro] [api] 200 mode=pro startsWith=dryu (499ms direct)
+[w22:cd:pro] "dryu" → 0 records, 0 words
+[w22:cd:pro] "dryu" branch complete
+[w22:cd:pro] Saved 56,947 worker words
+[w22:cd:pro] Searching "dumm" | queue=30 | words=56947
+[w22:cd:pro] Pacing 4s before "dumm" (gap=15500ms)
+[w22:cd:pro] Turnstile mint hard timeout after 20000ms
+[w22:cd:pro] Failed "dumm" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,947 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (5450ms)
+[w22:cd:pro] Searching "dumm" | queue=30 | words=56947
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumm
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumm (421ms direct)
+[w22:cd:pro] "dumm" → 18 records, 18 words
+[w22:cd:pro] "dumm" branch complete
+[w22:cd:pro] Saved 56,947 worker words
+[w22:cd:pro] Searching "dumo" | queue=29 | words=56947
+[w22:cd:pro] Pacing 15s before "dumo" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5010ms, remount)
+[w22:cd:pro] heartbeat words=56947 queue=29 rotation=1 idle=8s
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumo
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumo (460ms direct)
+[w22:cd:pro] "dumo" → 10 records, 10 words
+[w22:cd:pro] "dumo" branch complete
+[w22:cd:pro] Saved 56,957 worker words
+[w22:cd:pro] Searching "dumq" | queue=28 | words=56957
+[w22:cd:pro] Pacing 14s before "dumq" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 14673ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumq
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumq (581ms direct)
+[w22:cd:pro] "dumq" → 0 records, 0 words
+[w22:cd:pro] "dumq" branch complete
+[w22:cd:pro] Saved 56,957 worker words
+[w22:cd:pro] Searching "dums" | queue=27 | words=56957
+[w22:cd:pro] Pacing 13s before "dums" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 11289ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dums
+[w22:cd:pro] [api] 200 mode=pro startsWith=dums (602ms direct)
+[w22:cd:pro] "dums" → 1 records, 1 words
+[w22:cd:pro] "dums" branch complete
+[w22:cd:pro] Saved 56,958 worker words; shared last.txt now 480,386
+[w22:cd:pro] Searching "dumu" | queue=26 | words=56958
+[w22:cd:pro] Pacing 11s before "dumu" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 8016ms, remount)
+[w22:cd:pro] [api] 429 mode=pro startsWith=dumu
+[w22:cd:pro] [api] 429 mode=pro startsWith=dumu (565ms direct)
+[w22:cd:pro] Learned server gap ≈ 15500ms (wait hint 2000ms)
+[w22:cd:pro] Rate limited — inline wait 2000ms then retry "dumu"
+[w22:cd:pro] heartbeat words=56958 queue=26 rotation=1 idle=16s
+[w22:cd:pro] Managed Turnstile miss (15128ms)
+[w22:cd:pro] Failed "dumu" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 56,958 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Site Turnstile remint timed out (10489ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=2; waiting 8000ms
+[w22:cd:pro] heartbeat words=56958 queue=27 rotation=2 idle=76s
+[w22:cd:pro] Tor ready on 19072 exit=109.70.100.15
+[w22:cd:pro] Rotating IP (#2, try 1) after No Turnstile token for direct search → tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r2
+[w22:cd:pro] Proxy tor#3 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Turnstile token present (len=816)
+[w22:cd:pro] Site Turnstile token (22082ms)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "dumu" | queue=26 | words=56958
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumu
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumu (471ms direct)
+[w22:cd:pro] "dumu" → 0 records, 0 words
+[w22:cd:pro] "dumu" branch complete
+[w22:cd:pro] Saved 56,958 worker words
+[w22:cd:pro] Searching "dumw" | queue=25 | words=56958
+[w22:cd:pro] Pacing 15s before "dumw" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6268ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumw
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumw (472ms direct)
+[w22:cd:pro] "dumw" → 0 records, 0 words
+[w22:cd:pro] "dumw" branch complete
+[w22:cd:pro] Saved 56,958 worker words
+[w22:cd:pro] Searching "dumy" | queue=24 | words=56958
+[w22:cd:pro] Pacing 15s before "dumy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5203ms, remount)
+[w22:cd:pro] heartbeat words=56958 queue=24 rotation=2 idle=6s
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumy
+[w22:cd:pro] [api] 200 mode=pro startsWith=dumy (407ms direct)
+[w22:cd:pro] "dumy" → 0 records, 0 words
+[w22:cd:pro] "dumy" branch complete
+[w22:cd:pro] Saved 56,958 worker words
+[w22:cd:pro] Searching "decal" | queue=23 | words=56958
+[w22:cd:pro] Pacing 15s before "decal" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5032ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=decal
+[w22:cd:pro] [api] 200 mode=pro startsWith=decal (418ms direct)
+[w22:cd:pro] "decal" → 36 records, 36 words (incl. exact "decal")
+[w22:cd:pro] "decal" branch complete
+[w22:cd:pro] Saved 56,961 worker words
+[w22:cd:pro] Searching "decan" | queue=22 | words=56961
+[w22:cd:pro] Pacing 16s before "decan" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 13897ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=decan
+[w22:cd:pro] [api] 200 mode=pro startsWith=decan (485ms direct)
+[w22:cd:pro] "decan" → 41 records, 41 words (incl. exact "decan")
+[w22:cd:pro] "decan" branch complete
+[w22:cd:pro] Saved 57,002 worker words
+[w22:cd:pro] Searching "decap" | queue=21 | words=57002
+[w22:cd:pro] Pacing 15s before "decap" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 11379ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=decap
+[w22:cd:pro] [api] 200 mode=pro startsWith=decap (411ms direct)
+[w22:cd:pro] "decap" → 36 records, 36 words (incl. exact "decap")
+[w22:cd:pro] "decap" branch complete
+[w22:cd:pro] Saved 57,038 worker words
+[w22:cd:pro] Searching "decar" | queue=20 | words=57038
+[w22:cd:pro] Pacing 15s before "decar" (gap=15500ms)
+[w22:cd:pro] heartbeat words=57038 queue=20 rotation=2 idle=3s
+[w22:cd:pro] Managed Turnstile token (len=816, 6633ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=decar
+[w22:cd:pro] [api] 200 mode=pro startsWith=decar (409ms direct)
+[w22:cd:pro] "decar" → 74 records, 74 words
+[w22:cd:pro] "decar" branch complete
+[w22:cd:pro] Saved 57,071 worker words; shared last.txt now 480,886
+[w22:cd:pro] Searching "decaz" | queue=19 | words=57071
+[w22:cd:pro] Pacing 12s before "decaz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6508ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=decaz
+[w22:cd:pro] [api] 200 mode=pro startsWith=decaz (465ms direct)
+[w22:cd:pro] "decaz" → 0 records, 0 words
+[w22:cd:pro] "decaz" branch complete
+[w22:cd:pro] Saved 57,071 worker words
+[w22:cd:pro] Searching "demim" | queue=18 | words=57071
+[w22:cd:pro] Pacing 15s before "demim" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 10616ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demim
+[w22:cd:pro] [api] 200 mode=pro startsWith=demim (418ms direct)
+[w22:cd:pro] "demim" → 11 records, 11 words
+[w22:cd:pro] "demim" branch complete
+[w22:cd:pro] Saved 57,082 worker words
+[w22:cd:pro] Searching "demio" | queue=17 | words=57082
+[w22:cd:pro] Pacing 15s before "demio" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15202ms)
+[w22:cd:pro] Failed "demio" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 57,082 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] heartbeat words=57082 queue=18 rotation=2 idle=17s
+[w22:cd:pro] Site Turnstile remint timed out (11253ms)
+[w22:cd:pro] Soft reload mint failed — rotating immediately
+[w22:cd:pro] Tor NEWNYM gen=3; waiting 8000ms
+[w22:cd:pro] Tor ready on 19072 exit=193.189.100.202
+[w22:cd:pro] Rotating IP (#3, try 1) after No Turnstile token for direct search → tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Launching persistent Chrome profile /tmp/lll-pw-w22-r3
+[w22:cd:pro] Proxy tor#4 socks5://127.0.0.1:19072
+[w22:cd:pro] Opening https://lastletterlibrary.com
+[w22:cd:pro] Library mode=pro
+[w22:cd:pro] Managed Turnstile token (len=816, 5825ms, remount)
+[w22:cd:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w22:cd:pro] Cleaned 1 old rotated profile(s)
+[w22:cd:pro] Searching "demio" | queue=17 | words=57082
+[w22:cd:pro] [api] 200 mode=pro startsWith=demio
+[w22:cd:pro] [api] 200 mode=pro startsWith=demio (456ms direct)
+[w22:cd:pro] "demio" → 7 records, 7 words
+[w22:cd:pro] "demio" branch complete
+[w22:cd:pro] Saved 57,089 worker words
+[w22:cd:pro] Searching "demiw" | queue=16 | words=57089
+[w22:cd:pro] Pacing 15s before "demiw" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4606ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demiw
+[w22:cd:pro] [api] 200 mode=pro startsWith=demiw (633ms direct)
+[w22:cd:pro] "demiw" → 4 records, 4 words
+[w22:cd:pro] "demiw" branch complete
+[w22:cd:pro] Saved 57,089 worker words
+[w22:cd:pro] Searching "demiy" | queue=15 | words=57089
+[w22:cd:pro] Pacing 15s before "demiy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4688ms, remount)
+[w22:cd:pro] heartbeat words=57089 queue=15 rotation=3 idle=8s
+[w22:cd:pro] [api] 200 mode=pro startsWith=demiy
+[w22:cd:pro] [api] 200 mode=pro startsWith=demiy (648ms direct)
+[w22:cd:pro] "demiy" → 0 records, 0 words
+[w22:cd:pro] "demiy" branch complete
+[w22:cd:pro] Saved 57,089 worker words
+[w22:cd:pro] Searching "demol" | queue=14 | words=57089
+[w22:cd:pro] Pacing 15s before "demol" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5042ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demol
+[w22:cd:pro] [api] 200 mode=pro startsWith=demol (554ms direct)
+[w22:cd:pro] "demol" → 16 records, 16 words
+[w22:cd:pro] "demol" branch complete
+[w22:cd:pro] Saved 57,092 worker words
+[w22:cd:pro] Searching "demon" | queue=13 | words=57092
+[w22:cd:pro] Pacing 15s before "demon" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6029ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demon
+[w22:cd:pro] [api] 200 mode=pro startsWith=demon (550ms direct)
+[w22:cd:pro] "demon" → 100 records, 100 words (incl. exact "demon")
+[w22:cd:pro] Pacing 15s before "demon" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4889ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demon
+[w22:cd:pro] [api] 200 mode=pro startsWith=demon sort=alphabetical:desc (527ms direct)
+[w22:cd:pro] "demon" full page ends at "demonstrandum" (next='s'); skip 26 covered groups → 2 children reverse Z→A ends at "demoniacal" (lo='i' hi='y'); skip 15 middle + 0 new words
+[w22:cd:pro] Saved 57,179 worker words; shared last.txt now 481,171
+[w22:cd:pro] Searching "demow" | queue=14 | words=57179
+[w22:cd:pro] Pacing 14s before "demow" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4919ms, remount)
+[w22:cd:pro] heartbeat words=57179 queue=14 rotation=3 idle=4s
+[w22:cd:pro] [api] 200 mode=pro startsWith=demow
+[w22:cd:pro] [api] 200 mode=pro startsWith=demow (539ms direct)
+[w22:cd:pro] "demow" → 0 records, 0 words
+[w22:cd:pro] "demow" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "demoy" | queue=13 | words=57179
+[w22:cd:pro] Pacing 15s before "demoy" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4772ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demoy
+[w22:cd:pro] [api] 200 mode=pro startsWith=demoy (600ms direct)
+[w22:cd:pro] "demoy" → 0 records, 0 words
+[w22:cd:pro] "demoy" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "depre" | queue=12 | words=57179
+[w22:cd:pro] Pacing 15s before "depre" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6683ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=depre
+[w22:cd:pro] [api] 200 mode=pro startsWith=depre (591ms direct)
+[w22:cd:pro] "depre" → 94 records, 94 words
+[w22:cd:pro] "depre" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "deprp" | queue=11 | words=57179
+[w22:cd:pro] Pacing 14s before "deprp" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 12085ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprp
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprp (1020ms direct)
+[w22:cd:pro] "deprp" → 0 records, 0 words
+[w22:cd:pro] "deprp" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "deprr" | queue=10 | words=57179
+[w22:cd:pro] Pacing 14s before "deprr" (gap=15500ms)
+[w22:cd:pro] heartbeat words=57179 queue=10 rotation=3 idle=2s
+[w22:cd:pro] Managed Turnstile token (len=816, 6637ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprr
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprr (745ms direct)
+[w22:cd:pro] "deprr" → 0 records, 0 words
+[w22:cd:pro] "deprr" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "deprt" | queue=9 | words=57179
+[w22:cd:pro] Pacing 15s before "deprt" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4822ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprt
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprt (659ms direct)
+[w22:cd:pro] "deprt" → 0 records, 0 words
+[w22:cd:pro] "deprt" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "deprv" | queue=8 | words=57179
+[w22:cd:pro] Pacing 15s before "deprv" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5128ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprv
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprv (706ms direct)
+[w22:cd:pro] "deprv" → 0 records, 0 words
+[w22:cd:pro] "deprv" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "deprx" | queue=7 | words=57179
+[w22:cd:pro] Pacing 15s before "deprx" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4872ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprx
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprx (685ms direct)
+[w22:cd:pro] "deprx" → 0 records, 0 words
+[w22:cd:pro] "deprx" branch complete
+[w22:cd:pro] heartbeat words=57179 queue=7 rotation=3 idle=17s
+[w22:cd:pro] Saved 57,179 worker words; shared last.txt now 481,414
+[w22:cd:pro] Searching "deprz" | queue=6 | words=57179
+[w22:cd:pro] Pacing 14s before "deprz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 6927ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprz
+[w22:cd:pro] [api] 200 mode=pro startsWith=deprz (646ms direct)
+[w22:cd:pro] "deprz" → 0 records, 0 words
+[w22:cd:pro] "deprz" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "diphz" | queue=5 | words=57179
+[w22:cd:pro] Pacing 15s before "diphz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 9929ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=diphz
+[w22:cd:pro] [api] 200 mode=pro startsWith=diphz (710ms direct)
+[w22:cd:pro] "diphz" → 0 records, 0 words
+[w22:cd:pro] "diphz" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "disrv" | queue=4 | words=57179
+[w22:cd:pro] Pacing 15s before "disrv" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4721ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=disrv
+[w22:cd:pro] [api] 200 mode=pro startsWith=disrv (667ms direct)
+[w22:cd:pro] "disrv" → 0 records, 0 words
+[w22:cd:pro] "disrv" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "disrx" | queue=3 | words=57179
+[w22:cd:pro] Pacing 15s before "disrx" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 10847ms, remount)
+[w22:cd:pro] heartbeat words=57179 queue=3 rotation=3 idle=15s
+[w22:cd:pro] [api] 200 mode=pro startsWith=disrx
+[w22:cd:pro] [api] 200 mode=pro startsWith=disrx (587ms direct)
+[w22:cd:pro] "disrx" → 0 records, 0 words
+[w22:cd:pro] "disrx" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "disrz" | queue=2 | words=57179
+[w22:cd:pro] Pacing 15s before "disrz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile miss (15095ms)
+[w22:cd:pro] Failed "disrz" attempt 1: No Turnstile token for direct search
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Turnstile miss — soft reload before rotate
+[w22:cd:pro] Managed Turnstile token (len=816, 3534ms, remount)
+[w22:cd:pro] Searching "disrz" | queue=2 | words=57179
+[w22:cd:pro] [api] 200 mode=pro startsWith=disrz
+[w22:cd:pro] [api] 200 mode=pro startsWith=disrz (452ms direct)
+[w22:cd:pro] "disrz" → 0 records, 0 words
+[w22:cd:pro] "disrz" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "demony" | queue=1 | words=57179
+[w22:cd:pro] Pacing 16s before "demony" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 5117ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demony
+[w22:cd:pro] [api] 200 mode=pro startsWith=demony (578ms direct)
+[w22:cd:pro] "demony" → 2 records, 2 words
+[w22:cd:pro] "demony" branch complete
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Searching "demonz" | queue=0 | words=57179
+[w22:cd:pro] Pacing 15s before "demonz" (gap=15500ms)
+[w22:cd:pro] Managed Turnstile token (len=816, 4468ms, remount)
+[w22:cd:pro] [api] 200 mode=pro startsWith=demonz
+[w22:cd:pro] [api] 200 mode=pro startsWith=demonz (576ms direct)
+[w22:cd:pro] "demonz" → 0 records, 0 words
+[w22:cd:pro] "demonz" branch complete
+[w22:cd:pro] Saved 57,179 worker words; shared last.txt now 481,490
+[w22:cd:pro] Saved 57,179 worker words
+[w22:cd:pro] Worker done. prefixes=7301 words=57179
+[w22:cd:pro] Managed Turnstile miss (1098ms)
+[w22:cd:pro] Tor exited code=0

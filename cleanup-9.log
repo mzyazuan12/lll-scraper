@@ -1,0 +1,1481 @@
+[cleanup:w9] Queue cleanup bot (DRY_RUN=false) | states=9..9 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w9:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 02:47:14.187 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19259
+Aug 04 02:47:14.187 [warn] Fixing permissions on directory /tmp/lll-tor
+[w9:cleanup:pro] tor: Aug 04 02:47:14.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 02:47:15.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 02:47:15.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 02:47:15.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 02:47:16.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:47:16.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 02:47:17.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 02:47:17.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 02:47:18.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 02:47:18.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 02:47:18.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 02:47:19.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 02:47:25.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 02:47:26.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 02:47:26.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 02:47:26.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 02:47:26.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:47:26.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 02:47:26.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=45.95.169.32
+[cleanup:w9] Browser mode=tor via tor#1 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9
+[w9:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w9] lll-audit-state-9.json w9: queue=1869 completed=316 words=9235 parents=61
+[cleanup:w9] Searching parent "sab" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sab" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sab" — reload (attempt 2)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sab
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sab (350ms direct)
+[cleanup:w9] "sab" full page (100) ends "sabellian" next='e' — skip 6 groups, removed 6/1869 queue items, +0 words
+[cleanup:w9] Searching parent "sac" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sac" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sac
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sac (336ms direct)
+[cleanup:w9] "sac" full page (100) ends "saccharometry" next='c' — skip 4 groups, removed 4/1863 queue items, +0 words
+[cleanup:w9] Searching parent "sad" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sad" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sad
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sad (407ms direct)
+[cleanup:w9] "sad" full page (100) ends "sadists" next='i' — skip 10 groups, removed 10/1859 queue items, +0 words
+[cleanup:w9] Searching parent "sag" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sag" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sag
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sag (434ms direct)
+[cleanup:w9] "sag" full page (100) ends "sagittocyst" next='i' — skip 10 groups, removed 10/1849 queue items, +0 words
+[cleanup:w9] Searching parent "sai" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sai" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sai
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sai (363ms direct)
+[cleanup:w9] "sai" full page (100) ends "sained" next='n' — skip 15 groups, removed 15/1839 queue items, +0 words
+[cleanup:w9] Searching parent "sal" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sal" (gap=15200ms)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sal" — reload (attempt 1)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sal
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sal (385ms direct)
+[cleanup:w9] "sal" full page (100) ends "salegoer" next='e' — skip 6 groups, removed 6/1824 queue items, +0 words
+[cleanup:w9] Searching parent "sam" (28 queued descendants)
+[w9:cleanup:pro] Pacing 14s before "sam" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sam
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sam (350ms direct)
+[cleanup:w9] "sam" full page (100) ends "samh" next='h' — skip 9 groups, removed 9/1818 queue items, +0 words
+[cleanup:w9] Searching parent "san" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "san" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=san
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=san (386ms direct)
+[cleanup:w9] "san" full page (100) ends "sanda" next='d' — skip 5 groups, removed 5/1809 queue items, +0 words
+[cleanup:w9] Searching parent "sap" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sap" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sap
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sap (343ms direct)
+[cleanup:w9] "sap" full page (100) ends "sapophoric" next='o' — skip 16 groups, removed 16/1804 queue items, +0 words
+[cleanup:w9] Searching parent "sar" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sar" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sar
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sar (370ms direct)
+[cleanup:w9] "sar" full page (100) ends "sarcodic" next='c' — skip 4 groups, removed 4/1788 queue items, +0 words
+[cleanup:w9] Searching parent "sat" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sat" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sat
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sat (347ms direct)
+[cleanup:w9] "sat" full page (100) ends "satinet" next='i' — skip 10 groups, removed 10/1784 queue items, +0 words
+[cleanup:w9] Searching parent "sau" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sau" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sau
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sau (387ms direct)
+[cleanup:w9] "sau" full page (100) ends "saunteringly" next='n' — skip 15 groups, removed 15/1774 queue items, +0 words
+[cleanup:w9] Searching parent "sav" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sav" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sav
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sav (481ms direct)
+[cleanup:w9] "sav" full page (100) ends "savitri" next='i' — skip 10 groups, removed 10/1759 queue items, +0 words
+[cleanup:w9] Searching parent "sca" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sca" (gap=15200ms)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sca" — reload (attempt 1)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sca
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sca (433ms direct)
+[cleanup:w9] "sca" full page (100) ends "scagliolas" next='g' — skip 8 groups, removed 8/1749 queue items, +0 words
+[cleanup:w9] Searching parent "sce" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sce" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sce
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sce (343ms direct)
+[cleanup:w9] "sce" full page (100) ends "scepsises" next='p' — skip 17 groups, removed 17/1741 queue items, +0 words
+[cleanup:w9] Searching parent "sch" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sch" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sch
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sch (354ms direct)
+[cleanup:w9] "sch" full page (100) ends "schematizations" next='e' — skip 6 groups, removed 6/1724 queue items, +0 words
+[cleanup:w9] Searching parent "sci" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sci" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sci
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sci (387ms direct)
+[cleanup:w9] "sci" full page (100) ends "scimitarpod" next='m' — skip 14 groups, removed 14/1718 queue items, +0 words
+[cleanup:w9] Searching parent "scl" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "scl" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scl
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scl (340ms direct)
+[cleanup:w9] "scl" full page (100) ends "sclerodermous" next='e' — skip 6 groups, removed 6/1704 queue items, +0 words
+[cleanup:w9] Searching parent "sco" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sco" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sco
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sco (479ms direct)
+[cleanup:w9] "sco" full page (100) ends "scolopendrid" next='l' — skip 13 groups, removed 13/1698 queue items, +0 words
+[cleanup:w9] Searching parent "scr" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "scr" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scr
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scr (377ms direct)
+[cleanup:w9] "scr" full page (100) ends "scrapegut" next='a' — skip 2 groups, removed 2/1685 queue items, +0 words
+[cleanup:w9] Searching parent "scu" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "scu" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scu
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scu (466ms direct)
+[cleanup:w9] "scu" full page (100) ends "sculptography" next='l' — skip 13 groups, removed 13/1683 queue items, +0 words
+[cleanup:w9] Searching parent "sea" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sea" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sea
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sea (398ms direct)
+[cleanup:w9] "sea" full page (100) ends "sealants" next='l' — skip 13 groups, removed 13/1670 queue items, +0 words
+[cleanup:w9] Searching parent "sec" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sec" (gap=15200ms)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sec
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sec (501ms direct)
+[cleanup:w9] "sec" full page (100) ends "second-guessers" next='o' — skip 16 groups, removed 16/1657 queue items, +0 words
+[cleanup:w9] Searching parent "sed" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sed" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sed
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sed (322ms direct)
+[cleanup:w9] "sed" full page (100) ends "seduct" next='u' — skip 22 groups, removed 22/1641 queue items, +0 words
+[cleanup:w9] Searching parent "see" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "see" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=see
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=see (337ms direct)
+[cleanup:w9] "see" full page (100) ends "seeming" next='m' — skip 14 groups, removed 14/1619 queue items, +0 words
+[cleanup:w9] Searching parent "sei" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sei" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sei
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sei (331ms direct)
+[cleanup:w9] "sei" full page (100) ends "seismographic" next='s' — skip 20 groups, removed 20/1605 queue items, +0 words
+[cleanup:w9] Searching parent "sel" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sel" (gap=15200ms)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sel" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sel" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sel" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "sel": No Turnstile token for direct search
+[cleanup:w9] Searching parent "sem" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sem" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sem" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sem" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "sem": No Turnstile token for direct search
+[cleanup:w9] Searching parent "sen" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sen" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sen" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sen" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "sen": No Turnstile token for direct search
+[cleanup:w9] Searching parent "sep" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sep" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sep" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sep" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "sep": No Turnstile token for direct search
+[cleanup:w9] Searching parent "ser" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "ser" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "ser" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "ser" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "ser": No Turnstile token for direct search
+[cleanup:w9] Searching parent "ses" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "ses" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "ses" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "ses" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "ses": No Turnstile token for direct search
+[cleanup:w9] Searching parent "set" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "set" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "set" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "set" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "set": No Turnstile token for direct search
+[cleanup:w9] Searching parent "sev" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sev" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sev" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sev" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "sev": No Turnstile token for direct search
+[cleanup:w9] Searching parent "sex" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sex" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sex" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sex" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "sex": No Turnstile token for direct search
+[cleanup:w9] Searching parent "sha" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sha" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sha" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sha" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "sha": No Turnstile token for direct search
+[cleanup:w9] Searching parent "she" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "she" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "she" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "she" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] FAILED "she": No Turnstile token for direct search
+[cleanup:w9] Searching parent "shi" (28 queued descendants)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "shi" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "shi" — reload (attempt 2)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "shi" — reload (attempt 3)
+
+--- re-pass skipped parents (retry until success) ---
+[cleanup:w9] Queue cleanup bot (DRY_RUN=false) | states=9..9 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w9:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 03:53:00.186 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 03:53:00.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 03:53:01.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 03:53:01.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 03:53:04.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 03:53:04.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w9:cleanup:pro] tor: Aug 04 03:53:04.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w9:cleanup:pro] tor: Aug 04 03:53:04.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 03:53:04.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 03:53:05.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 03:53:05.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 03:53:05.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 03:53:06.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+
+--- respawn 2026-08-04T08:53:07.300Z ---
+[cleanup:w9] Queue cleanup bot (DRY_RUN=false) | states=9..9 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w9:cleanup:pro] Tor exited code=null
+[w9:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 03:53:07.603 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 03:53:07.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 03:53:08.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 03:53:08.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 03:53:10.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 03:53:10.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 03:53:10.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 03:53:11.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 03:53:11.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 03:53:11.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 03:53:11.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+[w9:cleanup:pro] tor: Aug 04 03:53:12.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 03:53:14.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 03:53:17.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 03:53:17.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 03:53:17.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 03:53:17.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 03:53:17.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 03:53:18.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=45.66.35.22
+[cleanup:w9] Browser mode=tor via tor#1 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r0
+[w9:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w9] lll-audit-state-9.json w9: queue=1585 completed=316 words=9235 parents=61
+[cleanup:w9] Searching parent "sab" (22 queued descendants)
+[w9:cleanup:pro] Tor ready on 19259 exit=45.66.35.22
+[cleanup:w9] Browser mode=tor via tor#1 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r0
+[w9:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19259
+[cleanup:w9] browserType.launchPersistentContext: Opening in existing browser session. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE 127.0.0.1" --proxy-server=socks5://127.0.0.1:19259 --proxy-bypass-list=<-loopback> --disable-blink-features=AutomationControlled --user-data-dir=/tmp/lll-pw-cleanup-w9-r0 --remote-debugging-pipe about:blank
+  - <launched> pid=2696
+  - [pid=2696][out] Opening in existing browser session.
+  - [pid=2696] <gracefully close start>
+  - [pid=2696] <kill>
+  - [pid=2696] <will force kill>
+  - [pid=2696] exception while trying to kill process: Error: kill EPERM
+  - [pid=2696] <process did exit: exitCode=0, signal=null>
+  - [pid=2696] starting temporary directories cleanup
+  - [pid=2696] finished temporary directories cleanup
+  - [pid=2696] <gracefully close end>
+
+    at async launchSession (/Users/mac/Downloads/LastLetter-main/lll-security-audit/audit.mjs:1738:19)
+    at async openFresh (/Users/mac/Downloads/LastLetter-main/lll-security-audit/cleanup-queue.mjs:232:21)
+    at async openBrowserSession (/Users/mac/Downloads/LastLetter-main/lll-security-audit/cleanup-queue.mjs:238:10)
+    at async main (/Users/mac/Downloads/LastLetter-main/lll-security-audit/cleanup-queue.mjs:423:15) {
+  log: [
+    '  - <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE 127.0.0.1" --proxy-server=socks5://127.0.0.1:19259 --proxy-bypass-list=<-loopback> --disable-blink-features=AutomationControlled --user-data-dir=/tmp/lll-pw-cleanup-w9-r0 --remote-debugging-pipe about:blank',
+    '  - <launched> pid=2696',
+    '  - [pid=2696][out] Opening in existing browser session.',
+    '  - [pid=2696] <gracefully close start>',
+    '  - [pid=2696] <kill>',
+    '  - [pid=2696] <will force kill>',
+    '  - [pid=2696] exception while trying to kill process: Error: kill EPERM',
+    '  - [pid=2696] <process did exit: exitCode=0, signal=null>',
+    '  - [pid=2696] starting temporary directories cleanup',
+    '  - [pid=2696] finished temporary directories cleanup',
+    '  - [pid=2696] <gracefully close end>'
+  ]
+}
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sab
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sab (532ms direct)
+[cleanup:w9] "sab" full page (100) ends "sabellian" next='e' — skip 6 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sac" (24 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sac" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sac
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sac (311ms direct)
+[cleanup:w9] "sac" full page (100) ends "saccharometry" next='c' — skip 4 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sad" (18 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sad" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sad
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sad (344ms direct)
+[cleanup:w9] "sad" full page (100) ends "sadists" next='i' — skip 10 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sag" (18 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sag" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sag
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sag (325ms direct)
+[cleanup:w9] "sag" full page (100) ends "sagittocyst" next='i' — skip 10 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sai" (13 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sai" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sai
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sai (334ms direct)
+[cleanup:w9] "sai" full page (100) ends "sained" next='n' — skip 15 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sal" (22 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sal" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sal
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sal (345ms direct)
+[cleanup:w9] "sal" full page (100) ends "salegoer" next='e' — skip 6 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sam" (19 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sam" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sam
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sam (371ms direct)
+[cleanup:w9] "sam" full page (100) ends "samh" next='h' — skip 9 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "san" (23 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "san" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=san
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=san (396ms direct)
+[cleanup:w9] "san" full page (100) ends "sanda" next='d' — skip 5 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sap" (12 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sap" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sap
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sap (334ms direct)
+[cleanup:w9] "sap" full page (100) ends "sapophoric" next='o' — skip 16 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sar" (24 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sar" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sar
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sar (325ms direct)
+[cleanup:w9] "sar" full page (100) ends "sarcodic" next='c' — skip 4 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sat" (18 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sat" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sat
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sat (411ms direct)
+[cleanup:w9] "sat" full page (100) ends "satinet" next='i' — skip 10 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sau" (13 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sau" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sau
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sau (364ms direct)
+[cleanup:w9] "sau" full page (100) ends "saunteringly" next='n' — skip 15 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sav" (18 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sav" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sav
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sav (324ms direct)
+[cleanup:w9] "sav" full page (100) ends "savitri" next='i' — skip 10 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sca" (20 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sca" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sca
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sca (325ms direct)
+[cleanup:w9] "sca" full page (100) ends "scagliolas" next='g' — skip 8 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sce" (11 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sce" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sce
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sce (434ms direct)
+[cleanup:w9] "sce" full page (100) ends "scepsises" next='p' — skip 17 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sch" (22 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sch" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sch
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sch (348ms direct)
+[cleanup:w9] "sch" full page (100) ends "schematizations" next='e' — skip 6 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sci" (14 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sci" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sci
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sci (328ms direct)
+[cleanup:w9] "sci" full page (100) ends "scimitarpod" next='m' — skip 14 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "scl" (22 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "scl" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scl
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scl (326ms direct)
+[cleanup:w9] "scl" full page (100) ends "sclerodermous" next='e' — skip 6 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sco" (15 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sco" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sco
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sco (395ms direct)
+[cleanup:w9] "sco" full page (100) ends "scolopendrid" next='l' — skip 13 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "scr" (26 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "scr" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scr
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scr (363ms direct)
+[cleanup:w9] "scr" full page (100) ends "scrapegut" next='a' — skip 2 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "scu" (15 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "scu" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scu
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=scu (350ms direct)
+[cleanup:w9] "scu" full page (100) ends "sculptography" next='l' — skip 13 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sea" (15 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sea" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sea
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sea (340ms direct)
+[cleanup:w9] "sea" full page (100) ends "sealants" next='l' — skip 13 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sec" (12 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sec" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sec
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sec (354ms direct)
+[cleanup:w9] "sec" full page (100) ends "second-guessers" next='o' — skip 16 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sed" (6 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sed" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sed
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sed (336ms direct)
+[cleanup:w9] "sed" full page (100) ends "seduct" next='u' — skip 22 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "see" (14 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "see" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=see
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=see (333ms direct)
+[cleanup:w9] "see" full page (100) ends "seeming" next='m' — skip 14 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sei" (8 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sei" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sei
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sei (352ms direct)
+[cleanup:w9] "sei" full page (100) ends "seismographic" next='s' — skip 20 groups, removed 0/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sel" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sel" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sel
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sel (361ms direct)
+[cleanup:w9] "sel" full page (100) ends "selenitical" next='e' — skip 6 groups, removed 6/1585 queue items, +0 words
+[cleanup:w9] Searching parent "sem" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sem" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sem
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sem (399ms direct)
+[cleanup:w9] "sem" full page (100) ends "semese" next='e' — skip 6 groups, removed 6/1579 queue items, +0 words
+[cleanup:w9] Searching parent "sen" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sen" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sen
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sen (326ms direct)
+[cleanup:w9] "sen" full page (100) ends "sengreen" next='g' — skip 8 groups, removed 8/1573 queue items, +0 words
+[cleanup:w9] Searching parent "sep" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sep" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sep
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sep (327ms direct)
+[cleanup:w9] "sep" full page (100) ends "sepone" next='o' — skip 16 groups, removed 16/1565 queue items, +0 words
+[cleanup:w9] Searching parent "ser" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "ser" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=ser
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=ser (360ms direct)
+[cleanup:w9] "ser" full page (100) ends "serenated" next='e' — skip 6 groups, removed 6/1549 queue items, +0 words
+[cleanup:w9] Searching parent "ses" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "ses" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=ses
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=ses (356ms direct)
+[cleanup:w9] "ses" full page (100) ends "sessilities" next='s' — skip 20 groups, removed 20/1543 queue items, +0 words
+[cleanup:w9] Searching parent "set" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "set" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=set
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=set (325ms direct)
+[cleanup:w9] "set" full page (100) ends "settlors" next='t' — skip 21 groups, removed 21/1523 queue items, +0 words
+[cleanup:w9] Searching parent "sev" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sev" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sev
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sev (323ms direct)
+[cleanup:w9] "sev" full page (100) ends "severer" next='e' — skip 6 groups, removed 6/1502 queue items, +0 words
+[cleanup:w9] Searching parent "sex" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sex" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sex
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sex (329ms direct)
+[cleanup:w9] "sex" full page (100) ends "sexology" next='o' — skip 16 groups, removed 16/1496 queue items, +0 words
+[cleanup:w9] Searching parent "sha" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sha" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sha
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sha (412ms direct)
+[cleanup:w9] "sha" full page (100) ends "shadkhan" next='d' — skip 5 groups, removed 5/1480 queue items, +0 words
+[cleanup:w9] Searching parent "she" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "she" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=she
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=she (348ms direct)
+[cleanup:w9] "she" full page (100) ends "shecklaton" next='c' — skip 4 groups, removed 4/1475 queue items, +0 words
+[cleanup:w9] Searching parent "shi" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "shi" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=shi
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=shi (370ms direct)
+[cleanup:w9] "shi" full page (100) ends "shifts" next='f' — skip 7 groups, removed 7/1471 queue items, +0 words
+[cleanup:w9] Searching parent "sho" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sho" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sho
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sho (351ms direct)
+[cleanup:w9] "sho" full page (100) ends "shoehorning" next='e' — skip 6 groups, removed 6/1464 queue items, +0 words
+[cleanup:w9] Searching parent "shr" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "shr" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=shr
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=shr (318ms direct)
+[cleanup:w9] "shr" full page (100) ends "shriftless" next='i' — skip 10 groups, removed 10/1458 queue items, +0 words
+[cleanup:w9] Searching parent "shu" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "shu" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=shu
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=shu (316ms direct)
+[cleanup:w9] "shu" full page (100) ends "shura" next='r' — skip 19 groups, removed 19/1448 queue items, +0 words
+[cleanup:w9] Searching parent "sic" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sic" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sic
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sic (323ms direct)
+[cleanup:w9] "sic" full page (100) ends "sickler" next='k' — skip 12 groups, removed 12/1429 queue items, +0 words
+[cleanup:w9] Searching parent "sid" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sid" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sid
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sid (343ms direct)
+[cleanup:w9] "sid" full page (100) ends "sidenotes" next='e' — skip 6 groups, removed 6/1417 queue items, +0 words
+[cleanup:w9] Searching parent "sig" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sig" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig (340ms direct)
+[cleanup:w9] FAILED "sig" try 1/8: API 403 for "sig": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#1) after retry "sig" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=2 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:04:28.574 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:04:28.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:04:29.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:04:29.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:04:29.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:04:29.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:04:29.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:04:29.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:04:30.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:04:30.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:04:30.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:04:30.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:04:31.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:04:35.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:04:36.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:04:36.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:04:36.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:04:36.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:04:36.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:04:37.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=152.53.157.69
+[cleanup:w9] Browser mode=tor via tor#2 socks5://127.0.0.1:19259 rotation=1
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r1
+[w9:cleanup:pro] Proxy tor#2 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig (589ms direct)
+[cleanup:w9] FAILED "sig" try 2/8: API 403 for "sig": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#2) after retry "sig" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=3 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:04:57.866 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:04:58.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:04:59.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:04:59.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:06:07.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:06:08.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w9:cleanup:pro] tor: Aug 04 04:06:08.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w9:cleanup:pro] tor: Aug 04 04:06:08.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:06:08.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:06:09.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:06:09.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:06:09.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:06:09.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:06:18.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:06:18.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:06:18.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:06:18.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:06:19.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:06:19.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:06:19.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=192.42.116.20
+[cleanup:w9] Browser mode=tor via tor#3 socks5://127.0.0.1:19259 rotation=2
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r2
+[w9:cleanup:pro] Proxy tor#3 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig (522ms direct)
+[cleanup:w9] FAILED "sig" try 3/8: API 403 for "sig": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#3) after retry "sig" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=4 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:06:33.402 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:06:33.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:06:34.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:06:34.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:06:37.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:06:37.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:06:37.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:06:37.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:06:37.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:06:38.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:06:38.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:06:38.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:06:39.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:06:44.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:06:45.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:06:45.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:06:45.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:06:45.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:06:45.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:06:46.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=192.42.116.49
+[cleanup:w9] Browser mode=tor via tor#4 socks5://127.0.0.1:19259 rotation=3
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r3
+[w9:cleanup:pro] Proxy tor#4 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=794)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig (336ms direct)
+[cleanup:w9] FAILED "sig" try 4/8: API 403 for "sig": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#4) after retry "sig" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=5 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:07:01.690 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:07:01.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:07:02.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:07:02.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:07:04.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:07:04.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:07:04.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:07:04.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:07:04.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:07:05.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:07:06.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:07:06.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:07:06.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:07:11.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:07:12.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:07:12.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:07:12.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:07:12.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:07:12.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:07:13.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=45.66.35.34
+[cleanup:w9] Browser mode=tor via tor#5 socks5://127.0.0.1:19259 rotation=4
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r4
+[w9:cleanup:pro] Proxy tor#5 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig (526ms direct)
+[cleanup:w9] FAILED "sig" try 5/8: API 403 for "sig": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#5) after retry "sig" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=6 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:07:28.780 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:07:28.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:07:29.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:07:29.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:07:32.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:07:32.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:07:32.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:07:32.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:07:32.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:07:33.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:07:34.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:07:34.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:07:35.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:07:39.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:07:40.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:07:40.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:07:40.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:07:40.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:07:40.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:07:41.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=109.70.100.15
+[cleanup:w9] Browser mode=tor via tor#6 socks5://127.0.0.1:19259 rotation=5
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r5
+[w9:cleanup:pro] Proxy tor#6 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig (553ms direct)
+[cleanup:w9] FAILED "sig" try 6/8: API 403 for "sig": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#6) after retry "sig" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=7 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:08:29.745 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:08:29.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:08:30.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:08:30.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:08:31.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:08:46.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:08:46.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:08:46.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:08:46.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:08:47.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:08:47.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:08:48.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:08:52.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:08:53.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:08:53.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:08:53.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:08:53.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:08:53.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:08:54.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=171.25.193.35
+[cleanup:w9] Browser mode=tor via tor#7 socks5://127.0.0.1:19259 rotation=6
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r6
+[w9:cleanup:pro] Proxy tor#7 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sig" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Rotating IP (#7) after Turnstile stuck on "sig"
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=8 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:11:52.748 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:11:52.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:11:53.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+Aug 04 04:11:53.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:11:54.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:11:54.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:11:54.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:11:54.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:11:55.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:11:56.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:11:56.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:11:56.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:11:57.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:12:01.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:12:04.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:12:05.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:12:05.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:12:05.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:12:05.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:12:06.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=109.70.100.10
+[cleanup:w9] Browser mode=tor via tor#8 socks5://127.0.0.1:19259 rotation=7
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r7
+[w9:cleanup:pro] Proxy tor#8 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig (438ms direct)
+[cleanup:w9] FAILED "sig" try 7/8: API 403 for "sig": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#8) after retry "sig" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=9 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:12:26.518 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:12:26.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:12:27.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:12:27.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:12:30.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:12:31.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w9:cleanup:pro] tor: Aug 04 04:12:31.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w9:cleanup:pro] tor: Aug 04 04:12:31.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:12:31.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:12:32.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:12:32.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:12:32.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:12:33.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:12:35.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:12:37.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:12:38.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:12:38.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:12:38.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:12:38.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:12:39.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=45.83.104.137
+[cleanup:w9] Browser mode=tor via tor#9 socks5://127.0.0.1:19259 rotation=8
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r8
+[w9:cleanup:pro] Proxy tor#9 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sig (643ms direct)
+[cleanup:w9] FAILED "sig" try 8/8: API 403 for "sig": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#9) after retry "sig" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=10 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:13:10.786 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:13:10.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:13:11.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:13:11.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:13:12.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:13:15.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w9:cleanup:pro] tor: Aug 04 04:13:15.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w9:cleanup:pro] tor: Aug 04 04:13:15.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:13:15.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:13:17.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:13:17.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:13:17.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:13:17.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:13:22.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:13:22.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:13:22.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:13:22.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:13:23.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:13:23.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:13:23.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=152.53.150.12
+[cleanup:w9] Browser mode=tor via tor#10 socks5://127.0.0.1:19259 rotation=9
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r9
+[w9:cleanup:pro] Proxy tor#10 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w9] GAVE UP "sig" after retries — leaving queue intact: API 403 for "sig": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Searching parent "sil" (28 queued descendants)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sil
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sil (521ms direct)
+[cleanup:w9] FAILED "sil" try 1/8: API 403 for "sil": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#10) after retry "sil" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=11 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:13:39.047 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:13:39.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:13:40.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:13:40.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:13:40.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:13:40.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:13:40.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:13:41.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:13:41.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:13:42.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:13:43.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:13:43.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:13:44.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:14:08.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:14:11.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:14:13.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:14:14.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:14:15.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:14:15.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:14:16.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=193.189.100.196
+[cleanup:w9] Browser mode=tor via tor#11 socks5://127.0.0.1:19259 rotation=10
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r10
+[w9:cleanup:pro] Proxy tor#11 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sil
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sil (708ms direct)
+[cleanup:w9] FAILED "sil" try 2/8: API 403 for "sil": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#11) after retry "sil" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=12 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:14:39.765 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:14:39.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:14:40.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:14:40.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:14:41.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:14:41.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:14:41.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:14:41.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:14:41.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:14:43.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:14:43.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:14:43.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:14:44.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:14:49.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:14:49.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:14:49.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:14:49.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:14:50.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:14:50.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:14:50.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=192.42.116.21
+[cleanup:w9] Browser mode=tor via tor#12 socks5://127.0.0.1:19259 rotation=11
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r11
+[w9:cleanup:pro] Proxy tor#12 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sil
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sil (424ms direct)
+[cleanup:w9] FAILED "sil" try 3/8: API 403 for "sil": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#12) after retry "sil" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=13 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:15:11.015 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:15:11.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:15:12.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:15:12.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:15:14.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:15:14.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w9:cleanup:pro] tor: Aug 04 04:15:14.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w9:cleanup:pro] tor: Aug 04 04:15:14.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:15:15.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:15:16.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:15:16.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:15:16.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:15:16.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:15:37.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:15:37.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:15:37.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:15:38.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:15:38.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:15:38.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:15:38.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=109.70.100.4
+[cleanup:w9] Browser mode=tor via tor#13 socks5://127.0.0.1:19259 rotation=12
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r12
+[w9:cleanup:pro] Proxy tor#13 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sil
+[w9:cleanup:pro] [api] 403 mode=pro startsWith=sil (573ms direct)
+[cleanup:w9] FAILED "sil" try 4/8: API 403 for "sil": Anti-bot verification failed. Please refresh the page.
+[cleanup:w9] Rotating IP (#13) after retry "sil" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=14 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:16:01.069 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:16:01.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:16:02.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:16:02.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:16:02.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:16:02.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w9:cleanup:pro] tor: Aug 04 04:16:02.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w9:cleanup:pro] tor: Aug 04 04:16:02.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:16:03.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:16:04.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:16:04.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:16:04.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:16:05.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:16:09.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:16:09.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:16:09.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:16:09.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:16:10.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:16:10.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:16:10.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=185.220.101.170
+[cleanup:w9] Browser mode=tor via tor#14 socks5://127.0.0.1:19259 rotation=13
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r13
+[w9:cleanup:pro] Proxy tor#14 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sil" — reload (attempt 1)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Rotating IP (#14) after Turnstile stuck on "sil"
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=15 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:19:10.038 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:19:10.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:19:11.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:19:11.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:19:11.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:19:12.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w9:cleanup:pro] tor: Aug 04 04:19:12.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w9:cleanup:pro] tor: Aug 04 04:19:13.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:19:13.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:19:14.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:19:14.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:19:14.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:19:15.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:19:20.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:19:20.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:19:20.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:19:20.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:19:21.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:19:21.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:19:21.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=185.220.101.105
+[cleanup:w9] Browser mode=tor via tor#15 socks5://127.0.0.1:19259 rotation=14
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r14
+[w9:cleanup:pro] Proxy tor#15 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Turnstile miss on "sil" — reload (attempt 3)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w9] Rotating IP (#15) after Turnstile stuck on "sil"
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=16 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:22:20.520 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:22:20.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:22:21.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:22:21.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:22:22.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:22:23.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:22:23.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:22:23.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:22:23.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:22:24.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:22:24.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:22:24.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:22:24.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:22:30.000 [notice] Bootstrapped 56% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:22:30.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:22:30.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:22:30.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:22:30.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:22:30.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:22:31.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=109.70.100.14
+[cleanup:w9] Browser mode=tor via tor#16 socks5://127.0.0.1:19259 rotation=15
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r15
+[w9:cleanup:pro] Proxy tor#16 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w9] FAILED "sil" try 5/8: No Turnstile token for direct search
+[cleanup:w9] Rotating IP (#16) after retry "sil" after failure
+[w9:cleanup:pro] Tor exited code=0
+[w9:cleanup:pro] Starting Tor gen=17 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:22:45.804 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:22:45.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:22:46.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:22:46.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:22:51.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:22:51.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:22:51.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:22:51.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:22:51.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:22:52.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:22:53.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:22:53.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:22:53.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:22:57.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:22:59.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:22:59.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:22:59.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:23:00.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:23:00.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:23:00.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=45.84.107.198
+[cleanup:w9] Browser mode=tor via tor#17 socks5://127.0.0.1:19259 rotation=16
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-r16
+[w9:cleanup:pro] Proxy tor#17 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sil
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sil (452ms direct)
+[cleanup:w9] "sil" full page (100) ends "silicifications" next='i' — skip 10 groups, removed 10/1411 queue items, +0 words
+[cleanup:w9] Searching parent "sim" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sim" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sim
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sim (459ms direct)
+[cleanup:w9] "sim" full page (100) ends "simmeringly" next='m' — skip 14 groups, removed 14/1401 queue items, +0 words
+[cleanup:w9] Searching parent "sin" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sin" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sin
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sin (401ms direct)
+[cleanup:w9] "sin" full page (100) ends "sinfonie" next='f' — skip 7 groups, removed 7/1387 queue items, +0 words
+[cleanup:w9] Searching parent "sip" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sip" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sip
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sip (405ms direct)
+[cleanup:w9] "sip" full page (100) ends "sippers" next='p' — skip 17 groups, removed 17/1380 queue items, +0 words
+[cleanup:w9] Searching parent "sir" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sir" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sir
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sir (650ms direct)
+[cleanup:w9] "sir" full page (100) ends "sirree" next='r' — skip 19 groups, removed 19/1363 queue items, +0 words
+[cleanup:w9] Searching parent "sit" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sit" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sit
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sit (410ms direct)
+[cleanup:w9] "sit" full page (100) ends "situationism" next='u' — skip 22 groups, removed 22/1344 queue items, +0 words
+[cleanup:w9] Searching parent "ske" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "ske" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=ske
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=ske (394ms direct)
+[cleanup:w9] "ske" full page (100) ends "skeletomuscular" next='l' — skip 13 groups, removed 13/1322 queue items, +0 words
+[cleanup:w9] Searching parent "ski" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "ski" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=ski
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=ski (382ms direct)
+[cleanup:w9] "ski" full page (100) ends "skijorers" next='j' — skip 11 groups, removed 11/1309 queue items, +0 words
+[cleanup:w9] Searching parent "sky" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sky" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sky
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sky (422ms direct)
+[cleanup:w9] "sky" full page (100) ends "skyrmion" next='r' — skip 19 groups, removed 19/1298 queue items, +0 words
+[cleanup:w9] Searching parent "sla" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sla" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sla
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sla (358ms direct)
+[cleanup:w9] "sla" full page (100) ends "slaisteries" next='i' — skip 10 groups, removed 10/1279 queue items, +0 words
+[cleanup:w9] Searching parent "sle" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sle" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sle
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sle (624ms direct)
+[cleanup:w9] "sle" full page (100) ends "sleepish" next='e' — skip 6 groups, removed 6/1269 queue items, +0 words
+[cleanup:w9] Searching parent "sli" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sli" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sli
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sli (386ms direct)
+[cleanup:w9] "sli" full page (100) ends "slightness" next='g' — skip 8 groups, removed 8/1263 queue items, +0 words
+[cleanup:w9] Searching parent "slo" (28 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "slo" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=slo
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=slo (378ms direct)
+[cleanup:w9] "slo" full page (100) ends "slommocks" next='m' — skip 14 groups, removed 14/1255 queue items, +0 words
+[cleanup:w9] Searching parent "slu" (18 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "slu" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=slu
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=slu (388ms direct)
+[cleanup:w9] "slu" full page (100) ends "sluig" next='i' — skip 10 groups, removed 0/1241 queue items, +0 words
+[cleanup:w9] Searching parent "sma" (9 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "sma" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sma
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=sma (376ms direct)
+[cleanup:w9] "sma" full page (100) ends "smaragdus" next='r' — skip 19 groups, removed 0/1241 queue items, +0 words
+[cleanup:w9] Searching parent "smi" (9 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "smi" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=smi
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=smi (390ms direct)
+[cleanup:w9] "smi" full page (100) ends "smirkly" next='r' — skip 19 groups, removed 0/1241 queue items, +0 words
+[cleanup:w9] Searching parent "smo" (12 queued descendants)
+[w9:cleanup:pro] Pacing 15s before "smo" (gap=15200ms)
+[w9:cleanup:pro] Managed Turnstile token (len=816)
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=smo
+[w9:cleanup:pro] [api] 200 mode=pro startsWith=smo (357ms direct)
+[cleanup:w9] "smo" full page (100) ends "smoodged" next='o' — skip 16 groups, removed 0/1241 queue items, +0 words
+[cleanup:w9] lll-audit-state-9.json done — parents=61 searches=60 removed=344
+[cleanup:w9] State 9 cleanup finished (supervisor merges last.txt)
+[cleanup:w9] All states processed. searches=60 queue_removed=344
+[w9:cleanup:pro] Tor exited code=0
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/private/tmp/audit.mjs' imported from /private/tmp/lll-clean-sig.mjs
+Did you mean to import "../../Users/mac/Downloads/LastLetter-main/lll-security-audit/audit.mjs"?
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:36)
+    at TracingChannel.tracePromise (node:diagnostics_channel:344:14)
+    at ModuleLoader.import (node:internal/modules/esm/loader:642:21) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///private/tmp/audit.mjs'
+}
+
+Node.js v22.16.0
+[w9:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19259 (try 1)
+[w9:cleanup:pro] tor: Aug 04 04:55:35.418 [warn] Fixing permissions on directory /tmp/lll-tor-w9
+[w9:cleanup:pro] tor: Aug 04 04:55:35.000 [notice] Bootstrapped 0% (starting): Starting
+[w9:cleanup:pro] tor: Aug 04 04:55:36.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w9:cleanup:pro] tor: Aug 04 04:55:36.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w9:cleanup:pro] tor: Aug 04 04:56:36.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w9:cleanup:pro] tor: Aug 04 04:56:37.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 04:56:37.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w9:cleanup:pro] tor: Aug 04 04:56:37.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:56:37.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w9:cleanup:pro] tor: Aug 04 04:56:38.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w9:cleanup:pro] tor: Aug 04 04:56:38.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 04 04:56:38.000 [notice] I learned some more directory 
+[w9:cleanup:pro] tor: Aug 04 04:56:39.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:56:41.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:56:43.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:56:43.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w9:cleanup:pro] tor: Aug 04 04:56:43.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w9:cleanup:pro] tor: Aug 04 04:56:43.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 04:56:43.000 [notice] Bootstrapped 9
+[w9:cleanup:pro] tor: Aug 04 04:56:44.000 [notice] Bootstrapped 100% (done): Done
+[w9:cleanup:pro] Tor ready on 19259 exit=45.128.133.242
+[w9:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w9-sig
+[w9:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19259
+[w9:cleanup:pro] Opening https://lastletterlibrary.com
+[w9:cleanup:pro] Library mode=pro
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+fail 1 No Turnstile token for direct search
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)
+fail 2 No Turnstile token for direct search
+[w9:cleanup:pro] Turnstile mint miss (1/2)
+[w9:cleanup:pro] Site Turnstile remint timed out
+[w9:cleanup:pro] Turnstile mint miss (2/2)

@@ -1,0 +1,630 @@
+[cleanup-rev:w1] Reverse queue cleanup bot (DRY_RUN=false) | states=1..1 | sort=alphabetical:desc (Z→A) | parents=3-letter, prune queue items >=4 chars from high end | completed[] is never modified
+[w1:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19351 (try 1)
+[w1:cleanuprev:pro] tor: Aug 05 00:27:36.093 [warn] Fixing permissions on directory /tmp/lll-tor-w1
+[w1:cleanuprev:pro] tor: Aug 05 00:27:36.000 [notice] Bootstrapped 0% (starting): Starting
+[w1:cleanuprev:pro] tor: Aug 05 00:27:37.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:27:37.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:27:40.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:27:41.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 00:27:41.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w1:cleanuprev:pro] tor: Aug 05 00:27:41.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:27:41.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:27:43.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w1:cleanuprev:pro] tor: Aug 05 00:27:43.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 00:27:43.000 [notice] I learned some more directory 
+[w1:cleanuprev:pro] tor: Aug 05 00:27:44.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:28:04.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:28:05.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:28:05.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:28:05.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w1:cleanuprev:pro] tor: Aug 05 00:28:06.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 00:28:06.000 [notice] Bootstrapped 9
+[w1:cleanuprev:pro] tor: Aug 05 00:28:06.000 [notice] Bootstrapped 100% (done): Done
+[w1:cleanuprev:pro] Tor ready on 19351 exit=109.70.100.6
+[cleanup-rev:w1] Browser mode=tor via tor#1 socks5://127.0.0.1:19351
+[w1:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-w1-r0
+[w1:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19351
+[w1:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w1:cleanuprev:pro] Library mode=pro
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 6146ms, remount)
+[w1:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w1] lll-audit-state-1.json w1: queue=1339 completed=1747 words=22281 parents=66 (reverse Z→A)
+[cleanup-rev:w1] Reverse-searching parent "cac" (7 queued descendants, chars=opqrstu)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cac
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cac sort=alphabetical:desc (399ms direct)
+[cleanup-rev:w1] "cac" reverse full page (100) start="cacur" first='u' end="cacoglossia" next='o' — remove 5 covered groups, keep 'u+o', removed 5/1339 queue items, leave chars=ou, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cal" (69 queued descendants, chars=acilvwxyz)
+[w1:cleanuprev:pro] Pacing 16s before "cal" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (12047ms)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cal
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cal sort=alphabetical:desc (795ms direct)
+[cleanup-rev:w1] "cal" reverse full page (100) start="calzoons" first='z' end="calvinisms" next='v' — remove 3 covered groups, keep 'z+v', removed 3/1334 queue items, leave chars=acilvz, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cam" (17 queued descendants, chars=epqrstuvw)
+[w1:cleanuprev:pro] Pacing 15s before "cam" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4658ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cam
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cam sort=alphabetical:desc (883ms direct)
+[cleanup-rev:w1] "cam" reverse full page (100) start="camwoods" first='w' end="campiness" next='p' — remove 6 covered groups, keep 'w+p', removed 6/1331 queue items, leave chars=epw, +0 words
+[cleanup-rev:w1] Reverse-searching parent "can" (46 queued descendants, chars=adntuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "can" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 8189ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=can
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=can sort=alphabetical:desc (1219ms direct)
+[cleanup-rev:w1] "can" reverse full page (100) start="canzos" first='z' end="cantoned" next='t' — remove 5 covered groups, keep 'z+t', removed 5/1325 queue items, leave chars=adntz, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cap" (15 queued descendants, chars=istuvwxy)
+[w1:cleanuprev:pro] Pacing 14s before "cap" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (12391ms)
+[w1:cleanuprev:pro] Turnstile mint hard timeout after 15000ms
+[w1:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w1:cleanuprev:pro] Managed Turnstile miss (15742ms)
+[w1:cleanuprev:pro] Turnstile token present (len=816)
+[w1:cleanuprev:pro] Site Turnstile token (12723ms)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cap
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cap sort=alphabetical:desc (454ms direct)
+[cleanup-rev:w1] "cap" reverse full page (100) start="capys" first='y' end="capsulizes" next='s' — remove 5 covered groups, keep 'y+s', removed 5/1320 queue items, leave chars=isy, +0 words
+[cleanup-rev:w1] Reverse-searching parent "car" (101 queued descendants, chars=abdinprtuvwxyz)
+[w1:cleanuprev:pro] Pacing 16s before "car" (gap=15500ms)
+[w1:cleanuprev:pro] [api] 403 mode=pro startsWith=car
+[w1:cleanuprev:pro] [api] 403 mode=pro startsWith=car sort=alphabetical:desc (616ms direct)
+[cleanup-rev:w1] FAILED "car" try 1/8: API 403 for "car": Anti-bot verification failed. Please refresh the page.
+[cleanup-rev:w1] Rotating IP (#1) after retry "car" after failure
+[w1:cleanuprev:pro] Managed Turnstile miss (4622ms)
+[w1:cleanuprev:pro] Tor exited code=null
+[w1:cleanuprev:pro] Starting Tor gen=2 socks=127.0.0.1:19351 (try 1)
+[w1:cleanuprev:pro] tor: Aug 05 00:30:29.761 [notice] Opening Socks listener on 127.0.0.1:19351
+Aug 05 00:30:29.761 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19351
+
+[w1:cleanuprev:pro] tor: Aug 05 00:30:33.000 [notice] Bootstrapped 0% (starting): Starting
+Aug 05 00:30:33.000 [notice] Starting with guard context "default"
+[w1:cleanuprev:pro] tor: Aug 05 00:30:34.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:30:34.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:30:36.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:30:36.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 00:30:36.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w1:cleanuprev:pro] tor: Aug 05 00:30:38.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w1:cleanuprev:pro] tor: Aug 05 00:30:39.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 00:30:39.000 [notice] I learned some more directory 
+[w1:cleanuprev:pro] tor: Aug 05 00:30:40.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:31:33.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:31:37.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:31:44.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:31:46.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w1:cleanuprev:pro] tor: Aug 05 00:31:46.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 00:31:46.000 [notice] Bootstrapped 9
+[w1:cleanuprev:pro] tor: Aug 05 00:31:46.000 [notice] Bootstrapped 100% (done): Done
+[w1:cleanuprev:pro] Tor ready on 19351 exit=185.220.101.17
+[cleanup-rev:w1] Browser mode=tor via tor#2 socks5://127.0.0.1:19351 rotation=1
+[w1:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-w1-r1
+[w1:cleanuprev:pro] Proxy tor#2 socks5://127.0.0.1:19351
+[w1:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w1:cleanuprev:pro] Library mode=pro
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 5924ms, remount)
+[w1:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=car
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=car sort=alphabetical:desc (767ms direct)
+[cleanup-rev:w1] "car" reverse full page (100) start="carzey" first='z' end="cartways" next='t' — remove 5 covered groups, keep 'z+t', removed 5/1315 queue items, leave chars=abdinprtz, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cas" (19 queued descendants, chars=stuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cas" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3841ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cas
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cas sort=alphabetical:desc (511ms direct)
+[cleanup-rev:w1] "cas" reverse full page (100) start="casziel" first='z' end="castle-buildings" next='t' — remove 5 covered groups, keep 'z+t', removed 5/1310 queue items, leave chars=stz, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cat" (42 queued descendants, chars=aehopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cat" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4694ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cat
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cat sort=alphabetical:desc (514ms direct)
+[cleanup-rev:w1] "cat" reverse full page (100) start="catzerie" first='z' end="catonism" next='o' — remove 10 covered groups, keep 'z+o', removed 10/1305 queue items, leave chars=aehoz, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cau" (8 queued descendants, chars=stuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cau" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 5168ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cau
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cau sort=alphabetical:desc (521ms direct)
+[cleanup-rev:w1] "cau" reverse full page (100) start="cauves" first='v' end="causatum" next='s' — remove 2 covered groups, keep 'v+s', removed 2/1295 queue items, leave chars=svwxyz, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cav" (22 queued descendants, chars=efghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cav" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (12450ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (11069ms)
+[w1:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w1:cleanuprev:pro] Turnstile mint hard timeout after 15000ms
+[w1:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w1] Turnstile miss on "cav" — reload (attempt 1)
+[w1:cleanuprev:pro] Site Turnstile remint timed out (18211ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (12746ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (15009ms)
+[w1:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 11205ms, remount)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cav
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cav sort=alphabetical:desc (535ms direct)
+[cleanup-rev:w1] "cav" reverse full page (100) start="cavyyard" first='y' end="cavekeeper" next='e' — remove 19 covered groups, keep 'y+e', removed 19/1293 queue items, leave chars=eyz, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cel" (15 queued descendants, chars=lmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cel" (gap=15500ms)
+[w1:cleanuprev:pro] [api] 403 mode=pro startsWith=cel
+[w1:cleanuprev:pro] [api] 403 mode=pro startsWith=cel sort=alphabetical:desc (870ms direct)
+[cleanup-rev:w1] FAILED "cel" try 1/8: API 403 for "cel": Anti-bot verification failed. Please refresh the page.
+[cleanup-rev:w1] Rotating IP (#2) after retry "cel" after failure
+[w1:cleanuprev:pro] Managed Turnstile miss (889ms)
+[w1:cleanuprev:pro] Tor exited code=0
+[w1:cleanuprev:pro] Starting Tor gen=3 socks=127.0.0.1:19351 (try 1)
+[w1:cleanuprev:pro] tor: Aug 05 00:34:39.233 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19351
+Aug 05 00:34:39.233 [warn] Fixing permissions on directory /tmp/lll-tor
+[w1:cleanuprev:pro] tor: Aug 05 00:34:39.000 [notice] Bootstrapped 0% (starting): Starting
+[w1:cleanuprev:pro] tor: Aug 05 00:34:40.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:34:40.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:34:40.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:34:40.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 00:34:40.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w1:cleanuprev:pro] tor: Aug 05 00:34:40.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:34:41.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:34:41.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w1:cleanuprev:pro] tor: Aug 05 00:34:42.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 00:34:42.000 [notice] I learned some more directory 
+[w1:cleanuprev:pro] tor: Aug 05 00:34:43.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:35:22.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:35:23.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:35:23.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:35:23.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w1:cleanuprev:pro] tor: Aug 05 00:35:24.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 00:35:24.000 [notice] Bootstrapped 9
+[w1:cleanuprev:pro] tor: Aug 05 00:35:25.000 [notice] Bootstrapped 100% (done): Done
+[w1:cleanuprev:pro] Tor ready on 19351 exit=87.106.76.226
+[cleanup-rev:w1] Browser mode=tor via tor#3 socks5://127.0.0.1:19351 rotation=2
+[w1:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-w1-r2
+[w1:cleanuprev:pro] Proxy tor#3 socks5://127.0.0.1:19351
+[w1:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w1:cleanuprev:pro] Library mode=pro
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4342ms, remount)
+[w1:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cel
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cel sort=alphabetical:desc (472ms direct)
+[cleanup-rev:w1] "cel" reverse full page (100) start="celure" first='u' end="cellooligosaccharides" next='l' — remove 8 covered groups, keep 'u+l', removed 8/1274 queue items, leave chars=luvwxyz, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cen" (16 queued descendants, chars=t)
+[w1:cleanuprev:pro] Pacing 15s before "cen" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3324ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cen
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cen sort=alphabetical:desc (724ms direct)
+[cleanup-rev:w1] "cen" reverse full page (100) start="century" first='t' end="centriole" next='t' — remove 0 covered groups, keep 't', removed 0/1266 queue items, leave chars=t, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cep" (12 queued descendants, chars=hijklmnopqrs)
+[w1:cleanuprev:pro] Pacing 15s before "cep" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3690ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cep
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cep sort=alphabetical:desc (3417ms direct)
+[cleanup-rev:w1] "cep" reverse full page (100) start="ceptor" first='t' end="cephalodia" next='h' — remove 11 covered groups, keep 't+h', removed 11/1266 queue items, leave chars=h, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cer" (12 queued descendants, chars=aetuvwx)
+[w1:cleanuprev:pro] Pacing 12s before "cer" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 11519ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cer
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cer sort=alphabetical:desc (813ms direct)
+[cleanup-rev:w1] "cer" reverse full page (100) start="cerynean" first='y' end="certoparin" next='t' — remove 4 covered groups, keep 'y+t', removed 4/1255 queue items, leave chars=aet, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cha" (74 queued descendants, chars=lmnprtuvwxy)
+[w1:cleanuprev:pro] Pacing 15s before "cha" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 6615ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cha
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cha sort=alphabetical:desc (1670ms direct)
+[cleanup-rev:w1] "cha" reverse full page (100) start="chazzens" first='z' end="chaunoprockt" next='u' — remove 4 covered groups, keep 'z+u', removed 4/1251 queue items, leave chars=lmnprtu, +0 words
+[cleanup-rev:w1] Reverse-searching parent "che" (33 queued descendants, chars=cemrvwxy)
+[w1:cleanuprev:pro] Pacing 13s before "che" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 11322ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=che
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=che sort=alphabetical:desc (881ms direct)
+[cleanup-rev:w1] "che" reverse full page (100) start="chez" first='z' end="cheval" next='v' — remove 3 covered groups, keep 'z+v', removed 3/1247 queue items, leave chars=cemrv, +0 words
+[cleanup-rev:w1] Reverse-searching parent "chi" (31 queued descendants, chars=clnrtuvwxy)
+[w1:cleanuprev:pro] Pacing 14s before "chi" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 7092ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=chi
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=chi sort=alphabetical:desc (939ms direct)
+[cleanup-rev:w1] "chi" reverse full page (100) start="chizzing" first='z' end="chitlins" next='t' — remove 5 covered groups, keep 'z+t', removed 5/1244 queue items, leave chars=clnrt, +0 words
+[cleanup-rev:w1] Reverse-searching parent "chl" (9 queued descendants, chars=o)
+[w1:cleanuprev:pro] Pacing 15s before "chl" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 9826ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=chl
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=chl sort=alphabetical:desc (928ms direct)
+[cleanup-rev:w1] "chl" reverse full page (100) start="chlorzoxazones" first='o' end="chlorometric" next='o' — remove 0 covered groups, keep 'o', removed 0/1239 queue items, leave chars=o, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cho" (38 queued descendants, chars=lnrstuvwxy)
+[w1:cleanuprev:pro] Pacing 14s before "cho" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (12320ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 7168ms, remount)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cho
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cho sort=alphabetical:desc (457ms direct)
+[cleanup-rev:w1] "cho" reverse full page (100) start="chozar" first='z' end="chortens" next='r' — remove 7 covered groups, keep 'z+r', removed 7/1239 queue items, leave chars=lnr, +0 words
+[cleanup-rev:w1] Reverse-searching parent "chr" (25 queued descendants, chars=ioy)
+[w1:cleanuprev:pro] Pacing 16s before "chr" (gap=15500ms)
+[w1:cleanuprev:pro] [api] 403 mode=pro startsWith=chr
+[w1:cleanuprev:pro] [api] 403 mode=pro startsWith=chr sort=alphabetical:desc (907ms direct)
+[cleanup-rev:w1] FAILED "chr" try 1/8: API 403 for "chr": Anti-bot verification failed. Please refresh the page.
+[cleanup-rev:w1] Rotating IP (#3) after retry "chr" after failure
+[w1:cleanuprev:pro] Managed Turnstile miss (946ms)
+[w1:cleanuprev:pro] Tor exited code=0
+[w1:cleanuprev:pro] Starting Tor gen=4 socks=127.0.0.1:19351 (try 1)
+[w1:cleanuprev:pro] tor: Aug 05 00:38:15.914 [warn] Fixing permissions on directory /tmp/lll-tor-w1
+[w1:cleanuprev:pro] tor: Aug 05 00:38:16.000 [notice] Bootstrapped 0% (starting): Starting
+[w1:cleanuprev:pro] tor: Aug 05 00:38:17.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:38:17.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:38:17.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:38:17.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 00:38:17.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w1:cleanuprev:pro] tor: Aug 05 00:38:18.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:38:18.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:38:20.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w1:cleanuprev:pro] tor: Aug 05 00:38:20.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 00:38:20.000 [notice] I learned some more directory 
+[w1:cleanuprev:pro] tor: Aug 05 00:38:21.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:38:28.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:38:44.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:38:44.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:38:46.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w1:cleanuprev:pro] tor: Aug 05 00:38:46.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 00:38:46.000 [notice] Bootstrapped 9
+[w1:cleanuprev:pro] tor: Aug 05 00:38:46.000 [notice] Bootstrapped 100% (done): Done
+[w1:cleanuprev:pro] Tor ready on 19351 exit=185.220.101.5
+[cleanup-rev:w1] Browser mode=tor via tor#4 socks5://127.0.0.1:19351 rotation=3
+[w1:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-w1-r3
+[w1:cleanuprev:pro] Proxy tor#4 socks5://127.0.0.1:19351
+[w1:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w1:cleanuprev:pro] Library mode=pro
+[w1:cleanuprev:pro] Site Turnstile remint timed out (19333ms)
+[w1:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w1:cleanuprev:pro] Managed Turnstile miss (12040ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (10242ms)
+[w1:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w1:cleanuprev:pro] Site Turnstile remint timed out (14847ms)
+[w1:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w1] Turnstile miss on "chr" — reload (attempt 1)
+[w1:cleanuprev:pro] Managed Turnstile miss (11999ms)
+[w1:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w1:cleanuprev:pro] Turnstile mint hard timeout after 15000ms
+[w1:cleanuprev:pro] Turnstile direct mint miss (2/2)
+[cleanup-rev:w1] Rotating IP (#4) after Turnstile stuck on "chr"
+[w1:cleanuprev:pro] Starting Tor gen=5 socks=127.0.0.1:19351 (try 1)
+[w1:cleanuprev:pro] tor: Aug 05 00:40:30.930 [notice] Opened Socks listener connection (ready) on 127.0.0.1:19351
+Aug 05 00:40:30.930 [warn] Fixing permissions on directory /tmp/lll-tor
+[w1:cleanuprev:pro] Tor exited code=0
+[w1:cleanuprev:pro] tor: Aug 05 00:40:31.000 [notice] Bootstrapped 0% (starting): Starting
+[w1:cleanuprev:pro] tor: Aug 05 00:40:32.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:40:32.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w1:cleanuprev:pro] Site Turnstile remint timed out (20609ms)
+[w1:cleanuprev:pro] tor: Aug 05 00:41:41.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:41:42.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w1:cleanuprev:pro] tor: Aug 05 00:41:42.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w1:cleanuprev:pro] tor: Aug 05 00:41:42.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:41:42.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:41:44.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w1:cleanuprev:pro] tor: Aug 05 00:41:45.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 00:41:45.000 [notice] I learned some more directory 
+[w1:cleanuprev:pro] tor: Aug 05 00:41:45.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:41:54.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:41:54.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:41:55.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:41:56.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w1:cleanuprev:pro] tor: Aug 05 00:41:57.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 00:41:57.000 [notice] Bootstrapped 9
+[w1:cleanuprev:pro] tor: Aug 05 00:41:58.000 [notice] Bootstrapped 100% (done): Done
+[w1:cleanuprev:pro] Tor ready on 19351 exit=192.42.116.49
+[cleanup-rev:w1] Browser mode=tor via tor#5 socks5://127.0.0.1:19351 rotation=4
+[w1:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-w1-r4
+[w1:cleanuprev:pro] Proxy tor#5 socks5://127.0.0.1:19351
+[w1:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w1:cleanuprev:pro] Library mode=pro
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 10017ms, remount)
+[w1:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=chr
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=chr sort=alphabetical:desc (442ms direct)
+[cleanup-rev:w1] "chr" reverse full page (100) start="chrystocrene" first='y' end="chrysanthous" next='y' — remove 0 covered groups, keep 'y', removed 0/1232 queue items, leave chars=ioy, +0 words
+[cleanup-rev:w1] Reverse-searching parent "chu" (8 queued descendants, chars=rstuvwxy)
+[w1:cleanuprev:pro] Pacing 15s before "chu" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3977ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=chu
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=chu sort=alphabetical:desc (668ms direct)
+[cleanup-rev:w1] "chu" reverse full page (100) start="chuzz" first='z' end="churchshot" next='r' — remove 7 covered groups, keep 'z+r', removed 7/1232 queue items, leave chars=r, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cic" (20 queued descendants, chars=abcdefghijklmnopqrst)
+[w1:cleanuprev:pro] Pacing 15s before "cic" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 4188ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cic
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cic sort=alphabetical:desc (651ms direct)
+[cleanup-rev:w1] "cic" reverse full page (100) start="cicutoxin" first='u' end="cicatricose" next='a' — remove 19 covered groups, keep 'u+a', removed 19/1225 queue items, leave chars=a, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cin" (16 queued descendants, chars=efghijklmnopqrst)
+[w1:cleanuprev:pro] Pacing 15s before "cin" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (12041ms)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cin
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cin sort=alphabetical:desc (643ms direct)
+[cleanup-rev:w1] "cin" reverse full page (100) start="cinurous" first='u' end="cinephotomicrography" next='e' — remove 15 covered groups, keep 'u+e', removed 15/1206 queue items, leave chars=e, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cir" (18 queued descendants, chars=cdefghijklmnopqrst)
+[w1:cleanuprev:pro] Pacing 15s before "cir" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 5200ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cir
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cir sort=alphabetical:desc (757ms direct)
+[cleanup-rev:w1] "cir" reverse full page (100) start="ciruses" first='u' end="circumventive" next='c' — remove 17 covered groups, keep 'u+c', removed 17/1191 queue items, leave chars=c, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cit" (10 queued descendants, chars=opqrstuvwx)
+[w1:cleanuprev:pro] Pacing 15s before "cit" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3836ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cit
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cit sort=alphabetical:desc (691ms direct)
+[cleanup-rev:w1] "cit" reverse full page (100) start="citywide" first='y' end="citole" next='o' — remove 9 covered groups, keep 'y+o', removed 9/1174 queue items, leave chars=o, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cla" (11 queued descendants, chars=svwxy)
+[w1:cleanuprev:pro] Pacing 15s before "cla" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 3630ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cla
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cla sort=alphabetical:desc (700ms direct)
+[cleanup-rev:w1] "cla" reverse full page (100) start="clazakizumab" first='z' end="clavichords" next='v' — remove 3 covered groups, keep 'z+v', removed 3/1165 queue items, leave chars=sv, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cle" (10 queued descendants, chars=arstuv)
+[w1:cleanuprev:pro] Pacing 15s before "cle" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 3394ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cle
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cle sort=alphabetical:desc (602ms direct)
+[cleanup-rev:w1] "cle" reverse full page (100) start="clews" first='w' end="clerical" next='r' — remove 4 covered groups, keep 'w+r', removed 4/1162 queue items, leave chars=ar, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cli" (12 queued descendants, chars=n)
+[w1:cleanuprev:pro] Pacing 15s before "cli" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4038ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cli
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cli sort=alphabetical:desc (642ms direct)
+[cleanup-rev:w1] "cli" reverse full page (100) start="clivus" first='v' end="clipsheet" next='p' — remove 5 covered groups, keep 'v+p', removed 0/1158 queue items, leave chars=n, +0 words
+[cleanup-rev:w1] Reverse-searching parent "co-" (21 queued descendants, chars=fghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "co-" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3783ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=co-
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=co- sort=alphabetical:desc (706ms direct)
+[cleanup-rev:w1] "co-" reverse full page (100) start="co-wrote" first='w' end="co-managing" next='m' — remove 9 covered groups, keep 'w+m', removed 9/1158 queue items, leave chars=fghijklmwxyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "coa" (14 queued descendants, chars=mnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "coa" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3474ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coa
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coa sort=alphabetical:desc (745ms direct)
+[cleanup-rev:w1] "coa" reverse full page (100) start="coazervation" first='z' end="coassuming" next='s' — remove 6 covered groups, keep 'z+s', removed 6/1149 queue items, leave chars=mnopqrsz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cob" (8 queued descendants, chars=stuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cob" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3583ms, remount)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cob
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cob sort=alphabetical:desc (600ms direct)
+[cleanup-rev:w1] "cob" reverse full page (100) start="cobzas" first='z' end="cobaltocyanide" next='a' — remove 24 covered groups, keep 'z+a', removed 6/1143 queue items, leave chars=az, +19 words
+[cleanup-rev:w1] Reverse-searching parent "coc" (24 queued descendants, chars=cdefghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "coc" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3779ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coc
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coc sort=alphabetical:desc (902ms direct)
+[cleanup-rev:w1] "coc" reverse full page (100) start="cocytus" first='y' end="coconino" next='o' — remove 9 covered groups, keep 'y+o', removed 9/1137 queue items, leave chars=cdefghijklmnoyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cod" (21 queued descendants, chars=fghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cod" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3524ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cod
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cod sort=alphabetical:desc (698ms direct)
+[cleanup-rev:w1] "cod" reverse full page (100) start="codworm" first='w' end="codex" next='e' — remove 17 covered groups, keep 'w+e', removed 16/1128 queue items, leave chars=ewxyz, +94 words
+[cleanup-rev:w1] Reverse-searching parent "coe" (15 queued descendants, chars=lmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "coe" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3730ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coe
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coe sort=alphabetical:desc (646ms direct)
+[cleanup-rev:w1] "coe" reverse full page (100) start="coextent" first='x' end="coercend" next='r' — remove 5 covered groups, keep 'x+r', removed 5/1112 queue items, leave chars=lmnopqrxyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cog" (13 queued descendants, chars=nopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cog" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 4219ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cog
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cog sort=alphabetical:desc (744ms direct)
+[cleanup-rev:w1] "cog" reverse full page (100) start="cogwood" first='w' end="cognatenesses" next='n' — remove 8 covered groups, keep 'w+n', removed 8/1107 queue items, leave chars=nwxyz, +69 words
+[cleanup-rev:w1] Reverse-searching parent "coh" (12 queued descendants, chars=opqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "coh" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (12031ms)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coh
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coh sort=alphabetical:desc (607ms direct)
+[cleanup-rev:w1] "coh" reverse full page (100) start="cohyponyms" first='y' end="cohelper" next='e' — remove 19 covered groups, keep 'y+e', removed 9/1099 queue items, leave chars=eyz, +33 words
+[cleanup-rev:w1] Reverse-searching parent "coi" (13 queued descendants, chars=nopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "coi" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4137ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coi
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coi sort=alphabetical:desc (695ms direct)
+[cleanup-rev:w1] "coi" reverse full page (100) start="coix" first='x' end="coinfected" next='n' — remove 9 covered groups, keep 'x+n', removed 9/1090 queue items, leave chars=nxyz, +77 words
+[cleanup-rev:w1] Reverse-searching parent "col" (23 queued descendants, chars=defghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "col" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4555ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=col
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=col sort=alphabetical:desc (692ms direct)
+[cleanup-rev:w1] "col" reverse full page (100) start="colzas" first='z' end="columbae" next='u' — remove 4 covered groups, keep 'z+u', removed 4/1081 queue items, leave chars=defghijklmnopqrstuz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "com" (25 queued descendants, chars=bcdefghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "com" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 4593ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=com
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=com sort=alphabetical:desc (919ms direct)
+[cleanup-rev:w1] "com" reverse full page (100) start="comvia" first='v' end="computability" next='p' — remove 5 covered groups, keep 'v+p', removed 5/1077 queue items, leave chars=bcdefghijklmnopvwxyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "con" (24 queued descendants, chars=cdefghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "con" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (12041ms)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=con
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=con sort=alphabetical:desc (744ms direct)
+[cleanup-rev:w1] "con" reverse full page (100) start="conyza" first='y' end="convivencia" next='v' — remove 2 covered groups, keep 'y+v', removed 2/1072 queue items, leave chars=cdefghijklmnopqrstuvyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "coo" (15 queued descendants, chars=lmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "coo" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3992ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coo
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=coo sort=alphabetical:desc (704ms direct)
+[cleanup-rev:w1] "coo" reverse full page (100) start="coozes" first='z' end="cooperages" next='p' — remove 9 covered groups, keep 'z+p', removed 9/1070 queue items, leave chars=lmnopz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cop" (22 queued descendants, chars=efghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cop" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4084ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cop
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cop sort=alphabetical:desc (616ms direct)
+[cleanup-rev:w1] "cop" reverse full page (100) start="copywritings" first='y' end="copsy" next='s' — remove 5 covered groups, keep 'y+s', removed 5/1061 queue items, leave chars=efghijklmnopqrsyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cor" (26 queued descendants, chars=abcdefghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cor" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3683ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cor
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cor sort=alphabetical:desc (637ms direct)
+[cleanup-rev:w1] "cor" reverse full page (100) start="coryzas" first='y' end="corvillosum" next='v' — remove 2 covered groups, keep 'y+v', removed 2/1056 queue items, leave chars=abcdefghijklmnopqrstuvyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cos" (14 queued descendants, chars=mnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cos" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 4291ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cos
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cos sort=alphabetical:desc (583ms direct)
+[cleanup-rev:w1] "cos" reverse full page (100) start="cosyntropin" first='y' end="costes" next='t' — remove 4 covered groups, keep 'y+t', removed 4/1054 queue items, leave chars=mnopqrstyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cot" (12 queued descendants, chars=opqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cot" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3384ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cot
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cot sort=alphabetical:desc (631ms direct)
+[cleanup-rev:w1] "cot" reverse full page (100) start="cotyttia" first='y' end="cotterway" next='t' — remove 4 covered groups, keep 'y+t', removed 4/1050 queue items, leave chars=opqrstyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cou" (15 queued descendants, chars=lmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cou" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3581ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cou
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cou sort=alphabetical:desc (641ms direct)
+[cleanup-rev:w1] "cou" reverse full page (100) start="couzins" first='z' end="courting" next='r' — remove 7 covered groups, keep 'z+r', removed 7/1046 queue items, leave chars=lmnopqrz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cov" (22 queued descendants, chars=efghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cov" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 3573ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cov
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cov sort=alphabetical:desc (582ms direct)
+[cleanup-rev:w1] "cov" reverse full page (100) start="covynes" first='y' end="covenantor" next='e' — remove 19 covered groups, keep 'y+e', removed 19/1039 queue items, leave chars=eyz, +45 words
+[cleanup-rev:w1] Reverse-searching parent "cow" (18 queued descendants, chars=ijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cow" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 3691ms, remount)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cow
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cow sort=alphabetical:desc (600ms direct)
+[cleanup-rev:w1] "cow" reverse full page (100) start="cowyard" first='y' end="cowinners" next='i' — remove 15 covered groups, keep 'y+i', removed 15/1020 queue items, leave chars=iyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cra" (24 queued descendants, chars=cdefghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cra" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3684ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cra
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cra sort=alphabetical:desc (737ms direct)
+[cleanup-rev:w1] "cra" reverse full page (100) start="crazyweeds" first='z' end="craved" next='v' — remove 3 covered groups, keep 'z+v', removed 3/1005 queue items, leave chars=cdefghijklmnopqrstuvz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cre" (26 queued descendants, chars=abcdefghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cre" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4499ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cre
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cre sort=alphabetical:desc (733ms direct)
+[cleanup-rev:w1] "cre" reverse full page (100) start="crex" first='x' end="crestfish" next='s' — remove 4 covered groups, keep 'x+s', removed 4/1002 queue items, leave chars=abcdefghijklmnopqrsxyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cri" (14 queued descendants, chars=mnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cri" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4242ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cri
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cri sort=alphabetical:desc (611ms direct)
+[cleanup-rev:w1] "cri" reverse full page (100) start="crizzling" first='z' end="crisscross" next='s' — remove 6 covered groups, keep 'z+s', removed 6/998 queue items, leave chars=mnopqrsz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cro" (21 queued descendants, chars=fghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cro" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 4335ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cro
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cro sort=alphabetical:desc (614ms direct)
+[cleanup-rev:w1] "cro" reverse full page (100) start="crozzly" first='z' end="crowdedly" next='w' — remove 2 covered groups, keep 'z+w', removed 2/992 queue items, leave chars=fghijklmnopqrstuvwz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cru" (22 queued descendants, chars=efghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cru" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3783ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cru
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cru sort=alphabetical:desc (633ms direct)
+[cleanup-rev:w1] "cru" reverse full page (100) start="cruzies" first='z' end="crusaders" next='s' — remove 6 covered groups, keep 'z+s', removed 6/990 queue items, leave chars=efghijklmnopqrsz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cry" (12 queued descendants, chars=opqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cry" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3675ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cry
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cry sort=alphabetical:desc (673ms direct)
+[cleanup-rev:w1] "cry" reverse full page (100) start="crystosphene" first='s' end="cryst" next='s' — remove 0 covered groups, keep 's', removed 0/984 queue items, leave chars=opqrstuvwxyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cub" (18 queued descendants, chars=ijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cub" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 3470ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cub
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cub sort=alphabetical:desc (596ms direct)
+[cleanup-rev:w1] "cub" reverse full page (100) start="cubti" first='t' end="cubbish" next='b' — remove 17 covered groups, keep 't+b', removed 10/984 queue items, leave chars=btuvwxyz, +26 words
+[cleanup-rev:w1] Reverse-searching parent "cul" (11 queued descendants, chars=pqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cul" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=794, 4038ms, remount)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cul
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cul sort=alphabetical:desc (3873ms direct)
+[cleanup-rev:w1] "cul" reverse full page (100) start="culverwort" first='v' end="culshie" next='s' — remove 2 covered groups, keep 'v+s', removed 2/974 queue items, leave chars=pqrsvwxyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cum" (8 queued descendants, chars=stuvwxyz)
+[w1:cleanuprev:pro] Pacing 12s before "cum" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 7363ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cum
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cum sort=alphabetical:desc (577ms direct)
+[cleanup-rev:w1] "cum" reverse full page (100) start="cumyls" first='y' end="cumbersomely" next='b' — remove 22 covered groups, keep 'y+b', removed 6/972 queue items, leave chars=yz, +37 words
+[cleanup-rev:w1] Reverse-searching parent "cup" (9 queued descendants, chars=rstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cup" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3995ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cup
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cup sort=alphabetical:desc (710ms direct)
+[cleanup-rev:w1] "cup" reverse full page (100) start="cupuliform" first='u' end="cupgalls" next='g' — remove 13 covered groups, keep 'u+g', removed 3/966 queue items, leave chars=uvwxyz, +30 words
+[cleanup-rev:w1] Reverse-searching parent "cur" (25 queued descendants, chars=bcdefghijklmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cur" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 4560ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cur
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cur sort=alphabetical:desc (686ms direct)
+[cleanup-rev:w1] "cur" reverse full page (100) start="curying" first='y' end="curtise" next='t' — remove 4 covered groups, keep 'y+t', removed 4/963 queue items, leave chars=bcdefghijklmnopqrstyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cus" (7 queued descendants, chars=tuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cus" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 5806ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cus
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cus sort=alphabetical:desc (613ms direct)
+[cleanup-rev:w1] "cus" reverse full page (100) start="cusums" first='u' end="cuspids" next='p' — remove 4 covered groups, keep 'u+p', removed 1/959 queue items, leave chars=uvwxyz, +76 words
+[cleanup-rev:w1] Reverse-searching parent "cut" (15 queued descendants, chars=lmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cut" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (12027ms)
+[w1:cleanuprev:pro] Managed Turnstile miss (10195ms)
+[w1:cleanuprev:pro] Turnstile direct mint miss (1/2)
+[w1:cleanuprev:pro] Turnstile token present (len=816)
+[w1:cleanuprev:pro] Site Turnstile token (13259ms)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cut
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cut sort=alphabetical:desc (484ms direct)
+[cleanup-rev:w1] "cut" reverse full page (100) start="cutworms" first='w' end="cutinizations" next='i' — remove 13 covered groups, keep 'w+i', removed 11/958 queue items, leave chars=wxyz, +76 words
+[cleanup-rev:w1] Reverse-searching parent "cya" (13 queued descendants, chars=nopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 16s before "cya" (gap=15500ms)
+[w1:cleanuprev:pro] [api] 403 mode=pro startsWith=cya
+[w1:cleanuprev:pro] [api] 403 mode=pro startsWith=cya sort=alphabetical:desc (666ms direct)
+[cleanup-rev:w1] FAILED "cya" try 1/8: API 403 for "cya": Anti-bot verification failed. Please refresh the page.
+[cleanup-rev:w1] Rotating IP (#5) after retry "cya" after failure
+[w1:cleanuprev:pro] Managed Turnstile miss (688ms)
+[w1:cleanuprev:pro] Tor exited code=0
+[w1:cleanuprev:pro] Starting Tor gen=6 socks=127.0.0.1:19351 (try 1)
+[w1:cleanuprev:pro] tor: Aug 05 00:54:05.602 [warn] Fixing permissions on directory /tmp/lll-tor-w1
+[w1:cleanuprev:pro] tor: Aug 05 00:54:05.000 [notice] Bootstrapped 0% (starting): Starting
+[w1:cleanuprev:pro] tor: Aug 05 00:54:06.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:54:06.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:54:13.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w1:cleanuprev:pro] tor: Aug 05 00:54:13.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 00:54:13.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w1:cleanuprev:pro] tor: Aug 05 00:54:13.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:54:13.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w1:cleanuprev:pro] tor: Aug 05 00:54:14.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w1:cleanuprev:pro] tor: Aug 05 00:54:14.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:54:15.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:54:25.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:54:25.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:54:26.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w1:cleanuprev:pro] tor: Aug 05 00:54:26.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w1:cleanuprev:pro] tor: Aug 05 00:54:26.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 00:54:26.000 [notice] Bootstrapped 9
+[w1:cleanuprev:pro] tor: Aug 05 00:54:27.000 [notice] Bootstrapped 100% (done): Done
+[w1:cleanuprev:pro] Tor ready on 19351 exit=192.42.116.60
+[cleanup-rev:w1] Browser mode=tor via tor#6 socks5://127.0.0.1:19351 rotation=5
+[w1:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-w1-r5
+[w1:cleanuprev:pro] Proxy tor#6 socks5://127.0.0.1:19351
+[w1:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w1:cleanuprev:pro] Library mode=pro
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3941ms, remount)
+[w1:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cya
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cya sort=alphabetical:desc (630ms direct)
+[cleanup-rev:w1] "cya" reverse full page (100) start="cyathus" first='t' end="cyanochroic" next='n' — remove 5 covered groups, keep 't+n', removed 5/947 queue items, leave chars=ntuvwxyz, +80 words
+[cleanup-rev:w1] Reverse-searching parent "cyc" (15 queued descendants, chars=lmnopqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cyc" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3578ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cyc
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cyc sort=alphabetical:desc (740ms direct)
+[cleanup-rev:w1] "cyc" reverse full page (100) start="cycluses" first='l' end="cyclopolymerization" next='l' — remove 0 covered groups, keep 'l', removed 0/942 queue items, leave chars=lmnopqrstuvwxyz, +100 words
+[cleanup-rev:w1] Reverse-searching parent "cyn" (7 queued descendants, chars=tuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cyn" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3430ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cyn
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cyn sort=alphabetical:desc (712ms direct)
+[cleanup-rev:w1] "cyn" reverse full page (100) start="cynthius" first='t' end="cynanche" next='a' — remove 18 covered groups, keep 't+a', removed 0/942 queue items, leave chars=tuvwxyz, +0 words
+[cleanup-rev:w1] Reverse-searching parent "cys" (7 queued descendants, chars=tuvwxyz)
+[w1:cleanuprev:pro] Pacing 15s before "cys" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3274ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cys
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cys sort=alphabetical:desc (412ms direct)
+[cleanup-rev:w1] "cys" reverse full page (100) start="cysts" first='t' end="cystinosis" next='t' — remove 0 covered groups, keep 't', removed 0/942 queue items, leave chars=tuvwxyz, +62 words
+[cleanup-rev:w1] Reverse-searching parent "cyt" (12 queued descendants, chars=opqrstuvwxyz)
+[w1:cleanuprev:pro] Pacing 16s before "cyt" (gap=15500ms)
+[w1:cleanuprev:pro] Managed Turnstile token (len=816, 3476ms, reset)
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cyt
+[w1:cleanuprev:pro] [api] 200 mode=pro startsWith=cyt sort=alphabetical:desc (413ms direct)
+[cleanup-rev:w1] "cyt" reverse full page (100) start="cytulae" first='u' end="cytomorphosis" next='o' — remove 5 covered groups, keep 'u+o', removed 5/942 queue items, leave chars=ouvwxyz, +100 words
+[cleanup-rev:w1] lll-audit-state-1.json done — parents=66 searches=66 removed=402
+[cleanup-rev:w1] State 1 reverse cleanup finished
+[cleanup-rev:w1] All states processed. searches=66 queue_removed=402
+[w1:cleanuprev:pro] Managed Turnstile miss (428ms)
+[w1:cleanuprev:pro] Tor exited code=0

@@ -1,0 +1,452 @@
+[cleanup:w1] Queue cleanup bot (DRY_RUN=false) | states=1..1 | parents=3-letter, prune queue items >=4 chars | completed[] is never modified
+[w1:cleanup:pro] Starting Tor gen=1 socks=127.0.0.1:19251 (try 1)
+[w1:cleanup:pro] tor: Aug 04 02:46:42.007 [warn] Fixing permissions on directory /tmp/lll-tor-w1
+[w1:cleanup:pro] tor: Aug 04 02:46:42.000 [notice] Bootstrapped 0% (starting): Starting
+[w1:cleanup:pro] tor: Aug 04 02:46:43.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w1:cleanup:pro] tor: Aug 04 02:46:43.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w1:cleanup:pro] tor: Aug 04 02:46:43.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w1:cleanup:pro] tor: Aug 04 02:46:44.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 04 02:46:44.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w1:cleanup:pro] tor: Aug 04 02:46:44.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w1:cleanup:pro] tor: Aug 04 02:46:45.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w1:cleanup:pro] tor: Aug 04 02:46:46.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w1:cleanup:pro] tor: Aug 04 02:46:46.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+[w1:cleanup:pro] tor: Aug 04 02:46:47.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w1:cleanup:pro] tor: Aug 04 02:46:53.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w1:cleanup:pro] tor: Aug 04 02:46:54.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w1:cleanup:pro] tor: Aug 04 02:46:54.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w1:cleanup:pro] tor: Aug 04 02:46:54.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w1:cleanup:pro] tor: Aug 04 02:46:55.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 04 02:46:55.000 [notice] Bootstrapped 9
+[w1:cleanup:pro] tor: Aug 04 02:46:55.000 [notice] Bootstrapped 100% (done): Done
+[w1:cleanup:pro] Tor ready on 19251 exit=109.70.100.6
+[cleanup:w1] Browser mode=tor via tor#1 socks5://127.0.0.1:19251
+[w1:cleanup:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-w1
+[w1:cleanup:pro] Proxy tor#1 socks5://127.0.0.1:19251
+[w1:cleanup:pro] Opening https://lastletterlibrary.com
+[w1:cleanup:pro] Library mode=pro
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup:w1] lll-audit-state-1.json w1: queue=1771 completed=386 words=9141 parents=67
+[cleanup:w1] Searching parent "cab" (28 queued descendants)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cab
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cab (514ms direct)
+[cleanup:w1] "cab" full page (100) ends "cabezon" next='e' — skip 6 groups, removed 6/1771 queue items, +0 words
+[cleanup:w1] Searching parent "cac" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cac" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cac
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cac (325ms direct)
+[cleanup:w1] "cac" full page (100) ends "cacimbos" next='i' — skip 10 groups, removed 10/1765 queue items, +0 words
+[cleanup:w1] Searching parent "cad" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cad" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cad
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cad (358ms direct)
+[cleanup:w1] "cad" full page (100) ends "cadi" next='i' — skip 10 groups, removed 10/1755 queue items, +0 words
+[cleanup:w1] Searching parent "cal" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cal" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cal
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cal (330ms direct)
+[cleanup:w1] "cal" full page (100) ends "calangay" next='a' — skip 2 groups, removed 2/1745 queue items, +0 words
+[cleanup:w1] Searching parent "cam" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cam" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cam
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cam (325ms direct)
+[cleanup:w1] "cam" full page (100) ends "cambresine" next='b' — skip 3 groups, removed 3/1743 queue items, +0 words
+[cleanup:w1] Searching parent "can" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "can" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=can
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=can (359ms direct)
+[cleanup:w1] "can" full page (100) ends "canariote" next='a' — skip 2 groups, removed 2/1740 queue items, +0 words
+[cleanup:w1] Searching parent "cap" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cap" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cap
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cap (400ms direct)
+[cleanup:w1] "cap" full page (100) ends "capernoitie" next='e' — skip 6 groups, removed 6/1738 queue items, +0 words
+[cleanup:w1] Searching parent "car" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "car" (gap=15200ms)
+[w1:cleanup:pro] Turnstile mint miss (1/2)
+[w1:cleanup:pro] Site Turnstile remint timed out
+[w1:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w1] Turnstile miss on "car" — reload (attempt 1)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=car
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=car (360ms direct)
+[cleanup:w1] "car" full page (100) ends "caramelising" next='a' — skip 2 groups, removed 2/1732 queue items, +0 words
+[cleanup:w1] Searching parent "cas" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cas" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cas
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cas (356ms direct)
+[cleanup:w1] "cas" full page (100) ends "caseinogen" next='e' — skip 6 groups, removed 6/1730 queue items, +0 words
+[cleanup:w1] Searching parent "cat" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cat" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cat
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cat (386ms direct)
+[cleanup:w1] "cat" full page (100) ends "catalanist" next='a' — skip 2 groups, removed 2/1724 queue items, +0 words
+[cleanup:w1] Searching parent "cau" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cau" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cau
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cau (423ms direct)
+[cleanup:w1] "cau" full page (100) ends "cauliflorous" next='l' — skip 13 groups, removed 13/1722 queue items, +0 words
+[cleanup:w1] Searching parent "cav" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cav" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cav
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cav (344ms direct)
+[cleanup:w1] "cav" full page (100) ends "cavetti" next='e' — skip 6 groups, removed 6/1709 queue items, +0 words
+[cleanup:w1] Searching parent "cel" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cel" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cel
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cel (411ms direct)
+[cleanup:w1] "cel" full page (100) ends "celibatory" next='i' — skip 10 groups, removed 10/1703 queue items, +0 words
+[cleanup:w1] Searching parent "cen" (28 queued descendants)
+[w1:cleanup:pro] Pacing 14s before "cen" (gap=15200ms)
+[w1:cleanup:pro] Turnstile mint miss (1/2)
+[w1:cleanup:pro] Site Turnstile remint timed out
+[w1:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w1] Turnstile miss on "cen" — reload (attempt 1)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cen
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cen (452ms direct)
+[cleanup:w1] "cen" full page (100) ends "centages" next='t' — skip 21 groups, removed 21/1693 queue items, +0 words
+[cleanup:w1] Searching parent "cep" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cep" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cep
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cep (394ms direct)
+[cleanup:w1] "cep" full page (100) ends "cephalomeningitis" next='h' — skip 9 groups, removed 9/1672 queue items, +0 words
+[cleanup:w1] Searching parent "cer" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cer" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cer
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cer (338ms direct)
+[cleanup:w1] "cer" full page (100) ends "ceratospongian" next='a' — skip 2 groups, removed 2/1663 queue items, +0 words
+[cleanup:w1] Searching parent "cha" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cha" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cha
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cha (346ms direct)
+[cleanup:w1] "cha" full page (100) ends "chaetiferous" next='e' — skip 6 groups, removed 6/1661 queue items, +0 words
+[cleanup:w1] Searching parent "che" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "che" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=che
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=che (341ms direct)
+[cleanup:w1] "che" full page (100) ends "checkering" next='c' — skip 4 groups, removed 4/1655 queue items, +0 words
+[cleanup:w1] Searching parent "chi" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "chi" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=chi
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=chi (391ms direct)
+[cleanup:w1] "chi" full page (100) ends "chicanery" next='c' — skip 4 groups, removed 4/1651 queue items, +0 words
+[cleanup:w1] Searching parent "chl" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "chl" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=chl
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=chl (477ms direct)
+[cleanup:w1] "chl" full page (100) ends "chlorellaceous" next='o' — skip 16 groups, removed 16/1647 queue items, +0 words
+[cleanup:w1] Searching parent "cho" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cho" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cho
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cho (478ms direct)
+[cleanup:w1] "cho" full page (100) ends "choicier" next='i' — skip 10 groups, removed 10/1631 queue items, +0 words
+[cleanup:w1] Searching parent "chr" (28 queued descendants)
+[w1:cleanup:pro] Pacing 14s before "chr" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=chr
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=chr (367ms direct)
+[cleanup:w1] "chr" full page (100) ends "christkindlmarkte" next='i' — skip 10 groups, removed 10/1621 queue items, +0 words
+[cleanup:w1] Searching parent "chu" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "chu" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=chu
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=chu (411ms direct)
+[cleanup:w1] "chu" full page (100) ends "chuhai" next='h' — skip 9 groups, removed 9/1611 queue items, +0 words
+[cleanup:w1] Searching parent "cic" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cic" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cic
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cic (397ms direct)
+[cleanup:w1] "cic" full page (100) ends "ciconia" next='o' — skip 16 groups, removed 16/1602 queue items, +0 words
+[cleanup:w1] Searching parent "cin" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cin" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cin
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cin (409ms direct)
+[cleanup:w1] "cin" full page (100) ends "cinemas" next='e' — skip 6 groups, removed 6/1586 queue items, +0 words
+[cleanup:w1] Searching parent "cir" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cir" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cir
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cir (572ms direct)
+[cleanup:w1] "cir" full page (100) ends "circulations" next='c' — skip 4 groups, removed 4/1580 queue items, +0 words
+[cleanup:w1] Searching parent "cit" (28 queued descendants)
+[w1:cleanup:pro] Pacing 14s before "cit" (gap=15200ms)
+[w1:cleanup:pro] Turnstile mint miss (1/2)
+[w1:cleanup:pro] Site Turnstile remint timed out
+[w1:cleanup:pro] Turnstile mint miss (2/2)
+[cleanup:w1] Turnstile miss on "cit" — reload (attempt 1)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cit
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cit (343ms direct)
+[cleanup:w1] "cit" full page (100) ends "citrate" next='r' — skip 19 groups, removed 19/1576 queue items, +0 words
+[cleanup:w1] Searching parent "cla" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cla" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cla
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cla (399ms direct)
+[cleanup:w1] "cla" full page (100) ends "clafoutis" next='f' — skip 7 groups, removed 7/1557 queue items, +0 words
+[cleanup:w1] Searching parent "cle" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cle" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cle
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cle (319ms direct)
+[cleanup:w1] "cle" full page (100) ends "clears" next='a' — skip 2 groups, removed 2/1550 queue items, +0 words
+[cleanup:w1] Searching parent "cli" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cli" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cli
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cli (624ms direct)
+[cleanup:w1] "cli" full page (100) ends "clifted" next='f' — skip 7 groups, removed 7/1548 queue items, +0 words
+[cleanup:w1] Searching parent "clo" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "clo" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 429 mode=pro startsWith=clo
+[w1:cleanup:pro] [api] 429 mode=pro startsWith=clo (290ms direct)
+[w1:cleanup:pro] Learned server gap ≈ 15200ms (wait hint 2000ms)
+[cleanup:w1] 429 on "clo" — wait 2000ms (attempt 1)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=clo
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=clo (491ms direct)
+[cleanup:w1] "clo" full page (100) ends "clodpoll" next='d' — skip 5 groups, removed 5/1541 queue items, +0 words
+[cleanup:w1] Searching parent "clu" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "clu" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=clu
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=clu (438ms direct)
+[cleanup:w1] "clu" full page (100) ends "cluiest" next='i' — skip 10 groups, removed 10/1536 queue items, +0 words
+[cleanup:w1] Searching parent "co-" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "co-" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=co-
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=co- (377ms direct)
+[cleanup:w1] "co-" full page (100) ends "co-feature" next='f' — skip 7 groups, removed 7/1526 queue items, +0 words
+[cleanup:w1] Searching parent "coa" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "coa" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coa
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coa (331ms direct)
+[cleanup:w1] "coa" full page (100) ends "coadjutorship" next='d' — skip 5 groups, removed 5/1519 queue items, +0 words
+[cleanup:w1] Searching parent "cob" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cob" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cob
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cob (370ms direct)
+[cleanup:w1] "cob" full page (100) ends "cobs" next='s' — skip 20 groups, removed 20/1514 queue items, +0 words
+[cleanup:w1] Searching parent "coc" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "coc" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coc
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coc (425ms direct)
+[cleanup:w1] "coc" full page (100) ends "coccogonium" next='c' — skip 4 groups, removed 4/1494 queue items, +0 words
+[cleanup:w1] Searching parent "cod" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cod" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cod
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cod (442ms direct)
+[cleanup:w1] "cod" full page (100) ends "codfishery" next='f' — skip 7 groups, removed 7/1490 queue items, +0 words
+[cleanup:w1] Searching parent "coe" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "coe" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coe
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coe (368ms direct)
+[cleanup:w1] "coe" full page (100) ends "coelomatic" next='l' — skip 13 groups, removed 13/1483 queue items, +0 words
+[cleanup:w1] Searching parent "cog" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cog" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cog
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cog (327ms direct)
+[cleanup:w1] "cog" full page (100) ends "cognitivisms" next='n' — skip 15 groups, removed 15/1470 queue items, +0 words
+[cleanup:w1] Searching parent "coh" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "coh" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coh
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coh (340ms direct)
+[cleanup:w1] "coh" full page (100) ends "coholder" next='o' — skip 16 groups, removed 16/1455 queue items, +0 words
+[cleanup:w1] Searching parent "coi" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "coi" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coi
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coi (349ms direct)
+[cleanup:w1] "coi" full page (100) ends "coinheritances" next='n' — skip 15 groups, removed 15/1439 queue items, +0 words
+[cleanup:w1] Searching parent "col" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "col" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=col
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=col (429ms direct)
+[cleanup:w1] "col" full page (100) ends "coldheartednesses" next='d' — skip 5 groups, removed 5/1424 queue items, +0 words
+[cleanup:w1] Searching parent "com" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "com" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=com
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=com (478ms direct)
+[cleanup:w1] "com" full page (100) ends "combinably" next='b' — skip 3 groups, removed 3/1419 queue items, +0 words
+[cleanup:w1] Searching parent "con" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "con" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=con
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=con (361ms direct)
+[cleanup:w1] "con" full page (100) ends "conceivabilities" next='c' — skip 4 groups, removed 4/1416 queue items, +0 words
+[cleanup:w1] Searching parent "coo" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "coo" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coo
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=coo (320ms direct)
+[cleanup:w1] "coo" full page (100) ends "coolibah" next='l' — skip 13 groups, removed 13/1412 queue items, +0 words
+[cleanup:w1] Searching parent "cop" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cop" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cop
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cop (348ms direct)
+[cleanup:w1] "cop" full page (100) ends "copepods" next='e' — skip 6 groups, removed 6/1399 queue items, +0 words
+[cleanup:w1] Searching parent "cor" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cor" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cor
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cor (331ms direct)
+[cleanup:w1] "cor" full page (100) ends "corantoes" next='a' — skip 2 groups, removed 2/1393 queue items, +0 words
+[cleanup:w1] Searching parent "cos" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cos" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cos
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cos (370ms direct)
+[cleanup:w1] "cos" full page (100) ends "cosmetical" next='m' — skip 14 groups, removed 14/1391 queue items, +0 words
+[cleanup:w1] Searching parent "cot" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cot" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cot
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cot (339ms direct)
+[cleanup:w1] "cot" full page (100) ends "cotoneaster" next='o' — skip 16 groups, removed 16/1377 queue items, +0 words
+[cleanup:w1] Searching parent "cou" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cou" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cou
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cou (351ms direct)
+[cleanup:w1] "cou" full page (100) ends "coulsonite" next='l' — skip 13 groups, removed 13/1361 queue items, +0 words
+[cleanup:w1] Searching parent "cov" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cov" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cov
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cov (389ms direct)
+[cleanup:w1] "cov" full page (100) ends "covertures" next='e' — skip 6 groups, removed 6/1348 queue items, +0 words
+[cleanup:w1] Searching parent "cow" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cow" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cow
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cow (340ms direct)
+[cleanup:w1] "cow" full page (100) ends "cowing" next='i' — skip 10 groups, removed 10/1342 queue items, +0 words
+[cleanup:w1] Searching parent "cra" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cra" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cra
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cra (329ms direct)
+[cleanup:w1] "cra" full page (100) ends "crackjaws" next='c' — skip 4 groups, removed 4/1332 queue items, +0 words
+[cleanup:w1] Searching parent "cre" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cre" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cre
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cre (408ms direct)
+[cleanup:w1] "cre" full page (100) ends "creationary" next='a' — skip 2 groups, removed 2/1328 queue items, +0 words
+[cleanup:w1] Searching parent "cri" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cri" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cri
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cri (316ms direct)
+[cleanup:w1] "cri" full page (100) ends "crimes" next='m' — skip 14 groups, removed 14/1326 queue items, +0 words
+[cleanup:w1] Searching parent "cro" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cro" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cro
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cro (399ms direct)
+[cleanup:w1] "cro" full page (100) ends "crofter" next='f' — skip 7 groups, removed 7/1312 queue items, +0 words
+[cleanup:w1] Searching parent "cru" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cru" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cru
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cru (323ms direct)
+[cleanup:w1] "cru" full page (100) ends "cruelly" next='e' — skip 6 groups, removed 6/1305 queue items, +0 words
+[cleanup:w1] Searching parent "cry" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cry" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cry
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cry (318ms direct)
+[cleanup:w1] "cry" full page (100) ends "cryoscopes" next='o' — skip 16 groups, removed 16/1299 queue items, +0 words
+[cleanup:w1] Searching parent "cub" (28 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cub" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cub
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cub (348ms direct)
+[cleanup:w1] "cub" full page (100) ends "cubituses" next='i' — skip 10 groups, removed 10/1283 queue items, +0 words
+[cleanup:w1] Searching parent "cul" (11 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cul" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cul
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cul (341ms direct)
+[cleanup:w1] "cul" full page (100) ends "culpa" next='p' — skip 17 groups, removed 0/1273 queue items, +0 words
+[cleanup:w1] Searching parent "cum" (8 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cum" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cum
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cum (413ms direct)
+[cleanup:w1] "cum" full page (100) ends "cums" next='s' — skip 20 groups, removed 0/1273 queue items, +0 words
+[cleanup:w1] Searching parent "cup" (9 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cup" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cup
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cup (486ms direct)
+[cleanup:w1] "cup" full page (100) ends "cupromanganese" next='r' — skip 19 groups, removed 0/1273 queue items, +0 words
+[cleanup:w1] Searching parent "cur" (25 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cur" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cur
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cur (339ms direct)
+[cleanup:w1] "cur" full page (100) ends "curby" next='b' — skip 3 groups, removed 0/1273 queue items, +0 words
+[cleanup:w1] Searching parent "cus" (7 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cus" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cus
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cus (341ms direct)
+[cleanup:w1] "cus" full page (100) ends "custard" next='t' — skip 21 groups, removed 0/1273 queue items, +0 words
+[cleanup:w1] Searching parent "cut" (15 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cut" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cut
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cut (346ms direct)
+[cleanup:w1] "cut" full page (100) ends "cutleriaceae" next='l' — skip 13 groups, removed 0/1273 queue items, +0 words
+[cleanup:w1] Searching parent "cya" (13 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cya" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cya
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cya (326ms direct)
+[cleanup:w1] "cya" full page (100) ends "cyanogeneses" next='n' — skip 15 groups, removed 0/1273 queue items, +0 words
+[cleanup:w1] Searching parent "cyc" (15 queued descendants)
+[w1:cleanup:pro] Pacing 15s before "cyc" (gap=15200ms)
+[w1:cleanup:pro] Managed Turnstile token (len=816)
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cyc
+[w1:cleanup:pro] [api] 200 mode=pro startsWith=cyc (324ms direct)
+[cleanup:w1] "cyc" full page (100) ends "cyclitic" next='l' — skip 13 groups, removed 0/1273 queue items, +0 words
+[cleanup:w1] lll-audit-state-1.json done — parents=67 searches=67 removed=498
+[cleanup:w1] State 1 cleanup finished (supervisor merges last.txt)
+[cleanup:w1] All states processed. searches=67 queue_removed=498
+[w1:cleanup:pro] Tor exited code=0

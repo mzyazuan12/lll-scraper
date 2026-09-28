@@ -1,0 +1,15 @@
+{
+  "name": "lll-security-audit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test audit.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}

@@ -1,0 +1,46 @@
+[cleanup-rev:w0] Reverse queue cleanup bot (DRY_RUN=false) | states=0..0 | sort=alphabetical:desc (Z→A) | parents=5-letter, prune queue items >=6 chars from high end | completed[] is never modified
+[w0:cleanuprev:pro] Starting Tor gen=1 socks=127.0.0.1:19450 (try 1)
+[w0:cleanuprev:pro] tor: Aug 05 08:23:25.022 [warn] Fixing permissions on directory /tmp/lll-tor-w0
+[w0:cleanuprev:pro] tor: Aug 05 08:23:25.000 [notice] Bootstrapped 0% (starting): Starting
+[w0:cleanuprev:pro] tor: Aug 05 08:23:26.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w0:cleanuprev:pro] tor: Aug 05 08:23:26.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w0:cleanuprev:pro] tor: Aug 05 08:23:27.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w0:cleanuprev:pro] tor: Aug 05 08:23:32.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+Aug 05 08:23:32.000 [notice] Bootstrapped 20% (onehop_create): Estab
+[w0:cleanuprev:pro] tor: Aug 05 08:23:33.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w0:cleanuprev:pro] tor: Aug 05 08:23:33.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w0:cleanuprev:pro] tor: Aug 05 08:23:35.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w0:cleanuprev:pro] tor: Aug 05 08:23:35.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Aug 05 08:23:35.000 [notice] I learned some more directory 
+[w0:cleanuprev:pro] tor: Aug 05 08:23:36.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 08:23:44.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 08:23:44.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 08:23:44.000 [notice] Bootstrapped 67% (loading_descriptors): Loading relay descriptors
+[w0:cleanuprev:pro] tor: Aug 05 08:23:44.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w0:cleanuprev:pro] tor: Aug 05 08:23:45.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Aug 05 08:23:45.000 [notice] Bootstrapped 9
+[w0:cleanuprev:pro] tor: Aug 05 08:23:46.000 [notice] Bootstrapped 100% (done): Done
+[w0:cleanuprev:pro] Tor ready on 19450 exit=192.42.116.110
+[cleanup-rev:w0] Browser mode=tor via tor#1 socks5://127.0.0.1:19450
+[w0:cleanuprev:pro] Launching persistent Chrome profile /tmp/lll-pw-cleanup-rev-p5-w0-r0
+[w0:cleanuprev:pro] Proxy tor#1 socks5://127.0.0.1:19450
+[w0:cleanuprev:pro] Opening https://lastletterlibrary.com
+[w0:cleanuprev:pro] Library mode=pro
+[w0:cleanuprev:pro] Managed Turnstile token (len=816, 6897ms, remount)
+[w0:cleanuprev:pro] Search mode=direct (skip UI Wait Ns… gate)
+[cleanup-rev:w0] lll-audit-state-0.json w0: queue=228 completed=2631 words=24263 parents=2 (reverse Z→A)
+[cleanup-rev:w0] Reverse-searching parent "actin" (6 queued descendants, chars=uvwxyz)
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=actin
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=actin sort=alphabetical:desc (1456ms direct)
+[cleanup-rev:w0] "actin" reverse full page (100) start="actinulae" first='u' end="actinism" next='i' — remove 11 covered groups, keep 'u+i', removed 0/228 queue items, leave chars=uvwxyz, +0 words
+[cleanup-rev:w0] Reverse-searching parent "after" (2 queued descendants, chars=yz)
+[w0:cleanuprev:pro] Pacing 15s before "after" (gap=15500ms)
+[w0:cleanuprev:pro] Managed Turnstile token (len=816, 6078ms, reset)
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=after
+[w0:cleanuprev:pro] [api] 200 mode=pro startsWith=after sort=alphabetical:desc (593ms direct)
+[cleanup-rev:w0] "after" reverse full page (100) start="afteryears" first='y' end="afterguards" next='g' — remove 17 covered groups, keep 'y+g', removed 0/228 queue items, leave chars=yz, +0 words
+[cleanup-rev:w0] lll-audit-state-0.json done — parents=2 searches=2 removed=0
+[cleanup-rev:w0] State 0 reverse cleanup finished
+[cleanup-rev:w0] All states processed. searches=2 queue_removed=0
+[w0:cleanuprev:pro] Managed Turnstile miss (625ms)
+[w0:cleanuprev:pro] Tor exited code=0
