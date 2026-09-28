@@ -2,7 +2,7 @@
 
 ahahahahahHAHAHAHAHAHAHAHAHAH
 anyway 
-
+warning this takes about 9-11 gb of ram and 48 hours continuously  
 # scrlibrary-scraper
 do ts first if ur wanting to scrape first since my logs, json and txt files r here u can del them by:
 
